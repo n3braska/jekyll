@@ -1,7 +1,37 @@
-<nav>
-  {% for item in site.data.navigation %}
-    <a href="{{ item.link }}" {% if page.url == item.link %}class="active"{% endif %}>
-      {{ item.name }}
-    </a>
-  {% endfor %}
-</nav>
+<nav class="navbar navbar-expand-lg navbar-dark color_bar sticky-top">
+	    <a href="index.html" class="navbar-brand">
+		    <img src="images/logo4.png" class="mr-3" width="123px" height="30px" alt="logo">
+		</a>
+	
+        <button class="navbar-toggler" type="button" 
+	        data-toggle="collapse" 
+			data-target="#navbarSupportedContent" 
+			aria-controls="navbarSupportedContent"
+			aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+	    </button>
+
+	    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	        <ul class="navbar-nav mr-auto ">
+		        <li class="nav-item">
+			        <a href="index.html" {% if page.url == "/" %} class="wh-color active nav-link" {% endif %} class="nav-link">Головна</a>
+			    </li>
+			    <li class="nav-item">
+			        <a href="rosklad_bohosluzhin.html" {% if page.url == "/rosklad_bohosluzhin.html" %} class="wh-color active nav-link" {% endif %} class="nav-link">Розклад богослужіннь</a>
+			    </li>
+			    <li class="nav-item">
+			        <a href="tainy_ta_tainstwa.html" {% if page.url == "/tainy_ta_tainstwa.html" %} class="wh-color active nav-link" {% endif %} class="nav-link">Тайни та Таїнства</a>
+			    </li>
+                <li class="nav-item">
+			        <a href="parafia.html" {% if page.url == "/parafia.html" %} class="wh-color active nav-link" {% endif %} class="nav-link">Парафія</a>
+			    </li>
+				<li class="nav-item">
+			        <a href="istoria.html" {% if page.url == "/istoria.html" %} class="wh-color active nav-link" {% endif %} class="nav-link">Історія</a>
+			    </li>
+                <li class="nav-item">
+			        <a href="kontakty.html" {% if page.url == "/kontakty.html" %} class="wh-color active nav-link" {% endif %} class="nav-link">Контакти</a>
+			    </li>				
+		    </ul>
+		    
+	    </div>
+	</nav>
