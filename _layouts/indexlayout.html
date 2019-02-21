@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" 
+	    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" 
+		crossorigin="anonymous">
+	<link rel="stylesheet" href="style4.css">
+	<link rel="stylesheet" href="style.css">
+
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+    {% include navigation.html %}
+	<div class="container-fluid color_bar py-3 justify-content-center">
+	    <div class="container mt-3 wh-color">
+		  <div class="row">
+		    
+		     <div class="col-lg-3 col-sm-4 col-xs-12 my-3">
+			   <img src="images/portret.jpg" alt="" class="w-100">
+			</div>
+			
+			<div class="col my-3">
+			<h1 class="display-4 title wh-color"> {{ page.title }} </h1>
+			<p> {{ page.belowtitletext }} </p>
+			</div>
+		   
+		  </div>
+		</div>
+	</div>
+	
+	{{ content }}
+		
+  
+    <div class="container-fluid bg-footer mt-auto">
+	<div class="container">
+	    
+		
+	<div class="row mt-5">
+	    <div class="container space">
+	    </div>
+	    <div class="col-lg-4 col-sm-12 text-left mt-3">
+		    <h5 class="text-secondary">ХРАМ ВІДКРИТО ЩОДЕННО</h4>
+			<p class="text-secondary mt-5">Postgasse 8-12, 1010 Wien</p>
+		</div>
+		<div class="col-lg-4 col-sm-12 text-left  mt-3">
+		    <h5 class="text-secondary">ЗВОРОТНІЙ ЗВ’ЯЗОК</h4>
+			
+			<p class="text-secondary mt-5">pfarre@st-barbara-austria.org</p>
+		</div>
+		<div class="col-lg-4 col-sm-12 text-left  mt-3">
+		    <h5 class="text-secondary">МИ НА FACEBOOK</h4>
+			
+			<h1 class=" mt-4"><span class="badge badge-secondary">f</span></h1>
+		</div>
+	    <div class="container space">
+	    </div>
+		<div class="container space">
+	    </div>
+	</div>
+	</div>
+	</div>
+  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </body>
+</html>
