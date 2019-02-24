@@ -30,8 +30,8 @@
 	  </div>
       <div class="col-lg-6 col-sm-12 flex-column">
 		<div class="row p-3 marked">
-			<p>{{page.citate}}</p>
-			<p>{{page.citatesource}}</p>
+			{% if page.citate != 0 %}<p>{{page.citate}}</p>{% endif %}
+			{% if page.citatesource != 0 %}<p>{{page.citatesource}}</p>{% endif %}
 		</div>
 		<div class="row p-3">
 			<p>{{page.text1}}</p>			
