@@ -1,6 +1,6 @@
 - name: Головна
   link: /index.html
-- name: Розклад богослужіннь
+- name: Розклад богослужінь
   link: /timetable.html
 - name: Тайни та таїнства
   link: /tainy_ta_tainstwa.html
