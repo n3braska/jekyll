@@ -1,0 +1,246 @@
+- day: 1
+  month: лютого
+  time1: '18:00'
+  event1: Служба Божа
+  time2:
+  event2:
+  time3:
+  event3:
+  occasion: Школа Христ. Життя та Євангелізації
+- day: 2
+  month: лютого
+  time1: '18:00'
+  event1: Служба Божа
+  time2:
+  event2:
+  occasion: Школа Христ. Життя та Євангелізації
+- day: 3
+  month: лютого
+  time1: '9:30'
+  time2: '12:00'
+  time3: '18:00'
+  event1: Служба Божа
+  event2: Служба Божа
+  event3: Служба Божа німецькою
+  occasion: Школа Христ. Життя та Євангелізації
+- day: 4
+  month: лютого
+  time1: '18:00'
+  event1: Служба Божа
+  time2: '19:00'
+  event2: Служба Божа
+  occasion: Поминання померлих <br> Зустріч "Матері в молитві"
+- day: 5
+  month: лютого
+  time1: '18:00'
+  event1: Молебень
+  time2:
+  event2:
+  occasion: Наука у храмі
+- day: 6
+  month: лютого
+  time1: '9:00'
+  event1: Служба Божа
+  time2:
+  event2:
+  time3:
+  event3:
+  occasion:
+- day: 7
+  month: лютого
+  time1: '18:00'
+  event1: Служба Божа
+  time2:
+  event2:
+  time3:
+  event3:
+  occasion: Зустріч у параф. залі
+- day: 8
+  month: лютого
+  time1: '18:00'
+  event1: Служба Божа
+  time2:
+  event2:
+  time3:
+  event3:
+  occasion: Поминання померлих
+- day: 9
+  month: лютого
+  time1: '18:00'
+  event1: Вечірня
+  time2:
+  event2:
+  time3:
+  event3:
+  occasion:
+- day: 10
+  month: лютого
+  time1: '9:30'
+  event1: Служба Божа
+  time2: '12:00'
+  event2: Служба Божа
+  time3: '18:00'
+  event3: Служба Божа німецькою
+  occasion: Доброчинна кава після обидвох літургій. Організована товариством чоловіків для потреб організації "Шпиталь Майдану"
+- day: 11
+  month: лютого
+  time1: '18:00'
+  event1:
+  time2: '19:00'
+  event2:
+  time3:
+  event3:
+  occasion: Поминання померлих <br> Зустріч "Матері в молитві"
+- day: 12
+  month: лютого
+  time1: '18:00'
+  event1: Служба Божа
+  time2:
+  event2:
+  time3:
+  event3:
+  occasion: 'Трьох святителів: Василія Великого, Григорія Богослова і Йоана Золотоустого.'
+- day: 13
+  month: лютого
+  time1: '9:00'
+  event1: Служба Божа
+  time2:
+  event2:
+  time3:
+  event3:
+  occasion:
+- day: 14
+  month: лютого
+  time1: '18:00'
+  event1: Служба Божа
+  time2:
+  event2:
+  time3:
+  event3:
+  occasion:
+- day: 15
+  month: лютого
+  time1: '18:00'
+  event1: Служба Божа та освічення свічок
+  time2:
+  event2:
+  time3:
+  event3:
+  occasion:
+- day: 16
+  month: лютого
+  time1: '18:00'
+  event1: Вечірня
+  time2:
+  event2:
+  time3:
+  event3:
+  occasion:
+- day: 17
+  month: лютого
+  time1: '9:30'
+  event1: Служба Божа
+  time2: '12:00'
+  event2: Служба Божа
+  time3: '18:00'
+  event3: Служба Божа німецькою
+  occasion:
+- day: 18
+  month: лютого
+  time1: '18:00'
+  event1: Служба Божа
+  time2: '19:00'
+  event2: Служба Божа
+  time3:
+  event3:
+  occasion: Поминання померлих <br> Зустріч "Матері в молитві"
+- day: 19
+  month: лютого
+  time1: '18:00'
+  event1: Молебень
+  time2:
+  event2:
+  time3:
+  event3:
+  occasion: Наука у Храмі
+- day: 20
+  month: лютого
+  time1: '9:00'
+  event1: Служба Божа
+  time2:
+  event2:
+  time3:
+  event3:
+  occasion:
+- day: 21
+  month: лютого
+  time1: '18:00'
+  event1: Служба Божа
+  time2:
+  event2:
+  time3:
+  event3:
+  occasion: Зустріч у параф. залі
+- day: 22
+  month: лютого
+  time1: '18:00'
+  event1: Служба Божа
+  time2:
+  event2:
+  time3:
+  event3:
+  occasion: Поминання померлих
+- day: 23
+  month: лютого
+  time1: '18:00'
+  event1: Вечірня
+  time2:
+  event2:
+  time3:
+  event3:
+  occasion:
+- day: 24
+  month: лютого
+  time1: '9:30'
+  event1: Служба Божа
+  time2: '12:00'
+  event2: Служба Божа
+  time3: '18:00'
+  event3: Служба Божа німецькою
+  occasion:
+- day: 25
+  month: лютого
+  time1: '18:00'
+  event1: Служба Божа
+  time2: '19:00'
+  event2: Служба Божа
+  time3:
+  event3:
+  occasion: Поминання померлих <br> Зустріч "Матері в молитві"
+- day: 26
+  month: лютого
+  time1: '18:00'
+  event1: Служба Божа
+  time2: '19:00'
+  event2: Служба Божа
+  time3:
+  event3:
+  occasion: Поминання померлих <br> Зустріч "Матері в молитві"
+- day: 27
+  month: лютого
+  time1: '9:00'
+  event1: Служба Божа
+  time2:
+  event2:
+  time3:
+  event3:
+  occasion:
+- day: 28
+  month: лютого
+  time1: '18:00'
+  event1: Служба Божа
+  time2:
+  event2:
+  time3:
+  event3:
+  occasion: Зустріч у параф. залі

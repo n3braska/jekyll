@@ -1,0 +1,12 @@
+- name: Головна
+  link: #
+- name: Розклад богослужінь
+  link: /
+- name: Парафія
+  link: #
+- name: Тайни та таїнства
+  link: #
+- name: Історія Храму
+  link: /history.html
+- name: Контакти
+  link: /contacts.html
