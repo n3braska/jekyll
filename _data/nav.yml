@@ -2,10 +2,10 @@
   link: /index.html
 - name: Розклад богослужінь
   link: /timetable.html
-- name: Парафія
-  link: /parafia.html
 - name: Тайни та таїнства
   link: /tainy_ta_tainstwa.html
+- name: Парафія
+  link: /parafia.html
 - name: Історія Храму
   link: /history.html
 - name: Контакти
