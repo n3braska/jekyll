@@ -77,14 +77,10 @@ title: Контакти
             <script>
                 // Initialize and add the map
                 function initMap() {
-                    // The location of Uluru
-                    var uluru = {lat: 48.20962763, lng: 16.37913918};
-                    // The map, centered at Uluru
+                    var church = {lat: 48.20962763, lng: 16.37913918};
                     var map = new google.maps.Map(
-                    document.getElementById('map'), {zoom: 18, center: uluru});
-                    // The marker, positioned at Uluru
-                    var marker = new google.maps.Marker({position: uluru, map: map});
+						document.getElementById('map'), {zoom: 16, center: church});
+                    var marker = new google.maps.Marker({position: church, map: map});
                 }
             </script>
-            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqLb_ifVxsJT-otYhmsgVry1pMxlNJVtE&callback=initMap"></script>
-            
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key={% include gmap-api.key %}&callback=initMap"></script>
