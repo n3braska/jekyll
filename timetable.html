@@ -1,0 +1,52 @@
+---
+layout: standart_view
+title: Розклад
+---
+
+
+<div class="container">
+    <div class=" col-12 pt-5 pb-5">
+        <div class="card">
+            <div class="card-header" style="text-align: center;"><h2>Розклад богослужінь</h2></div>
+            <ul class="list-group list-group-flush">
+                {% for item in site.data.table %}
+                <li class="list-group-item">
+                    <div class="row cent">
+
+                        <div class="col-sm-2 atext-c center">
+                            {{ item.day }} {{ item.month }}
+                        </div>
+
+                        <div class="col-sm-6 atext-c">
+                            <table style="width:100%">
+                                <tr>
+                                    <td><strong>{{item.time1}}</strong></td>
+                                    <td>{{item.event1}}</td>
+                                </tr>
+                                {% if item.time2 %}
+                                <tr>
+                                    <td><strong>{{item.time2}}</strong></td>
+                                    <td>{{item.event2}}</td>
+                                </tr>
+                                {% endif %}
+                                {% if item.time3 %}
+                                <tr>
+                                    <td><strong>{{item.time3}}</strong></td>
+                                    <td>{{item.event3}}</td>
+                                </tr>
+                                {% endif %}
+                            </table>
+                        </div>
+
+
+                        <div class="col-sm-4 atext-c">{{item.occasion}}</div>
+
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+
+

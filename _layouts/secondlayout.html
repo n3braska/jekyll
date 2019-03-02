@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    {%include head.html%}
+</head>
+<body>
+{% include navigation.html %}
+<div class="container-fluid">
+    <div class="container">
+        <h1 class="display-4 text-center textal my-4">{{ page.title }}</h1>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="container">
+        <div class="row mt-5 flex-row-reverse">
+            <div class="col-lg-6 col-sm-12 flex-column">
+                <img src="/assets/images/{{page.imagelink}}" class="w-100" alt="">
+            </div>
+            <div class="col-lg-6 col-sm-12 flex-column">
+                <div class="row p-3 marked">
+                    {% if page.citate %}<p>{{page.citate}}</p>{% endif %}
+                    {% if page.citatesource %}<p>{{page.citatesource}}</p>{% endif %}
+                </div>
+                <div class="row p-3">
+                    <p>{{page.text1}}</p>
+                    {% if page.text2 %}<p>{{page.text2}}</p>{% endif %}
+                    {% if page.text3 %}<p>{{page.text3}}</p>{% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid">
+    <div class="container">
+        {{ content }}
+    </div>
+</div>
+
+
+{% include footer_v2.html %}
+
+</body>
+</html>

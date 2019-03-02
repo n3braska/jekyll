@@ -1,0 +1,244 @@
+.marked {
+    color: #267D90;
+    font-size: 20px;
+}
+
+.b-footer {
+    height: 65px;
+}
+
+.bg-footer {
+    background-color: #F1F5F5;
+    align: bottom;
+}
+
+.space {
+    height: 25px;
+}
+
+.title {
+    font-size: 40px;
+}
+
+.wh-color {
+    color: white;
+}
+
+.textal {
+    text-align: center;
+}
+
+.alright {
+    align: right;
+}
+
+.active {
+    text-color: white;
+}
+
+.circle {
+    padding: 13px 20px;
+    border-radius: 50%;
+    background-color: rgb(40,44,49);
+    color: #fff;
+    max-height: 50px;
+    z-index: 2;
+}
+
+.how-it-works.row .col-2 {
+    align-self: stretch;
+}
+.how-it-works.row .col-2::after {
+    content: "";
+    position: absolute;
+    border-left: 3px solid rgb(40,44,49);
+    z-index: 1;
+}
+.how-it-works.row .col-2.bottom::after {
+    height: 50%;
+    left: 50%;
+    top: 50%;
+}
+.how-it-works.row .col-2.full-left::after {
+    height: 100%;
+    left: calc(50% - 3px);
+}
+
+.how-it-works.row .col-2.full-right::after {
+    height: 100%;
+    right: calc(50% - 3px);
+}
+
+.how-it-works.row .col-2.top::after {
+    height: 50%;
+    left: 50%;
+    top: 0;
+}
+
+
+.timeline div {
+    padding: 0;
+    height: 40px;
+}
+.timeline hr {
+    border-top: 3px solid rgb(40,44,49);
+    margin: 0;
+    top: 17px;
+    position: relative;
+}
+.timeline .col-2 {
+    display: flex;
+    overflow: hidden;
+}
+.timeline .corner {
+    border: 3px solid rgb(40,44,49);
+    width: 100%;
+    position: relative;
+    border-radius: 15px;
+}
+.timeline .top-right {
+    left: 50%;
+    top: -50%;
+}
+.timeline .left-bottom {
+    left: -50%;
+    top: calc(50% - 3px);
+}
+.timeline .top-left {
+    left: -50%;
+    top: -50%;
+}
+.timeline .right-bottom {
+    left: 50%;
+    top: calc(50% - 3px);
+}
+
+
+
+
+
+.hvr-sweep-to-right {
+    display: inline-block;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+.hvr-sweep-to-right:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background: white;
+
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus {
+    color: black;
+}
+.hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+a .finish{ display:none; }
+a:hover .start { display: none; }
+a:hover .finish { display: inline; }
+
+
+
+
+
+
+.history {
+    position: relative;
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.mar {
+    margin: 2%;
+}
+
+@media (max-width: 575.98px) {
+
+    .cent{
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 575.98px) {
+
+    .cent{
+        text-align: center;
+    }
+
+}
+
+.spaces{
+    display: none;
+}
+
+@media (min-width: 1200px) {
+
+    .spaces{
+        display: inline;
+    }
+
+}
+
+.footer {
+
+    color: darkgrey;
+
+}
+
+.center{
+
+    text-align: center;
+
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 100px;
+    text-align:center;
+    padding:5px;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+/* Set the size of the div element that contains the map */
+#map {
+    height: 400px;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
+}
