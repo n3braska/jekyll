@@ -7,7 +7,7 @@ navbar:
     name: Тайни та таїнства
   - link: /parafia.html
     name: Парафія
-  - link: /contacts.html
-    name: Контакти
   - link: /history.html
     name: Історія Храму
+  - link: /contacts.html
+    name: Контакти
