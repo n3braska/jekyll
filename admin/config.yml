@@ -1,6 +1,6 @@
 backend:
-  name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
+    name: git-gateway
+    branch: master # Branch to update (optional; defaults to master)
 
 # This line should *not* be indented
 publish_mode: editorial_workflow
@@ -16,5 +16,9 @@ collections:
             name: "navbar"
             file: "_data/navigation.yml"
             fields:
-                - {label: Item Name, name: name, widget: string}
-                - {label: Link, name: link, widget: string}
+                - label: Navigation
+                  name: navbar
+                  widget: list
+                  fields:
+                      - {label: Item Name, name: name, widget: string}
+                      - {label: Link, name: link, widget: string}
