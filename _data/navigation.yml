@@ -1,12 +1,13 @@
-- name: Головна
-  link: /
-- name: Розклад богослужінь
-  link: /timetable.html
-- name: Тайни та таїнства
-  link: /tainy_ta_tainstwa.html
-- name: Парафія
-  link: /parafia.html
-- name: Історія Храму
-  link: /history.html
-- name: Контакти
-  link: /contacts.html
+navbar:
+    - link: /
+      name: Головна
+    - link: /timetable.html
+      name: Розклад богослужінь
+    - link: /tainy_ta_tainstwa.html
+      name: Тайни та таїнства
+    - link: /parafia.html
+      name: Парафія
+    - link: /history.html
+      name: Історія Храму
+    - link: /contacts.html
+      name: Контакти
