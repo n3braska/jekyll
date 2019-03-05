@@ -22,6 +22,7 @@ collections:
                   fields:
                       - {label: Назва, name: name, widget: string}
                       - {label: Лінк, name: link, widget: string}
+         
           - label: Розклад
             name: timetable
             file: _data/table.yml
