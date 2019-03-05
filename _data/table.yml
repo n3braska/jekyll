@@ -1,29 +1,29 @@
 timetable:
-    - day: 1
-    month: лютого
-    time1: '18:00'
-    event1: Служба Божа
-    time2:
-    event2:
-    time3:
-    event3:
-    occasion: Школа Христ. Життя та Євангелізації
-    - day: 2
-    month: лютого
-    time1: '18:00'
-    event1: Служба Божа
-    time2:
-    event2:
-    occasion: Школа Христ. Життя та Євангелізації
-    - day: 3
-    month: лютого
-    time1: '9:30'
-    time2: '12:00'
-    time3: '18:00'
-    event1: Служба Божа
-    event2: Служба Божа
-    event3: Служба Божа німецькою
-    occasion: Школа Христ. Життя та Євангелізації
+- day: 1
+  month: лютого
+  time1: '18:00'
+  event1: Служба Божа
+  time2:
+  event2:
+  time3:
+  event3:
+  occasion: Школа Христ. Життя та Євангелізації
+- day: 2
+  month: лютого
+  time1: '18:00'
+  event1: Служба Божа
+  time2:
+  event2:
+  occasion: Школа Христ. Життя та Євангелізації
+- day: 3
+  month: лютого
+  time1: '9:30'
+  time2: '12:00'
+  time3: '18:00'
+  event1: Служба Божа
+  event2: Служба Божа
+  event3: Служба Божа німецькою
+  occasion: Школа Христ. Життя та Євангелізації
 - day: 4
   month: лютого
   time1: '18:00'
