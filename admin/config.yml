@@ -70,7 +70,7 @@ collections:
         fields:
             - label: Блок
               name: parafia
-              widget: string
+              widget: list
               fields:
                 - {label: Назва, name: name, widget: string}
                 - {label: Лінк, name: link, widget: string}
