@@ -1,15 +1,15 @@
---- 
-backend: 
+---
+backend:
   branch: master
   name: git-gateway
-  
+
 media_folder: assets/images/uploads
 publish_mode: editorial_workflow
 
-collections: 
+collections:
   - label: "Всі Сторінки"
     name: pages
-    files: 
+    files:
       - label: "Головне Меню"
         name: "navbar"
         file: "_data/navigation.yml"
@@ -23,58 +23,57 @@ collections:
       - label: Розклад
         name: timetable
         file: _data/table.yml
-        fields: 
+        fields:
           - label: "Елемент Меню"
             name: timetable
             widget: list
-            fields: 
-              - 
+            fields:
+              -
                 label: День
                 name: day
                 widget: string
-              - 
+              -
                 label: Місяць
                 name: month
                 widget: string
-              - 
+              -
                 label: Час1
                 name: time1
                 widget: string
-              - 
+              -
                 label: Подія1
                 name: event1
                 widget: string
-              - 
+              -
                 label: Час2
                 name: time2
                 widget: string
-              - 
+              -
                 label: Подія2
                 name: event2
                 widget: string
-              - 
+              -
                 label: Час
                 name: time3
                 widget: string
-              - 
+              -
                 label: Подія3
                 name: event3
                 widget: string
-              - 
+              -
                 label: Захід
                 name: occasion
                 widget: string
-
-      - label: "Парафія"
-            name: "parafia"
-            file: "_data/parafia.yml"
-            fields:
-                - label: Блок
-                  name: parafia
-                  widget: string
-                  fields:
-                      - {label: Назва, name: name, widget: string}
-                      - {label: Лінк, name: link, widget: string}
-                      - {label: Цитата, name: citate, widget: string}
-                      - {label: Текст, name: text, widget: string}
-                      - {label: Картинка, name: image, widget: string}
+      - label: Парафія
+        name: parafia
+        file: _data/parafia.yml
+        fields:
+            - label: Блок
+              name: parafia
+              widget: string
+              fields:
+                - {label: Назва, name: name, widget: string}
+                - {label: Лінк, name: link, widget: string}
+                - {label: Цитата, name: citate, widget: string}
+                - {label: Текст, name: text, widget: string}
+                - {label: Картинка, name: image, widget: string}
