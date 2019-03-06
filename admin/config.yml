@@ -64,5 +64,17 @@ collections:
                 label: Захід
                 name: occasion
                 widget: string
-    
-    
+
+      - label: "Парафія"
+            name: "parafia"
+            file: "_data/parafia.yml"
+            fields:
+                - label: Блок
+                  name: parafia
+                  widget: string
+                  fields:
+                      - {label: Назва, name: name, widget: string}
+                      - {label: Лінк, name: link, widget: string}
+                      - {label: Цитата, name: citate, widget: string}
+                      - {label: Текст, name: text, widget: string}
+                      - {label: Картинка, name: image, widget: string}
