@@ -68,12 +68,12 @@ collections:
         name: parafia
         file: _data/parafia.yml
         fields:
-            - label: Блок
-              name: parafia
-              widget: list
-              fields:
-                - {label: Назва, name: name, widget: string}
-                - {label: Лінк, name: link, widget: string}
-                - {label: Цитата, name: citate, widget: string}
-                - {label: Текст, name: text, widget: string}
-                - {label: Картинка, name: image, widget: string}
+          - label: Блок
+            name: parafia
+            widget: list
+            fields:
+              - {label: Назва, name: name, widget: string}
+              - {label: Лінк, name: link, widget: string}
+              - {label: Цитата, name: citate, widget: string}
+              - {label: Текст, name: text, widget: string}
+              - {label: Картинка, name: image, widget: string}
