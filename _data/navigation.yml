@@ -1,10 +1,10 @@
 navbar:
   - link: /
     name: Головна
-  - link: /timetable.html
-    name: Розклад богослужінь
   - link: /novyny.html
     name: Новини
+  - link: /timetable.html
+    name: Розклад богослужінь
   - link: /tainy_ta_tainstwa.html
     name: Тайни та таїнства
   - link: /parafia.html
