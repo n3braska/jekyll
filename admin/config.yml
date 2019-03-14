@@ -64,13 +64,13 @@ collections:
                 label: Захід
                 name: occasion
                 widget: string
-      - label: "Новини"
-        name: "novyny"
-        folder: "_posts"
-        create: true
-        fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Autor", name: "autor", widget: "string"}
-          - {label: "Publish Date", name: "date", widget: "datetime"}
-          - {label: "Featured Image", name: "picture", widget: "image"}
-          - {label: "Body", name: "body", widget: "markdown"}
+  - label: "Новини"
+    name: "novyny"
+    folder: "_posts"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Autor", name: "autor", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "picture", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
