@@ -1,35 +1,40 @@
 ---
-title: Новини
+title: Стрічка новин
 belowtitletext:
 layout: default
 ---
 
-{%for item in site.data.novyny.novyny%}
+{% for post in site.posts %}
 
-<h5 class="display-4 title textal text-center mt-5">{{item.title}}</h5>
-    <div class="row">
-        <div class="col-6 my-2 pl-0">
-            <p class="text-left text-secondary">Date: {{item.date}}</p>
+    <h5 class="display-4 title textal text-center mt-5">{{post.title}}</h5>
+    <div class="row justify-content-center">
+        <div class="col-5 my-2 pl-0">
+            <p class="text-left text-secondary">Date: {{post.date | date_to_string }}</p>
         </div>
-        <div class="col-6">
-            <p class="text-right text-secondary">{{item.autor}}</p>
+        <div class="col-5">
+            <p class="text-right text-secondary">{{post.autor}}</p>
         </div>
     </div>
 
-    <div class="row">
-        <p class="marked">{{item.short-text}}</p>
-        {%if item.picture%}
-        <div class="col-lg-6 col-sm-12 p-0">
-            <p>{{item.long-text}}</p>
+    <div class="row justify-content-center">
+        {%if post.picture%}
+        <div class="col-lg-6 col-sm-12 p-3">
+            <p class="marked">{{post.excerpt}}</p>
         </div>
         <div class="col-lg-6 col-sm-12 p-3">
-            <img src="{{item.picture}}" alt="">
+            <img src="{{post.picture}}" alt="">
         </div>
         {%else%}
-        <div class="col-12 p-0">
-            <p>{{item.long-text}}</p>
+        <div class="col-lg-10 col-sm-12 p-0">
+            <p>{{post.excerpt}}</p>
         </div>
         {%endif%}
 
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-5 p-0"><a href="{{post.url}}" class="text-primary">Читати далі</a></div>
+
+        <div class="col-5"></div>
     </div>
 {%endfor%}
