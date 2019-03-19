@@ -61,6 +61,22 @@ collections:
                 name: event3
                 widget: string
               -
+                label: Час4
+                name: time4
+                widget: string
+              -
+                label: Подія4
+                name: event4
+                widget: string
+              -
+                label: Час5
+                name: time5
+                widget: string
+              -
+                label: Подія5
+                name: event5
+                widget: string
+              -
                 label: Захід
                 name: occasion
                 widget: string

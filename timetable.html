@@ -7,46 +7,170 @@ title: Розклад
 <div class="container">
     <div class=" col-12 pt-5 pb-5">
         <div class="card">
-            <div class="card-header" style="text-align: center;"><h2>Розклад богослужінь</h2></div>
-            <ul class="list-group list-group-flush">
-                {% for item in site.data.table.timetable %}
-                <li class="list-group-item">
-                    <div class="row cent">
-
-                        <div class="col-sm-2 atext-c center">
-                            {{ item.day }} {{ item.month }}
-                        </div>
-
-                        <div class="col-sm-6 atext-c">
-                            <table style="width:100%">
-                                <tr>
-                                    <td><strong>{{item.time1}}</strong></td>
-                                    <td>{{item.event1}}</td>
-                                </tr>
-                                {% if item.time2 %}
-                                <tr>
-                                    <td><strong>{{item.time2}}</strong></td>
-                                    <td>{{item.event2}}</td>
-                                </tr>
-                                {% endif %}
-                                {% if item.time3 %}
-                                <tr>
-                                    <td><strong>{{item.time3}}</strong></td>
-                                    <td>{{item.event3}}</td>
-                                </tr>
-                                {% endif %}
-                            </table>
-                        </div>
+            <div class="tabs m-0 p-0">
+                <div class="card-header">
+                    <nav class="tab-list">
+                        <h3 style="text-align: center;">Розклад богослужінь</h3>
+                        <h3 style="text-align: center;">
+                            <a class="tab active" href="#one">Березень</a>
+                            <a class="tab" href="#two">Лютий</a>
+                            <a class="tab" href="#three">Січень</a>
+                        </h3>
+                    </nav>
+                </div>
 
 
-                        <div class="col-sm-4 atext-c">{{item.occasion}}</div>
 
-                    </div>
-                </li>
-                {% endfor %}
-            </ul>
+
+                <div id="one" class="tab-content show">
+                    <ul class="list-group list-group-flush">
+                        {% for item in site.data.table.timetable.march %}
+                        <li class="list-group-item">
+                            <div class="row cent">
+
+                                <div class="col-sm-2 atext-c center">
+                                    {{ item.day }} {{ item.month }}
+                                </div>
+
+                                <div class="col-sm-6 atext-c">
+                                    <table style="width:100%">
+                                        <tr>
+                                            <td style="text-align: left;" class="m-2"><strong>{{item.time1}}</strong></td>
+                                            <td style="text-align: left;" class="m-2">{{item.event1}}</td>
+                                        </tr>
+                                        {% if item.time2 %}
+                                        <tr>
+                                            <td style="text-align: left;" class="m-2"><strong>{{item.time2}}</strong></td>
+                                            <td style="text-align: left;" class="m-2">{{item.event2}}</td>
+                                        </tr>
+                                        {% endif %}
+                                        {% if item.time3 %}
+                                        <tr>
+                                            <td style="text-align: left;" class="m-2"><strong>{{item.time3}}</strong></td>
+                                            <td style="text-align: left;" class="m-2">{{item.event3}}</td>
+                                        </tr>
+                                        {% endif %}
+                                        {% if item.time4 %}
+                                        <tr>
+                                            <td style="text-align: left;" class="m-2"><strong>{{item.time4}}</strong></td>
+                                            <td style="text-align: left;" class="m-2">{{item.event4}}</td>
+                                        </tr>
+                                        {% endif %}
+                                        {% if item.time5 %}
+                                        <tr>
+                                            <td style="text-align: left;" class="m-2"><strong>{{item.time5}}</strong></td>
+                                            <td style="text-align: left;" class="m-2">{{item.event5}}</td>
+                                        </tr>
+                                        {% endif %}
+                                    </table>
+                                </div>
+
+
+                                <div class="col-sm-4 atext-c">{{item.occasion}}</div>
+
+                            </div>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+
+                <div id="two" class="tab-content">
+                    <ul class="list-group list-group-flush">
+                        {% for item in site.data.table.timetable.february %}
+                        <li class="list-group-item">
+                            <div class="row cent">
+
+                                <div class="col-sm-2 atext-c center">
+                                    {{ item.day }} {{ item.month }}
+                                </div>
+
+                                <div class="col-sm-6 atext-c">
+                                    <table style="width:100%">
+                                        <tr>
+                                            <td><strong>{{item.time1}}</strong></td>
+                                            <td>{{item.event1}}</td>
+                                        </tr>
+                                        {% if item.time2 %}
+                                        <tr>
+                                            <td><strong>{{item.time2}}</strong></td>
+                                            <td>{{item.event2}}</td>
+                                        </tr>
+                                        {% endif %}
+                                        {% if item.time3 %}
+                                        <tr>
+                                            <td><strong>{{item.time3}}</strong></td>
+                                            <td>{{item.event3}}</td>
+                                        </tr>
+                                        {% endif %}
+                                    </table>
+                                </div>
+
+
+                                <div class="col-sm-4 atext-c">{{item.occasion}}</div>
+
+                            </div>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+
+                <div id="three" class="tab-content">
+                    <ul class="list-group list-group-flush">
+                        {% for item in site.data.table.timetable.january %}
+                        <li class="list-group-item">
+                            <div class="row cent">
+
+                                <div class="col-sm-2 atext-c center">
+                                    {{ item.day }} {{ item.month }}
+                                </div>
+
+                                <div class="col-sm-6 atext-c">
+                                    <table style="width:100%">
+                                        <tr>
+                                            <td><strong>{{item.time1}}</strong></td>
+                                            <td>{{item.event1}}</td>
+                                        </tr>
+                                        {% if item.time2 %}
+                                        <tr>
+                                            <td><strong>{{item.time2}}</strong></td>
+                                            <td>{{item.event2}}</td>
+                                        </tr>
+                                        {% endif %}
+                                        {% if item.time3 %}
+                                        <tr>
+                                            <td><strong>{{item.time3}}</strong></td>
+                                            <td>{{item.event3}}</td>
+                                        </tr>
+                                        {% endif %}
+                                    </table>
+                                </div>
+
+
+                                <div class="col-sm-4 atext-c">{{item.occasion}}</div>
+
+                            </div>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </div>
+
+
+
+
+<script type="text/javascript">
+    $(".tab-list").on("click", ".tab", function(e) {
+        e.preventDefault();
+
+        $(".tab").removeClass("active");
+        $(".tab-content").removeClass("show");
+        $(this).addClass("active");
+        $($(this).attr("href")).addClass("show");
+    });
+</script>
+
 
 

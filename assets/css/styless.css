@@ -236,6 +236,47 @@ a {
     text-decoration: none;
 }
 
+.tabs {
+    max-width: 600em;
+    margin: 0 auto;
+}
+
+.tab-list {
+    padding-bottom: 1rem;
+}
+
+.tab:hover {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.tab {
+    border: 1px solid transparent;
+    border-radius: 40px;
+    display: inline-block;
+    text-decoration: none;
+    padding: .5rem 1em;
+    margin: .1em;
+    color: whitesmoke;
+    font-weight: 1;
+    font-size: 25px;
+    background: #67878E;
+}
+
+.tab.active {
+    color: #67878E;
+    background: whitesmoke;
+    border: 1px solid rgba(255, 255, 255, .6);
+}
+
+.tab-content {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
 
 /* Set the size of the div element that contains the map */
 #map {

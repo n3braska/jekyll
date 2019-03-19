@@ -1,0 +1,33 @@
+<div class="container-fluid color_bar p-2"  >
+    <h1 class=" title wh-color " style="text-align: center;">Останні новини</h1></div>
+<div class="container pt-3 pb-5 ">
+
+{% for post in site.posts limit: 3 %}
+<div class="card m-3">
+    <div class="card-header">
+        <h5 class=" title text-center">{{post.topic}}</h5>
+            <p class="text-secondary text-right">{{post.autor}} {{post.date | date_to_string }}</p>
+    </div>
+    <div class="card-body">
+<div class="row justify-content-center">
+    {%if post.picture%}
+    <div class="col-lg-3 col-sm-12 p-3">
+        <img src="{{post.picture}}" class="w-100" alt="post-picture" height="200" width="200">
+    </div>
+    <div class="col-lg-6 col-sm-12 p-3">
+        <p class="marked">{{post.excerpt}}</p>
+        <a href="{{post.url}}" class="text-primary">Читати далі</a>
+    </div>
+    {%else%}
+    <div class="col-lg-10 col-sm-12 p-0">
+        <p>{{post.excerpt}}</p>
+        <a href="{{post.url}}" class="text-primary">Читати далі</a>
+    </div>
+    {%endif%}
+
+</div>
+
+    </div>
+</div>
+{%endfor%}
+</div>
