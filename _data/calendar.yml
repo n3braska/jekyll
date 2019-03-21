@@ -1,0 +1,25 @@
+month:
+  - day:
+      - d: 24
+        event:
+          - event_name: Служба Божа
+            event_time: '9:30'
+          - event_name: Служба Божа
+            event_time: '12:00'
+          - event_name: Служба Божа по-німецьки
+            event_time: '18:00'
+      - d: 25
+        event:
+          - event_name: Літургія Передосвячених Дарів
+            event_time: '18:00'
+        occasion: Сорокоуст - Вселенське поминання померлих. Зустріч "Матері в молитві"
+    is_published: true
+    month_date: 03-2019
+  - day:
+      - d: 1
+        event:
+          - event_name: Літургія Передосвячених Дарів
+            event_time: '18:00'
+        occasion: Сорокоуст - Вселенське поминання померлих. Зустріч "Матері в молитві"
+    is_published: true
+    month_date: 04-2019
