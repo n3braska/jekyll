@@ -9,7 +9,7 @@ collections:
   - label: "Всі Сторінки"
     name: pages
     files:
-      - label: "Головне Меню"
+      - label: "Головне Меню1"
         name: "navbar"
         file: "_data/navigation.yml"
         fields:
@@ -19,9 +19,9 @@ collections:
             fields:
               - {label: Назва, name: name, widget: string}
               - {label: Лінк, name: link, widget: string}
-      - label: "Розклад"
-        name: "timetable"
-        file: "_data/table.yaml"
+      - label: "Календар"
+        name: "calendar"
+        file: "_data/calendar.yaml"
         fields:
           - label: "Місяць"
             name: "month"
