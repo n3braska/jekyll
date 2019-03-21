@@ -74,7 +74,7 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Topic", name: "topic", widget: "string"}
-      - {label: "Layout", name: "layout", widget: "string"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Autor", name: "autor", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "string"}
       - {label: "Featured Image", name: "picture", required: false, widget: "image"}
