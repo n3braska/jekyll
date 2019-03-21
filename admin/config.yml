@@ -45,38 +45,41 @@ collections:
                     widget: "number"
                     min: 1
                     max: 31
-                  - label: "Час1"
-                    name: "time1"
+                    hint: "День місяця"
+                  - label: "Подія 1"
+                    name: "event1"
+                    widget: "string"
                     required: false
+                  - label: "Час 1"
+                    name: "time1"
+                    widget: "datetime"
                     format: "H:mm"
                     dateFormat: false
-                    widget: "datetime"
-                  - label: "Подія1"
-                    name: "event1"
                     required: false
-                    widget: "string"
-                  - label: "Час2"
-                    name: "time2"
-                    required: false
-                    widget: "string"
-                    pattern: ['^([0-1]\d|[2][0-3]|\d):[0-5]\d$', "Вкажіть час г:хв"]
-                  - label: "Подія2"
+                  - label: "Подія 2"
                     name: "event2"
-                    required: false
                     widget: "string"
-                  - label: "Час3"
-                    name: "time3"
                     required: false
-                    format: "H:mm"
+                  - label: "Час 2"
+                    name: "time2"
                     widget: "datetime"
-                  - label: "Подія3"
+                    format: "H:mm"
+                    dateFormat: false
+                    required: false
+                  - label: "Подія 3"
                     name: "event3"
-                    required: false
                     widget: "string"
-                  - label: "Захід"
+                    required: false
+                  - label: "Час 3"
+                    name: "time3"
+                    widget: "datetime"
+                    format: "H:mm"
+                    dateFormat: false
+                    required: false
+                  - label: "Додатковий захід"
                     name: "occasion"
-                    required: false
                     widget: "string"
+                    required: false
 
   - label: "Новини"
     name: "novyny"
