@@ -59,7 +59,7 @@ collections:
                     name: "time2"
                     required: false
                     widget: "string"
-                    pattern: ["^([0-1]\d|[2][0-3]|\d):[0-5]\d$", "Вкажіть час г:хв"]
+                    pattern: ['^([0-1]\d|[2][0-3]|\d):[0-5]\d$', "Вкажіть час г:хв"]
                   - label: "Подія2"
                     name: "event2"
                     required: false
