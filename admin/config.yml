@@ -32,7 +32,7 @@ collections:
                 widget: date
                 format: 'MM-YYYY'
               - label: Публікувати
-                name: isPublished
+                name: is_published
                 widget: boolean
                 default: false
               - label: День
@@ -46,39 +46,20 @@ collections:
                     min: 1
                     max: 31
                     hint: День місяця
-                  - label: Подія 1
-                    name: event1
-                    widget: string
+                  - label: Подія
+                    name: event
                     required: false
-                  - label: Час 1
-                    name: time1
-                    widget: datetime
-                    format: 'H:mm'
-                    dateFormat: false
-                    default: ""
-                    required: false
-                  - label: Подія 2
-                    name: event2
-                    widget: string
-                    required: false
-                  - label: Час 2
-                    name: time2
-                    widget: datetime
-                    format: 'H:mm'
-                    dateFormat: false
-                    default: ""
-                    required: false
-                  - label: Подія 3
-                    name: event3
-                    widget: string
-                    required: false
-                  - label: Час 3
-                    name: time3
-                    widget: datetime
-                    format: 'H:mm'
-                    default: ""
-                    dateFormat: false
-                    required: false
+                    widget: list
+                    fields:
+                      - label: Час
+                        name: event_time
+                        widget: datetime
+                        format: 'H:mm'
+                        dateFormat: false
+                        default: ""
+                      - label: Назва
+                        name: event_name
+                        widget: string
                   - label: Додатковий захід
                     name: occasion
                     widget: string
