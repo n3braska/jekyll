@@ -4,7 +4,6 @@ backend:
   name: git-gateway
 
 media_folder: assets/images/uploads
-publish_mode: editorial_workflow
 
 collections:
   - label: "Всі Сторінки"
