@@ -9,11 +9,11 @@ collections:
   - label: Всі Сторінки
     name: pages
     files:
-      - label: Головне меню
+      - label: Головне Меню
         name: navbar
         file: _data/navigation.yml
         fields:
-          - label: Елемент Меню
+          - label: Елемент меню
             name: navbar
             widget: list
             fields:
@@ -55,7 +55,7 @@ collections:
                     widget: datetime
                     format: 'H:mm'
                     dateFormat: false
-                    default: ''
+                    default: ""
                     required: false
                   - label: Подія 2
                     name: event2
@@ -66,7 +66,7 @@ collections:
                     widget: datetime
                     format: 'H:mm'
                     dateFormat: false
-                    default: ''
+                    default: ""
                     required: false
                   - label: Подія 3
                     name: event3
@@ -76,7 +76,7 @@ collections:
                     name: time3
                     widget: datetime
                     format: 'H:mm'
-                    default: ''
+                    default: ""
                     dateFormat: false
                     required: false
                   - label: Додатковий захід
