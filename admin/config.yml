@@ -52,13 +52,13 @@ collections:
                     widget: list
                     fields:
                       - label: Час
-                        name: event_time
+                        name: time
                         widget: datetime
                         format: 'H:mm'
                         dateFormat: false
                         default: ""
                       - label: Назва
-                        name: event_name
+                        name: title
                         widget: string
                   - label: Додатковий захід
                     name: occasion
