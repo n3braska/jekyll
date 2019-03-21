@@ -19,63 +19,63 @@ collections:
             fields:
               - {label: Назва, name: name, widget: string}
               - {label: Лінк, name: link, widget: string}
-      - label: Розклад
-        name: timetable
-        file: _data/table.yaml
+      - label: "Розклад"
+        name: "timetable"
+        file: "_data/table.yaml"
         fields:
-          - label: Місяць
-            name: month
-            widget: list
+          - label: "Місяць"
+            name: "month"
+            widget: "list"
             fields:
-              - label: Дата Початку Місяця
-                name: month_date
-                widget: date
+              - label: "Дата початку місяця"
+                name: "month_date"
+                widget: "date"
                 format: "MM-YYYY"
-              - label: Публікувати
-                name: isPublished
-                widget: boolean
+              - label: "Публікувати"
+                name: "isPublished"
+                widget: "boolean"
                 default: false
-              - label: День
-                name: day
+              - label: "День"
+                name: "day"
                 required: false
-                widget: list
+                widget: "list"
                 fields:
-                  - label: Число
-                    name: d
-                    widget: number
+                  - label: "Число"
+                    name: "d"
+                    widget: "number"
                     min: 1
                     max: 31
-                  - label: Час1
-                    name: time1
+                  - label: "Час1"
+                    name: "time1"
                     required: false
                     format: "H:mm"
-                    widget: datetime
-                  - label: Подія1
-                    name: event1
+                    widget: "datetime"
+                  - label: "Подія1"
+                    name: "event1"
                     required: false
-                    widget: string
-                  - label: Час2
-                    name: time2
-                    required: false
-                    format: "H:mm"
-                    widget: datetime
-                  - label: Подія2
-                    name: event2
-                    required: false
-                    widget: string
-                  - label: Час3
-                    name: time3
+                    widget: "string"
+                  - label: "Час2"
+                    name: "time2"
                     required: false
                     format: "H:mm"
-                    widget: datetime
-                  - label: Подія3
-                    name: event3
+                    widget: "datetime"
+                  - label: "Подія2"
+                    name: "event2"
                     required: false
-                    widget: string
-                  - label: Захід
-                    name: occasion
+                    widget: "string"
+                  - label: "Час3"
+                    name: "time3"
                     required: false
-                    widget: string
+                    format: "H:mm"
+                    widget: "datetime"
+                  - label: "Подія3"
+                    name: "event3"
+                    required: false
+                    widget: "string"
+                  - label: "Захід"
+                    name: "occasion"
+                    required: false
+                    widget: "string"
 
   - label: "Новини"
     name: "novyny"
