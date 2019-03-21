@@ -71,6 +71,7 @@ collections:
     name: "novyny"
     folder: "_posts"
     create: true
+    slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Topic", name: "topic", widget: "string"}
