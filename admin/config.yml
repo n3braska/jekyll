@@ -9,9 +9,19 @@ collections:
   - label: "Всі Сторінки"
     name: pages
     files:
+      - label: "Головне Меню"
+        name: "navbar"
+        file: "_data/navigation.yml"
+        fields:
+          - label: Елемент Меню
+            name: navbar
+            widget: list
+            fields:
+              - {label: Назва, name: name, widget: string}
+              - {label: Лінк, name: link, widget: string}
       - label: "Календар"
         name: "calendar"
-        file: "_data/calendar.yaml"
+        file: "_data/calendar.yml"
         fields:
           - label: "Місяць"
             name: "month"
@@ -66,6 +76,7 @@ collections:
                     name: "occasion"
                     required: false
                     widget: "string"
+
   - label: "Новини"
     name: "novyny"
     folder: "_posts"
