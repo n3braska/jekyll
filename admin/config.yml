@@ -6,12 +6,12 @@ backend:
 media_folder: assets/images/uploads
 
 collections:
-  - label: "Всі Сторінки"
+  - label: Всі Сторінки
     name: pages
     files:
-      - label: "Головне меню"
-        name: "navbar"
-        file: "_data/navigation.yml"
+      - label: Головне меню
+        name: navbar
+        file: _data/navigation.yml
         fields:
           - label: Елемент Меню
             name: navbar
@@ -19,77 +19,80 @@ collections:
             fields:
               - {label: Назва, name: name, widget: string}
               - {label: Лінк, name: link, widget: string}
-      - label: "Календар"
-        name: "calendar"
-        file: "_data/calendar.yml"
+      - label: Календар
+        name: calendar
+        file: _data/calendar.yml
         fields:
-          - label: "Місяць"
-            name: "month"
-            widget: "list"
+          - label: Місяць
+            name: month
+            widget: list
             fields:
-              - label: "Дата початку місяця"
-                name: "month_date"
-                widget: "date"
-                format: "MM-YYYY"
-              - label: "Публікувати"
-                name: "isPublished"
-                widget: "boolean"
+              - label: Дата початку місяця
+                name: month_date
+                widget: date
+                format: 'MM-YYYY'
+              - label: Публікувати
+                name: isPublished
+                widget: boolean
                 default: false
-              - label: "День"
-                name: "day"
+              - label: День
+                name: day
                 required: false
-                widget: "list"
+                widget: list
                 fields:
-                  - label: "Число"
-                    name: "d"
-                    widget: "number"
+                  - label: Число
+                    name: d
+                    widget: number
                     min: 1
                     max: 31
-                    hint: "День місяця"
-                  - label: "Подія 1"
-                    name: "event1"
-                    widget: "string"
+                    hint: День місяця
+                  - label: Подія 1
+                    name: event1
+                    widget: string
                     required: false
-                  - label: "Час 1"
-                    name: "time1"
-                    widget: "datetime"
-                    format: "H:mm"
+                  - label: Час 1
+                    name: time1
+                    widget: datetime
+                    format: 'H:mm'
+                    dateFormat: false
+                    default: ''
+                    required: false
+                  - label: Подія 2
+                    name: event2
+                    widget: string
+                    required: false
+                  - label: Час 2
+                    name: time2
+                    widget: datetime
+                    format: 'H:mm'
+                    dateFormat: false
+                    default: ''
+                    required: false
+                  - label: Подія 3
+                    name: event3
+                    widget: string
+                    required: false
+                  - label: Час 3
+                    name: time3
+                    widget: datetime
+                    format: 'H:mm'
+                    default: ''
                     dateFormat: false
                     required: false
-                  - label: "Подія 2"
-                    name: "event2"
-                    widget: "string"
-                    required: false
-                  - label: "Час 2"
-                    name: "time2"
-                    widget: "datetime"
-                    format: "H:mm"
-                    dateFormat: false
-                    required: false
-                  - label: "Подія 3"
-                    name: "event3"
-                    widget: "string"
-                    required: false
-                  - label: "Час 3"
-                    name: "time3"
-                    widget: "datetime"
-                    format: "H:mm"
-                    dateFormat: false
-                    required: false
-                  - label: "Додатковий захід"
-                    name: "occasion"
-                    widget: "string"
+                  - label: Додатковий захід
+                    name: occasion
+                    widget: string
                     required: false
 
-  - label: "Новини"
-    name: "novyny"
-    folder: "_posts"
+  - label: Новини
+    name: novyny
+    folder: _posts
     create: true
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Topic", name: "topic", widget: "string"}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-      - {label: "Autor", name: "autor", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "date", format: "DD.MM.YYYY"}
-      - {label: "Featured Image", name: "picture", required: false, widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: Title, name: title, widget: string}
+      - {label: Topic, name: topic, widget: string}
+      - {label: Layout, name: layout, widget: hidden, default: post}
+      - {label: Autor, name: autor, widget: string}
+      - {label: Publish Date, name: date, widget: date, format: 'DD.MM.YYYY'}
+      - {label: Featured Image, name: picture, required: false, widget: image}
+      - {label: Body, name: body, widget: markdown}
