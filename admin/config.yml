@@ -14,12 +14,12 @@ collections:
         name: "navbar"
         file: "_data/navigation.yml"
         fields:
-            - label: Елемент Меню
-              name: navbar
-              widget: list
-              fields:
-                 - {label: Назва, name: name, widget: string}
-                 - {label: Лінк, name: link, widget: string}
+          - label: Елемент Меню
+            name: navbar
+            widget: list
+            fields:
+              - {label: Назва, name: name, widget: string}
+              - {label: Лінк, name: link, widget: string}
       - label: Розклад
         name: timetable
         file: _data/table.yml
@@ -28,56 +28,43 @@ collections:
             name: timetable
             widget: list
             fields:
-              -
-                label: День
+              - label: День
                 name: day
                 widget: string
-              -
-                label: Місяць
+              - label: Місяць
                 name: month
                 widget: string
-              -
-                label: Час1
+              - label: Час1
                 name: time1
                 widget: string
-              -
-                label: Подія1
+              - label: Подія1
                 name: event1
                 widget: string
-              -
-                label: Час2
+              - label: Час2
                 name: time2
                 widget: string
-              -
-                label: Подія2
+              - label: Подія2
                 name: event2
                 widget: string
-              -
-                label: Час
+              - label: Час
                 name: time3
                 widget: string
-              -
-                label: Подія3
+              - label: Подія3
                 name: event3
                 widget: string
-              -
-                label: Час4
+              - label: Час4
                 name: time4
                 widget: string
-              -
-                label: Подія4
+              - label: Подія4
                 name: event4
                 widget: string
-              -
-                label: Час5
+              - label: Час5
                 name: time5
                 widget: string
-              -
-                label: Подія5
+              - label: Подія5
                 name: event5
                 widget: string
-              -
-                label: Захід
+              - label: Захід
                 name: occasion
                 widget: string
   - label: "Новини"
