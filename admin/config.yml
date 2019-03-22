@@ -5,6 +5,11 @@ backend:
 
 media_folder: assets/images/uploads
 
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "-"
+
 collections:
   - label: Всі Сторінки
     name: pages
@@ -69,7 +74,7 @@ collections:
     name: novyny
     folder: _posts
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
       - {label: Title, name: title, widget: string}
       - {label: Topic, name: topic, widget: string}
