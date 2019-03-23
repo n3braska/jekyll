@@ -64,13 +64,17 @@ collections:
                     name: occasion
                     widget: string
                     required: false
-      - label: Новини
+      - label: Стрічка новин
         name: news
         file: _data/news.yml
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Autor, name: autor, widget: string}
-          - {label: Publish Date, name: date, widget: date, format: 'DD.MM.YYYY'}
-          - {label: Featured Image, name: picture, required: false, widget: image}
-          - {label: First Absatz, name: excerpt, widget: markdown}
-          - {label: Message, name: text, widget: markdown}
+          - label: Новини
+            name: news
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Autor, name: autor, widget: string}
+              - {label: Publish Date, name: date, widget: date, format: 'DD.MM.YYYY'}
+              - {label: Featured Image, name: picture, required: false, widget: image}
+              - {label: First Absatz, name: excerpt, widget: markdown}
+              - {label: Message, name: text, widget: markdown}
