@@ -1,33 +1,39 @@
-<div class="container-fluid  p-2 pt-4 mt-4"  >
+<div class="container-fluid  p-2 pt-4 mt-4">
     <h1 class="display-4" style="text-align: center;">Останні новини</h1></div>
 <div class="container pt-3 pb-5 ">
 
-{% for post in site.posts limit: 3 %}
-<div class="card m-3">
-    <div class="card-header">
-        <h5 class="title pt-4 text-center">{{post.topic}}</h5>
-            <p class="text-secondary text-right">{{post.autor}} {{post.date | date_to_string }}</p>
-    </div>
-    <div class="card-body">
-<div class="row justify-content-center">
-    {%if post.picture%}
-    <div class="col-lg-3 col-sm-12 p-3">
-        <img src="{{post.picture}}" class="w-100" alt="post-picture">
-    </div>
-    <div class="col-lg-6 col-sm-12 p-3">
-        <p class="marked">{{post.excerpt}}</p>
-        <a href="{{post.url}}" class="btn btn-dark btn-color  wh-color">Читати далі</a>
-    </div>
-    {%else%}
-    <div class="col-lg-10 col-sm-12 p-3">
-        <p>{{post.excerpt}}</p>
-        <a href="{{post.url}}" class="btn btn-dark btn-color  wh-color">Читати далі</a>
-    </div>
-    {%endif%}
+    {% for item in site.data.news.news limit: 3 %}
+    <div class="card m-3">
+        <div class="card-header">
+            <h5 class="title pt-4 text-center">{{item.title}}</h5>
+            <p class="text-secondary text-right">{{item.autor}} {{item.date | date_to_string }}</p>
+        </div>
+        <div class="card-body">
+            <div class="row justify-content-center">
+                {%if item.picture%}
+                <div class="col-lg-3 col-sm-12 p-3">
+                    <img src="{{item.picture}}" class="w-100" alt="item-picture">
+                </div>
+                <div class="col-lg-6 col-sm-12 p-3">
+                    <p class="marked">{{item.excerpt}}</p>
+                    <div class="collapse p-3 row justify-content-center" id="post-message1">{{item.text}}</div>
+                    <button href="{{item.url}}" data-toggle="collapse" data-target="#post-message1"
+                            class="btn btn-dark btn-color  wh-color">Читати далі</button>
 
-</div>
+                </div>
+                {%else%}
+                <div class="col-lg-10 col-sm-12 p-3">
+                    <p  class="marked">{{item.excerpt}}</p>
+                    <div class="collapse p-3 row justify-content-center" id="post-message">{{item.text}}</div>
+                    <button href="{{item.url}}" data-toggle="collapse" data-target="#post-message" class="btn btn-dark btn-color  wh-color">Читати далі</button>
+                </div>
+                {%endif%}
 
+            </div>
+
+
+
+        </div>
     </div>
-</div>
-{%endfor%}
+    {%endfor%}
 </div>
