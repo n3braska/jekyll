@@ -11,10 +11,11 @@
         <div class="card-body">
             <div class="row justify-content-center">
                 {%if item.picture%}
-                <div class="col-lg-3 col-sm-12 p-3">
+
+                <div class="col-lg-4 col-sm-12 p-3">
                     <img src="{{item.picture}}" class="w-100" alt="item-picture">
                 </div>
-                <div class="col-lg-6 col-sm-12 p-3">
+                <div class="col-lg-8 col-sm-12 p-3">
                     <p class="marked">{{item.excerpt}}</p>
                     <div class="collapse p-3 row justify-content-center" id="post-message1">{{item.text}}</div>
                     <button href="{{item.url}}" data-toggle="collapse" data-target="#post-message1"
