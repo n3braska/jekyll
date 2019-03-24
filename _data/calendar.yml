@@ -58,5 +58,5 @@ month:
       - d: 1
       - d: 2
       - d: 3
-    is_published: true
+    is_published: false
     month_date: 05-2019
