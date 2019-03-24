@@ -3,161 +3,89 @@ layout: standart_view
 title: Розклад
 ---
 
-
-<div class="container">
-    <div class=" col-12 pt-5 pb-5">
-        <div class="card">
-            <div class="tabs m-0 p-0">
-                <div class="card-header">
-                    <nav class="tab-list">
-                        <h3 style="text-align: center;">Розклад богослужінь</h3>
-                        <h3 style="text-align: center;">
-                            <a class="tab active" href="#one">Березень</a>
-                            <a class="tab" href="#two">Лютий</a>
-                            <a class="tab" href="#three">Січень</a>
-                        </h3>
-                    </nav>
-                </div>
-
-
-
-
-                <div id="one" class="tab-content show">
-                    <ul class="list-group list-group-flush">
-                        {% for item in site.data.table.timetable.march %}
-                        <li class="list-group-item">
-                            <div class="row cent">
-
-                                <div class="col-sm-2 atext-c center">
-                                    {{ item.day }} {{ item.month }}
-                                </div>
-
-                                <div class="col-sm-6 atext-c">
-                                    <table style="width:100%">
-                                        <tr>
-                                            <td style="text-align: left;" class="m-2"><strong>{{item.time1}}</strong></td>
-                                            <td style="text-align: left;" class="m-2">{{item.event1}}</td>
-                                        </tr>
-                                        {% if item.time2 %}
-                                        <tr>
-                                            <td style="text-align: left;" class="m-2"><strong>{{item.time2}}</strong></td>
-                                            <td style="text-align: left;" class="m-2">{{item.event2}}</td>
-                                        </tr>
-                                        {% endif %}
-                                        {% if item.time3 %}
-                                        <tr>
-                                            <td style="text-align: left;" class="m-2"><strong>{{item.time3}}</strong></td>
-                                            <td style="text-align: left;" class="m-2">{{item.event3}}</td>
-                                        </tr>
-                                        {% endif %}
-                                        {% if item.time4 %}
-                                        <tr>
-                                            <td style="text-align: left;" class="m-2"><strong>{{item.time4}}</strong></td>
-                                            <td style="text-align: left;" class="m-2">{{item.event4}}</td>
-                                        </tr>
-                                        {% endif %}
-                                        {% if item.time5 %}
-                                        <tr>
-                                            <td style="text-align: left;" class="m-2"><strong>{{item.time5}}</strong></td>
-                                            <td style="text-align: left;" class="m-2">{{item.event5}}</td>
-                                        </tr>
-                                        {% endif %}
-                                    </table>
-                                </div>
-
-
-                                <div class="col-sm-4 atext-c">{{item.occasion}}</div>
-
-                            </div>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-
-                <div id="two" class="tab-content">
-                    <ul class="list-group list-group-flush">
-                        {% for item in site.data.table.timetable.february %}
-                        <li class="list-group-item">
-                            <div class="row cent">
-
-                                <div class="col-sm-2 atext-c center">
-                                    {{ item.day }} {{ item.month }}
-                                </div>
-
-                                <div class="col-sm-6 atext-c">
-                                    <table style="width:100%">
-                                        <tr>
-                                            <td><strong>{{item.time1}}</strong></td>
-                                            <td>{{item.event1}}</td>
-                                        </tr>
-                                        {% if item.time2 %}
-                                        <tr>
-                                            <td><strong>{{item.time2}}</strong></td>
-                                            <td>{{item.event2}}</td>
-                                        </tr>
-                                        {% endif %}
-                                        {% if item.time3 %}
-                                        <tr>
-                                            <td><strong>{{item.time3}}</strong></td>
-                                            <td>{{item.event3}}</td>
-                                        </tr>
-                                        {% endif %}
-                                    </table>
-                                </div>
-
-
-                                <div class="col-sm-4 atext-c">{{item.occasion}}</div>
-
-                            </div>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-
-                <div id="three" class="tab-content">
-                    <ul class="list-group list-group-flush">
-                        {% for item in site.data.table.timetable.january %}
-                        <li class="list-group-item">
-                            <div class="row cent">
-
-                                <div class="col-sm-2 atext-c center">
-                                    {{ item.day }} {{ item.month }}
-                                </div>
-
-                                <div class="col-sm-6 atext-c">
-                                    <table style="width:100%">
-                                        <tr>
-                                            <td><strong>{{item.time1}}</strong></td>
-                                            <td>{{item.event1}}</td>
-                                        </tr>
-                                        {% if item.time2 %}
-                                        <tr>
-                                            <td><strong>{{item.time2}}</strong></td>
-                                            <td>{{item.event2}}</td>
-                                        </tr>
-                                        {% endif %}
-                                        {% if item.time3 %}
-                                        <tr>
-                                            <td><strong>{{item.time3}}</strong></td>
-                                            <td>{{item.event3}}</td>
-                                        </tr>
-                                        {% endif %}
-                                    </table>
-                                </div>
-
-
-                                <div class="col-sm-4 atext-c">{{item.occasion}}</div>
-
-                            </div>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-            </div>
+<div class="container pt-5 pb-5">
+<div class="card">
+    <div class="tabs m-0 p-0">
+        <div class="card-header">
+            <nav class="tab-list">
+                <h3 style="text-align: center;">Розклад богослужінь</h3>
+                <h3 style="text-align: center;">
+                    {% assign active = true %}
+                    {% for item in site.data.calendar.month %}
+                    {% if item.is_published %}
+                    <a class="tab {% if active %} active {% endif %} {% assign active = false %}" href="#{% increment var %}">
+                        {% if item.month_date contains '01-'  %} Січень {% endif %}
+                        {% if item.month_date contains '02-'  %} Лютий {% endif %}
+                        {% if item.month_date contains '03-'  %} Березень {% endif %}
+                        {% if item.month_date contains '04-'  %} Квітень {% endif %}
+                        {% if item.month_date contains '05-'  %} Травень {% endif %}
+                        {% if item.month_date contains '06-'  %} Червень{% endif %}
+                        {% if item.month_date contains '07-'  %} Липень {% endif %}
+                        {% if item.month_date contains '08-'  %} Серпень {% endif %}
+                        {% if item.month_date contains '09-'  %} Вересень {% endif %}
+                        {% if item.month_date contains '10-'  %} Жовтень {% endif %}
+                        {% if item.month_date contains '11-'  %} Листопад {% endif %}
+                        {% if item.month_date contains '12-'  %} Грудень {% endif %}
+                    </a>
+                    {% endif %}
+                    {% endfor %}
+                </h3>
+            </nav>
         </div>
+
+
+        {% for item in site.data.calendar.month %}
+        {% if item.is_published %}
+        <div id="{% increment rav %}" class="tab-content {% if active != true %}show{% endif %}">
+            {% assign active = true%}
+            {% for entry in item.day %}
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <div class="row cent">
+                        <div class="col-sm-2 atext-c center">
+                            {{ entry.d }}
+                            {% if item.month_date contains '01-'  %} січеня {% endif %}
+                            {% if item.month_date contains '02-'  %} лютого {% endif %}
+                            {% if item.month_date contains '03-'  %} березня {% endif %}
+                            {% if item.month_date contains '04-'  %} квітня {% endif %}
+                            {% if item.month_date contains '05-'  %} травеня {% endif %}
+                            {% if item.month_date contains '06-'  %} червня{% endif %}
+                            {% if item.month_date contains '07-'  %} липня {% endif %}
+                            {% if item.month_date contains '08-'  %} серпня {% endif %}
+                            {% if item.month_date contains '09-'  %} вересня {% endif %}
+                            {% if item.month_date contains '10-'  %} жовтня {% endif %}
+                            {% if item.month_date contains '11-'  %} листопада {% endif %}
+                            {% if item.month_date contains '12-'  %} грудня {% endif %}
+                        </div>
+                        <div class="col-sm-2 atext-c center">
+                            <table style="width:100%">
+                                    {% for event in entry.event  %}
+                                <tr>
+                                    <td  class="m-2 center"><strong>{{ event.time }}</strong></td>
+                                </tr>
+                                    {% endfor %}
+                            </table>
+                        </div>
+                        <div class="col-sm-4 atext-c center">
+                            <table style="width:100%">
+                                    {% for event in entry.event %}
+                                <tr>
+                                    <td  class="m-2 center">{{ event.title}}</td>
+                                </tr>
+                                    {% endfor %}
+                            </table>
+                        </div>
+                        <div class="col-sm-4 atext-c center">{{entry.occasion}}</div>
+                    </div>
+                </li>
+            </ul>
+            {% endfor %}
+        </div>
+        {% endif %}
+        {% endfor %}
     </div>
 </div>
-
+</div>
 
 
 
