@@ -59,6 +59,7 @@ collections:
                         default: ""
                       - label: Назва
                         name: title
+                        required: false
                         widget: string
                   - label: Додатковий захід
                     name: occasion
