@@ -14,18 +14,9 @@ title: Розклад
                     {% for item in site.data.calendar.month %}
                     {% if item.is_published %}
                     <a class="tab {% if item.month_date == month_date_now %} active {% endif %}" href="#{% increment var %}">
-                        {% if item.month_date contains '01-'  %} Січень {% endif %}
-                        {% if item.month_date contains '02-'  %} Лютий {% endif %}
-                        {% if item.month_date contains '03-'  %} Березень {% endif %}
-                        {% if item.month_date contains '04-'  %} Квітень {% endif %}
-                        {% if item.month_date contains '05-'  %} Травень {% endif %}
-                        {% if item.month_date contains '06-'  %} Червень{% endif %}
-                        {% if item.month_date contains '07-'  %} Липень {% endif %}
-                        {% if item.month_date contains '08-'  %} Серпень {% endif %}
-                        {% if item.month_date contains '09-'  %} Вересень {% endif %}
-                        {% if item.month_date contains '10-'  %} Жовтень {% endif %}
-                        {% if item.month_date contains '11-'  %} Листопад {% endif %}
-                        {% if item.month_date contains '12-'  %} Грудень {% endif %}
+                        {% assign month_number = item.month_date | slice: 0,2 | plus: 0 %}
+                        {% assign month_name = site.data.months.dictionary | where:"number", month_number | first %}
+                        {{month_name.nominativ}}
                     </a>
                     {% endif %}
                     {% endfor %}
@@ -43,18 +34,9 @@ title: Розклад
                     <div class="row cent">
                         <div class="col-sm-2 atext-c center">
                             {{ entry.d }}
-                            {% if item.month_date contains '01-'  %} січня {% endif %}
-                            {% if item.month_date contains '02-'  %} лютого {% endif %}
-                            {% if item.month_date contains '03-'  %} березня {% endif %}
-                            {% if item.month_date contains '04-'  %} квітня {% endif %}
-                            {% if item.month_date contains '05-'  %} травня {% endif %}
-                            {% if item.month_date contains '06-'  %} червня{% endif %}
-                            {% if item.month_date contains '07-'  %} липня {% endif %}
-                            {% if item.month_date contains '08-'  %} серпня {% endif %}
-                            {% if item.month_date contains '09-'  %} вересня {% endif %}
-                            {% if item.month_date contains '10-'  %} жовтня {% endif %}
-                            {% if item.month_date contains '11-'  %} листопада {% endif %}
-                            {% if item.month_date contains '12-'  %} грудня {% endif %}
+                            {% assign month_number = item.month_date | slice: 0,2 | plus: 0 %}
+                            {% assign month_name = site.data.months.dictionary | where:"number", month_number | first %}
+                            {{month_name.genetiv}}
                         </div>
                         <div class="col-sm-2 atext-c center">
                             <table style="width:100%">
