@@ -18,7 +18,7 @@ title: Розклад
                     {% assign month_timestamp = month_timestamp | date: '%s' | plus: 0 %}
 
                     {% if item.is_published and month_timestamp > now_minus_28d_timestamp%}
-                    <a class="tab {% if item.month_date == month_date_now %} active {% endif %}" href="#{% increment var %}">
+                    <a class="tab {% if item.month_date == month_date_now %} active {% endif %}" href="#tab{% increment var %}">
                         {% assign month_number = item.month_date | slice: 0,2 | plus: 0 %}
                         {% assign month_name = site.data.months.dictionary | where:"number", month_number | first %}
                         {{month_name.nominativ}}
@@ -36,7 +36,7 @@ title: Розклад
 
         {% if item.is_published and month_timestamp > now_minus_28d_timestamp%}
 
-        <div id="{% increment rav %}" class="tab-content {% if item.month_date == month_date_now %}show{% endif %}">
+        <div id="tab{% increment rav %}" class="tab-content {% if item.month_date == month_date_now %}show{% endif %}">
             {% for entry in item.day %}
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">
