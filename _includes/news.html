@@ -17,7 +17,7 @@
                 <div class="col-lg-10 col-sm-12 p-3">
                 {%endif%}
                     <p  class="marked">
-                        {%if item.excerpt%}
+                        {%if item.excerpt != null and item.excerpt != ""%}
                             {{item.excerpt}}
                         {%else%}
                             {{item.text | strip_html | truncatewords: 10}}
