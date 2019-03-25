@@ -10,9 +10,14 @@ title: Розклад
             <nav class="tab-list">
                 <h3 style="text-align: center;">Розклад богослужінь</h3>
                 <h3 style="text-align: center;">
+                    {% assign now_minus_28d_timestamp = 'now' | date: '%s' | minus: 2419200 %}
                     {% assign month_date_now = 'now' | date: '%m-%Y'%}
+
                     {% for item in site.data.calendar.month %}
-                    {% if item.is_published %}
+                    {% assign month_timestamp = item.month_date | prepend: '01-' | date: '%d-%m-%Y'%}
+                    {% assign month_timestamp = month_timestamp | date: '%s' | plus: 0 %}
+
+                    {% if item.is_published and month_timestamp > now_minus_28d_timestamp%}
                     <a class="tab {% if item.month_date == month_date_now %} active {% endif %}" href="#{% increment var %}">
                         {% assign month_number = item.month_date | slice: 0,2 | plus: 0 %}
                         {% assign month_name = site.data.months.dictionary | where:"number", month_number | first %}
@@ -26,7 +31,11 @@ title: Розклад
 
 
         {% for item in site.data.calendar.month %}
-        {% if item.is_published %}
+        {% assign month_timestamp = item.month_date | prepend: '01-' | date: '%d-%m-%Y'%}
+        {% assign month_timestamp = month_timestamp | date: '%s' | plus: 0 %}
+
+        {% if item.is_published and month_timestamp > now_minus_28d_timestamp%}
+
         <div id="{% increment rav %}" class="tab-content {% if item.month_date == month_date_now %}show{% endif %}">
             {% for entry in item.day %}
             <ul class="list-group list-group-flush">
