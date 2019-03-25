@@ -45,7 +45,7 @@ month:
             title: Служба Божа по-німецьки
         occasion: ХРЕСТОПОКЛІННА НЕДІЛЯ
     is_published: true
-    month_date: 03-2019
+    month_date: 01-03-2019
   - day:
       - d: 1
         event:
@@ -53,10 +53,18 @@ month:
             title: Літургія Передосвячених Дарів
         occasion: Сорокоуст - Вселенське поминання померлих. Зустріч "Матері в молитві"
     is_published: true
-    month_date: 04-2019
+    month_date: 01-04-2019
   - day:
       - d: 1
       - d: 2
       - d: 3
     is_published: false
     month_date: 05-2019
+  - day:
+      - d: 1
+        event:
+          - time: '17:07'
+            title: Така собі подія
+        occasion: Захід якийсь
+    is_published: true
+    month_date: 02-2019
