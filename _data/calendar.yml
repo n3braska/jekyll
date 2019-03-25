@@ -1,5 +1,13 @@
 month:
   - day:
+      - d: 1
+        event:
+          - time: '17:07'
+            title: Така собі подія
+        occasion: Захід якийсь
+    is_published: true
+    month_date: 02-2019
+  - day:
       - d: 24
         event:
           - time: '9:30'
@@ -60,11 +68,3 @@ month:
       - d: 3
     is_published: false
     month_date: 05-2019
-  - day:
-      - d: 1
-        event:
-          - time: '17:07'
-            title: Така собі подія
-        occasion: Захід якийсь
-    is_published: true
-    month_date: 02-2019
