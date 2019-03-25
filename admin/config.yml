@@ -30,7 +30,7 @@ collections:
               - label: Дата початку місяця
                 name: month_date
                 widget: date
-                format: '01-MM-YYYY'
+                format: 'MM-YYYY'
               - label: Публікувати
                 name: is_published
                 widget: boolean
