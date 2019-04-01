@@ -12,7 +12,7 @@ title: Розклад
                 <h3 style="text-align: center;">
                     {% assign month_date_now = 'now' | date: '%m-%Y'%}
 
-                    {% for item in site.data.calendar.month %}
+                    {% for item in site.data.calendar.month reversed %}
                     {% assign month_timestamp = item.month_date | prepend: '01-' | date: '%d-%m-%Y'%}
                     {% assign month_timestamp = month_timestamp | date: '%s' | plus: 0 %}
 
@@ -29,7 +29,7 @@ title: Розклад
         </div>
 
 
-        {% for item in site.data.calendar.month %}
+        {% for item in site.data.calendar.month reversed %}
 
         {% if item.is_published %}
 
