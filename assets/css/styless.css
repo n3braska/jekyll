@@ -247,26 +247,27 @@ a {
 
 .tab:hover {
     text-decoration: none;
-    color: whitesmoke;
+    color: #67878E;
 }
 
 .tab {
-    border: 1px solid transparent;
+    border: 1px solid ;
     border-radius: 40px;
     display: inline-block;
     text-decoration: none;
     padding: .5rem 1em;
     margin: .1em;
-    color: whitesmoke;
+    color: #67878E;
     font-weight: 1;
     font-size: 25px;
-    background: #67878E;
+    background: whitesmoke;
 }
 
 .tab.active {
-    color: #67878E;
-    background: whitesmoke;
-    border: 1px solid rgba(255, 255, 255, .6);
+    color: whitesmoke;
+    border: 1px solid;
+    background: #67878E;
+    border-bottom: 2px solid;
 }
 
 .tab-content {
