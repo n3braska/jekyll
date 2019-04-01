@@ -44,24 +44,17 @@ title: Розклад
                             {% assign month_name = site.data.months.dictionary | where:"number", month_number | first %}
                             {{month_name.genetiv}}
                         </div>
-                        <div class="col-sm-2 atext-c center">
+                        <div class="col-sm-6 atext-c center">
                             <table style="width:100%">
                                     {% for event in entry.event  %}
                                 <tr>
-                                    <td  class="m-2 center"><strong>{{ event.time }}</strong></td>
+                                    <td  class="m-2 atext-c" style="text-align: left;"><strong>{{ event.time }}</strong></td>
+                                    <td  class="m-2  atext-c center">{{ event.title}}</td>
                                 </tr>
                                     {% endfor %}
                             </table>
                         </div>
-                        <div class="col-sm-4 atext-c center">
-                            <table style="width:100%">
-                                    {% for event in entry.event %}
-                                <tr>
-                                    <td  class="m-2 center">{{ event.title}}</td>
-                                </tr>
-                                    {% endfor %}
-                            </table>
-                        </div>
+
                         <div class="col-sm-4 atext-c center">{{entry.occasion}}</div>
                     </div>
                 </li>
