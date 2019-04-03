@@ -3,21 +3,33 @@
     font-size: 20px;
 }
 
+.bbg{
+    background: #E8EAEA;
+}
+
+.borderc{
+    border-color:#C2C2C2;
+}
+
 .b-footer {
     height: 65px;
 }
 
 .bg-footer {
     background-color: #F1F5F5;
-    align: bottom;
+
 }
 
 .space {
-    height: 25px;
+    height: 20px;
 }
 
 .title {
     font-size: 40px;
+}
+
+.titlesm {
+    font-size: 35px;
 }
 
 .wh-color {

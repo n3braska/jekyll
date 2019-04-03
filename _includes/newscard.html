@@ -1,0 +1,34 @@
+
+<div class="card m-3 mb-5  borderc">
+    <div class="card-header bbg">
+        <h5 class="titlesm pt-4 text-center ">{{item.title}}</h5>
+
+    </div>
+    <div class="card-body">
+        <div class="row justify-content-center">
+            {%if item.picture%}
+            <div class="col-lg-4 col-sm-12 p-3">
+                <img src="{{item.picture}}" class="w-100" alt="item-picture">
+            </div>
+            <div class="col-lg-8 col-sm-12 p-3">
+                {%else%}
+                <div class="col-lg-10 col-sm-12 p-3">
+                    {%endif%}
+                    <p class="text-secondary text-right">{{item.autor}} {{item.date}}</p>
+                    <p class="marked">
+                        {%if item.excerpt != null and item.excerpt != ""%}
+                        {{item.excerpt | markdownify}}
+                        {%else%}
+                        {{item.text | strip_html | truncatewords: 10 | markdownify}}
+                        {%endif%}
+                    </p>
+                    <div id="post{{forloop.index}}"><p class="collapse">{{item.text | markdownify}}</p></div>
+                    <button data-toggle="collapse" data-target="#post{{forloop.index}}"
+                            class="btn btn-dark btn-color  wh-color">Читати далі
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
