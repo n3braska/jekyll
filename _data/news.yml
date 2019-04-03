@@ -1,5 +1,11 @@
 news:
   - autor: Sofia Zholubak
+    date: 03.04.2019
+    excerpt: _Тестуємо_ _**markdownify**_
+    picture: /assets/images/uploads/ttt0.jpg
+    text: _Тестуємо_ _**collapse.**_
+    title: Last one
+  - autor: Sofia Zholubak
     date: 23.03.2019
     excerpt: >-
       Сайт працює в тестовому режимі. Просимо вас перевірити оформлення та
