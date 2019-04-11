@@ -10,13 +10,14 @@ title: Розклад
             <nav class="tab-list">
                 <h3 style="text-align: center;">Розклад богослужінь</h3>
                 <h3 style="text-align: center;">
+                    {% assign now_minus_46d_timestamp = 'now' | date: '%s' | minus: 3974400 %}
                     {% assign month_date_now = 'now' | date: '%m-%Y'%}
 
                     {% for item in site.data.calendar.month reversed %}
                     {% assign month_timestamp = item.month_date | prepend: '01-' | date: '%d-%m-%Y'%}
                     {% assign month_timestamp = month_timestamp | date: '%s' | plus: 0 %}
 
-                    {% if item.is_published %}
+                    {% if item.is_published and month_timestamp > now_minus_46d_timestamp %}
                     <a class="tab {% if item.month_date == month_date_now %} active {% endif %}" href="#tab{% increment var %}">
                         {% assign month_number = item.month_date | slice: 0,2 | plus: 0 %}
                         {% assign month_name = site.data.months.dictionary | where:"number", month_number | first %}
