@@ -7,12 +7,12 @@
     <div class="card-body">
         <div class="row justify-content-center">
             {%if item.picture%}
-            <div class="col-lg-4 col-sm-12 p-3">
+            <div class="col-lg-4 col-sm-12 p-1">
                 <img src="{{item.picture}}" class="w-100" alt="item-picture">
             </div>
-            <div class="col-lg-8 col-sm-12 p-3">
+            <div class="col-lg-8 col-sm-12 p-1">
                 {%else%}
-                <div class="col-lg-10 col-sm-12 p-3">
+                <div class="col-lg-10 col-sm-12 p-1">
                     {%endif%}
                     <p class="text-secondary text-right">{{item.autor}} {{item.date}}</p>
                     <p class="marked">

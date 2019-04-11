@@ -1,7 +1,7 @@
 <div class="container text-center mt-5 title display-4">Останні новини</div>
 <div class="container pt-2 pb-5 ">
 
-    {% for item in site.data.news.news offset:3 %}
+    {% for item in site.data.news.news reversed limit:3 %}
 
     {% include newscard.html %}
 
