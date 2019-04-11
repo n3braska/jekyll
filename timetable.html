@@ -34,6 +34,17 @@ title: Розклад
         {% if item.is_published %}
 
         <div id="tab{% increment rav %}" class="tab-content {% if item.month_date == month_date_now %}show{% endif %}">
+            {% if item.announcement %}
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <div class="row atext-c center">
+                        <span class=" col-sm-2"></span>
+                        <div class = "col-sm-8"><b>{{ item.announcement }}</b></div>
+                        <span class=" col-sm-2"></span>
+                    </div>
+                </li>
+            </ul>
+            {% endif %}
             {% for entry in item.day %}
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">
@@ -49,13 +60,13 @@ title: Розклад
                                     {% for event in entry.event  %}
                                 <tr>
                                     <td  class="m-2 atext-c" style="text-align: left;"><strong>{{ event.time }}</strong></td>
-                                    <td  class="m-2  atext-c center">{{ event.title}}</td>
+                                    <td  class="m-2  atext-c center font-italic">{{ event.title}}</td>
                                 </tr>
                                     {% endfor %}
                             </table>
                         </div>
 
-                        <div class="col-sm-4 atext-c center">{{entry.occasion}}</div>
+                        <div class="col-sm-4 atext-c center ">{{entry.occasion}}</div>
                     </div>
                 </li>
             </ul>

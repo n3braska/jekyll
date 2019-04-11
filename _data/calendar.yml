@@ -219,6 +219,7 @@ month:
           - time: '18:00'
             title: Служба Божа
     is_published: true
+    announcement: "11-14.04.2019 Під час усіх Богослужінь ВЕЛИКОПОСТНІ НАУКИ ТА СПОВІДЬ"
     month_date: 04-2019
   - day:
       - d: 1

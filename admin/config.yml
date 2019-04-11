@@ -35,6 +35,10 @@ collections:
                 name: is_published
                 widget: boolean
                 default: false
+              - label: Оголошення
+                name: announcement
+                widget: string
+                required: false
               - label: День
                 name: day
                 required: false
