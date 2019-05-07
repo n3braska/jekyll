@@ -1,0 +1,15 @@
+navbar:
+  - link: /de/index.html
+    name: Home
+  - link: /de/novyny.html
+    name: Nachrichten
+  - link: /de/timetable.html
+    name: Gottesdienstplan
+  - link: /de/tainy_ta_tainstwa.html
+    name: Geheimnisse und Verordnungen
+  - link: /de/parafia.html
+    name: Pfarrei
+  - link: /de/history.html
+    name: Geschichte
+  - link: /de/contacts.html
+    name: Kontakte
