@@ -3,23 +3,16 @@
 	<div class="row">
 	    <div class="container space">
 	    </div>
-	    <div class="col-lg-4 col-sm-12 text-left mt-3">
-		    <h4 class="text-secondary">ХРАМ ВІДКРИТО ЩОДЕННО</h4>
-			<p class="text-secondary mt-5">Postgasse 8-12, 1010 Wien</p>
-		</div>
-		<div class="col-lg-4 col-sm-12 text-left  mt-3">
-		    <h4 class="text-secondary">ЗВОРОТНІЙ ЗВ’ЯЗОК</h4>
-			<p class="text-secondary mt-5">pfarre@st-barbara-austria.org</p>
-			
-		</div>
+		{% for node in site.data.[page.lang].footer.footer %}
 		<div class="col-lg-4 col-sm-12 text-left text-secondary mt-3">
-		    <h4>ОРГАНІЗАЦІЙНЕ</h4>
+		    <h4>{{node.title}}</h4>
 		    <ul>
-                <li>Статути</li>
-                <li class="mt-1">Візантійський ординаріат в Австрії</li>
-                <li class="mt-1">Святий Йосафат</li>
+				{% for item in node.point %}
+                <li>{{item.text}}</li>
+				{% endfor %}
             </ul>
 		</div>
+		{% endfor %}
 		<div class="container space">
 	    </div>
 	</div>

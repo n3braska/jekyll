@@ -24,7 +24,8 @@
                     </p>
                     <div id="post{{forloop.index}}" class="collapse">{{item.text | markdownify}}</div>
                     <button data-toggle="collapse" data-target="#post{{forloop.index}}"
-                            class="btn btn-dark btn-color  wh-color">Читати далі
+                            class="btn btn-dark btn-color  wh-color">{% if page.lang == 'ua' %}Читати далі {% endif %}
+                        {% if page.lang == 'de' %} Weiter lesen  {% endif %}
                     </button>
                 </div>
             </div>

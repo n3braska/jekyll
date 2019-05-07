@@ -12,12 +12,20 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
         <ul class="navbar-nav">
-            {% for item in site.data.navigation.navbar %}
+            {% for item in site.data.[page.lang].navigation.navbar %}
             <li class="nav-item  {% if page.url == item.link %} active {% endif %} ">
                 <a class="nav-link" href="{{item.link}}">{{item.name}}</a>
             </li>
             {% endfor %}
+            {% assign common_pages = site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+
+            <li class="">
+                {% for page in common_pages %}
+                <a class="" href="{{page.url}}">{{ site.data.languages.[page.lang].icon }}</a>
+                {% endfor %}
+            </li>
         </ul>
 
     </div>
