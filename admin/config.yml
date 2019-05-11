@@ -11,7 +11,7 @@ collections:
     files:
       - label: Головне Меню
         name: navbar
-        file: _data/navigation.yml
+        file: _data/ua/navigation.yml
         fields:
           - label: Елемент меню
             name: navbar
@@ -21,7 +21,7 @@ collections:
               - {label: Лінк, name: link, widget: string}
       - label: Календар
         name: calendar
-        file: _data/calendar.yml
+        file: _data/ua/calendar.yml
         fields:
           - label: Місяць
             name: month
@@ -71,7 +71,7 @@ collections:
                     required: false
       - label: Стрічка новин
         name: news
-        file: _data/news.yml
+        file: _data/ua/news.yml
         fields:
           - label: Новини
             name: news
