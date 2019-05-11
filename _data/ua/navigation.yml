@@ -1,10 +1,12 @@
 navbar:
-  - link: /ua/index.html
+  - link: /index.html
     name: Головна
   - link: /ua/novyny.html
     name: Новини
   - link: /ua/timetable.html
     name: Розклад богослужінь
+  - link: /ua/gallerie.html
+    name: Галерея
   - link: /ua/tainy_ta_tainstwa.html
     name: Тайни та таїнства
   - link: /ua/parafia.html
