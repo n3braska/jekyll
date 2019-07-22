@@ -8,7 +8,11 @@
 		    <h4>{{node.title}}</h4>
 		    <ul>
 				{% for item in node.point %}
+                {% if item.link %}
+                <li><a href="{{item.link}}" class="text-secondary">{{item.text}}</a></li>
+                {% else %}
                 <li>{{item.text}}</li>
+                {%endif%}
 				{% endfor %}
             </ul>
 		</div>
