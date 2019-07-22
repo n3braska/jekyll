@@ -3,6 +3,10 @@
     font-size: 20px;
 }
 
+.rounder{
+    border-radius: 25px;
+}
+
 .bbg{
     background: #E8EAEA;
 }
