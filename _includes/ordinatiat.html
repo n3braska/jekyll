@@ -1,0 +1,25 @@
+<div class="container mt-5 ">
+    {% for node in site.data.[page.lang].ordinariat.ordinariat%}
+    {% if node.title %}
+    <div class="row justify-content-center">
+        <h4>{{ node.title }}</h4>
+    </div>
+    {% endif %}
+
+    <div class="row">
+        {% for card in node.card %}
+        <div class="col-lg-4 col-sm-6 col-xs-12 ">
+            <div class="row justify-content-center">
+                <h6>{{ card.titl }}</h6>
+            </div>
+            {% for line in card.text%}
+            <div class="row mx-2 justify-content-center">
+                <p>{{line.row}}</p>
+            </div>
+            {% endfor %}
+
+        </div>
+        {% endfor %}
+    </div>
+    {% endfor %}
+</div>
