@@ -19,3 +19,100 @@ ordinariat:
           - row: Wollzeile 2/3
           - row: 1010 Wien
           - row: Austria
+  - title: UKRAINISCHE GEMEINDEN IN ÖSTERREICH
+    card:
+      - titl: SALZBURG
+        text:
+          - row: St. Markus Kirche
+          - row: Franz Josefs-Kai 21, 5020 Salzburg
+          - row: Vitaliy MYKYTYN
+          - row: +43-676-9535389
+          - row: office@ukrainische-kirche.at
+          - row: www.ukrainische-kirche.at
+      - titl: INNSBRUCK
+        text:
+          - row: Hll. Wolodymyr und Olha
+          - row: Collegium Canisianum
+          - row: Tschurtschenthalerstraße 7, 6020 Innsbruck
+          - row: Volodymyr VOLOSHYN
+          - row: +43-5266-88246
+          - row: ukrtirol@gmail.com
+          - row: www.ukrainische-kirche-innsbruck.at
+      - titl: GRAZ
+        text:
+          - row: Schatzkammerkapelle der Kirche Mariahilf
+          - row: Mariahilferplatz 3
+          - row: 8020 Graz
+          - row: Oleh KOVTUN
+          - row: +43-664-6216811
+          - row: oleh_kovtun@yahoo.de
+      - titl: LINZ
+        text:
+          - row: Krypta der Karmeliterkirche
+          - row: Harrachstr. 2
+          - row: 4020 Linz
+          - row: Yurij KOLASA
+          - row: +43-664-1148400
+          - row: y.kolasa@edw.or.at
+      - titl: KLAGENFURT
+        text:
+          - row: Heiligengeistkirche
+          - row: Ursulinengasse 1
+          - row: 9020 Klagenfurt
+          - row: Oleh KOVTUN
+          - row: +43-664-6216811
+          - row: oleh_kovtun@yahoo.de
+  - title:
+    card:
+      - titl: RUMÄNISCHE GEMEINDE
+        text:
+          - row: Biserica greco-catolică română din Viena
+          - row: Sankt Rokus-Kapelle
+          - row: Penzinger Strasse 70
+          - row: 1140 Wien
+          - row: LUTAI Vasile
+          - row: +43-699-19239616
+          - row: v.lutai@gmx.at
+          - row: www.ruk-wien.at
+      - titl: MELKITISCHE GEMEINDE
+        text:
+          - row: Hanna GHONEIM
+          - row: +43-1-3700021
+          - row: +43-681-10762019
+          - row: ghoneimh@yahoo.de
+  - title: DEUTSCHSPRACHIGE GEMEINDEN
+    card:
+      - titl: WIEN
+        text:
+          - row: Kirche St. Barbara
+          - row: Postgasse 8
+          - row: 1010 Wien
+          - row: György Josef PAPP
+          - row: +43-1-2836230 oder 2921487
+          - row: +43-676-7441832
+          - row: georg.papp@gmx.at
+      - titl: SALZBURG
+        text:
+          - row: Byzantinisches Gebetszentrum
+          - row: Kirche St. Markus
+          - row: Franz Josefs-Kai 21, 5020 Salzburg
+          - row: +43-662-641025
+  - title: PRIESTER AUS ANDEREN GEMEINDEN
+    card:
+      - titl: UNGARN
+        text:
+          - row: György Josef PAPP
+          - row: +43-1-2836230 oder 2921487
+          - row: +43-676-7441832
+          - row: georg.papp@gmx.at
+      - titl: RUTENEN
+        text:
+          - row: Boris HOLOSNJAJ
+          - row: +43-1-2380418
+          - row: +43-699-10796856
+          - row: sekretariat@pfarre-canisius.at
+  - title:
+    card:
+      - titl:
+        text:
+          - row:
