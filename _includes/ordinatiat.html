@@ -1,23 +1,27 @@
-<div class="container mt-5 ">
+<div class="container mt-5 container-fluid">
     {% for node in site.data.[page.lang].ordinariat.ordinariat%}
     {% if node.title %}
-    <div class="row justify-content-center">
-        <h4>{{ node.title }}</h4>
+    <div class="row justify-content-center mt-5">
+        <h3>{{ node.title }}</h3>
     </div>
     {% endif %}
 
-    <div class="row">
+    <div class="row justify-content-center">
         {% for card in node.card %}
-        <div class="col-lg-4 col-sm-6 col-xs-12 ">
-            <div class="row justify-content-center">
-                <h6>{{ card.titl }}</h6>
-            </div>
-            {% for line in card.text%}
-            <div class="row mx-2 justify-content-center">
-                <p>{{line.row}}</p>
-            </div>
-            {% endfor %}
+        <div class="col-lg-4 col-sm-6 col-xs-12 m-2 my-4">
+            <div class="card text-center bg-light">
+                <div class="card-header justify-content-center">
+                    <div class="card-title mb-0 ">{{ card.titl }}</div>
+                </div>
+                <div class="card-body">
 
+                    {% for line in card.text%}
+                    <div class="row my-2 justify-content-center">
+                        <p class="card-text ">{{line.row}}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
         </div>
         {% endfor %}
     </div>
