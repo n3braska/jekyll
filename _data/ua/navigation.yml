@@ -13,5 +13,7 @@ navbar:
     name: Парафія
   - link: /ua/history.html
     name: Історія
+  - link: /ua/barbara.html
+    name: Св. Великомучениця Варвара
   - link: /ua/contacts.html
     name: Контакти
