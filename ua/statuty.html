@@ -10,12 +10,12 @@ lang-ref: statuty
     {% for node in site.data[page.lang].statuty.statuty %}
     <div class="card">
         <div class="card-header" id="post{{node.title}}">
-            <h2 class="mb-0">
+            <h1 class="mb-0">
                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#post{{forloop.index}}"
                         aria-expanded="true" aria-controls="post{{forloop.index}}">
                     {{node.title}}
                 </button>
-            </h2>
+            </h1>
         </div>
         <div id="post{{forloop.index}}" class="collapse show" aria-labelledby="post{{node.title}}" data-parent="#acc">
             <div class="card-body">

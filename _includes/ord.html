@@ -1,10 +1,19 @@
-<div class="container container-fluid bg-light">
+<div class="container container-fluid my-4">
     <div class="row">
-
-        <div class="card">
-            <div class="card-title"></div>
-
-            <div class=""></div>
+        {% for node in site.data.[page.lang].ord.ord %}
+        <div class="col-lg-4 col-sm-6 col-xs-1 p-1">
+        <div class="card bg-light">
+            <div class="card-header p-4 mb-3"><h5>{{ node.title }}</h5></div>
+            {% for item in node.point %}
+            <div class="px-4 py-1">
+                <h5 class="text-secondary">{{item.titl}}</h5>
+                {% for ro in item.rows %}
+                <p class="text-secondary">{{ro.row}}</p>
+                {%endfor%}
+            </div>
+            {% endfor %}
         </div>
+        </div>
+        {% endfor %}
     </div>
 </div>
