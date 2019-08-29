@@ -17,6 +17,10 @@
             <div class="col my-3">
                 <h1 class="display-4 title wh-color"> {{ page.title }} </h1>
                 <p> {{ page.belowtitletext }} </p>
+                <a class="btn btn-dark"
+                   href="{% if page.lang == 'ua' %}ua/barbara.html{%else%}barbara.html{%endif%}">{% if page.lang ==
+                    'ua' %}Свята Великомучениця Варвара{% endif %}
+                    {% if page.lang == 'de' %} Heilige Barbara {% endif %}</a>
             </div>
 
         </div>
@@ -28,10 +32,7 @@
 {{ content }}
 
 
-
-
 {% include footer_v2.html %}
-
 
 
 <script>

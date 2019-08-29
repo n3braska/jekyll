@@ -11,7 +11,5 @@ navbar:
     name: Pfarrei
   - link: /de/history.html
     name: Geschichte
-  - link: /de/barbara.html
-    name: Heilige Barbara
   - link: /de/contacts.html
     name: Kontakte
