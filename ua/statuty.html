@@ -17,12 +17,24 @@ lang-ref: statuty
                 </button>
             </h1>
         </div>
-        <div id="post{{forloop.index}}" class="collapse show" aria-labelledby="post{{node.title}}" data-parent="#acc">
+        <div id="post{{forloop.index}}" class="collapse" aria-labelledby="post{{node.title}}" data-parent="#acc">
             <div class="card-body">
+                {% if node.tex %}
+                <p>{{node.tex}}</p>
+                {% endif %}
                 <ol>
-                {% for tex in node.text %}
-                     <li>{{tex.point}}</li>
-                {% endfor %}
+                    {% for tex in node.text %}
+                    <li class="my-2">{{tex.point}}
+                        {%if tex.list%}
+
+                        <ul type="square">{%for ist in tex.list%}
+                            <li  class="my-2">{{ist.lis}}</li>
+                            {%endfor%}
+                        </ul>
+
+                        {% endif %}
+                    </li>
+                    {% endfor %}
                 </ol>
             </div>
         </div>
