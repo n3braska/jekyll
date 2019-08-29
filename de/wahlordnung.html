@@ -1,0 +1,33 @@
+---
+title: Wahlordnung des Pastoralkirchenrats
+belowtitletext:
+layout: default
+lang: de
+lang-ref: wahlordnung
+---
+
+
+{%for node in site.data[page.lang].wahlordnung.wahlordnung%}
+<div class="my-4">
+    <h5>{{node.paragraph}}</h5>
+    {%if node.text %}
+    <p>{{node.text}}</p>
+    {%endif%}
+    {% if node.list %}
+    <ol>
+        {%for item in node.list %}
+        <li>{{item.point}}
+            {%if item.extra%}
+        <ul>
+            {%for lis in item.extra%}
+            <li>{{lis.poit}}</li>
+            {%endfor%}
+        </ul>
+            {%endif%}
+        </li>
+        {%endfor%}
+    </ol>
+    {%endif%}
+</div>
+
+{%endfor%}
