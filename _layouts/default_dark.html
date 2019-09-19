@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
     {%include head.html%}
+
     <link rel="stylesheet" href="/assets/css/gallery.css">
 </head>
 
-<body class="">
+<body>
 {% include nav.html %}
 <div class="container-fluid">
     <div class="container">
@@ -13,10 +14,10 @@
         {% if page.belowtitletext != 0 %}<p>{{ page.belowtitletext }}</p>{% endif %}
     </div>
 </div>
-<div class="container-fluid">
-    <div class="container pb-3">
-        {{ content }}
-    </div>
+<div class="container-fluid pb-3">
+
+    {{ content }}
+
 </div>
 
 {% include footer_v2.html %}
