@@ -1,0 +1,78 @@
+
+
+{% for item in site.data.events.gallerie.event %}
+<div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-stretch">
+        <div class="card mar bg-dark">
+            <a class="" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                <img class="card-img-top" alt="Card header image" src="{{ item.title_pic }}"
+                     height="100%" width="100%">
+            </a>
+            <div class="card-body">
+                <h5 class="card-title text-light">{{ item.[page.lang] }}</h5>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="collapse" id="collapseExample">
+        <div class="card card-body  bg-secondary">
+            <div class="row">
+                {% for entity in item.collection %}
+                <div class="column thumb">
+                    <a type="button" class="" data-toggle="modal" data-target=".bd-example-modal-lg">
+                        <img  src="{{ entity.pic }}" class="zoom img-fluid " onclick="myFunction(this);" alt="">
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+
+
+
+
+            <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                {% assign active = true %}
+                                {% for entity in item.collection %}
+                                <div class="carousel-item {% if active %} active {% endif %} {% assign active = false %}">
+                                    <img src="{{ entity.pic }}" class="d-block w-100" alt="...">
+                                </div>
+                                {% endfor %}
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
+</div>
+
+{% endfor %}
+<script>
+
+
+
+    function myFunction(imgs) {
+        // Get the expanded image
+        var expandImg = document.getElementById("expandedImg");
+        // Use the same src in the expanded image as the image being clicked on from the grid
+        expandImg.src = imgs.src;
+        // Show the container element (hidden with CSS)
+        expandImg.parentElement.style.display = "block";
+    }
+</script>
