@@ -5,6 +5,8 @@ navbar:
     name: Nachrichten
   - link: /de/timetable.html
     name: Gottesdienstplan
+  - link: /de/gallerie.html
+    name: Gallerie
   - link: /de/tainy_ta_tainstwa.html
     name: Geheimnisse und Verordnungen
   - link: /de/parafia.html
