@@ -83,3 +83,30 @@ collections:
               - {label: Зображення, name: picture, required: false, widget: image}
               - {label: Перший абзац, name: excerpt, required: false, widget: markdown}
               - {label: Текст новини, name: text, widget: markdown}
+      - label: Галерея
+        name: gallerie
+        file: _data/events/gallerie.yaml
+        fields:
+          - label: Подія
+            name: event
+            widget: list
+            fields:
+              - label: Заголовок українською
+                name: ua
+                widget: string
+                required: true
+              - label: Заголовок німецькою
+                name: de
+                widget: string
+                required: true
+              - label: Титульне фото
+                name: title_pic
+                widget: image
+              - label: Колекція
+                name: collection
+                required: true
+                widget: list
+                fields:
+                  - label: Фото
+                    name: pic
+                    widget: image
