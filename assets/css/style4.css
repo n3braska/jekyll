@@ -3,7 +3,7 @@ body {
     color: #1D1200;
     font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
     font-size: 1.1rem;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .p-0 {
