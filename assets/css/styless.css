@@ -7,9 +7,13 @@
     border-radius: 25px;
 }
 
-
 .bbg{
-    background: #E8EAEA;
+    background: #67878E;
+    color: white;
+}
+
+.bbgg{
+    background:  #f0f3f4;
 }
 
 .borderc{
@@ -30,7 +34,11 @@
 }
 
 .title {
-    font-size: 3rem;
+    font-size: 2.3rem;
+}
+
+.titlebig {
+    font-size: 2.7rem;
 }
 
 .titlesm {
