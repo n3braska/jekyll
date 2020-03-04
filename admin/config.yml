@@ -110,3 +110,31 @@ collections:
                   - label: Фото
                     name: pic
                     widget: image
+      - label: Пожертви
+        name: pozhertvy
+        file: _data/ua/pozhertvy.yml
+        fields:
+          - label: Пожертва
+            name: pozhertva
+            widget: list
+            fields:
+              - label: Призначення
+                name: subject
+                widget: string
+                required: true
+              - label: Внески
+                name: donations
+                widget: list
+                fields:
+                  - label: Від кого
+                    name: from
+                    widget: string
+                    required: true
+                  - label: Сума
+                    name: amount
+                    widget: number
+                    required: true
+
+
+
+
