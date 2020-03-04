@@ -122,6 +122,10 @@ collections:
                 name: subject
                 widget: string
                 required: true
+              - label: Необхідно
+                name: needed
+                widget: number
+                required: true
               - label: Внески
                 name: donations
                 widget: list

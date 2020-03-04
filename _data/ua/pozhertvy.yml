@@ -1,5 +1,6 @@
 pozhertva:
   - subject: Ремонт Церкви
+    needed: 1000
     donations:
       - from: Тест
         amount: 100

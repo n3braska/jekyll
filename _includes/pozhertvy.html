@@ -1,0 +1,21 @@
+<div class="row justify-content-center">
+    <div class="col-lg-8 col-sm-10 col-xs-12">
+        {% for item in site.data.ua.pozhertvy.pozhertva %}
+        <div class="row justify-content-center">
+            <p class="h3">{{item.subject}}</p>
+            {% assign persentage = 0 %}
+            {% for elem in item.donations %}
+                {% assign persentage = persentage | plus: elem.amount  %}
+            {% endfor %}
+            {% assign persentage = persentage | times: 1.0 | divided_by: item.needed  %}
+        </div>
+
+                <div class="row">
+                    {{ persentage }}
+                </div>
+
+
+
+        {% endfor %}
+    </div>
+</div>
