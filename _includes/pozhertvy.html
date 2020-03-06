@@ -11,7 +11,7 @@
             {% assign sum = sum | plus: elem.amount %}
             {% endfor %}
             {% assign persentage = sum | times: 100.0 | divided_by: item.needed %}
-            <div class="col-6">
+            <div class="col-lg-6 col-xs-12">
                 <div id="image">
                     <div class="grayscale" style="height:{{ 100 | minus: persentage }}%"></div>
                     <hr class="horizontal_limiter">
