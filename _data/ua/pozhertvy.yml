@@ -6,3 +6,5 @@ pozhertva:
         amount: 100
       - from: Тест
         amount: 200
+      - from: Маркіян Шеремета
+        amount: 75
