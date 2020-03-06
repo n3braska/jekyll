@@ -1,0 +1,28 @@
+---
+
+---
+
+#image {
+    width: 18rem;
+    height: 27rem;
+    overflow: hidden;
+    background-image: url('/assets/images/spendenbarometer.png');
+    background-size:  18rem 27rem;
+    text-align: right;
+}
+
+#image .grayscale {
+    background-image: url('/assets/images/spendenbarometer.png');
+    background-size:  18rem 27rem;
+    filter: grayscale(100%);
+    float: top;
+    width: 100%;
+    margin-top: -1px;
+}
+
+.horizontal_limiter {
+    padding: 0px;
+    margin: 0px;
+    border-width: 0.15rem;
+
+}

@@ -1,19 +1,30 @@
+<link rel='stylesheet' href='/assets/css/donations.css'>
 <div class="row justify-content-center">
     <div class="col-lg-8 col-sm-10 col-xs-12">
         {% for item in site.data.ua.pozhertvy.pozhertva %}
         <div class="row justify-content-center">
             <p class="h3">{{item.subject}}</p>
-            {% assign persentage = 0 %}
-            {% for elem in item.donations %}
-                {% assign persentage = persentage | plus: elem.amount  %}
-            {% endfor %}
-            {% assign persentage = persentage | times: 1.0 | divided_by: item.needed  %}
         </div>
-
-                <div class="row">
-                    {{ persentage }}
+        <div class="row">
+            {% assign sum = 0 %}
+            {% for elem in item.donations %}
+            {% assign sum = sum | plus: elem.amount %}
+            {% endfor %}
+            {% assign persentage = sum | times: 100.0 | divided_by: item.needed %}
+            <div class="col-6">
+                <div id="image">
+                    <div class="grayscale" style="height:{{ 100 | minus: persentage }}%"></div>
+                    <hr class="horizontal_limiter">
+                    <b>{{sum}} EUR</b>
                 </div>
-
+            </div>
+            <div class="col-4 mt-3 text-center">
+                <p class="h5">Необхідні кошти</p>
+                <p>{{item.needed}} EUR</p>
+                <p class="h5">Зібрано</p>
+                <p>{{sum}} EUR</p>
+            </div>
+        </div>
 
 
         {% endfor %}
