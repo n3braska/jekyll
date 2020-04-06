@@ -19,9 +19,9 @@
                 </div>
             </div>
             <div class="col-lg-4 col-xs-12 mt-3 text-center">
-                <p class="h5">page.sumNeeded</p>
+                <p class="h5">{{page.sumNeeded}}</p>
                 <p>{{item.needed}} EUR</p>
-                <p class="h5">page.collected</p>
+                <p class="h5">{{page.collected}}</p>
                 {% for elem in item.donations %}
                 <p>{% if elem.from %} {{elem.from}}: {% endif %} {{elem.amount}} EUR</p>
                 {% endfor %}
