@@ -157,7 +157,7 @@ collections:
         file: _data/de/pozhertvy.yml
         fields:
           - label: Spende
-            name: spende
+            name: pozhertva
             widget: list
             fields:
               - label: Zweck
