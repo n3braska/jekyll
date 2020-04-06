@@ -71,7 +71,7 @@ collections:
                     required: false
       - label: Новини UA/DE
         name: news_ua_de
-        fields:
+        files:
           - label: Стрічка новин
             name: news_ua
             file: _data/ua/news.yml
