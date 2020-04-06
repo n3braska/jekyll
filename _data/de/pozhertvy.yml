@@ -1,0 +1,12 @@
+pozhertva:
+  - subject: Kirchen Renovierung
+    needed: 1000
+    donations:
+      - from: Test
+        amount: 100
+      - from: Test
+        amount: 200
+      - from: Маркіян Шеремета
+        amount: 75
+      - from: S.Zh
+        amount: 50

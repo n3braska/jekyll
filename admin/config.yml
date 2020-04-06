@@ -83,6 +83,20 @@ collections:
               - {label: Зображення, name: picture, required: false, widget: image}
               - {label: Перший абзац, name: excerpt, required: false, widget: markdown}
               - {label: Текст новини, name: text, widget: markdown}
+      - label: Nachrichten
+          name: news
+          file: _data/de/news.yml
+          fields:
+            - label: Nachricht
+              name: news
+              widget: list
+              fields:
+                - {label: Titel, name: title, widget: string}
+                - {label: Autor, name: autor, required: false, widget: string}
+                - {label: Publikationsdatum, name: date, widget: date, format: 'DD.MM.YYYY'}
+                - {label: Bild, name: picture, required: false, widget: image}
+                - {label: Erster Absatz, name: excerpt, required: false, widget: markdown}
+                - {label: Weiterer Text, name: text, widget: markdown}
       - label: Галерея
         name: gallerie
         file: _data/events/gallerie.yaml
@@ -111,7 +125,7 @@ collections:
                     name: pic
                     widget: image
       - label: Пожертви
-        name: pozhertvy
+        name: pozhertvy_ua
         file: _data/ua/pozhertvy.yml
         fields:
           - label: Пожертва
@@ -138,7 +152,33 @@ collections:
                     name: amount
                     widget: number
                     required: true
-
-
+      - label: Spenden
+          name: pozhertvy_de
+          file: _data/de/pozhertvy.yml
+          fields:
+            - label: Spende
+              name: spende
+              widget: list
+              fields:
+                - label: Zweck
+                  name: subject
+                  widget: string
+                  required: true
+                - label: Erforderlich
+                  name: needed
+                  widget: number
+                  required: true
+                - label: Beiträge
+                  name: donations
+                  widget: list
+                  fields:
+                    - label: Von
+                      name: from
+                      widget: string
+                      required: true
+                    - label: Summe
+                      name: amount
+                      widget: number
+                      required: true
 
 
