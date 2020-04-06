@@ -10,3 +10,5 @@ pozhertva:
         amount: 75
       - from: S.Zh
         amount: 50
+      - from: S.Zh
+        amount: 30
