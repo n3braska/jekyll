@@ -23,7 +23,7 @@
                 <p>{{item.needed}} EUR</p>
                 <p class="h5">Зібрано</p>
                 {% for elem in item.donations %}
-                <p>{{elem.amount}} EUR</p>
+                <p>{% if elem.from %} {{elem.from}}: {% endif %} {{elem.amount}} EUR</p>
                 {% endfor %}
                 <hr class="horizontal_limiter">
                 <p>В сумі: {{sum}} EUR</p>

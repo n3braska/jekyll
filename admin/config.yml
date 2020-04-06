@@ -119,7 +119,7 @@ collections:
                   - label: Від кого
                     name: from
                     widget: string
-                    required: true
+                    required: false
                   - label: Сума
                     name: amount
                     widget: number
@@ -147,7 +147,7 @@ collections:
                   - label: Von
                     name: from
                     widget: string
-                    required: true
+                    required: false
                   - label: Summe
                     name: amount
                     widget: number
