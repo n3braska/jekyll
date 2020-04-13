@@ -1,6 +1,7 @@
 <div class="container pt-2 pb-5 ">
 
-    {% for item in site.data.[page.lang].news.news limit: 3 %}
+    {% assign items = site.data.[page.lang].news.news | reverse %}
+    {% for item in items limit:3  %}
 
     {% include newscard.html %}
 
