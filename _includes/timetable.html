@@ -17,9 +17,8 @@
                         {% if item.is_published and month_timestamp > now_minus_46d_timestamp %}
 
                         <a class="tab {% if active %} active {% endif %} {% assign active = false %}" href="#tab{% increment var %}">
-                            {% assign month_number = item.month_date | slice: 0,2 | plus: 0 %}
-                            {% assign month_name = site.data.[page.lang].months.dictionary | where:"number", month_number | first %}
-                            {{month_name.nominativ}}
+                            {% assign month_number = item.month_date | slice: 0,2 | plus: -1 %}
+                            {{site.data.[page.lang].months.dictionary[month_number].nominativ}}
                         </a>
                         {% endif %}
                         {% endfor %}
@@ -39,7 +38,7 @@
                     <li class="list-group-item">
                         <div class="row atext-c center">
                             <span class=" col-sm-2"></span>
-                            <div class = "col-sm-8"><b>{{ item.announcement }}</b></div>
+                            <div class = "col-sm-8">{{ item.announcement }}</div>
                             <span class=" col-sm-2"></span>
                         </div>
                     </li>
@@ -51,16 +50,15 @@
                         <div class="row cent">
                             <div class="col-sm-2 atext-c center">
                                 {{ entry.d }}
-                                {% assign month_number = item.month_date | slice: 0,2 | plus: 0 %}
-                                {% assign month_name = site.data.[page.lang].months.dictionary | where:"number", month_number | first %}
-                                {{month_name.genetiv}}
+                                {% assign month_number = item.month_date | slice: 0,2 | plus: -1 %}
+                                {{site.data.[page.lang].months.dictionary[month_number].genetiv}}
                             </div>
                             <div class="col-sm-6 atext-c center">
                                 <table style="width:100%">
                                     {% for event in entry.event  %}
                                     <tr>
-                                        <td  class="m-2 atext-c" style="text-align: left;"><strong>{{ event.time }}</strong></td>
-                                        <td  class="m-2  atext-c center font-italic">{{ event.title}}</td>
+                                        <td  class="m-2 atext-c text-left">{{ event.time }}</td>
+                                        <td  class="m-2  atext-c align-middle">{{ event.title}}</td>
                                     </tr>
                                     {% endfor %}
                                 </table>
