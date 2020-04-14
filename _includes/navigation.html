@@ -21,9 +21,11 @@
             {% endfor %}
             {% assign common_pages = site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
 
-            <li class="">
+            <li class="nav-item-flag">
                 {% for page in common_pages %}
-                <a class="" href="{{page.url}}">{{ site.data.languages.[page.lang].icon }}</a>
+
+                <a class="" href="{{page.url}}"> <img src="{{ site.data.languages.[page.lang].icon }}"></a>
+
                 {% endfor %}
             </li>
         </ul>
