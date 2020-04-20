@@ -37,7 +37,6 @@ collections:
               - {label: Bild, name: picture, required: false, widget: image}
               - {label: Erster Absatz, name: excerpt, required: false, widget: markdown}
               - {label: Weiterer Text, name: text, widget: markdown}
-
   - label: Всі Сторінки
     name: pages
     files:
