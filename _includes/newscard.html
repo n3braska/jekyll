@@ -1,36 +1,38 @@
-<div class="row">
-<div class="card mt-2 my-1 m-1 mb-5 w-100">
-    <div class="card-header bbg p-0 mb-0">
-        <h5 class="titlesm pt-3 pb-0 pl-5">{{item.title}}</h5>
+<div class="row justify-content-center">
+    <div class="col-sm-12 col-lg-8">
+        <div class="card mt-2 my-1 m-1 mb-5 w-100">
+            <div class="card-header bbg p-0 mb-0">
+                <h5 class="titlesm pt-3 pb-0 pl-5">{{item.title}}</h5>
 
-    </div>
-    <div class="card-body bbgg">
-        <div class="row justify-content-center">
-            {%if item.picture%}
-            <div class="col-lg-4 col-md-12 px-2 py-1">
-                <img src="{{item.picture}}" class="w-100" alt="item-picture">
             </div>
-            <div class="col-lg-8 col-sm-12 p-1">
-                {%else%}
-                <div class="col-lg-10 col-sm-12 p-1">
+            <div class="card-body bbgg">
+                <div class="row justify-content-center">
+                    {%if item.picture%}
+                    <div class="col-lg-4 col-sm-12 px-2 py-1">
+                        <img src="{{item.picture}}" class="w-100" alt="item-picture">
+                    </div>
                     {%endif%}
-                    <p class="text-secondary text-right">{{item.autor}} {{item.date}}</p>
-                    <p class="marked">
-                        {%if item.excerpt != null and item.excerpt != ""%}
-                        {{item.excerpt | markdownify}}
-                        {%else%}
-                        {{item.text | strip_html | truncatewords: 10 | markdownify}}
-                        {%endif%}
-                    </p>
-                    <div id="post{{forloop.index}}" class="collapse">{{item.text | markdownify}}</div>
-                    <button data-toggle="collapse" data-target="#post{{forloop.index}}"
-                            class="btn btn-dark btn-color  wh-color">{% if page.lang == 'ua' %}Читати далі {% endif %}
-                        {% if page.lang == 'de' %} Weiter lesen  {% endif %}
-                    </button>
+                    <div class="col-lg-8 col-sm-12 p-1">
+                        <div class="col-lg-10 col-sm-12 p-1">
+                            <p class="text-secondary text-right">{{item.autor}} {{item.date}}</p>
+                            <p class="marked">
+                                {%if item.excerpt != null and item.excerpt != ""%}
+                                {{item.excerpt | markdownify}}
+                                {%else%}
+                                {{item.text | strip_html | truncatewords: 10 | markdownify}}
+                                {%endif%}
+                            </p>
+                            <div id="post{{forloop.index}}" class="collapse">{{item.text | markdownify}}</div>
+                            <button data-toggle="collapse" data-target="#post{{forloop.index}}"
+                                    class="btn btn-dark btn-color  wh-color">{% if page.lang == 'ua' %}Читати далі {%
+                                endif
+                                %}
+                                {% if page.lang == 'de' %} Weiter lesen {% endif %}
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
-
 </div>
