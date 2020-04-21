@@ -35,7 +35,7 @@
     width: 60px;
     background: #000;
     margin: 0 5px 0 0;
-    border: 1px solid #000;
+    border: 1px solid ;
     float: left;
     cursor: pointer;
 }
@@ -216,11 +216,33 @@
 .galleria-theme-classic.galleria-container.videoplay .galleria-info,
 .galleria-theme-classic.galleria-container.videoplay .galleria-counter{ display:none!important; }
 
-@media only screen and (max-width: 699px) {
-    .container-fluid { width: 100vw; }
-    .galleria{ width: 94vw ; height: 100vw; }
+    .galleria{ width:100%; height: 80vh;  }
+
+/* Extra small devices (phones, 600px and down)
+@media only screen and (max-width: 600px) {
+    .galleria{ width:100%; height: 800px; margin-right: 0px; margin-left: 0px; }
 }
-@media only screen and (min-width: 700px) {
-    .container-fluid { width: 100vw; }
-    .galleria{ width: 94vw ; height: 40vw; margin-right: 4vw; margin-left: 2vw; }
+
+
+@media only screen and (min-width: 600px) {
+    .galleria{ width:100%; height: 800px; margin-right: 0px; margin-left: 0px; }
 }
+
+
+
+
+@media only screen and (min-width: 768px) {
+    .galleria{ width:100%; height: 800px; margin-right: 0px; margin-left: 0px; }
+}
+
+
+@media only screen and (min-width: 992px) {
+    .galleria{ width:100%; height: 800px; margin-right: 0px; margin-left: 0px; }
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+    .galleria{ width:100%; height: 800px; margin-right: 0px; margin-left: 0px; }
+}
+*/

@@ -1,9 +1,14 @@
-<div class="row">
+
+
+<div class="container"  style="min-height: calc(100vh - 385px);">
+<div class="row" id="gallerySection">
 {% for item in site.data.events.gallerie.event %}
+
+
 
     <div class="col-sm-12 col-md-6 col-lg-4 d-flex align-items-stretch">
         <div class="card mar bg-dark">
-            <a class="" data-toggle="collapse" href="#collapseExample{{ forloop.index }}" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <a class="" role="button" data-toggle="modal" data-target="#collapseExample{{ forloop.index }}">
                 <img class="card-img-top" alt="Card header image" src="{{ item.title_pic }}">
             </a>
             <div class="card-body align-content-center">
@@ -13,8 +18,16 @@
     </div>
 
 
-    <div class="collapse" id="collapseExample{{ forloop.index }}">
-        <div class="container-fluid bg-dark">
+
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true"  id="collapseExample{{ forloop.index }}">
+        <div class="modal-dialog modal-xl align-content-center">
+            <div class="modal-content">
+                <div class="modal-header bg-dark">
+                    <h5 class="modal-title text-light">{{ item.[page.lang] }}</h5>
+                    <button type="button" class="close text-light" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
             <div class="galleria">
                 {% for entity in item.collection %}
                     <img  src="{{ entity.pic }}">
@@ -22,19 +35,20 @@
             </div>
         </div>
     </div>
+    </div>
+
+
 
 
 {% endfor %}
 
 </div>
-
+</div>
 
 <script>
-
     (function() {
-            Galleria.loadTheme('/assets/js/galleria.classic.js');
-            Galleria.run('.galleria');
-            Galleria.configure('imageCrop', false);
+        Galleria.loadTheme('/assets/js/galleria.classic.js');
+        Galleria.run('.galleria');
+        Galleria.configure('imageCrop', false);
     }());
-
 </script>
