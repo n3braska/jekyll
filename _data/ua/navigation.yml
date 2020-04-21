@@ -13,6 +13,6 @@ navbar:
     name: Парафія
   - link: /ua/history.html
     name: Історія
-  - link: /ua/pozhertvy.html
+  - link: /ua/pozhertvy_inf.html
     name: Пожертви
 
