@@ -10,3 +10,5 @@ pozhertva:
         amount: 75
       - from: C.Ж
         amount: 50
+      - from: Maria
+        amount: 150
