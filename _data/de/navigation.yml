@@ -1,8 +1,8 @@
 navbar:
   - link: /de/index.html
-    name: Nachrichten
+    name: Aktuelles
   - link: /de/novyny.html
-    name: Nachrichtenarchiv
+    name: Nachrichten
   - link: /de/timetable.html
     name: Gottesdienstplan
   - link: /de/gallerie.html

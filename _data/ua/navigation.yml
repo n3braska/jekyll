@@ -1,8 +1,8 @@
 navbar:
   - link: /index.html
-    name: Новини
+    name: Актуальне
   - link: /ua/novyny.html
-    name: Архів новин
+    name: Новини
   - link: /ua/timetable.html
     name: Розклад
   - link: /ua/gallerie.html
