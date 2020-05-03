@@ -1,4 +1,4 @@
-<div class="container pt-2 pb-5 ">
+<div class="container mt-2 mb-5 ">
 
     {% assign items = site.data.[page.lang].news.news | reverse %}
     {% for item in items limit:3  %}
@@ -7,4 +7,6 @@
 
     {%endfor%}
 </div>
+
+
 

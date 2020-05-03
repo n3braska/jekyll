@@ -21,15 +21,40 @@
                    href="{% if page.lang == 'ua' %}ua/barbara.html{%else%}barbara.html{%endif%}">{% if page.lang ==
                     'ua' %}Свята Великомучениця Варвара{% endif %}
                     {% if page.lang == 'de' %} Heilige Barbara {% endif %}</a>
-                <a class="btn btn-dark m-1" href="/{{page.lang}}/hazeta.html">{% if page.lang == 'ua'%}Церковна грзета{% else%} Kirchliche Zeitschrift {% endif%}</a>
+                <a class="btn btn-dark m-1" href="/{{page.lang}}/hazeta.html">{% if page.lang == 'ua'%}Церковна грзета{%
+                    else%} Kirchliche Zeitschrift {% endif%}</a>
             </div>
 
         </div>
     </div>
 </div>
 
-{% include index_news.html %}
-
+<div class="container-fluid container justify-content-center">
+    <div class="m-2 mt-4">
+        <div class="row w-100 justify-content-around">
+            <div class="col-lg-6 col-sm-12">
+                <h3 class="my-3 text-center title">{% if page.lang=="ua" %}Останні новини {% else %} Aktuell {% endif
+                    %}</h3>
+                {% include index_news.html %}
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <div class="row">
+                    <div class="col">
+                        <h3 class="my-3 text-center title">{% if page.lang=="ua" %} Богослужіння {% else %} Messe {%
+                            endif
+                            %}</h3></div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h3 class="my-3 text-center title">{% if page.lang=="ua" %} Пожертви {% else %} Spenden {% endif
+                            %}</h3>
+                        <img class="w-100" alt="" src="/assets/images/pozhertvy.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 {{ content }}
 
 
