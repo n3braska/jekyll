@@ -11,7 +11,7 @@
         <div class="row">
 
             <div class="col-lg-3 col-md-12 col-sm-12 my-3">
-                <img src="/assets/images/portret2.png" alt="" class="w-100 rounder">
+                <a href="{% if page.lang == 'ua' %}ua/barbara.html{%else%}barbara.html{%endif%}"><img src="/assets/images/portret2.png" alt="" class="w-100 rounder"></a>
             </div>
 
             <div class="col my-3">
@@ -37,6 +37,8 @@
                     %}</h3>
                 {% include index_news.html %}
             </div>
+       <!-- </div>
+        <div class="row w-100 justify-content-around">-->
             <div class="col-lg-6 col-sm-12">
                 <div class="row">
                     <div class="col">
