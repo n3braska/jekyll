@@ -1,0 +1,41 @@
+
+            {% assign month_date_now1 = 'now' | date: '%m' | slice: 0,2 | plus: 0 %}
+            {% assign month_number = item.month_date | slice: 0,2 | plus: -1 %}
+            {% assign today = 'now' | date: '%d' | slice: 0,2 | plus: -1 %}
+
+                {% if site.data.[page.lang].calendar.month[month_date_now1].announcement %}
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <div class="row atext-c center">
+                            <span class=" col-sm-2"></span>
+                            <div class = "col-sm-8">{{ site.data.[page.lang].calendar.month[month_date_now1].announcement }}</div>
+                            <span class=" col-sm-2"></span>
+                        </div>
+                    </li>
+                </ul>
+                {% endif %}
+                {% for entry in site.data.[page.lang].calendar.month[month_number].day offset: today limit: 7 %}
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <div class="row cent">
+                            <div class="col-sm-2 atext-c center">
+                                {{ entry.d }}
+                                {% assign month_number = item.month_date | slice: 0,2 | plus: -1 %}
+                                {{site.data.[page.lang].months.dictionary[month_number].genetiv}}
+                            </div>
+                            <div class="col-sm-6 atext-c center">
+                                <table style="width:100%">
+                                    {% for event in entry.event  %}
+                                    <tr>
+                                        <td  class="m-2 atext-c text-left">{{ event.time }}</td>
+                                        <td  class="m-2  atext-c align-middle">{{ event.title}}</td>
+                                    </tr>
+                                    {% endfor %}
+                                </table>
+                            </div>
+
+                            <div class="col-sm-4 atext-c center ">{{entry.occasion}}</div>
+                        </div>
+                    </li>
+                </ul>
+                {% endfor %}

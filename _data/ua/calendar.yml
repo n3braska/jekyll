@@ -667,7 +667,7 @@ month:
             title: Служба Божа
     is_published: true
     month_date: 04
-  - announcement: 11-14.04.2019 Під час усіх Богослужінь ВЕЛИКОПОСТНІ НАУКИ ТА СПОВІДЬ
+  - announcement: 4У зв'язку з введеням карантину церква тимчасово закрита. Онлайн трансляції можна знайти за <a target="_blank" href="https://www.facebook.com/cerkvaVarvary/">посиланням</a>.
     day:
       - d: 1
         event:
@@ -834,7 +834,7 @@ month:
             title: Служба Божа
     is_published: false
     month_date: 05-2020
-  - announcement: 11-14.04.2019 Під час усіх Богослужінь ВЕЛИКОПОСТНІ НАУКИ ТА СПОВІДЬ
+  - announcement: У зв'язку з введеням карантину церква тимчасово закрита. Онлайн трансляції можна знайти за <a target="_blank" href="https://www.facebook.com/cerkvaVarvary/">посиланням</a>.
     day:
       - d: 1
         event:
