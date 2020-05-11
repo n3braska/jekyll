@@ -32,7 +32,7 @@
     <h3 class="my-3 text-center title pt-3">{% if page.lang=="ua" %} Богослужіння {% else %} Messe {%
         endif
         %}</h3>
-    <div class="card bbgg w-100 my-4">
+    <div class="card w-100 my-4 py-4 rounder h-img ">
         {% include indextimetable.html %}
     </div>
 
@@ -45,24 +45,15 @@
                     %}</h3>
                 {% include index_news.html %}
             </div>
-       <!-- </div>
-        <div class="row w-100 justify-content-around">-->
-            <div class="col-lg-6 col-sm-12">
-                <div class="row">
-                    <div class="col">
-                        <h3 class="my-3 text-center title">{% if page.lang=="ua" %} Богослужіння {% else %} Messe {%
-                            endif
+        </div>
+
+        </div>
+        <div class="row w-100 justify-content-around">
+                    <div class="col-lg-6 col-sm-12"><h3 class="my-3 text-center title">{% if page.lang=="ua" %} Пожертви {% else %} Spenden {% endif
                             %}</h3>
-                        <div class="card-body">
-                            {% include indextimetable.html %}
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <h3 class="my-3 text-center title">{% if page.lang=="ua" %} Пожертви {% else %} Spenden {% endif
-                            %}</h3>
-                        <img class="w-100" alt="" src="/assets/images/pozhertvy.png">
+
+                    <!-- <img class="w-100" alt="" src="/assets/images/pozhertvy.png">-->
+                        {% include pozhertvy_card.html %}
                     </div>
                 </div>
             </div>
