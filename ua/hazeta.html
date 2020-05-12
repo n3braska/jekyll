@@ -8,47 +8,10 @@ lang-ref: hazeta
 
 
 <style>
-
-    @import url('https://fonts.googleapis.com/css?family=Montserrat:300');
-
     body {
         background-color: #f2f2f2;
     }
 
-    h1 {
-        font-family: 'Montserrat';
-    }
-
-    .carousel-nav-icon {
-        height: 30px;
-        width: 30px;
-    }
-
-    thumbnail {
-        position: absolute;
-        content: "";
-        display: block;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-    }
-    thumbnailOver {
-
-    }
-
-    .col, .col-sm, .col-md {
-        margin: 8px;
-        height: 10vw;
-        width: 10vw;
-        background-size: cover;
-        background-position: center center;
-    }
-iframe{
-    min-height: 90vh; width: 94vw;
-
-
-}
     @media (min-width: 768px) {
         iframe {
             width: 97vw;
@@ -65,68 +28,27 @@ iframe{
 </style>
 
 
-<div class="container-fluid">
-        <div class="row d-flex align-items-center">
-            <div class="col-1 d-flex align-items-center justify-content-center">
-                <a href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <div class="carousel-nav-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <path d="m88.6,121.3c0.8,0.8 1.8,1.2 2.9,1.2s2.1-0.4 2.9-1.2c1.6-1.6 1.6-4.2 0-5.8l-51-51 51-51c1.6-1.6 1.6-4.2 0-5.8s-4.2-1.6-5.8,0l-54,53.9c-1.6,1.6-1.6,4.2 0,5.8l54,53.9z"/>
-                        </svg>
-                    </div>
-                </a>
-            </div>
-            <div class="col-10">
-                <!--Start carousel-->
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<div class="container">
+    <div class="row">
+        {% for item in site.data.events.magazines.mags %}
+        <div class="col-sm-6 col-md-6 col-lg-4 d-flex align-items-stretch">
+            <a href="{{ item.link }}" target="_blank" style="text-decoration: none;">
 
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="row">
-
-                                <div style="background-image:url('/assets/images/thumbnail.jpg');"
-                                     class="thumbnail col-12 col-sm d-flex align-items-center justify-content-center" onclick="changepdf('04.pdf')">
-                                    <a onclick="changepdf('04.pdf')"><h2 style="color: antiquewhite"> Травень </h2></a>
-                                </div>
-
-                                <div style="background-image:url('/assets/images/thumbnail.jpg');"
-                                     class="thumbnail col-12 col-sm d-flex align-items-center justify-content-center" onclick="changepdf('04.pdf')">
-                                    <h2 style="color: antiquewhite"> Квітень </h2>
-                                </div>
-                                <div style="background-image:url('/assets/images/thumbnail.jpg');"
-                                     class="thumbnail col-12 col-sm d-flex align-items-center justify-content-center" onclick="changepdf('04.pdf')">
-                                    <h2 style="color: antiquewhite"> Березень </h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div style="background-image:url('/assets/images/thumbnail.jpg');" class="thumbnail col-12 col-sm d-flex align-items-center justify-content-center" onclick="changepdf('04.pdf')">
-                                    <h2 style="color: antiquewhite"> Лютий </h2>
-                                </div>
-                                <div style="background-image:url('/assets/images/thumbnail.jpg');" class="thumbnail col-12 col-sm d-flex align-items-center justify-content-center" onclick="changepdf('04.pdf')">
-                                    <h2 style="color: antiquewhite"> Січень </h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="card mar bg-dark">
+                    <img class="card-img-top" alt="Card header image" src="/assets/images/thumbnail.jpg">
+                <div class="card-body align-content-center">
+                    <h5 class="card-title text-light">{{ item.name }}</h5>
                 </div>
-                <!--End carousel-->
             </div>
-            <div class="col-1 d-flex align-items-center justify-content-center"><a  href="#carouselExampleIndicators" data-slide="next">
-                <div class="carousel-nav-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <path d="m40.4,121.3c-0.8,0.8-1.8,1.2-2.9,1.2s-2.1-0.4-2.9-1.2c-1.6-1.6-1.6-4.2 0-5.8l51-51-51-51c-1.6-1.6-1.6-4.2 0-5.8 1.6-1.6 4.2-1.6 5.8,0l53.9,53.9c1.6,1.6 1.6,4.2 0,5.8l-53.9,53.9z"/>
-                    </svg>
-                </div>
             </a>
-            </div>
         </div>
-</div>
-<iframe src="/assets/pdfViewer/web/viewer.html?File=04.pdf"></iframe>
 
-<script>
-function changepdf(url) {
-    $("iframe").attr("src", "/assets/pdfViewer/web/viewer.html?File=" + url)
-}
-</script>
+
+
+        {% endfor %}
+
+    <div>
+
+</div>
+    </div>
+</div>
