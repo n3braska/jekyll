@@ -14,8 +14,9 @@
                     </li>
                 </ul>
                 {% endif %}
-                {% for entry in site.data.[page.lang].calendar.month[month_number].day offset: today limit: 7 %}
+
                 <ul class="list-group list-group-flush">
+                    {% for entry in site.data.[page.lang].calendar.month[month_number].day offset: today limit: 7 %}
                     <li class="list-group-item">
                         <div class="row cent">
                             <div class="col-sm-2 atext-c center">
@@ -37,5 +38,16 @@
                             <div class="col-sm-4 atext-c center ">{{entry.occasion}}</div>
                         </div>
                     </li>
+                    {% endfor %}
+                    <li class="list-group-item">
+                        <div class="row cent">
+                            <div class="col-sm-4 atext-c center">  </div>
+
+                            <div class="col-sm-4 atext-c center"> <a href="{% if page.lang == 'ua' %}ua/timetable.html{%else%}timetable.html{%endif%}">>> Відкрити повний розклад</a></div>
+
+                            <div class="col-sm-4 atext-c center "></div>
+                        </div>
+                    </li>
                 </ul>
-                {% endfor %}
+
+
