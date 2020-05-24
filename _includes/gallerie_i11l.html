@@ -1,53 +1,42 @@
+<meta name="robots" content="noindex, nofollow">
 
+{% assign currentEventNumber = site.data.events.gallerie.event.size | minus: page.eventNumber | minus: 1 %}
 
-<div class="container"  style="min-height: calc(100vh - 385px);">
-<div class="row" id="gallerySection">
-{% for item in site.data.events.gallerie.event %}
-
-
-
-    <div class="col-sm-12 col-md-6 col-lg-4 d-flex align-items-stretch">
-        <div class="card mar bg-dark">
-            <a class="" role="button" data-toggle="modal" data-target="#collapseExample{{ forloop.index }}">
-                <img class="card-img-top" alt="Card header image" src="{{ item.title_pic }}">
-            </a>
-            <div class="card-body align-content-center">
-                <h5 class="card-title text-light">{{ item.[page.lang] }}</h5>
-            </div>
-        </div>
+<div class="container-fluid pb-5">
+    <h4>{{ site.data.events.gallerie.event[currentEventNumber].[page.lang] }}</h4>
+    <div class="galleria">
+        {% for entity in site.data.events.gallerie.event[currentEventNumber].collection %}
+        <img  src="{{ entity.pic }}">
+        {% endfor %}
     </div>
-
-
-
-    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true"  id="collapseExample{{ forloop.index }}">
-        <div class="modal-dialog modal-xl align-content-center">
-            <div class="modal-content">
-                <div class="modal-header bg-dark">
-                    <h5 class="modal-title text-light">{{ item.[page.lang] }}</h5>
-                    <button type="button" class="close text-light" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-            <div class="galleria">
-                {% for entity in item.collection %}
-                    <img  src="{{ entity.pic }}">
-                {% endfor %}
-            </div>
-        </div>
-    </div>
-    </div>
-
-
-
-
-{% endfor %}
-
 </div>
+
+<div class="container pb-5">
+    <h5>До інших подій у церкві Святої Варвари</h5>
+    <div class="row">
+        <div class="col-6" style="text-align: center;">
+
+            <a type="button" href="../gallerie">{{ site.data.events.gallerie.event.first.ua }}</a>
+        </div>
+        {% for item in site.data.events.gallerie.event offset: 1%}
+
+        {% if forloop.index == currentEventNumber %} {% continue %}
+        {% else %}
+        <div class="col-6" style="text-align: center;">
+            {% assign pageNumber = site.data.events.gallerie.event.size | minus: forloop.index %}
+
+            <a type="button" href="podiia{{ pageNumber }}">{{item.ua}}</a>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
 </div>
+
+
 
 <script>
     (function() {
-        Galleria.loadTheme('/assets/js/galleria.classic.js');
+        Galleria.loadTheme('/assets/gallery/galleria.folio.js');
         Galleria.run('.galleria');
         Galleria.configure('imageCrop', false);
     }());

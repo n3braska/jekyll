@@ -5,4 +5,36 @@ lang: ua
 lang-ref: gallerie
 ---
 
-{% include gallerie_i11l.html %}
+
+
+<div class="container-fluid pb-5">
+<h4>{{ site.data.events.gallerie.event.first.ua }}</h4>
+     <div class="galleria">
+                        {% for entity in site.data.events.gallerie.event.first.collection %}
+                        <img  src="{{ entity.pic }}">
+                        {% endfor %}
+     </div>
+</div>
+
+<div class="container pb-5">
+    <h5>До інших подій у церкві Святої Варвари</h5>
+    <div class="row">
+        {% for item in site.data.events.gallerie.event offset: 1   %}
+        <div class="col-6" style="text-align: center;">
+            {% assign pageNumber = site.data.events.gallerie.event.size | minus: forloop.index %}
+            <a type="button" href="gallery/podiia{{ pageNumber }}">{{item.ua}}</a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+
+
+<script>
+    (function() {
+        Galleria.loadTheme('/assets/gallery/galleria.folio.js');
+        Galleria.run('.galleria');
+        Galleria.configure('imageCrop', false);
+    }());
+</script>
+
