@@ -9,8 +9,8 @@
     box-shadow: 0 10px 14px rgba(0,0,0,0.18), 0 10px 10px rgba(0,0,0,0.22);
 }
 
-.ttest:hover {
-    box-shadow: 0 14px 28px rgba(0,0,0,0.20), 0 10px 10px rgba(0,0,0,0.22);
+.btn:hover {
+    box-shadow: 0 10px 14px rgba(0,0,0,0.20), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .marked {
