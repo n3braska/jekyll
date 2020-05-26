@@ -7,8 +7,8 @@ navbar:
     name: Розклад
   - link: /ua/gallerie.html
     name: Галерея
-  - link: /ua/tainy_ta_tainstwa.html
-    name: Таїнства
+  - link: /ua/hazeta.html
+    name: Газета
   - link: /ua/parafia.html
     name: Парафія
   - link: /ua/history.html

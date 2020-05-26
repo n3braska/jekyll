@@ -1,28 +1,56 @@
-{% for item in site.data.[page.lang].parafia.parafia %}
 <div class="container-fluid">
     <div class="container my-5">
-        <div class="row">
-            <div class="col-lg-6 col-sm-12 col-xs-12 mt-5 px-xs-0">
-                <img class="w-100" src="/assets/images/{{item.image}}" alt="">
-            </div>
-            <div class="col-lg-6 col-sm-12">
-                <div class="row p-1">
-                    <h1 class="title textal text-center">{{item.name}}</h1>
-                </div>
-                <div class="row p-1">
-                    <p class="marked">{{item.citate}}</p>
-                </div>
-                <div class="row p-1">
-                    <p>{{item.text}}</p>
-                </div>
-                <div class="row ml-5 alright">
-                    <a href="{{item.link}}" class="btn btn-dark">{{page.read_more}}</a>
-                </div>
-            </div>
+        <div class="row justify-content-center">
+            {% for item in site.data.[page.lang].parafia.parafia %}
+            <div class="col-12 my-5">
+                <div class="card bbgg rounder h-img" >
+                    <div class="row no-gutters">
+                        <div class="col-md-6">
+                            <img class=" rounder w-100" src="/assets/images/{{item.image}}" alt="">
+                        </div>
+                        <div class="col-md-6 pl-md-2">
+                            <div class="card-body">
 
+                                    <h1 class="title textal text-center">{{item.name}}</h1>
+
+                                    <p class="marked">{{item.citate}}</p>
+
+                                    <p>{{item.text}}</p>
+
+                                    <a href="{{item.link}}" class="btn mb-0 btn-dark">{{page.read_more}}</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+            {% for item in site.data.[page.lang].tainy_ta_tainstwa %}
+            <div class="col-12 my-5">
+                <div class="card bbgg rounder h-img" >
+                    <div class="row no-gutters">
+                        <div class="col-md-6">
+                            <img class=" rounder w-100" src="/assets/images/{{item.image}}" alt="">
+                        </div>
+                        <div class="col-md-6 pl-md-2">
+                            <div class="card-body">
+
+                                <h1 class="title textal text-center">{{item.name}}</h1>
+
+                                <p class="marked">{{item.citate}}</p>
+
+                                <p>{{item.text}}</p>
+
+                                <a href="{{item.link}}" class="btn mb-0 btn-dark">{{page.read_more}}</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
         </div>
-
-
     </div>
 </div>
-{% endfor %}
+
+
