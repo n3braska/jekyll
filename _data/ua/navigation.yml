@@ -15,4 +15,5 @@ navbar:
     name: Історія
   - link: /ua/pozhertvy_inf.html
     name: Пожертви
-
+  - link: /ua/remont.html
+    name: Ремонт

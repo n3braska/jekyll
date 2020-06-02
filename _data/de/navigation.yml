@@ -15,4 +15,5 @@ navbar:
     name: Geschichte
   - link: /de/pozhertvy_inf.html
     name: Spenden
-
+  - link: /de/remont.html
+    name: Kirchenrenovierung
