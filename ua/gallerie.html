@@ -18,11 +18,11 @@ lang-ref: gallerie
 
 <div class="container pb-5">
     <h5>До інших подій у церкві Святої Варвари</h5>
-    <div class="row">
+    <div class="row ">
         {% for item in site.data.events.gallerie.event offset: 1   %}
         <div class="col-6" style="text-align: center;">
             {% assign pageNumber = site.data.events.gallerie.event.size | minus: forloop.index %}
-            <a type="button" href="gallery/podiia{{ pageNumber }}">{{item.ua}}</a>
+            <a class="btn btn-info" href="gallery/podiia{{ pageNumber }}">{{item.ua}}</a>
         </div>
         {% endfor %}
     </div>

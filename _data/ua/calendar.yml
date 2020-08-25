@@ -667,7 +667,7 @@ month:
             title: Служба Божа
     is_published: true
     month_date: 04
-  - announcement: 4У зв'язку з введеням карантину церква тимчасово закрита. Онлайн трансляції можна знайти за <a target="_blank" href="https://www.facebook.com/cerkvaVarvary/">посиланням</a>.
+  - announcement: У зв'язку з введеням карантину церква тимчасово закрита. Онлайн трансляції можна знайти за <a target="_blank" href="https://www.facebook.com/cerkvaVarvary/">посиланням</a>.
     day:
       - d: 1
         event:
