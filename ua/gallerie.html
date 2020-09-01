@@ -7,12 +7,23 @@ lang-ref: gallerie
 
 <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
-
+<style>
+    .gallery-container {
+        max-width: 1200px;
+        width:100%;
+        height: auto;
+        position: relative;
+        top: 20%;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+    }
+</style>
 
 
 <div class="container-fluid pb-5">
      <div class="container-fluid">
-         <div class="card w-100 my-4 py-4  h-img1 ">
+         <div class="card w-100 my-4 py-4  h-img1 gallery-container">
              <h4 class="text-center mb-4">{{ site.data.events.gallerie.event.first.ua }}</h4>
          <div class="fotorama">
              {% for entity in site.data.events.gallerie.event.first.collection %}
