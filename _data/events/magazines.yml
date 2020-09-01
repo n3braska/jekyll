@@ -1,44 +1,231 @@
 ---
 mags:
   -
+    intro:
     link: /assets/pdf/15%2001%202020%20Ostern.pdf
-    name: Ostern 2020
+    img: /assets/magazine/04-01.jpg
+    name:
+        de: Ostern 2020
+        ua: Пасха 2020
+    month:
+        de:
+        ua: Квітень 2020
+    text:
+        de:
+          - ""
+          - ""
+        ua:
+          - "- Пасха. Христос Воскрес!"
+          - "- Віденський бал"
   -
+    intro:
     link: /assets/pdf/14%202019%20Weihnachten.pdf
-    name: Weinachten 2019
+    img: /assets/magazine/14_2019_Weihnachten-01.jpg
+    name:
+      de: Weinachten 2019
+      ua: Різдво Христове 2019
+    month:
+      de:
+      ua: Грудень 2019
+    text:
+      de:
+        - ""
+        - ""
+      ua:
+        - "- Ремонт церкви 2020-2021рр."
+        - "- Вшанування загиблих українців"
+        - "- 120 років громаді українських католиків у Тіролі"
   -
+    intro: "– Воскресіння Христове!"
     link: /assets/pdf/13%2002%202019%20Ostern.pdf
-    name: Ostern 2019
+    img: /assets/magazine/13_02_2019_Ostern-01.jpg
+    name:
+      de: Ostern 2019
+      ua: Пасха 2019
+    month:
+      de:
+      ua: Квітень 2019
+    text:
+      de:
+        - ""
+        - ""
+      ua:
+        - "- Хто такі лицарі Колумба?"
+        - "- Королева опери зі Станіславова"
+        - "- Український благодійний бал"
   -
     link: /assets/pdf/13%2001%202018%20Weihnachten.pdf
-    name: Weinachten 2018
+    img: /assets/magazine/04-01.jpg
+    name:
+      de: Ostern 2020
+      ua: Пасха 2020
+    month:
+      de:
+      ua: Квітень 2020
+    text:
+      de:
+        - ""
+        - ""
+      ua:
+        - "- Пасха. Христос Воскрес!"
+        - "- Віденський бал"
   -
     link: /assets/pdf/10%202016%20Weihnachten.pdf
-    name: Weinachten 2016
+    img: /assets/magazine/04-01.jpg
+    name:
+      de: Ostern 2020
+      ua: Пасха 2020
+    month:
+      de:
+      ua: Квітень 2020
+    text:
+      de:
+        - ""
+        - ""
+      ua:
+        - "- Пасха. Христос Воскрес!"
+        - "- Віденський бал"
   -
     link: /assets/pdf/09%202016%20Ostern.pdf
-    name: Ostern 2016
+    img: /assets/magazine/04-01.jpg
+    name:
+      de: Ostern 2020
+      ua: Пасха 2020
+    month:
+      de:
+      ua: Квітень 2020
+    text:
+      de:
+        - ""
+        - ""
+      ua:
+        - "- Пасха. Христос Воскрес!"
+        - "- Віденський бал"
   -
     link: /assets/pdf/08%202015%20Weihnachten.pdf
-    name: Weinachten 2015
+    img: /assets/magazine/04-01.jpg
+    name:
+      de: Ostern 2020
+      ua: Пасха 2020
+    month:
+      de:
+      ua: Квітень 2020
+    text:
+      de:
+        - ""
+        - ""
+      ua:
+        - "- Пасха. Христос Воскрес!"
+        - "- Віденський бал"
   -
     link: /assets/pdf/07%202015%20Ostern.pdf
-    name: Ostern 2015
+    img: /assets/magazine/04-01.jpg
+    name:
+      de: Ostern 2020
+      ua: Пасха 2020
+    month:
+      de:
+      ua: Квітень 2020
+    text:
+      de:
+        - ""
+        - ""
+      ua:
+        - "- Пасха. Христос Воскрес!"
+        - "- Віденський бал"
   -
     link: /assets/pdf/06%202014%20Weihnachten.pdf
-    name: Weinachten 2014
+    img: /assets/magazine/04-01.jpg
+    name:
+      de: Ostern 2020
+      ua: Пасха 2020
+    month:
+      de:
+      ua: Квітень 2020
+    text:
+      de:
+        - ""
+        - ""
+      ua:
+        - "- Пасха. Христос Воскрес!"
+        - "- Віденський бал"
   -
     link: /assets/pdf/05%202014%20Herbst.pdf
-    name: Herbst 2014
+    img: /assets/magazine/04-01.jpg
+    name:
+      de: Ostern 2020
+      ua: Пасха 2020
+    month:
+      de:
+      ua: Квітень 2020
+    text:
+      de:
+        - ""
+        - ""
+      ua:
+        - "- Пасха. Христос Воскрес!"
+        - "- Віденський бал"
   -
     link: /assets/pdf/04%202014%20Ostern.pdf
-    name: Ostern 2014
+    img: /assets/magazine/04-01.jpg
+    name:
+      de: Ostern 2020
+      ua: Пасха 2020
+    month:
+      de:
+      ua: Квітень 2020
+    text:
+      de:
+        - ""
+        - ""
+      ua:
+        - "- Пасха. Христос Воскрес!"
+        - "- Віденський бал"
   -
     link: /assets/pdf/03%202013%20Weihnachten.pdf
-    name: Weinachten 2013
+    img: /assets/magazine/04-01.jpg
+    name:
+      de: Ostern 2020
+      ua: Пасха 2020
+    month:
+      de:
+      ua: Квітень 2020
+    text:
+      de:
+        - ""
+        - ""
+      ua:
+        - "- Пасха. Христос Воскрес!"
+        - "- Віденський бал"
   -
     link: /assets/pdf/02%202013%20Herbst.pdf
-    name: Herbt 2013
+    img: /assets/magazine/04-01.jpg
+    name:
+      de: Ostern 2020
+      ua: Пасха 2020
+    month:
+      de:
+      ua: Квітень 2020
+    text:
+      de:
+        - ""
+        - ""
+      ua:
+        - "- Пасха. Христос Воскрес!"
+        - "- Віденський бал"
   -
     link: /assets/pdf/01%202013%20Ostern.pdf
-    name: Ostern 2013
+    img: /assets/magazine/04-01.jpg
+    name:
+      de: Ostern 2020
+      ua: Пасха 2020
+    month:
+      de:
+      ua: Квітень 2020
+    text:
+      de:
+        - ""
+        - ""
+      ua:
+        - "- Пасха. Христос Воскрес!"
+        - "- Віденський бал"

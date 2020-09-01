@@ -92,7 +92,6 @@ lang-ref: hazeta
         letter-spacing: 1px;
         font-family: 'Abril Fatface', serif;
         margin-bottom: 0;
-        display:inline-block;
     }
     .blog-card h3 a{
         text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
@@ -425,24 +424,40 @@ lang-ref: hazeta
 
 </style>
 
-
+{% for item in site.data.events.magazines.mags   %}
 <div class="container p-5" style="min-height: 500px;">
     <div class="container parent">
-        <div class="blog-card spring-fever" style="background: url(/assets/magazine/04-01.jpg) center no-repeat;">
+        <div class="blog-card spring-fever" style="background: url({{ item.img }}) center no-repeat;">
             <div class="title-content">
-                <h3><a href="#">Пасха 2020</a></h3>
-                <div class="intro"> <a href="#">Наша нова газета</a> </div>
+                <h3>{{ item.name[page.lang] }}</h3>
+
+                <div class="intro">
+                    {% if item == site.data.events.magazines.mags.first %}
+                    Наша нова газета
+                    {% endif %}
+                    {{ item.intro }}
+                </div>
+
             </div>
             <div class="card-info">
-                <br>У цьому випуску<br>
-                - Пасха. Христос Воскрес!<br>
-                - Віденський бал<br>
+                {% if page.lang == "ua" %}
+                    <br>У цьому випуску<br>
+                {% else %}
+                    <br> In dieser Zeitung <br>
+                {% endif %}
+                {% for entry in item.text[page.lang] %}
+                    {{ entry }} <br>
+                {% endfor %}
+                {% if page.lang == "ua" %}
                 та багато іншого!
-                <a target="_blank" href="/assets/pdf/04.pdf">Скачати<span class="licon icon-arr icon-black"></span></a>
+                <a target="_blank" href="{{ item.link }}">Скачати<span class="licon icon-arr icon-black"></span></a>
+                {% else %}
+                <br> In dieser Zeitung <br>
+                {% endif %}
             </div>
             <div class="utility-info">
                 <ul class="utility-list">
-                    <li><span class="licon icon-dat"></span>Квітень 2020</li>
+                    <li><span class="licon icon-dat"></span>{{ item.month[page.lang] }}</li>
                 </ul>
             </div>
             <div class="gradient-overlay"></div>
@@ -450,6 +465,8 @@ lang-ref: hazeta
         </div><!-- /.blog-card -->
     </div>
 </div>
+{% endfor %}
+
 
 <div class="container p-5" style="min-height: 500px;">
     <div class="container parent">
@@ -483,7 +500,7 @@ lang-ref: hazeta
             <div class="title-content">
                 <h3><a href="#">Пасха 2019</a></h3>
                 <div class="intro">
-                    – Воскресіння Хрістове!</div>
+                    – Воскресіння Христове!</div>
             </div>
             <div class="card-info">
                 <br>У цьому випуску<br>
