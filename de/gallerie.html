@@ -5,4 +5,44 @@ lang: de
 lang-ref: gallerie
 ---
 
-{% include gallerie_i11l.html %}
+<script type="text/javascript" src="/admin/libraries/jgallery/jgallery.min.js?v=2.2.1"></script>
+
+<div class="container-fluid pb-5">
+    <h4 class="text-center mt-2">{{ site.data.events.gallerie.event.first[page.lang] }}</h4>
+    <div class="container-fluid">
+        <div class="card w-100 h-img1 gallery-container" style="background-color: black; color: white;">
+            <div id="gallery" style="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container pb-5">
+    <h4 class="text-center mb-4">Zu anderen Festen in der Kirche Heiliger Barbara</h4>
+    <div class="row ">
+        {% for item in site.data.events.gallerie.event offset: 1   %}
+        <div class="col-6" style="text-align: center; color: #55757b;">
+            {% assign pageNumber = site.data.events.gallerie.event.size | minus: forloop.index %}
+            <a class="btn btn-lg" style="background-color: #55757b; color: white;" href="gallery/podiia{{ pageNumber }}">{{item.de}}</a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    document.querySelector('#gallery').appendChild(JGallery.create([{
+        "slideShow": false,
+        "thumbnailsPosition": 'right',
+        title: '{{ site.data.events.gallerie.event.first[page.lang] }}',
+        items: [
+            {% for entity in site.data.events.gallerie.event.first.collection %}
+            {
+                url: '{{ entity.pic }}',
+                thumbUrl: '{{ entity.pic }}',
+                hash: 'photo'
+            },
+            {% endfor %}
+        ]
+    }]).getElement());
+</script>
