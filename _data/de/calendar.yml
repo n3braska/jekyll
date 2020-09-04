@@ -1,229 +1,139 @@
 month:
   - day:
-      - d: 1
-        event:
-          - time: '17:07'
-            title: Така собі подія
-        occasion: Захід якийсь
-    is_published: true
-    month_date: 02-2019
-  - day:
-      - d: 24
-        event:
-          - time: '9:30'
-            title: Служба Божа
-          - time: '12:00'
-            title: Служба Божа
-          - time: '18:00'
-            title: Служба Божа по-німецьки
-      - d: 25
-        event:
-          - time: '18:00'
-            title: Літургія Передосвячених Дарів
-        occasion: Сорокоуст - Вселенське поминання померлих. Зустріч "Матері в молитві"
-      - d: 26
-        event:
-          - time: '18:00'
-            title: Акафіст до Богородиці
-      - d: 27
-        event:
-          - time: '18:00'
-            title: Літургія Передосвячених Дарів по-німецьки
-      - d: 28
-        event:
-          - time: '18:00'
-            title: Хресна дорога
-        occasion: Молитовна зустріч (в парафіяльному залі)
-      - d: 29
-        event:
-          - time: '18:00'
-            title: Літургія Передосвячених Дарів
-        occasion: Сорокоуст - Вселенське поминання померлих
-      - d: 30
-        event:
-          - time: '18:00'
-            title: Вечірня
-      - d: 31
-        event:
-          - time: '9:00'
-            title: Служба Божа
-          - time: '12:00'
-            title: Служба Божа
-          - time: '18:00'
-            title: Служба Божа по-німецьки
-        occasion: ХРЕСТОПОКЛІННА НЕДІЛЯ
-    is_published: true
-    month_date: 03-2019
-  - day:
-      - d: 1
-        event:
-          - time: '18:00'
-            title: Літургія Передосвячених Дарів
-        occasion: Поминання померлих
-      - d: 2
-        event:
-          - time: '18:00'
-            title: Акафист
-          - time: '19:00'
-        occasion: Зустріч "Матері в молитві"
       - d: 3
         event:
-          - time: '18:00'
-            title: Літургія Переосвячених Дарів
-        occasion: По-німецьки
+          - time: ' 18:00'
+            title: Hl. Liturgie
+        occasion: Gebetskreis im Pfarrsaal
       - d: 4
         event:
-          - time: '18:00'
-            title: Хресна дорога
-      - d: 5
-        event:
-          - time: '18:00'
-            title: Літургія Переосвячених Дарів
-        occasion: Поминання померлих
+          - time: ' 18:00'
+            title: Hl. Liturgie
+        occasion: Gedächtnis der Verstorbenen
       - d: 6
         event:
-          - time: '18:00'
-            title: Вечірня
+          - time: ' 09:30'
+            title: Hl. Liturgie
+        occasion:
       - d: 7
         event:
-          - time: '9:30'
-            title: Служба Божа
-          - time: '12:00'
-            title: Служба Божа
-        occasion: БЛАГОВІЩЕННЯ ПРЕСВЯТОЇ БОГОРОДИЦІ
+          - time: ' 18:00'
+            title: Hl. Liturgie
+        occasion: Gedächtnis der Verstorbenen
       - d: 8
         event:
-          - time: '18:00'
-            title: Літургія Переосвячених Дарів
-        occasion: Поминання померлих
+          - time: ' 18:00'
+            title: Hl. Liturgie
+        occasion:
       - d: 9
         event:
-          - time: '18:00'
-            title: Акафист
-          - time: '19:00'
-        occasion: Зустріч "Матері в молитві"
+          - time: ' 09:00'
+            title: Hl. Liturgie
+        occasion:
       - d: 10
         event:
-          - time: '18:00'
-            title: Літургія Переосвячених Дарів
-        occasion: По-німецьки
+          - time: ' 18:00'
+            title: Hl. Liturgie
+        occasion: Bibelkreis im Pfarrsaal
       - d: 11
         event:
-          - time: '18:00'
-            title: Хресна дорога
+          - time: ' 18:00'
+            title: Hl. Liturgie
+        occasion: Gedächtnis der Verstorbenen. Enthauptung Johannes des Täufers
       - d: 12
         event:
-          - time: '18:00'
-            title: Літургія Переосвячених Дарів
-        occasion: Поминання померлих
+          - time: ' 18:00'
+            title: Vesper
+        occasion:
       - d: 13
         event:
-          - time: '18:00'
-            title: Вечірня
+          - time: ' 09:30'
+            title: Hl. Liturgie
+        occasion:
       - d: 14
         event:
-          - time: '9:30'
-            title: Служба Божа
-          - time: '12:00'
-            title: Служба Божа
-        occasion: >-
-          14:00 Зустріч чоловіків: Лицарі Колумба – найбільша чоловіча
-          організація світу
+          - time: ''
+            title:
+        occasion: Beginn des liturgischen Jahres
       - d: 15
         event:
-          - time: '18:00'
-            title: Літургія Переосвячених Дарів
-        occasion: Поминання померлих
+          - time: ' 18:00'
+            title: Andacht
+        occasion:
       - d: 16
         event:
-          - time: '18:00'
-            title: Акафист
-          - time: '19:00'
-        occasion: Зустріч "Матері в молитві"
+          - time: ' 09:00'
+            title: Hl. Liturgie
+        occasion:
       - d: 17
         event:
-          - time: '18:00'
-            title: Літургія Переосвячених Дарів
-        occasion: По-німецьки
+          - time: ' 18:00'
+            title: Hl. Liturgie
+        occasion: Gebetskreis im Pfarrsaal
       - d: 18
         event:
-          - time: '18:00'
-            title: 'Великий покаянний Канон Андрея Критського '
+          - time: ' 18:00'
+            title: Hl. Liturgie
+        occasion: Gedächtnis der Verstorbenen
       - d: 19
         event:
-          - time: '12:00'
-            title: Покладення Плащаниці
-          - time: '18:00'
-            title: Літургія Переосвячених Дарів
-        occasion: Поминання померлих
+          - time: ' 18:00'
+            title: Vesper
+        occasion:
       - d: 20
         event:
-          - time: '18:00'
-            title: Надгробна молитва
-          - time: '18:30'
-            title: Воскресна утреня
-          - time: '20:00'
-            title: Посвячення пасок
+          - time: ' 09:30'
+            title: Hl. Liturgie
+        occasion:
       - d: 21
         event:
-          - time: '9:30'
-            title: Служба Божа Воскресна
-          - time: '12:00'
-            title: Служба Божа Квітної неділі
-        occasion: Після обидвох Літургій посвячення пасок та лози
+          - time: ' 18:00'
+            title: Hl. Liturgie
+        occasion: Mariä Geburt
       - d: 22
         event:
-          - time: '9:30'
-            title: Служба Божа
+          - time: ' 18:00'
+            title: Andacht
+        occasion:
       - d: 23
         event:
-          - time: '18:00'
-            title: Акафист
-          - time: '19:00'
-        occasion: Зустріч "Матері в молитві"
+          - time: ' 09:00'
+            title: Hl. Liturgie
+        occasion:
       - d: 24
+        event:
+          - time: ' 18:00'
+            title: Hl. Liturgie
+        occasion: Bibelkreis im Pfarrsaal
       - d: 25
         event:
-          - time: '9:30'
-            title: Вечірня з Св. Літургією
-          - time: '18:00'
-            title: Утреня Страстей Христових
+          - time: ' 18:00'
+            title: Hl. Liturgie
+        occasion: Gedächtnis der Verstorbenen
       - d: 26
         event:
-          - time: '8:00'
-            title: Винесення плащаниці
-          - time: '18:00'
-            title: 'Єрусалимська Утреня '
+          - time: ' 18:00'
+            title: Vesper
+        occasion:
       - d: 27
         event:
-          - time: '9:30'
-            title: Вечірня з Св. Літургією
-          - time: '20:30'
-            title: Надгробне
-          - time: '21:00'
-            title: Воскресна Утреня
-          - time: '22:30'
-            title: Освячення пасок
+          - time: ' 09:30'
+            title: Hl. Liturgie
+        occasion: Kreuzerhöhung
       - d: 28
         event:
-          - time: '9:30'
-            title: Служба Божа Воскресена
-          - time: '11:00'
-            title: 'Освячення пасок перед церквою '
+          - time: ' 18:00'
+            title: Hl. Liturgie
+        occasion: Gedächtnis der Verstorbenen
       - d: 29
         event:
-          - time: '18:00'
-            title: Служба Божа
+          - time: ' 18:00'
+            title: Andacht
+        occasion:
       - d: 30
         event:
-          - time: '18:00'
-            title: Служба Божа
+          - time: ' 09:00'
+            title: Hl. Liturgie
+        occasion:
     is_published: true
-    announcement: "11-14.04.2019 Під час усіх Богослужінь ВЕЛИКОПОСТНІ НАУКИ ТА СПОВІДЬ"
-    month_date: 04-2019
-  - day:
-      - d: 1
-      - d: 2
-      - d: 3
-    is_published: false
-    month_date: 05-2019
+    month_date: 09-2020
