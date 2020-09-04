@@ -49,7 +49,7 @@
                     <li class="list-group-item">
                         <div class="row cent">
                             <div class="col-sm-2 atext-c center">
-                                {{ entry.d }}
+                                {{ entry.d }}{% if page.lang == 'de'%}.{% endif %}
                                 {% assign month_number = item.month_date | slice: 0,2 | plus: -1 %}
                                 {{site.data.[page.lang].months.dictionary[month_number].genetiv}}
                             </div>
