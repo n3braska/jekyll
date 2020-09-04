@@ -142,6 +142,14 @@ collections:
               - label: Необхідно
                 name: needed
                 widget: number
+                required: false
+              - label: Зібрано
+                name: collected
+                widget: number
+                required: false
+              - label: Картинка
+                name: image
+                widget: image
                 required: true
               - label: Внески
                 name: donations
@@ -151,9 +159,18 @@ collections:
                     name: from
                     widget: string
                     required: false
+                  - label: На кого
+                    name: for
+                    widged: string
+                    required: false
                   - label: Сума
                     name: amount
                     widget: number
+                    required: true
+                  - label: Число
+                    name: date
+                    widget: date
+                    format: 'MM-YYYY'
                     required: true
       - label: Spenden
         name: pozhertvy_de
@@ -171,6 +188,14 @@ collections:
                 name: needed
                 widget: number
                 required: true
+              - label: Gesammelt
+                name: collected
+                widget: number
+                required: false
+              - label: Bild
+                name: image
+                widget: image
+                required: false
               - label: Beiträge
                 name: donations
                 widget: list
@@ -179,7 +204,16 @@ collections:
                     name: from
                     widget: string
                     required: false
+                  - label: Auf wen
+                    name: for
+                    widged: string
+                    required: false
                   - label: Summe
                     name: amount
                     widget: number
+                    required: true
+                  - label: Datum
+                    name: date
+                    widget: date
+                    format: 'MM-YYYY'
                     required: true

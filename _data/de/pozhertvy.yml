@@ -1,14 +1,11 @@
 pozhertva:
-  - subject: Kirchen Renovierung
-    needed: 1000
+  - subject: Wohltätigkeitskaffee
+    needed:
+    image: /assets/images/coffee.jpg
+    collected:
+    text: Від 2017 року ми запровадили у нашій громаді періодичні збірки на добрі справи. В першу неділю місяця після двох літургій продаємо каву та солодке у парафіяльному залі. Усі зібрані кошти йдуть на добрі справи. Допомогти можна по різному, подарувати гроші - щось купити; подарувати своє вміння – спекти солодке; подарувати свій час – продавати та прибирати після заходів.
     donations:
       - from: Test
-        amount: 100
-      - from: Test
-        amount: 200
-      - from: Маркіян Шеремета
-        amount: 75
-      - from: S.Zh
-        amount: 50
-      - from: S.Zh
-        amount: 30
+        date:
+        for:
+        amount:
