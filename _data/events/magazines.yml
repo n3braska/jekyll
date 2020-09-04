@@ -8,7 +8,7 @@ mags:
         de: Ostern 2020
         ua: Пасха 2020
     month:
-        de:
+        de: April 2020
         ua: Квітень 2020
     text:
         de:
@@ -25,7 +25,7 @@ mags:
       de: Weinachten 2019
       ua: Різдво Христове 2019
     month:
-      de:
+      de: Dezember 2019
       ua: Грудень 2019
     text:
       de:
@@ -36,14 +36,16 @@ mags:
         - "- Вшанування загиблих українців"
         - "- 120 років громаді українських католиків у Тіролі"
   -
-    intro: "– Воскресіння Христове!"
+    intro:
+      de: "- Christus ist aufgestanden!"
+      ua: "– Воскресіння Христове!"
     link: /assets/pdf/13%2002%202019%20Ostern.pdf
     img: /assets/magazine/13_02_2019_Ostern-01.jpg
     name:
       de: Ostern 2019
       ua: Пасха 2019
     month:
-      de:
+      de: April 2019
       ua: Квітень 2019
     text:
       de:
@@ -60,7 +62,7 @@ mags:
       de: Ostern 2020
       ua: Пасха 2020
     month:
-      de:
+      de: April 2020
       ua: Квітень 2020
     text:
       de:
