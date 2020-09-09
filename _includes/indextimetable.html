@@ -51,7 +51,13 @@
                         <div class="row cent">
                             <div class="col-sm-4 atext-c center">  </div>
 
-                            <div class="col-sm-4 atext-c center"> <a href="{% if page.lang == 'ua' %}ua/timetable.html{%else%}timetable.html{%endif%}">>> Відкрити повний розклад</a></div>
+                            <div class="col-sm-4 atext-c center">
+                                {% if page.lang == 'ua' %}
+                                    <a href="ua/timetable.html">>> Відкрити повний розклад</a>
+                                {% else %}
+                                    <a href="timetable.html">>> Gottesdienste erweitert</a>
+                                {% endif %}
+                            </div>
 
                             <div class="col-sm-4 atext-c center "></div>
                         </div>
