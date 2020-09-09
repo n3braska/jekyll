@@ -23,7 +23,12 @@
                         <button data-toggle="collapse" data-target="#post{{forloop.index}}" class="btn mb-0 btn-dark btn-sm">{{page.read_donations_info}}</button>
                         <div id="post{{forloop.index}}" class="card-text collapse" class="mt-5 ml-2">
                             {% for elem in item.donations %}
-                            <p class="text-center">{% if elem.from %} <i>{{elem.from}}:</i> {% endif %} {{elem.amount}} EUR</p>
+                            <p class="text-center">
+                                {% if elem.date %} <i>{{elem.date}}:</i>{% endif %}
+                                {% if elem.from %} <i>{{elem.from}};</i>{% endif %}
+                                {% if elem.amount %} {{elem.amount}} EUR{% endif %}
+                                {% if elem.for %} ({{elem.for}}){% endif %}
+                            </p>
                             {% endfor %}
                         </div>
                     </div>

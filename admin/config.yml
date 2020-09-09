@@ -170,7 +170,7 @@ collections:
                   - label: Число
                     name: date
                     widget: date
-                    format: 'MM-YYYY'
+                    format: 'DD-MM-YYYY'
                     required: true
       - label: Spenden
         name: pozhertvy_de
@@ -215,5 +215,5 @@ collections:
                   - label: Datum
                     name: date
                     widget: date
-                    format: 'MM-YYYY'
+                    format: 'DD-MM-YYYY'
                     required: true
