@@ -143,6 +143,10 @@ collections:
                 name: needed
                 widget: number
                 required: false
+              - label: Текст
+                name: text
+                widget: string
+                required: true
               - label: Зібрано
                 name: collected
                 widget: number
@@ -192,6 +196,10 @@ collections:
                 name: collected
                 widget: number
                 required: false
+              - label: Текст
+                name: text
+                widget: string
+                required: true
               - label: Bild
                 name: image
                 widget: image
