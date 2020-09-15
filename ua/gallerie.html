@@ -5,33 +5,16 @@ lang: ua
 lang-ref: gallerie
 ---
 
-<link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
-<style>
-    .gallery-container {
-        max-width: 1200px;
-        width:100%;
-        height: auto;
-        position: relative;
-        top: 20%;
-        right: 0;
-        left: 0;
-        margin: 0 auto;
-    }
-</style>
-
+<script type="text/javascript" src="/admin/libraries/jgallery/jgallery.min.js?v=2.2.1"></script>
 
 <div class="container-fluid pb-5">
-    <h4 class="text-center mt-2">{{ site.data.events.gallerie.event.first.ua }}</h4>
-     <div class="container-fluid">
-         <div class="card w-100 h-img1 gallery-container" style="background-color: black; color: white;">
-         <div class="fotorama">
-             {% for entity in site.data.events.gallerie.event.first.collection %}
-                <img src="{{ entity.pic }}">
-             {% endfor %}
-         </div>
-         </div>
-     </div>
+    <h4 class="text-center mt-2">{{ site.data.events.gallerie.event.first[page.lang] }}</h4>
+    <div class="container-fluid">
+        <div class="" style="">
+            <div id="gallery">
+            </div>
+        </div>
+    </div>
 </div>
 
 
@@ -50,4 +33,25 @@ lang-ref: gallerie
     </div>
 </div>
 
+
+<script type="text/javascript">
+    document.querySelector('#gallery').appendChild(JGallery.create([{
+        title: '{{ site.data.events.gallerie.event.first[page.lang] }}',
+        items: [
+            {% for entity in site.data.events.gallerie.event.first.collection %}
+        {
+            url: '{{ entity.pic }}',
+            thumbUrl: '{{ entity.pic }}',
+            hash: 'photo'
+        },
+        {% endfor %}
+    ]
+    }],{
+        "backgroundColor": '#ffffff',
+            "textColor": '#55757b',
+            "slideShow": false,
+            "transitionDetails": 0.75
+
+    }).getElement());
+</script>
 
