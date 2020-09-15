@@ -1,5 +1,6 @@
 pozhertva:
   - subject: Доброчинна Кава
+    date:
     needed:
     image: /assets/images/coffee.jpg
     collected:

@@ -139,6 +139,11 @@ collections:
                 name: subject
                 widget: string
                 required: true
+              - label: Число
+                name: date
+                widget: date
+                format: 'DD-MM-YYYY'
+                required: true
               - label: Необхідно
                 name: needed
                 widget: number
@@ -187,6 +192,11 @@ collections:
               - label: Zweck
                 name: subject
                 widget: string
+                required: true
+              - label: Datum
+                name: date
+                widget: date
+                format: 'DD-MM-YYYY'
                 required: true
               - label: Erforderlich
                 name: needed
