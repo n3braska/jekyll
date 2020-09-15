@@ -9,7 +9,7 @@ lang-ref: gallerie
 
 <div class="container-fluid pb-5">
     <h4 class="text-center mt-2">{{ site.data.events.gallerie.event.first[page.lang] }}</h4>
-    <div class="container-fluid">
+    <div class="container">
         <div class="" style="">
             <div id="gallery">
             </div>
@@ -53,5 +53,7 @@ lang-ref: gallerie
             "transitionDetails": 0.75
 
     }).getElement());
+
+    document.querySelector("#gallery > div").setAttribute("style", "height: 70vh; padding: 10px; background-color: rgb(255, 255, 255); color: rgb(85, 117, 123); box-sizing: border-box; position: relative; flex-direction: column; display: flex; background-position: initial initial; background-repeat: initial initial;");
 </script>
 
