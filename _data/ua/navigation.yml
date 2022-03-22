@@ -2,7 +2,7 @@ navbar:
   - link: /index.html
     name: Актуальне
   - link: /ua/novyny.html
-    name: Новини
+    name: Barbareum
   - link: /ua/timetable.html
     name: Розклад
   - link: /ua/gallerie.html
@@ -10,7 +10,7 @@ navbar:
   - link: /ua/hazeta.html
     name: Газета
   - link: /ua/parafia.html
-    name: Парафія
+    name: Таїнства
   - link: /ua/history.html
     name: Історія
   - link: /ua/pozhertvy_inf.html
