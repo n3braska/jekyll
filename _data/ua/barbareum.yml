@@ -18,3 +18,9 @@ news:
       працює в тестовому режимі. Просимо вас перевірити оформлення та залишити
       побажання щодо вдосконалення кінцевої версії.
     title: Новини стосовно церкви
+  - date: 24.03.2022
+    title: Barbareum separate flow test
+    autor: II
+    picture: /assets/images/uploads/G21A8252.jpg
+    excerpt: Testing purposes
+    text: This post has to be visible only on Barbareum UA page
