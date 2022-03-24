@@ -1,7 +1,7 @@
 navbar:
   - link: /index.html
     name: Актуальне
-  - link: /ua/novyny.html
+  - link: /ua/barbareum.html
     name: Barbareum
   - link: /ua/timetable.html
     name: Розклад
