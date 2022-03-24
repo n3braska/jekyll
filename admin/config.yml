@@ -78,6 +78,16 @@ collections:
             fields:
               - {label: Назва, name: name, widget: string}
               - {label: Лінк, name: link, widget: string}
+      - label: Hauptmenu
+        name: navbar
+        file: _data/de/navigation.yml
+        fields:
+          - label: Element
+            name: navbar
+            widget: list
+            fields:
+              - { label: Titel, name: name, widget: string }
+              - { label: Verlinkung, name: link, widget: string }
       - label: Календар
         name: calendar
         file: _data/ua/calendar.yml
