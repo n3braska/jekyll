@@ -2,15 +2,15 @@ navbar:
   - link: /de/index.html
     name: Aktuelles
   - link: /de/barbareum.html
-    name: Nachrichten
+    name: Barbareum
   - link: /de/timetable.html
     name: Gottesdienstplan
   - link: /de/gallerie.html
     name: Gallerie
   - link: /de/hazeta.html
     name: Zeitung
-  - link: /de/parafia.html
-    name: Pfarrei
+  - link: /de/tayinstva.html
+    name: Sakrament
   - link: /de/history.html
     name: Geschichte
   - link: /de/pozhertvy_inf.html
