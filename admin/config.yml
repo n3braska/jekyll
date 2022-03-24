@@ -2,412 +2,264 @@
 backend:
   branch: master
   name: git-gateway
+
+media_folder: assets/images/uploads
+
 collections:
-  -
-    files:
-      -
-        fields:
-          -
-            fields:
-              -
-                label: Заголовок
-                name: title
-                widget: string
-              -
-                label: Автор
-                name: autor
-                required: false
-                widget: string
-              -
-                format: DD.MM.YYYY
-                label: "Дата публікації"
-                name: date
-                widget: date
-              -
-                label: Зображення
-                name: picture
-                required: false
-                widget: image
-              -
-                label: "Перший абзац"
-                name: excerpt
-                required: false
-                widget: markdown
-              -
-                label: "Текст новини"
-                name: text
-                widget: markdown
-            label: Новини
-            name: news
-            widget: list
-          -
-            fields:
-              -
-                fields:
-                  -
-                    label: Titel
-                    name: title
-                    widget: string
-                  -
-                    label: Autor
-                    name: autor
-                    required: false
-                    widget: string
-                  -
-                    format: DD.MM.YYYY
-                    label: Publikationsdatum
-                    name: date
-                    widget: date
-                  -
-                    label: Bild
-                    name: picture
-                    required: false
-                    widget: image
-                  -
-                    label: "Erster Absatz"
-                    name: excerpt
-                    required: false
-                    widget: markdown
-                  -
-                    label: "Weiterer Text"
-                    name: text
-                    widget: markdown
-                label: Nachricht
-                name: news
-                widget: list
-            file: _data/de/barbareum.yml
-            label: Barbareum
-            name: barbareum_de
-        file: _data/ua/barbareum.yml
-        label: "Barbareum UA/DE"
-        name: barbareum_ua
-      -
-        fields:
-          -
-            fields:
-              -
-                label: Заголовок
-                name: title
-                widget: string
-              -
-                label: Автор
-                name: autor
-                required: false
-                widget: string
-              -
-                format: DD.MM.YYYY
-                label: "Дата публікації"
-                name: date
-                widget: date
-              -
-                label: Зображення
-                name: picture
-                required: false
-                widget: image
-              -
-                label: "Перший абзац"
-                name: excerpt
-                required: false
-                widget: markdown
-              -
-                label: "Текст новини"
-                name: text
-                widget: markdown
-            label: Новини
-            name: news
-            widget: list
-        file: _data/ua/news.yml
-        label: "Стрічка новин"
-        name: news_ua
-      -
-        fields:
-          -
-            fields:
-              -
-                label: Titel
-                name: title
-                widget: string
-              -
-                label: Autor
-                name: autor
-                required: false
-                widget: string
-              -
-                format: DD.MM.YYYY
-                label: Publikationsdatum
-                name: date
-                widget: date
-              -
-                label: Bild
-                name: picture
-                required: false
-                widget: image
-              -
-                label: "Erster Absatz"
-                name: excerpt
-                required: false
-                widget: markdown
-              -
-                label: "Weiterer Text"
-                name: text
-                widget: markdown
-            label: Nachricht
-            name: news
-            widget: list
-        file: _data/de/news.yml
-        label: Nachrichten
-        name: news_de
-    label: "Новини UA/DE"
+  - label: Новини UA/DE
     name: news_ua_de
-  -
     files:
-      -
+      - label: Barbareum UA
+        name: barbareum_ua
+        file: _data/ua/barbareum.yml
         fields:
-          -
+          - label: Новини
+            name: news
+            widget: list
             fields:
-              -
-                label: Назва
-                name: name
-                widget: string
-              -
-                label: Лінк
-                name: link
-                widget: string
-            label: "Елемент меню"
+              - { label: Заголовок, name: title, widget: string }
+              - { label: Автор, name: autor, required: false, widget: string }
+              - { label: Дата публікації, name: date, widget: date, format: 'DD.MM.YYYY' }
+              - { label: Зображення, name: picture, required: false, widget: image }
+              - { label: Перший абзац, name: excerpt, required: false, widget: markdown }
+              - { label: Текст новини, name: text, widget: markdown }
+      - label: Barbareum DE
+        name: barbareum_de
+        file: _data/de/barbareum.yml
+        fields:
+          - label: Nachricht
+            name: news
+            widget: list
+            fields:
+              - { label: Titel, name: title, widget: string }
+              - { label: Autor, name: autor, required: false, widget: string }
+              - { label: Publikationsdatum, name: date, widget: date, format: 'DD.MM.YYYY' }
+              - { label: Bild, name: picture, required: false, widget: image }
+              - { label: Erster Absatz, name: excerpt, required: false, widget: markdown }
+              - { label: Weiterer Text, name: text, widget: markdown }
+      - label: Стрічка новин Церква
+        name: news_ua
+        file: _data/ua/news.yml
+        fields:
+          - label: Новини
+            name: news
+            widget: list
+            fields:
+              - {label: Заголовок, name: title, widget: string}
+              - {label: Автор, name: autor, required: false, widget: string}
+              - {label: Дата публікації, name: date, widget: date, format: 'DD.MM.YYYY'}
+              - {label: Зображення, name: picture, required: false, widget: image}
+              - {label: Перший абзац, name: excerpt, required: false, widget: markdown}
+              - {label: Текст новини, name: text, widget: markdown}
+      - label: Nachrichten Kirche
+        name: news_de
+        file: _data/de/news.yml
+        fields:
+          - label: Nachricht
+            name: news
+            widget: list
+            fields:
+              - {label: Titel, name: title, widget: string}
+              - {label: Autor, name: autor, required: false, widget: string}
+              - {label: Publikationsdatum, name: date, widget: date, format: 'DD.MM.YYYY'}
+              - {label: Bild, name: picture, required: false, widget: image}
+              - {label: Erster Absatz, name: excerpt, required: false, widget: markdown}
+              - {label: Weiterer Text, name: text, widget: markdown}
+  - label: Всі Сторінки
+    name: pages
+    files:
+      - label: Головне Меню
+        name: navbar
+        file: _data/ua/navigation.yml
+        fields:
+          - label: Елемент меню
             name: navbar
             widget: list
-        file: _data/ua/navigation.yml
-        label: "Головне Меню"
-        name: navbar
-      -
-        fields:
-          -
             fields:
-              -
-                format: MM-YYYY
-                label: "Дата початку місяця"
+              - {label: Назва, name: name, widget: string}
+              - {label: Лінк, name: link, widget: string}
+      - label: Календар
+        name: calendar
+        file: _data/ua/calendar.yml
+        fields:
+          - label: Місяць
+            name: month
+            widget: list
+            fields:
+              - label: Дата початку місяця
                 name: month_date
                 widget: date
-              -
-                default: false
-                label: Публікувати
+                format: 'MM-YYYY'
+              - label: Публікувати
                 name: is_published
                 widget: boolean
-              -
-                label: Оголошення
+                default: false
+              - label: Оголошення
                 name: announcement
-                required: false
                 widget: string
-              -
-                fields:
-                  -
-                    hint: "День місяця"
-                    label: Число
-                    max: 31
-                    min: 1
-                    name: d
-                    widget: number
-                  -
-                    fields:
-                      -
-                        dateFormat: false
-                        default: ""
-                        format: "H:mm"
-                        label: Час
-                        name: time
-                        widget: datetime
-                      -
-                        label: Назва
-                        name: title
-                        required: false
-                        widget: string
-                    label: Подія
-                    name: event
-                    required: false
-                    widget: list
-                  -
-                    label: "Додатковий захід"
-                    name: occasion
-                    required: false
-                    widget: string
-                label: День
+                required: false
+              - label: День
                 name: day
                 required: false
                 widget: list
-            label: Місяць
-            name: month
-            widget: list
-        file: _data/ua/calendar.yml
-        label: Календар
-        name: calendar
-      -
+                fields:
+                  - label: Число
+                    name: d
+                    widget: number
+                    min: 1
+                    max: 31
+                    hint: День місяця
+                  - label: Подія
+                    name: event
+                    required: false
+                    widget: list
+                    fields:
+                      - label: Час
+                        name: time
+                        widget: datetime
+                        format: 'H:mm'
+                        dateFormat: false
+                        default: ""
+                      - label: Назва
+                        name: title
+                        required: false
+                        widget: string
+                  - label: Додатковий захід
+                    name: occasion
+                    widget: string
+                    required: false
+      - label: Галерея
+        name: gallerie
+        file: _data/events/gallerie.yaml
         fields:
-          -
+          - label: Подія
+            name: event
+            widget: list
             fields:
-              -
-                label: "Заголовок українською"
+              - label: Заголовок українською
                 name: ua
-                required: true
                 widget: string
-              -
-                label: "Заголовок німецькою"
+                required: true
+              - label: Заголовок німецькою
                 name: de
-                required: true
                 widget: string
-              -
-                label: "Титульне фото"
+                required: true
+              - label: Титульне фото
                 name: title_pic
                 widget: image
-              -
-                fields:
-                  -
-                    label: Фото
-                    name: pic
-                    widget: image
-                label: Колекція
+              - label: Колекція
                 name: collection
                 required: true
                 widget: list
-            label: Подія
-            name: event
-            widget: list
-        file: _data/events/gallerie.yaml
-        label: Галерея
-        name: gallerie
-      -
-        fields:
-          -
-            fields:
-              -
-                label: Призначення
-                name: subject
-                required: true
-                widget: string
-              -
-                format: DD-MM-YYYY
-                label: Число
-                name: date
-                required: true
-                widget: date
-              -
-                label: Необхідно
-                name: needed
-                required: false
-                widget: number
-              -
-                label: Текст
-                name: text
-                required: true
-                widget: string
-              -
-                label: Зібрано
-                name: collected
-                required: false
-                widget: number
-              -
-                label: Картинка
-                name: image
-                required: true
-                widget: image
-              -
                 fields:
-                  -
-                    label: "Від кого"
-                    name: from
-                    required: false
-                    widget: string
-                  -
-                    label: "На кого"
-                    name: for
-                    required: false
-                    widged: string
-                  -
-                    label: Сума
-                    name: amount
-                    required: true
-                    widget: number
-                  -
-                    format: DD-MM-YYYY
-                    label: Число
-                    name: date
-                    required: true
-                    widget: date
-                label: Внески
-                name: donations
-                widget: list
-            label: Пожертва
-            name: pozhertva
-            widget: list
-        file: _data/ua/pozhertvy.yml
-        label: Пожертви
+                  - label: Фото
+                    name: pic
+                    widget: image
+      - label: Пожертви
         name: pozhertvy_ua
-      -
+        file: _data/ua/pozhertvy.yml
         fields:
-          -
-            fields:
-              -
-                label: Zweck
-                name: subject
-                required: true
-                widget: string
-              -
-                format: DD-MM-YYYY
-                label: Datum
-                name: date
-                required: true
-                widget: date
-              -
-                label: Erforderlich
-                name: needed
-                required: true
-                widget: number
-              -
-                label: Gesammelt
-                name: collected
-                required: false
-                widget: number
-              -
-                label: Текст
-                name: text
-                required: true
-                widget: string
-              -
-                label: Bild
-                name: image
-                required: false
-                widget: image
-              -
-                fields:
-                  -
-                    label: Von
-                    name: from
-                    required: false
-                    widget: string
-                  -
-                    label: "Auf wen"
-                    name: for
-                    required: false
-                    widged: string
-                  -
-                    label: Summe
-                    name: amount
-                    required: true
-                    widget: number
-                  -
-                    format: DD-MM-YYYY
-                    label: Datum
-                    name: date
-                    required: true
-                    widget: date
-                label: Beiträge
-                name: donations
-                widget: list
-            label: Spende
+          - label: Пожертва
             name: pozhertva
             widget: list
-        file: _data/de/pozhertvy.yml
-        label: Spenden
+            fields:
+              - label: Призначення
+                name: subject
+                widget: string
+                required: true
+              - label: Число
+                name: date
+                widget: date
+                format: 'DD-MM-YYYY'
+                required: true
+              - label: Необхідно
+                name: needed
+                widget: number
+                required: false
+              - label: Текст
+                name: text
+                widget: string
+                required: true
+              - label: Зібрано
+                name: collected
+                widget: number
+                required: false
+              - label: Картинка
+                name: image
+                widget: image
+                required: true
+              - label: Внески
+                name: donations
+                widget: list
+                fields:
+                  - label: Від кого
+                    name: from
+                    widget: string
+                    required: false
+                  - label: На кого
+                    name: for
+                    widged: string
+                    required: false
+                  - label: Сума
+                    name: amount
+                    widget: number
+                    required: true
+                  - label: Число
+                    name: date
+                    widget: date
+                    format: 'DD-MM-YYYY'
+                    required: true
+      - label: Spenden
         name: pozhertvy_de
-    label: "Всі Сторінки"
-    name: pages
-media_folder: assets/images/uploads
+        file: _data/de/pozhertvy.yml
+        fields:
+          - label: Spende
+            name: pozhertva
+            widget: list
+            fields:
+              - label: Zweck
+                name: subject
+                widget: string
+                required: true
+              - label: Datum
+                name: date
+                widget: date
+                format: 'DD-MM-YYYY'
+                required: true
+              - label: Erforderlich
+                name: needed
+                widget: number
+                required: true
+              - label: Gesammelt
+                name: collected
+                widget: number
+                required: false
+              - label: Текст
+                name: text
+                widget: string
+                required: true
+              - label: Bild
+                name: image
+                widget: image
+                required: false
+              - label: Beiträge
+                name: donations
+                widget: list
+                fields:
+                  - label: Von
+                    name: from
+                    widget: string
+                    required: false
+                  - label: Auf wen
+                    name: for
+                    widged: string
+                    required: false
+                  - label: Summe
+                    name: amount
+                    widget: number
+                    required: true
+                  - label: Datum
+                    name: date
+                    widget: date
+                    format: 'DD-MM-YYYY'
+                    required: true
