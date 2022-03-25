@@ -69,7 +69,7 @@ collections:
     name: pages
     files:
       - label: Головне Меню
-        name: navbar
+        name: navbar_ua
         file: _data/ua/navigation.yml
         fields:
           - label: Елемент меню
@@ -79,7 +79,7 @@ collections:
               - {label: Назва, name: name, widget: string}
               - {label: Лінк, name: link, widget: string}
       - label: Hauptmenu
-        name: navbar
+        name: navbar_de
         file: _data/de/navigation.yml
         fields:
           - label: Element
