@@ -138,56 +138,56 @@ collections:
                     name: occasion
                     widget: string
                     required: false
-          - label: Kalendar
-            name: calendar_de
-            file: _data/de/calendar.yml
+      - label: Kalendar
+        name: calendar_de
+        file: _data/de/calendar.yml
+        fields:
+          - label: Місяць
+            name: month
+            widget: list
             fields:
-              - label: Місяць
-                name: month
+              - label: Дата початку місяця
+                name: month_date
+                widget: date
+                format: 'MM-YYYY'
+              - label: Публікувати
+                name: is_published
+                widget: boolean
+                default: false
+              - label: Оголошення
+                name: announcement
+                widget: string
+                required: false
+              - label: День
+                name: day
+                required: false
                 widget: list
                 fields:
-                  - label: Дата початку місяця
-                    name: month_date
-                    widget: date
-                    format: 'MM-YYYY'
-                  - label: Публікувати
-                    name: is_published
-                    widget: boolean
-                    default: false
-                  - label: Оголошення
-                    name: announcement
-                    widget: string
-                    required: false
-                  - label: День
-                    name: day
+                  - label: Число
+                    name: d
+                    widget: number
+                    min: 1
+                    max: 31
+                    hint: День місяця
+                  - label: Подія
+                    name: event
                     required: false
                     widget: list
                     fields:
-                      - label: Число
-                        name: d
-                        widget: number
-                        min: 1
-                        max: 31
-                        hint: День місяця
-                      - label: Подія
-                        name: event
+                      - label: Час
+                        name: time
+                        widget: datetime
+                        format: 'H:mm'
+                        dateFormat: false
+                        default: ""
+                      - label: Назва
+                        name: title
                         required: false
-                        widget: list
-                        fields:
-                          - label: Час
-                            name: time
-                            widget: datetime
-                            format: 'H:mm'
-                            dateFormat: false
-                            default: ""
-                          - label: Назва
-                            name: title
-                            required: false
-                            widget: string
-                      - label: Додатковий захід
-                        name: occasion
                         widget: string
-                        required: false
+                  - label: Додатковий захід
+                    name: occasion
+                    widget: string
+                    required: false
       - label: Галерея
         name: gallerie
         file: _data/events/gallerie.yaml
