@@ -88,18 +88,28 @@ month:
             title: Молебень
         occasion: Наука у церкві
       - d: 23
-        event:
-          - time: " 09:00"
-            title: Служба Божа
+        event: []
         occasion: null
       - d: 24
         event:
-          - time: " 18:00"
+          - time: 9:30
+            title: Служба Божа Воскресна
+          - time: 11:00
+            title: Освячення пасок перед церквою
+        occasion: Неділя Воскресна
+      - d: 25
+        event:
+          - time: 18:00
             title: Служба Божа
-        occasion: Біблійні читання в парафіяльному залі
+        occasion: Св. Понеділок
+      - d: 26
+        event:
+          - time: 18:00
+            title: Служба Божа
+        occasion: Св. Вівторок
     is_published: true
     month_date: 04-2022
-  - is_published: true
+  - is_published: false
     month_date: 03-2022
     announcement: 31.03-03.04.2022   ВЕЛИКОПОСТНІ НАУКИ ТА СПОВІДЬ проводить владика
       ІРИНЕЙ БІЛИК
