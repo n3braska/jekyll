@@ -1,11 +1,26 @@
 pozhertva:
+  - date: 12-04-2022
+    subject: HILFE FÜR DIE UKRAINE
+    text: "Finanzielle Unterstützung   Das gespendete Geld wird für Medikamente,
+      Erste-Hilfe-Ausrüstung und andere Güter, die dringend benötigt werden,
+      verwendet werden. Sie können Ihre Spende direkt an das Konto der St.
+      Barbara Kirche überweisen:  IBAN: AT06 6000 0000 0731 1709 Empfänger:
+      Griech.-kath.Zentralpfarramt (St. Barbara Ukrainische Kirche Postgasse
+      8-12 1010 Wien) Zweck: Spende für humanitäre Zwecke in der
+      Ukraine     Hilfe und Informationen für Flüchtlinge  Hilfe und
+      Informationen für ukrainische Flüchtlinge finden Sie ebenfalls hier: Stadt
+      Wien ."
+    image: /assets/images/uploads/qr_ueberweisung_hilfe.png
+    needed: 300000
   - subject: Wohltätigkeitskaffee
-    needed:
+    needed: 5027
     image: /assets/images/coffee.jpg
-    collected:
-    text: Від 2017 року ми запровадили у нашій громаді періодичні збірки на добрі справи. В першу неділю місяця після двох літургій продаємо каву та солодке у парафіяльному залі. Усі зібрані кошти йдуть на добрі справи. Допомогти можна по різному, подарувати гроші - щось купити; подарувати своє вміння – спекти солодке; подарувати свій час – продавати та прибирати після заходів.
-    donations:
-      - from: Test
-        date:
-        for:
-        amount:
+    collected: null
+    text: Від 2017 року ми запровадили у нашій громаді періодичні збірки на добрі
+      справи. В першу неділю місяця після двох літургій продаємо каву та солодке
+      у парафіяльному залі. Усі зібрані кошти йдуть на добрі справи. Допомогти
+      можна по різному, подарувати гроші - щось купити; подарувати своє вміння –
+      спекти солодке; подарувати свій час – продавати та прибирати після
+      заходів.
+    donations: []
+    date: 12-04-2022
