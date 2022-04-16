@@ -42,6 +42,7 @@
     {% if item.picture %}
     <img class="card-img-top" src="{{item.picture}}" alt="Card image">
     {% endif %}
+    {% if item.title != " " %}
     <div class="card-body">
         <div class="m-0 p-0 d-flex justify-content-end">
             <p class="text-secondary">{{item.autor}} {{item.date}}</p>
@@ -62,6 +63,7 @@
             {% if page.lang == 'de' %} Weiter lesen {% endif %}
         </button>
     </div>
+    {% endif %}
 </div>
 
 
