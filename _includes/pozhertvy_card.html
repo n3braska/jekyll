@@ -1,14 +1,15 @@
 <div class="card bbgg w-100 my-4 h-img1 ">
 
-    <img class="card-img-top" src="/assets/images/pozhertvy.png" alt="Card image">
+    <img class="card-img-top" src="/assets/images/263c28_0c13f1772076434c8a4d5652e9549835.jpg" alt="Card image">
 
     <div class="card-body">
 
-            <h4 class="card-title">{% if page.lang=="ua" %} Інформація {% else %} Information {% endif %}</h4>
-            <div class="card-text">Тут можна добавити додаткову інформацію</div>
+            <h4 class="card-title">{% if page.lang=="ua" %} Бажаєте допомогти Україні? {% else %} Möchten Sie die Ukraine unterstützen? {% endif %}</h4>
+            <div class="card-text">
+                {% if page.lang=="ua" %} Церква Св. Варвари разом з українською громадою організувала центр допомоги постраждалим від війни між Росією та Україною. Як Ви можете долучитися? Пожертвувані кошти підуть на медикаменти, аптечки, засоби захисту та інші терміново необхідні речі. {% else %} Die St. Barbara Kirche organisierte zusammen mit der ukrainischen Gemeinde ein Zentrum, um den Opfern des Krieges zwischen Russland und der Ukraine zu helfen. {% endif %}
+            </div>
 
-            <a href="/{{page.lang}}/pozhertvy.html" class="btn mb-2 mt-4 btn-dark">{% if page.lang=="ua" %} Дізнатись
-                більше{% else %} Mehr erfahren{% endif %}</a>
+            <a href="https://www.spende.st-barbara-austria.org" class="btn mb-2 mt-4 btn-dark">{% if page.lang=="ua" %} Дізнатись більше{% else %} Mehr erfahren{% endif %}</a>
 
     </div>
 </div>
