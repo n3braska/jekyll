@@ -1,19 +1,15 @@
 navbar:
-  - link: /index.html
+  - link: https://st-barbara-austria.org
     name: Актуальне
-  - link: /ua/barbareum.html
-    name: Barbareum
   - link: /ua/timetable.html
     name: Розклад
-  - link: /ua/gallerie.html
-    name: Галерея
   - link: /ua/hazeta.html
     name: Газета
   - link: /ua/tayinstva.html
     name: Таїнства
   - link: /ua/history.html
     name: Історія
-  - link: /ua/pozhertvy_inf.html
+  - link: https://www.spende.st-barbara-austria.org
     name: Пожертви
   - link: /ua/remont.html
     name: Ремонт
