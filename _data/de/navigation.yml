@@ -1,4 +1,6 @@
 navbar:
+  - link: https://www.spende.st-barbara-austria.org
+    name: Hilfe für die Ukraine
   - link: /de/index.html
     name: Aktuelles
   - link: /de/timetable.html
@@ -9,5 +11,3 @@ navbar:
     name: Sakrament
   - link: /de/history.html
     name: Geschichte
-  - link: https://www.spende.st-barbara-austria.org
-    name: Hilfe für die Ukraine

@@ -1,4 +1,6 @@
 navbar:
+  - link: https://www.spende.st-barbara-austria.org
+    name: Допомога Україні
   - link: /index.html
     name: Актуальне
   - link: /ua/timetable.html
@@ -9,5 +11,3 @@ navbar:
     name: Таїнства
   - link: /ua/history.html
     name: Історія
-  - link: https://www.spende.st-barbara-austria.org
-    name: Допомога Україні
