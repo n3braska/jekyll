@@ -1,5 +1,6 @@
 month:
-  - announcement: 31.03-03.04.2022   Osterexerzitien und Osterbeichte mit Biuschof Iriney Bilyk
+  - announcement: 31.03-03.04.2022   Osterexerzitien und Osterbeichte mit Biuschof
+      Iriney Bilyk
     day:
       - d: 6
         event:
@@ -295,7 +296,7 @@ month:
         event:
           - time: " 18:00"
             title: Andacht zu Mutter Gottes
-    is_published: true
+    is_published: false
     month_date: 05-2022
   - announcement: null
     day:
@@ -377,12 +378,12 @@ month:
             title: Hl. Liturgie
           - time: " 19:00"
             title: Gebetskreis „Mütter im Gebet“
-        occasion:  PFINGSTMONTAG (Jul. Kal.)
+        occasion: PFINGSTMONTAG (Jul. Kal.)
       - d: 14
         event:
           - time: " 18:00"
             title: Andacht
-          - time: "18:30"
+          - time: 18:30
             title: Gebetskreis „Mütter im Gebet“
         occasion: null
       - d: 15
@@ -421,7 +422,7 @@ month:
         event:
           - time: " 18:00"
             title: Andacht
-          - time: "18:30"
+          - time: 18:30
             title: Gebetskreis „Mütter im Gebet“
         occasion: null
       - d: 22
@@ -460,7 +461,7 @@ month:
         event:
           - time: " 18:00"
             title: Andacht
-          - time: "18:30"
+          - time: 18:30
             title: Gebetskreis „Mütter im Gebet“
         occasion: null
       - d: 29
