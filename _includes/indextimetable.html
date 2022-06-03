@@ -28,7 +28,7 @@
                         <div class="row cent">
                             <div class="col-sm-2 atext-c center">
                                 {{ entry.d }}
-                                {% assign month_number = item.month_date | slice: 0,2 | plus: 3 %} <!-- WHY -4 ? -->
+                                {% assign month_number = month_date_now1 | slice: 0,2 | plus: -1 %} <!-- WHY -4 ? -->
                                 {{site.data.[page.lang].months.dictionary[month_number].genetiv}}
                             </div>
                             <div class="col-sm-6 atext-c center">
