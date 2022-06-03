@@ -1,8 +1,8 @@
 
             {% assign month_date_now1 = 'now' | date: '%m' | slice: 0,2 | plus: 0 %}
-            {% assign month_number = item.month_date | slice: 0,2 | plus: 0 %}
+            {% assign month_number = item.month_date | slice: 0,2 | plus: 1 %}
             {% assign today = 'now' | date: '%d' | plus: 0 %}
-            {% assign starts_from = today | plus: 0 %}
+            {% assign starts_from = today | plus: -2 %}
             {% assign limited_to = today | plus: 7 %}
 
                 {% if site.data.[page.lang].calendar.month[month_number].announcement %}
