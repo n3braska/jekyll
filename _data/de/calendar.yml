@@ -474,7 +474,7 @@ month:
           - time: " 18:00"
             title: Hl. Liturgie
         occasion: null
-    is_published: true
+    is_published: false
     month_date: 06-2022
   - announcement: null
     day:
