@@ -1,9 +1,6 @@
 
-            {% assign month_date_now1 = 'now' | date: '%m' | slice: 0,2 | plus: 0 %}
-            {% assign month_number = 3 %}
-            {% assign today = '1' | date: '%d' | plus: 0 %}
-            {% assign starts_from = today | date: '%d' | plus: -1 %}
-            {% assign limited_to = today | date: '%d' | plus: 7 %}
+            {% assign month_date_now = 'now' | date: '%m' | slice: 0,2 | plus: 0 %}
+            {% assign month_number = site.data.[page.lang].calendar.month | size | plus: -1 %}
 
                 {% if site.data.[page.lang].calendar.month[month_number].announcement %}
                 <ul class="list-group list-group-flush">
@@ -17,18 +14,13 @@
                 </ul>
                 {% endif %}
 
-
                 <ul class="list-group list-group-flush">
                     {% for entry in site.data.[page.lang].calendar.month[month_number].day %}
-                    {% if entry.d > limited_to %}
-                        {% break %}
-                    {% endif %}
-                    {% if entry.d > starts_from && entry.d < limited %}
-                    <li class="list-group-item">
+                    <li class="list-group-item" id="{{ entry.d }}">
                         <div class="row cent">
                             <div class="col-sm-2 atext-c center">
                                 {{ entry.d }}
-                                {% assign month_number = month_date_now1 | slice: 0,2 | plus: -1 %} <!-- WHY -4 ? -->
+                                {% assign month_number = month_date_now | slice: 0,2 | plus: -1 %}
                                 {{site.data.[page.lang].months.dictionary[month_number].genetiv}}
                             </div>
                             <div class="col-sm-6 atext-c center">
@@ -45,11 +37,9 @@
                             <div class="col-sm-4 atext-c center ">{{entry.occasion}}</div>
                         </div>
                     </li>
-                    {% endif %}
-
-
                     {% endfor %}
-                    <li class="list-group-item">
+
+                    <li class="list-group-item" id="link">
                         <div class="row cent">
                             <div class="col-sm-4 atext-c center">  </div>
 
@@ -65,4 +55,14 @@
                     </li>
                 </ul>
 
-
+<script>
+        const currentDate = new Date();
+        const today = currentDate.getDate();
+        const timetableItems = document.getElementsByClassName("list-group-item");
+        for(let index = 0; index < timetableItems.length; ++index) {
+            const itemID = timetableItems[index].id;
+            if(itemID !== "link" && (itemID < today || itemID > today + 7 )) {
+                timetableItems[index].style = "display: none;";
+            }
+        }
+</script>
