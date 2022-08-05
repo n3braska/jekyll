@@ -2,17 +2,17 @@
             {% assign month_date_now = 'now' | date: '%m' | slice: 0,2 | plus: 0 %}
             {% assign month_number = site.data.[page.lang].calendar.month | size | plus: -1 %}
 
-                {% if site.data.[page.lang].calendar.month[month_number].announcement %}
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">
+                    {% if site.data.[page.lang].calendar.month[month_number].announcement %}
                         <div class="row atext-c center">
                             <span class=" col-sm-2"></span>
                             <div class = "col-sm-8">{{ site.data.[page.lang].calendar.month[month_number].announcement }}</div>
                             <span class=" col-sm-2"></span>
                         </div>
+                    {% endif %}
                     </li>
                 </ul>
-                {% endif %}
 
                 <ul class="list-group list-group-flush">
                     {% for entry in site.data.[page.lang].calendar.month[month_number].day %}
@@ -59,7 +59,7 @@
         const currentDate = new Date();
         const today = currentDate.getDate();
         const timetableItems = document.getElementsByClassName("list-group-item");
-        for(let index = 0; index < timetableItems.length; ++index) {
+        for(let index = 1; index < timetableItems.length; ++index) {
             const itemID = timetableItems[index].id;
             if(itemID !== "link" && (itemID < today || itemID > today + 7 )) {
                 timetableItems[index].style = "display: none;";
