@@ -590,5 +590,87 @@ month:
           - time: " 18:00"
             title: Hl. Liturgie (Auf Deutsch)
         occasion: null
-    is_published: true
+    is_published: false
     month_date: 07-2022
+  - announcement: "In August, während der Renovierung unserer Kirche St. Barbara, werden die Sonntagsgottesdienste auf Ukrainisch in der Jesuitenkirche um 12:00 Uhr gefeiert. Alle anderen Gottesdienste (auch die Sonntagsliturgie auf Deutsch) werden in der Josaphatskapelle gefeiert. (Zugang über den Zufahrt Postgasse 8)"
+    day:
+      - d: 7
+        event:
+          - time: " 12:00"
+            title: Hl. Liturgie
+          - time: " 18:00"
+            title: Hl. Liturgie auf Deutsch in der Josaphatskapelle
+        occasion: Jesuitenkirche
+      - d: 8
+        event:
+          - time: " 19:00"
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: null
+      - d: 11
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 12
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie (Gedächtnis der Verstorbenen)
+        occasion: null
+      - d: 14
+        event:
+          - time: " 12:00"
+            title: Hl. Liturgie
+          - time: " 18:00"
+            title: Hl. Liturgie auf Deutsch in der Josaphatskapelle
+        occasion: Jesuitenkirche
+      - d: 15
+        event:
+          - time: " 19:00"
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: null
+      - d: 18
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie (Gedächtnis der Verstorbenen)
+        occasion: null
+      - d: 19
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie (Segen der Früchte)
+        occasion: Verklärung des Herrn (Jul. Kal.)
+      - d: 21
+        event:
+          - time: " 12:00"
+            title: Hl. Liturgie
+          - time: " 18:00"
+            title: Hl. Liturgie auf Deutsch in der Josaphatskapelle
+        occasion: Jesuitenkirche
+      - d: 22
+        event:
+          - time: " 19:00"
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: null
+      - d: 25
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 26
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie Gedächtnis der Verstorbenen
+        occasion: null
+      - d: 28
+        event:
+          - time: " 12:00"
+            title: Hl. Liturgie (Segen der Blumen und Kräuter)
+          - time: " 18:00"
+            title: Hl. Liturgie auf Deutsch in der Josaphatskapelle
+        occasion: Himmelfahrt Mariä (Jul. Kal.), Jesuitenkirche
+      - d: 29
+        event:
+          - time: " 19:00"
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: null
+    is_published: true
+    month_date: 08-2022

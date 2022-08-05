@@ -596,5 +596,87 @@ month:
           - time: " 18:00"
             title: Служба Божа (німецькою)
         occasion: null
-    is_published: true
+    is_published: false
     month_date: 07-2022
+  - announcement: "В місяці серпні, під час ремонту церкви св. Варвари, буде служитися одна недільна літургії українською мовою о 12:00 у церкві отців Єзуїтів (3 хвилини пішки від церкви св. Варвари). Всі інші Богослужіння у каплиці св. Йосафата, вхід біля парафіяльного залу, поруч з церквою св. Варвари (Postgasse 8)"
+    day:
+      - d: 7
+        event:
+          - time: " 12:00"
+            title: Служба Божа
+          - time: " 18:00"
+            title: Служба Божа (німецькою)
+        occasion: Церква отців Єзуїтів
+      - d: 8
+        event:
+          - time: " 19:00"
+            title: Зустріч «Матері в молитві»
+        occasion: null
+      - d: 11
+        event:
+          - time: " 18:00"
+            title: Служба Божа
+        occasion: null
+      - d: 12
+        event:
+          - time: " 18:00"
+            title: Служба Божа (Поминання померлих)
+        occasion: null
+      - d: 14
+        event:
+          - time: " 12:00"
+            title: Служба Божа
+          - time: " 18:00"
+            title: Служба Божа (німецькою)
+        occasion: Церква отців Єзуїтів
+      - d: 15
+        event:
+          - time: " 19:00"
+            title: Зустріч «Матері в молитві»
+        occasion: null
+      - d: 18
+        event:
+          - time: " 18:00"
+            title: Служба Божа (Поминання померлих)
+        occasion: null
+      - d: 19
+        event:
+          - time: " 18:00"
+            title: Служба Божа (Благословення плодів)
+        occasion: Преображення Господнє
+      - d: 21
+        event:
+          - time: " 12:00"
+            title: Служба Божа
+          - time: " 18:00"
+            title: Служба Божа (німецькою)
+        occasion: Церква отців Єзуїтів
+      - d: 22
+        event:
+          - time: " 19:00"
+            title: Зустріч «Матері в молитві»
+        occasion: null
+      - d: 25
+        event:
+          - time: " 18:00"
+            title: Служба Божа
+        occasion: null
+      - d: 26
+        event:
+          - time: " 18:00"
+            title: Служба Божа (Поминання померлих)
+        occasion: null
+      - d: 28
+        event:
+          - time: " 12:00"
+            title: Служба Божа (Благословення квітів та зілля)
+          - time: " 18:00"
+            title: Служба Божа (німецькою)
+        occasion: Успення Богородиці, церква отців Єзуїтів
+      - d: 29
+        event:
+          - time: " 19:00"
+            title: Зустріч «Матері в молитві»
+        occasion: null
+    is_published: true
+    month_date: 08-2022
