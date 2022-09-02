@@ -672,5 +672,117 @@ month:
           - time: " 19:00"
             title: Gebetskreis „Mütter im Gebet“
         occasion: null
-    is_published: true
+    is_published: false
     month_date: 08-2022
+  - announcement: "In September, während der Renovierung unserer Kirche St. Barbara, werden die Sonntagsgottesdienste auf Ukrainisch in der Jesuitenkirche um 12:00 Uhr gefeiert. Alle anderen Gottesdienste (auch die Sonntagsliturgie auf Deutsch) werden in der Josaphatskapelle gefeiert. (Zugang über den Zufahrt Postgasse 8)"
+    day:
+      - d: 1
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 2
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie (Gedächtnis der Verstorbenen)
+        occasion: null
+      - d: 4
+        event:
+          - time: " 12:00"
+            title: Hl. Liturgie (Jesuitenkirche)
+          - time: " 18:00"
+            title: Hl. Liturgie (Auf Deutsch in der Josaphatskapelle)
+        occasion: null
+      - d: 5
+        event:
+          - time: " 19:00"
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: null
+      - d: 8
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 9
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie (Gedächtnis der Verstorbenen)
+        occasion: null
+      - d: 11
+        event:
+          - time: " 12:00"
+            title: Hl. Liturgie (Jesuitenkirche)
+          - time: " 18:00"
+            title: Hl. Liturgie (Auf Deutsch in der Josaphatskapelle)
+        occasion: null
+      - d: 12
+        event:
+          - time: " 19:00"
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: null
+      - d: 15
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 16
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie (Gedächtnis der Verstorbenen)
+        occasion: null
+      - d: 18
+        event:
+          - time: " 12:00"
+            title: Hl. Liturgie (Jesuitenkirche)
+          - time: " 18:00"
+            title: Hl. Liturgie (Auf Deutsch in der Josaphatskapelle)
+        occasion: null
+      - d: 19
+        event:
+          - time: " 19:00"
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: null
+      - d: 21
+        event:
+          - time: " 10:00"
+            title: Hl. Liturgie
+        occasion: Mariä Geburt (Jul. Kal.) (Jesuitenkirche)
+      - d: 22
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 23
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie (Gedächtnis der Verstorbenen)
+        occasion: null
+      - d: 25
+        event:
+          - time: " 12:00"
+            title: Hl. Liturgie (Jesuitenkirche)
+          - time: " 18:00"
+            title: Hl. Liturgie (Auf Deutsch in der Josaphatskapelle)
+        occasion: null
+      - d: 26
+        event:
+          - time: " 19:00"
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: null
+      - d: 27
+        event:
+          - time: " 10:00"
+            title: Erhöhung des Heiligen Kreuzes (Jul. Kal.) (Jesuitenkirche)
+        occasion: null
+      - d: 29
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 30
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie (Gedächtnis der Verstorbenen)
+        occasion: null
+    is_published: true
+    month_date: 09-2022
