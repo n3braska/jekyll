@@ -850,7 +850,7 @@ month:
         event:
           - time: " 18:00"
             title: Hl. Liturgie
-        occasion: Різдво Пресвяої Богородиці (Jesuitenkirche)
+        occasion: null
       - d: 21
         event:
           - time: " 18:00"
