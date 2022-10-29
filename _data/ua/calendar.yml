@@ -1,4 +1,31 @@
 month:
+  - announcement: "January"
+    day:
+      - d: 1
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie (Aller Heiligen)
+        occasion: Jesuitenkirche
+    is_published: false
+    month_date: 01-2022
+  - announcement: "February"
+    day:
+      - d: 1
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie (Aller Heiligen)
+        occasion: Jesuitenkirche
+    is_published: false
+    month_date: 02-2022
+  - announcement: "March"
+    day:
+      - d: 1
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie (Aller Heiligen)
+        occasion: Jesuitenkirche
+    is_published: false
+    month_date: 03-2022
   - announcement: 31.03-03.04.2022   ВЕЛИКОПОСТНІ НАУКИ ТА СПОВІДЬ проводить владика
       ІРИНЕЙ БІЛИК
     day:
@@ -992,5 +1019,14 @@ month:
           - time: " 19:00"
             title: Зустріч «Матері в молитві»
         occasion: null
-    is_published: false
+    is_published: true
     month_date: 11-2022
+  - announcement: "Dec"
+    day:
+      - d: 1
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie (Aller Heiligen)
+        occasion: Jesuitenkirche
+    is_published: false
+    month_date: 12-2022

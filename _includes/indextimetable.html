@@ -1,13 +1,12 @@
 
-            {% assign month_date_now = 'now' | date: '%m' | slice: 0,2 | plus: 0 %}
-            {% assign month_number = site.data.[page.lang].calendar.month | size | plus: -1 %}
+            {% assign month_date_now = 'now' | date: '%m' | slice: 0,2 | plus: -1 %}
 
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">
-                    {% if site.data.[page.lang].calendar.month[month_number].announcement %}
+                    {% if site.data.[page.lang].calendar.month[month_date_now].announcement %}
                         <div class="row atext-c center">
                             <span class=" col-sm-2"></span>
-                            <div class = "col-sm-8">{{ site.data.[page.lang].calendar.month[month_number].announcement }}</div>
+                            <div class = "col-sm-8">{{ site.data.[page.lang].calendar.month[month_date_now].announcement }}</div>
                             <span class=" col-sm-2"></span>
                         </div>
                     {% endif %}
@@ -15,12 +14,12 @@
                 </ul>
 
                 <ul class="list-group list-group-flush">
-                    {% for entry in site.data.[page.lang].calendar.month[month_number].day %}
+                    {% for entry in site.data.[page.lang].calendar.month[month_date_now].day %}
                     <li class="list-group-item" id="{{ entry.d }}">
                         <div class="row cent">
                             <div class="col-sm-2 atext-c center">
                                 {{ entry.d }}
-                                {% assign month_number = month_date_now | slice: 0,2 | plus: -1 %}
+                                {% assign month_number = month_date_now | slice: 0,2 | plus: 0 %}
                                 {{site.data.[page.lang].months.dictionary[month_number].genetiv}}
                             </div>
                             <div class="col-sm-6 atext-c center">
