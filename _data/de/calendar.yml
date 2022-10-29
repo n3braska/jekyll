@@ -986,5 +986,5 @@ month:
           - time: " 19:00"
             title: Gebetskreis „Mütter im Gebet“
         occasion: null
-    is_published: true
+    is_published: false
     month_date: 11-2022
