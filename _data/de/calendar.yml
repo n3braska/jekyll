@@ -914,7 +914,7 @@ month:
           - time: " 18:00"
             title: Hl. Liturgie (Auf Deutsch in der Josaphatskapelle)
         occasion: null
-    is_published: true
+    is_published: false
     month_date: 10-2022
   - announcement: "In November, während der Renovierung unserer Kirche St. Barbara, werden die Sonntagsgottesdienste auf Ukrainisch in der Jesuitenkirche um 12:00 Uhr gefeiert. Alle anderen Gottesdienste (auch die Sonntagsliturgie auf Deutsch) werden in der Josaphatskapelle gefeiert. (Zugang über den Zufahrt Postgasse 8)"
     day:
