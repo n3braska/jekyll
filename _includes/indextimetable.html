@@ -1,6 +1,16 @@
 
             {% assign month_date_now = 'now' | date: '%m' | slice: 0,2 | plus: -1 %}
 
+            {% comment %}
+            This feature allows to jump to the next month timetable
+            Condition: no more occasions this month
+            {% endcomment %}
+
+            {% assign day_date_now = 'now' | date: '%d' | slice: 0,2 | plus: 0 %}
+            {% if site.data.[page.lang].calendar.month[month_date_now].day.last.d < day_date_now %}
+            {% assign month_date_now = 'now' | date: '%m' | slice: 0,2 | plus: 0 %}
+            {% endif %}
+
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">
                     {% if site.data.[page.lang].calendar.month[month_date_now].announcement %}
@@ -56,8 +66,11 @@
 
 <script>
         const currentDate = new Date();
-        const today = currentDate.getDate();
+        let today = currentDate.getDate();
         const timetableItems = document.getElementsByClassName("list-group-item");
+        if(currentDate.getMonth() != {{ month_date_now }} ) {
+            today = 1;
+        }
         for(let index = 1; index < timetableItems.length; ++index) {
             const itemID = timetableItems[index].id;
             if(itemID !== "link" && (itemID < today || itemID > today + 7 )) {
