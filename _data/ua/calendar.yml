@@ -1021,7 +1021,7 @@ month:
         occasion: null
     is_published: false
     month_date: 11-2022
-  - announcement: "Церква Святої Варвари перебеває на ремонті. Розклад Богослужінь на грудень у церкві отців Єзуїтів (Doktor-Ignaz-Seipel-Platz 1, 1010 Wien)"
+  - announcement: "Церква Святої Варвари перебуває на ремонті. Розклад Богослужінь на грудень у церкві отців Єзуїтів (Doktor-Ignaz-Seipel-Platz 1, 1010 Wien)"
     day:
       - d: 11
         event:
