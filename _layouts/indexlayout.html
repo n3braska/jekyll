@@ -29,12 +29,118 @@
     </div>
 </div>
 <div class="container mt-2 mb-5 ">
-    <h3 class="my-3 text-center title pt-3">{% if page.lang=="ua" %} Богослужіння {% else %} Messe {%
-        endif
-        %}</h3>
+    <h3 class="my-3 text-center title pt-3">{% if page.lang=="ua" %} Богослужіння {% else %} Messe {% endif %}</h3>
+
     <div class="card w-100 my-4  h-img1 ">
         {% include indextimetable.html %}
     </div>
+
+    {% if page.lang=="ua" %}
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+            <div class="row atext-c center">
+                <span class=" col-sm-2"></span>
+                <div class = "col-sm-8">Розклад Богослужінь на грудень у каплиці Святого Йосафата у несвяткові дні, поруч з церквою св. Варвари (Postgasse 8A, 1010 Wien)</div>
+                <span class=" col-sm-2"></span>
+            </div>
+        </li>
+        <li class="list-group-item">
+            <div class="row cent">
+                <div class="col-sm-2 atext-c center">
+                    Неділя
+                </div>
+                <div class="col-sm-6 atext-c center">
+                    <table style="width:100%">
+                        <tr>
+                            <td  class="m-2 atext-c text-left">18:00</td>
+                            <td  class="m-2  atext-c align-middle">Служба Божа німецькою мовою</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="col-sm-4 atext-c center "></div>
+            </div>
+        </li>
+        <li class="list-group-item">
+            <div class="row cent">
+                <div class="col-sm-2 atext-c center">
+                    Понеділок
+                </div>
+                <div class="col-sm-6 atext-c center">
+                    <table style="width:100%">
+                        <tr>
+                            <td  class="m-2 atext-c text-left">19:00</td>
+                            <td  class="m-2  atext-c align-middle">Зустріч «Матері в молитві»</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="col-sm-4 atext-c center "></div>
+            </div>
+        </li>
+        <li class="list-group-item">
+            <div class="row cent">
+                <div class="col-sm-2 atext-c center">
+                    Четвер
+                </div>
+                <div class="col-sm-6 atext-c center">
+                    <table style="width:100%">
+                        <tr>
+                            <td  class="m-2 atext-c text-left">18:00</td>
+                            <td  class="m-2  atext-c align-middle">Служба Божа за здоров'я</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="col-sm-4 atext-c center "></div>
+            </div>
+        </li>
+        <li class="list-group-item">
+            <div class="row cent">
+                <div class="col-sm-2 atext-c center">
+                    П'ятниця
+                </div>
+                <div class="col-sm-6 atext-c center">
+                    <table style="width:100%">
+                        <tr>
+                            <td  class="m-2 atext-c text-left">18:00</td>
+                            <td  class="m-2  atext-c align-middle">Служба Божа за померлих</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="col-sm-4 atext-c center "></div>
+            </div>
+        </li>
+    </ul>
+    {% else %}
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+            <div class="row atext-c center">
+                <span class=" col-sm-2"></span>
+                <div class = "col-sm-8">Gottesdienste in der Josaphatskapelle an anderen Tagen neben der St. Barbara Kirche (Eingang in der Postgasse 8A, 1010 Wien)</div>
+                <span class=" col-sm-2"></span>
+            </div>
+        </li>
+        <li class="list-group-item">
+            <div class="row cent">
+                <div class="col-sm-2 atext-c center">
+                    Sonntag
+                </div>
+                <div class="col-sm-6 atext-c center">
+                    <table style="width:100%">
+                        <tr>
+                            <td  class="m-2 atext-c text-left">18:00</td>
+                            <td  class="m-2  atext-c align-middle">Hl. Liturgie auf Deutsch</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="col-sm-4 atext-c center "></div>
+            </div>
+        </li>
+    </ul>
+    {% endif %}
 
 </div>
 <div class="container-fluid container justify-content-center">
