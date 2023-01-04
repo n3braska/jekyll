@@ -1,12 +1,59 @@
 month:
-  - announcement: "January"
+  - announcement: "у Церкві отців Єзуїтів - Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
-      - d: 1
+      - d: 5
         event:
           - time: " 18:00"
-            title: Hl. Liturgie (Aller Heiligen)
-        occasion: Jesuitenkirche
-    is_published: false
+            title: Служба Божа за померлих
+        occasion: null
+      - d: 6
+        event:
+          - time: " 12:15"
+            title: Служба Божа та Водосвяття
+          - time: " 18:00"
+            title: Велике Повечір’я
+        occasion: БОГОЯВЛЕННЯ ГОСПОДНЄ (Гр. Ст.) та Навечір’я Різдва (Святий вечір) (Юл. Ст.)
+      - d: 7
+        event:
+          - time: " 12:15"
+            title: Служба Божа
+        occasion: РІЗДВО ХРИСТОВЕ
+      - d: 8
+        event:
+          - time: " 12:15"
+            title: Служба Божа
+        occasion: Собор Пресвятої Богородиці
+      - d: 14
+        event:
+          - time: " 12:15"
+            title: Служба Божа
+        occasion: Новий рік, Св. Василія Великого
+      - d: 15
+        event:
+          - time: " 12:15"
+            title: Служба Божа
+        occasion: null
+      - d: 18
+        event:
+          - time: " 12:15"
+            title: Вечірня з Св. Літургією та Водосвяття
+        occasion: Навечір’я Богоявлення (Щедрий вечір)
+      - d: 19
+        event:
+          - time: " 12:15"
+            title: Служба Божа та Водосвяття
+        occasion: БОГОЯВЛЕННЯ ГОСПОДНЄ
+      - d: 22
+        event:
+          - time: " 12:15"
+            title: Служба Божа
+        occasion: null
+      - d: 29
+        event:
+          - time: " 12:15"
+            title: Служба Божа
+        occasion: null
+    is_published: true
     month_date: 01-2022
   - announcement: "February"
     day:

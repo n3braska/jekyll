@@ -1,0 +1,1108 @@
+month:
+  - announcement: "in Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
+    day:
+      - d: 6
+        event:
+          - time: " 12:15"
+            title: Hl. Liturgie und Wasserweihe
+          - time: " 18:00"
+            title: Große Nachvesper (Heiliger Abend) (Jul. Kal.)
+        occasion: ERSCHEINUNG DES HERRN (Gr. Kal.)
+      - d: 7
+        event:
+          - time: " 12:15"
+            title: Hl. Liturgie
+        occasion: FEST DER GEBURT DES HERRN (Jul. Kal.)
+      - d: 8
+        event:
+          - time: " 12:15"
+            title: Hl. Liturgie
+        occasion: Muttergottesfest (Jul. Kal.)
+      - d: 14
+        event:
+          - time: " 12:15"
+            title: Hl. Liturgie
+        occasion: Neujahr, Hl. Basilius der Große (Jul. Kal.)
+      - d: 15
+        event:
+          - time: " 12:15"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 18
+        event:
+          - time: " 12:15"
+            title: Vesper mit Liturgie und Wasserweihe
+        occasion: null
+      - d: 19
+        event:
+          - time: " 12:15"
+            title: Hl. Liturgie und Wasserweihe
+        occasion: ERSCHEINUNG DES HERRN (Jul. Kal.)
+      - d: 22
+        event:
+          - time: " 12:15"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 29
+        event:
+          - time: " 12:15"
+            title: Hl. Liturgie
+        occasion: null
+    is_published: true
+    month_date: 01-2022
+  - announcement: "February"
+    day:
+      - d: 1
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie (Aller Heiligen)
+        occasion: Jesuitenkirche
+    is_published: false
+    month_date: 02-2022
+  - announcement: "March"
+    day:
+      - d: 1
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie (Aller Heiligen)
+        occasion: Jesuitenkirche
+    is_published: false
+    month_date: 03-2022
+  - announcement: 31.03-03.04.2022   Osterexerzitien und Osterbeichte mit Biuschof
+      Iriney Bilyk
+    day:
+      - d: 6
+        event:
+          - time: " 18:30"
+            title: Liturgie der Vorgeweihten Gaben
+        occasion: Auf Deutsch
+      - d: 7
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: Verkündigung des Herrn
+      - d: 8
+        event:
+          - time: " 18:00"
+            title: Liturgie der Vorgeweihten Gaben
+        occasion: Gedächtnis der Verstorbenen
+      - d: 9
+        event:
+          - time: " 18:00"
+            title: Vesper
+        occasion: null
+      - d: 10
+        event:
+          - time: " 9:30"
+            title: Hl. Liturgie
+          - time: " 12:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 11
+        event:
+          - time: " 18:00"
+            title: Liturgie der Vorgeweihten Gaben
+        occasion: Gedächtnis der Verstorbenen
+      - d: 12
+        event:
+          - time: " 18:00"
+            title: Kreuzweg
+          - time: " 19:00"
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: null
+      - d: 13
+        event:
+          - time: " 18:30"
+            title: Liturgie der Vorgeweihten Gaben
+        occasion: Auf Deutsch
+      - d: 14
+        event:
+          - time: " 18:00"
+            title: Großer Kanon des Andreas von Kryta
+        occasion: null
+      - d: 15
+        event:
+          - time: " 12:00"
+            title: Vesper und Grablegung, Gregoreanisch
+          - time: " 18:00"
+            title: Liturgie der Vorgeweihten Gaben
+        occasion: Gedächtnis der Verstorbenen
+      - d: 16
+        event:
+          - time: " 18:00"
+            title: Grabgebet, Gregoreanisch
+          - time: " 18:30"
+            title: Auferstehungsmatutin
+          - time: " 20:00"
+            title: Osterspeisensegnung
+        occasion: null
+      - d: 17
+        event:
+          - time: " 9:30"
+            title: Hl. Liturgie und Osterspeisensegnung
+          - time: " 12:00"
+            title: Hl. Liturgie und Palmenweihe (Julianisch)
+        occasion: null
+      - d: 18
+        event:
+          - time: " 9:30"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 19
+        event:
+          - time: " 18:00"
+            title: Kreuzweg
+          - time: " 19:00"
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: null
+      - d: 21
+        event:
+          - time: " 9:30"
+            title: Vesper з Св. Літургією
+          - time: " 18:00"
+            title: Passionsmatutin
+        occasion: null
+      - d: 22
+        event:
+          - time: " 9:30"
+            title: Vesper und Grablegung, Greg. Kal.
+          - time: " 18:00"
+            title: Jerusalemer Matutin
+        occasion: null
+      - d: 23
+        event:
+          - time: " 9:30"
+            title: Hl. Liturgie Воскресна
+          - time: " 20:30"
+            title: Hl. Liturgie Воскресна
+          - time: " 21:00"
+            title: Hl. Liturgie Воскресна
+          - time: " 22:30"
+            title: Hl. Liturgie Воскресна
+        occasion: 13:00/14:00/15:00/16:00/17:00/18:00/19:00/20:00 Osterspeisensegnung
+      - d: 24
+        event:
+          - time: " 9:30"
+            title: Osterliturgie
+          - time: " 11:00"
+            title: Osterspeisensegnung
+        occasion: Oster-Sonntag
+      - d: 25
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: Oster-Montag
+      - d: 26
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: Oster-Dienstag
+    is_published: false
+    month_date: 04-2022
+  - announcement: null
+    day:
+      - d: 1
+        event:
+          - time: " 09:30"
+            title: Hl. Liturgie
+          - time: " 12:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 2
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: Gedächtnis der Verstorbenen
+      - d: 3
+        event:
+          - time: " 18:00"
+            title: Andacht zu Mutter Gottes
+        occasion: null
+      - d: 4
+        event:
+          - time: " 09:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 5
+        event:
+          - time: " 18:00"
+            title: Liturgie der Vorgeweihten Gaben
+        occasion: null
+      - d: 6
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: Gedächtnis der Verstorbenen
+      - d: 7
+        event:
+          - time: " 18:00"
+            title: Vesper
+        occasion: null
+      - d: 8
+        event:
+          - time: " 09:30"
+            title: Hl. Liturgie
+          - time: " 12:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 9
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: Gedächtnis der Verstorbenen
+      - d: 10
+        event:
+          - time: " 18:00"
+            title: Andacht zu Mutter Gottes
+        occasion: null
+      - d: 11
+        event:
+          - time: " 09:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 12
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 13
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: Gedächtnis der Verstorbenen
+      - d: 14
+        event:
+          - time: " 18:00"
+            title: Vesper
+        occasion: null
+      - d: 15
+        event:
+          - time: " 09:30"
+            title: Hl. Liturgie
+          - time: " 12:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 16
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: Gedächtnis der Verstorbenen
+      - d: 17
+        event:
+          - time: " 18:00"
+            title: Andacht zu Mutter Gottes
+        occasion: null
+      - d: 18
+        event:
+          - time: " 09:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 19
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 20
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: Gedächtnis der Verstorbenen
+      - d: 21
+        event:
+          - time: " 18:00"
+            title: Vesper
+        occasion: null
+      - d: 22
+        event:
+          - time: " 09:30"
+            title: Hl. Liturgie
+          - time: " 12:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 23
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: Gedächtnis der Verstorbenen
+      - d: 24
+        event:
+          - time: " 18:00"
+            title: Andacht zu Mutter Gottes
+        occasion: null
+      - d: 25
+        event:
+          - time: " 09:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 26
+        event:
+          - time: " 18:00"
+            title: Liturgie der Vorgeweihten Gaben
+        occasion: Christi Himmelfahrt (Gregorianisch)
+      - d: 27
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: Gedächtnis der Verstorbenen
+      - d: 28
+        event:
+          - time: " 18:00"
+            title: Vesper
+        occasion: null
+      - d: 29
+        event:
+          - time: " 09:30"
+            title: Hl. Liturgie
+          - time: " 12:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 3ß
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: Gedächtnis der Verstorbenen
+      - d: 31
+        event:
+          - time: " 18:00"
+            title: Andacht zu Mutter Gottes
+    is_published: false
+    month_date: 05-2022
+  - announcement: null
+    day:
+      - d: 1
+        event:
+          - time: " 9:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 2
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie - Himmelfahrt Christi (Jul. Kal.)
+        occasion: Bibelkreis im Pfarrsaal
+      - d: 3
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: Gedächtnis der Verstorbenen
+      - d: 4
+        event:
+          - time: " 18:00"
+            title: Vesper
+        occasion: null
+      - d: 5
+        event:
+          - time: " 09:30"
+            title: Hl. Liturgie - PFINGSTSONNTAG
+          - time: " 12:00"
+            title: Hl. Liturgie - Sontag der Hll. Väter (Jul. Kal.)
+        occasion: null
+      - d: 6
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie - Gedächtnis der Verstorbenen
+        occasion: PFINGSTMONTAG
+      - d: 7
+        event:
+          - time: " 18:00"
+            title: Andacht
+          - time: " 18:30"
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: null
+      - d: 8
+        event:
+          - time: " 9:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 9
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: Gebetskreis im Pfarrsaal
+      - d: 10
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+          - time: " 19:00"
+            title: Taize Gebet
+          - time: " 20:00"
+            title: Hymnos Akthystos
+        occasion: LANGE NACHT DER KIRCHEN
+      - d: 11
+        event:
+          - time: " 16:00"
+            title: null
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: Kinderfest vor der Kirche
+      - d: 12
+        event:
+          - time: " 09:30"
+            title: Hl. Liturgie
+          - time: " 12:00"
+            title: Hl. Liturgie
+        occasion: PGR-WAHL!!! PFINGSTSONNTAG (Jul. Kal.)
+      - d: 13
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+          - time: " 19:00"
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: PFINGSTMONTAG (Jul. Kal.)
+      - d: 14
+        event:
+          - time: " 18:00"
+            title: Andacht
+          - time: 18:30
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: null
+      - d: 15
+        event:
+          - time: " 9:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 16
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: Fronleichnam
+      - d: 17
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: Gedächtnis der Verstorbenen
+      - d: 18
+        event:
+          - time: " 18:00"
+            title: Vesper
+        occasion: null
+      - d: 19
+        event:
+          - time: " 09:30"
+            title: Hl. Liturgie
+          - time: " 12:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 20
+        event:
+          - time: " 18:00"
+            title: Gedächtnis der Verstorbenen
+        occasion: Beginn der Fastenzeit
+      - d: 21
+        event:
+          - time: " 18:00"
+            title: Andacht
+          - time: 18:30
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: null
+      - d: 22
+        event:
+          - time: " 9:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 23
+        event:
+          - time: " 18:00"
+            title: Fronleichnam (Jul. Kal.)
+        occasion: Gebetskreis im Pfarrsaal
+      - d: 24
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: Gedächtnis der Verstorbenen
+      - d: 25
+        event:
+          - time: " 18:00"
+            title: Vesper
+        occasion: null
+      - d: 26
+        event:
+          - time: " 09:30"
+            title: Hl. Liturgie
+          - time: " 12:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 27
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: Gedächtnis der Verstorbenen
+      - d: 28
+        event:
+          - time: " 18:00"
+            title: Andacht
+          - time: 18:30
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: null
+      - d: 29
+        event:
+          - time: " 9:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 30
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: null
+    is_published: false
+    month_date: 06-2022
+  - announcement: null
+    day:
+      - d: 3
+        event:
+          - time: " 09:30"
+            title: Hl. Liturgie
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 4
+        event:
+          - time: " 19:00"
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: null
+      - d: 7
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: Hl. Johannes der Täufer
+      - d: 8
+        event:
+          - time: " 9:00"
+            title: Hl. Liturgie (Gedächtnis der Verstorbenen)
+        occasion: null
+      - d: 10
+        event:
+          - time: " 09:30"
+            title: Hl. Liturgie (Aller Heiligen des ukrainischen Volkes)
+          - time: " 12:00"
+            title: Hl. Liturgie
+          - time: " 14:00"
+            title: Hl. Liturgie (Auf Slowakisch)
+          - time: " 18:00"
+            title: Hl. Liturgie (Auf Deutsch)
+        occasion: null
+      - d: 11
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie (Gebetskreis „Mütter im Gebet“)
+          - time: " 19:00"
+            title: null
+        occasion: null
+      - d: 12
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: Hll. Aposteln Petrus und Paulus
+      - d: 14
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 15
+        event:
+          - time: " 9:00"
+            title: Hl. Liturgie (Gedächtnis der Verstorbenen)
+        occasion: null
+      - d: 17
+        event:
+          - time: " 09:30"
+            title: Hl. Liturgie
+          - time: " 12:00"
+            title: Hl. Liturgie
+          - time: " 18:00"
+            title: Hl. Liturgie (Auf Deutsch)
+        occasion: null
+      - d: 18
+        event:
+          - time: " 19:00"
+            title: null
+        occasion: Gebetskreis „Mütter im Gebet“
+      - d: 21
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 22
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: Gedächtnis der Verstorbenen
+      - d: 24
+        event:
+          - time: " 09:30"
+            title: Hl. Liturgie (Hl. Olha)
+          - time: " 12:00"
+            title: Hl. Liturgie
+          - time: " 18:00"
+            title: Hl. Liturgie (Auf Deutsch)
+        occasion: null
+      - d: 25
+        event:
+          - time: " 19:00"
+            title: null
+        occasion: Gebetskreis „Mütter im Gebet“
+      - d: 28
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: Hl. Volodymyr
+      - d: 29
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: Gedächtnis der Verstorbenen
+      - d: 30
+        event:
+          - time: " 09:30"
+            title: Hl. Liturgie
+          - time: " 12:00"
+            title: Hl. Liturgie
+          - time: " 18:00"
+            title: Hl. Liturgie (Auf Deutsch)
+        occasion: null
+    is_published: false
+    month_date: 07-2022
+  - announcement: "In August, während der Renovierung unserer Kirche St. Barbara, werden die Sonntagsgottesdienste auf Ukrainisch in der Jesuitenkirche um 12:00 Uhr gefeiert. Alle anderen Gottesdienste (auch die Sonntagsliturgie auf Deutsch) werden in der Josaphatskapelle gefeiert. (Zugang über den Zufahrt Postgasse 8)"
+    day:
+      - d: 7
+        event:
+          - time: " 12:00"
+            title: Hl. Liturgie
+          - time: " 18:00"
+            title: Hl. Liturgie auf Deutsch in der Josaphatskapelle
+        occasion: Jesuitenkirche
+      - d: 8
+        event:
+          - time: " 19:00"
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: null
+      - d: 11
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 12
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie (Gedächtnis der Verstorbenen)
+        occasion: null
+      - d: 14
+        event:
+          - time: " 12:00"
+            title: Hl. Liturgie
+          - time: " 18:00"
+            title: Hl. Liturgie auf Deutsch in der Josaphatskapelle
+        occasion: Jesuitenkirche
+      - d: 15
+        event:
+          - time: " 19:00"
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: null
+      - d: 18
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie (Gedächtnis der Verstorbenen)
+        occasion: null
+      - d: 19
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie (Segen der Früchte)
+        occasion: Verklärung des Herrn (Jul. Kal.)
+      - d: 21
+        event:
+          - time: " 12:00"
+            title: Hl. Liturgie
+          - time: " 18:00"
+            title: Hl. Liturgie auf Deutsch in der Josaphatskapelle
+        occasion: Jesuitenkirche
+      - d: 22
+        event:
+          - time: " 19:00"
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: null
+      - d: 25
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 26
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie Gedächtnis der Verstorbenen
+        occasion: null
+      - d: 28
+        event:
+          - time: " 12:00"
+            title: Hl. Liturgie (Segen der Blumen und Kräuter)
+          - time: " 18:00"
+            title: Hl. Liturgie auf Deutsch in der Josaphatskapelle
+        occasion: Himmelfahrt Mariä (Jul. Kal.), Jesuitenkirche
+      - d: 29
+        event:
+          - time: " 19:00"
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: null
+    is_published: false
+    month_date: 08-2022
+  - announcement: "In September, während der Renovierung unserer Kirche St. Barbara, werden die Sonntagsgottesdienste auf Ukrainisch in der Jesuitenkirche um 12:00 Uhr gefeiert. Alle anderen Gottesdienste (auch die Sonntagsliturgie auf Deutsch) werden in der Josaphatskapelle gefeiert. (Zugang über den Zufahrt Postgasse 8)"
+    day:
+      - d: 1
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 2
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie (Gedächtnis der Verstorbenen)
+        occasion: null
+      - d: 4
+        event:
+          - time: " 12:00"
+            title: Hl. Liturgie (Jesuitenkirche)
+          - time: " 18:00"
+            title: Hl. Liturgie (Auf Deutsch in der Josaphatskapelle)
+        occasion: null
+      - d: 5
+        event:
+          - time: " 19:00"
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: null
+      - d: 8
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 9
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie (Gedächtnis der Verstorbenen)
+        occasion: null
+      - d: 11
+        event:
+          - time: " 12:00"
+            title: Hl. Liturgie (Jesuitenkirche)
+          - time: " 18:00"
+            title: Hl. Liturgie (Auf Deutsch in der Josaphatskapelle)
+        occasion: null
+      - d: 12
+        event:
+          - time: " 19:00"
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: null
+      - d: 15
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 16
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie (Gedächtnis der Verstorbenen)
+        occasion: null
+      - d: 18
+        event:
+          - time: " 12:00"
+            title: Hl. Liturgie (Jesuitenkirche)
+          - time: " 18:00"
+            title: Hl. Liturgie (Auf Deutsch in der Josaphatskapelle)
+        occasion: null
+      - d: 19
+        event:
+          - time: " 19:00"
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: null
+      - d: 21
+        event:
+          - time: " 10:00"
+            title: Hl. Liturgie
+        occasion: Mariä Geburt (Jul. Kal.) (Jesuitenkirche)
+      - d: 22
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 23
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie (Gedächtnis der Verstorbenen)
+        occasion: null
+      - d: 25
+        event:
+          - time: " 12:00"
+            title: Hl. Liturgie (Jesuitenkirche)
+          - time: " 18:00"
+            title: Hl. Liturgie (Auf Deutsch in der Josaphatskapelle)
+        occasion: null
+      - d: 26
+        event:
+          - time: " 19:00"
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: null
+      - d: 27
+        event:
+          - time: " 10:00"
+            title: Erhöhung des Heiligen Kreuzes (Jul. Kal.) (Jesuitenkirche)
+        occasion: null
+      - d: 29
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 30
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie (Gedächtnis der Verstorbenen)
+        occasion: null
+    is_published: false
+    month_date: 09-2022
+  - announcement: "In Oktober, während der Renovierung unserer Kirche St. Barbara, werden die Sonntagsgottesdienste auf Ukrainisch in der Jesuitenkirche um 12:00 Uhr gefeiert. Alle anderen Gottesdienste (auch die Sonntagsliturgie auf Deutsch) werden in der Josaphatskapelle gefeiert. (Zugang über den Zufahrt Postgasse 8)"
+    day:
+      - d: 2
+        event:
+          - time: " 12:00"
+            title: Hl. Liturgie (Jesuitenkirche)
+          - time: " 18:00"
+            title: Hl. Liturgie (Auf Deutsch in der Josaphatskapelle)
+        occasion: null
+      - d: 3
+        event:
+          - time: " 19:00"
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: null
+      - d: 6
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: Зачаття Йохана Хрестителя
+      - d: 7
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie (Gedächtnis der Verstorbenen)
+        occasion: null
+      - d: 9
+        event:
+          - time: " 12:00"
+            title: Hl. Liturgie (Jesuitenkirche)
+          - time: " 14:00"
+            title: Hl. Liturgie (Auf Slowakisch in der Josaphatskapelle)
+          - time: " 18:00"
+            title: Hl. Liturgie (Auf Deutsch in der Josaphatskapelle)
+        occasion: null
+      - d: 10
+        event:
+          - time: " 19:00"
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: null
+      - d: 13
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie (Gedächtnis der Verstorbenen)
+        occasion: null
+      - d: 14
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: FEST MARIA SCHUTZ Festgottesdienst im Stephansdom
+      - d: 16
+        event:
+          - time: " 12:00"
+            title: Hl. Liturgie (Jesuitenkirche)
+          - time: " 18:00"
+            title: Hl. Liturgie (Auf Deutsch in der Josaphatskapelle)
+        occasion: null
+      - d: 17
+        event:
+          - time: " 19:00"
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: null
+      - d: 20
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 21
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie (Gedächtnis der Verstorbenen)
+        occasion: null
+      - d: 23
+        event:
+          - time: " 12:00"
+            title: Hl. Liturgie (Jesuitenkirche)
+          - time: " 14:00"
+            title: Hl. Liturgie (Auf Slowakisch in der Josaphatskapelle)
+          - time: " 18:00"
+            title: Hl. Liturgie (Auf Deutsch in der Josaphatskapelle)
+        occasion: null
+      - d: 24
+        event:
+          - time: " 19:00"
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: null
+      - d: 27
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 28
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie (Gedächtnis der Verstorbenen)
+        occasion: null
+      - d: 30
+        event:
+          - time: " 12:00"
+            title: Hl. Liturgie (Jesuitenkirche)
+          - time: " 18:00"
+            title: Hl. Liturgie (Auf Deutsch in der Josaphatskapelle)
+        occasion: null
+    is_published: false
+    month_date: 10-2022
+  - announcement: "In November, während der Renovierung unserer Kirche St. Barbara, werden die Sonntagsgottesdienste auf Ukrainisch in der Jesuitenkirche um 12:00 Uhr gefeiert. Alle anderen Gottesdienste (auch die Sonntagsliturgie auf Deutsch) werden in der Josaphatskapelle gefeiert. (Zugang über den Zufahrt Postgasse 8)"
+    day:
+      - d: 1
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie (Aller Heiligen)
+        occasion: Jesuitenkirche
+      - d: 3
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 4
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie (Gedächtnis der Verstorbenen)
+        occasion: null
+      - d: 6
+        event:
+          - time: " 12:00"
+            title: Hl. Liturgie (Jesuitenkirche)
+          - time: " 18:00"
+            title: Hl. Liturgie (Auf Deutsch in der Josaphatskapelle)
+        occasion: null
+      - d: 7
+        event:
+          - time: " 19:00"
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: null
+      - d: 10
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 11
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie (Gedächtnis der Verstorbenen)
+        occasion: null
+      - d: 13
+        event:
+          - time: " 12:00"
+            title: Hl. Liturgie (Jesuitenkirche)
+          - time: " 18:00"
+            title: Hl. Liturgie (Auf Deutsch in der Josaphatskapelle)
+        occasion: null
+      - d: 14
+        event:
+          - time: " 19:00"
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: null
+      - d: 17
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 18
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie (Gedächtnis der Verstorbenen)
+        occasion: null
+      - d: 20
+        event:
+          - time: " 12:00"
+            title: Hl. Liturgie (Jesuitenkirche)
+          - time: " 18:00"
+            title: Hl. Liturgie (Auf Deutsch in der Josaphatskapelle)
+        occasion: null
+      - d: 21
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie Hl. Michael (Jesuitenkirche)
+          - time: " 19:00"
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: null
+      - d: 24
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 25
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie (Gedächtnis der Verstorbenen)
+        occasion: Hl. Märtyrer Josaphat / Kleines Patrozinium
+      - d: 27
+        event:
+          - time: " 12:00"
+            title: Hl. Liturgie (Jesuitenkirche)
+          - time: " 18:00"
+            title: Hl. Liturgie (Auf Deutsch in der Josaphatskapelle)
+        occasion: null
+      - d: 28
+        event:
+          - time: " 19:00"
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: null
+    is_published: false
+    month_date: 11-2022
+  - announcement: "Kirche St. Barbara wegen der Renovierung geschlossen. Gottesdienste in Jesuitenkirche (Doktor-Ignaz-Seipel-Platz 1, 1010 Wien):"
+    day:
+      - d: 11
+        event:
+          - time: " 12:15"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 13
+        event:
+          - time: " 18:00"
+            title: Hl. Andreas
+        occasion: Josaphatskapelle
+      - d: 18
+        event:
+          - time: " 12:15"
+            title: Hl. Barbara
+        occasion: Patrozinium
+      - d: 19
+        event:
+          - time: " 18:00"
+            title: Hl. Nikolaus
+        occasion: null
+      - d: 22
+        event:
+          - time: " 18:00"
+            title: Mariä Empfängnis
+        occasion: (Jul. Kal.)
+      - d: 24
+        event:
+          - time: " 16:00"
+            title: Große Weihnachtsandacht
+        occasion: (Heiliger Abend)
+      - d: 25
+        event:
+          - time: " 12:15"
+            title: GEBURT DES HERRN
+        occasion: null
+      - d: 26
+        event:
+          - time: " 12:15"
+            title: Fest der Gottesmutter
+        occasion: null
+      - d: 27
+        event:
+          - time: " 18:00"
+            title: Hl. Stephanus
+        occasion: Josaphatskapelle
+    is_published: true
+    month_date: 12-2022

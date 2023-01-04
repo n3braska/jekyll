@@ -1,12 +1,54 @@
 month:
-  - announcement: "January"
+  - announcement: "in Josaphatskapelle: Postgasse 8A"
     day:
-      - d: 1
+      - d: 5
         event:
           - time: " 18:00"
-            title: Hl. Liturgie (Aller Heiligen)
-        occasion: Jesuitenkirche
-    is_published: false
+            title: Hl. Liturgie für Verstorbene
+        occasion: null
+      - d: 9
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+          - time: " 19:00"
+            title: Andacht der „Mütter im Gebet“
+        occasion: Fest des Hl. Stephanus (Jul. Kal.)
+      - d: 12
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 13
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie für Verstorbene
+        occasion: null
+      - d: 16
+        event:
+          - time: " 19:00"
+            title: Andacht der „Mütter im Gebet“
+        occasion: null
+      - d: 20
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie für Verstorbene
+        occasion: null
+      - d: 23
+        event:
+          - time: " 19:00"
+            title: Andacht der „Mütter im Gebet“
+        occasion: null
+      - d: 24
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 27
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie für Verstorbene
+        occasion: null
+    is_published: true
     month_date: 01-2022
   - announcement: "February"
     day:
