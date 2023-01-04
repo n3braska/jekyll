@@ -3,186 +3,21 @@
         <div class="tabs m-0 p-0">
             <div class="card-header">
                 <nav class="tab-list">
-                    <h3 style="text-align: center;">{{page.title}}</h3>
-                    <h3 style="text-align: center;">
-                        {% assign now_minus_46d_timestamp = 'now' | date: '%s' | minus: 3974400 %}
-                        {% assign month_date_now = 'now' | date: '%m-%Y'%}
-                        {% assign active = true %}
-                        {% assign show = true %}
-
-                        {% for item in site.data.[page.lang].calendar.month reversed %}
-                        {% assign month_timestamp = item.month_date | prepend: '01-' | date: '%d-%m-%Y'%}
-                        {% assign month_timestamp = month_timestamp | date: '%s' | plus: 0 %}
-
-                        {% if item.is_published and month_timestamp > now_minus_46d_timestamp %}
-
-                        <a class="tab {% if active %} active {% endif %} {% assign active = false %}" href="#tab{% increment var %}">
-                            {% assign month_number = item.month_date | slice: 0,2 | plus: -1 %}
-                            {{site.data.[page.lang].months.dictionary[month_number].nominativ}}
-                        </a>
-                        {% endif %}
-                        {% endfor %}
+                    <h3 style="text-align: center;">{{page.title}}
+                    на
+                        {% assign month_date_now = 'now' | date: '%m' | slice: 0,2 | plus: -1 %}
+                        {% assign month_number = month_date_now | slice: 0,2 | plus: 0 %}
+                        {{site.data.[page.lang].months.dictionary[month_number].nominativ}}
                     </h3>
                 </nav>
             </div>
-
-
-            {% for item in site.data.[page.lang].calendar.month reversed %}
-            {% assign month_timestamp = item.month_date | prepend: '01-' | date: '%d-%m-%Y'%}
-            {% assign month_timestamp = month_timestamp | date: '%s' | plus: 0 %}
-            {% if item.is_published and month_timestamp > now_minus_46d_timestamp %}
-
-            <div id="tab{% increment rav %}" class="tab-content {% if show %}show{% endif %} {% assign show = false %}">
-                {% if item.announcement %}
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">
-                        <div class="row atext-c center">
-                            <span class=" col-sm-2"></span>
-                            <div class = "col-sm-8">{{ item.announcement }}</div>
-                            <span class=" col-sm-2"></span>
-                        </div>
-                    </li>
-                </ul>
-                {% endif %}
-                {% for entry in item.day %}
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">
-                        <div class="row cent">
-                            <div class="col-sm-2 atext-c center">
-                                {{ entry.d }}{% if page.lang == 'de'%}.{% endif %}
-                                {% assign month_number = item.month_date | slice: 0,2 | plus: -1 %}
-                                {{site.data.[page.lang].months.dictionary[month_number].genetiv}}
-                            </div>
-                            <div class="col-sm-6 atext-c center">
-                                <table style="width:100%">
-                                    {% for event in entry.event  %}
-                                    <tr>
-                                        <td  class="m-2 atext-c text-left">{{ event.time }}</td>
-                                        <td  class="m-2  atext-c align-middle">{{ event.title}}</td>
-                                    </tr>
-                                    {% endfor %}
-                                </table>
-                            </div>
-
-                            <div class="col-sm-4 atext-c center ">{{entry.occasion}}</div>
-                        </div>
-                    </li>
-                </ul>
-                {% endfor %}
-            </div>
-            {% endif %}
-            {% endfor %}
         </div>
     </div>
-
+    <div class="card w-100">
+        {% include indextimetable_jesuitenkirche.html %}
+    </div>
     <br>
-    <br>
-    <div class="card">
-    {% if page.lang=="ua" %}
-    <ul class="list-group list-group-flush">
-        <li class="list-group-item">
-            <div class="row atext-c center">
-                <span class=" col-sm-2"></span>
-                <div class = "col-sm-8">Розклад Богослужінь на грудень у каплиці Святого Йосафата у несвяткові дні, поруч з церквою св. Варвари (Postgasse 8A, 1010 Wien)</div>
-                <span class=" col-sm-2"></span>
-            </div>
-        </li>
-        <li class="list-group-item">
-            <div class="row cent">
-                <div class="col-sm-2 atext-c center">
-                    Неділя
-                </div>
-                <div class="col-sm-6 atext-c center">
-                    <table style="width:100%">
-                        <tr>
-                            <td  class="m-2 atext-c text-left">18:00</td>
-                            <td  class="m-2  atext-c align-middle">Служба Божа німецькою мовою</td>
-                        </tr>
-                    </table>
-                </div>
-
-                <div class="col-sm-4 atext-c center "></div>
-            </div>
-        </li>
-        <li class="list-group-item">
-            <div class="row cent">
-                <div class="col-sm-2 atext-c center">
-                    Понеділок
-                </div>
-                <div class="col-sm-6 atext-c center">
-                    <table style="width:100%">
-                        <tr>
-                            <td  class="m-2 atext-c text-left">19:00</td>
-                            <td  class="m-2  atext-c align-middle">Зустріч «Матері в молитві»</td>
-                        </tr>
-                    </table>
-                </div>
-
-                <div class="col-sm-4 atext-c center "></div>
-            </div>
-        </li>
-        <li class="list-group-item">
-            <div class="row cent">
-                <div class="col-sm-2 atext-c center">
-                    Четвер
-                </div>
-                <div class="col-sm-6 atext-c center">
-                    <table style="width:100%">
-                        <tr>
-                            <td  class="m-2 atext-c text-left">18:00</td>
-                            <td  class="m-2  atext-c align-middle">Служба Божа за здоров'я</td>
-                        </tr>
-                    </table>
-                </div>
-
-                <div class="col-sm-4 atext-c center "></div>
-            </div>
-        </li>
-        <li class="list-group-item">
-            <div class="row cent">
-                <div class="col-sm-2 atext-c center">
-                    П'ятниця
-                </div>
-                <div class="col-sm-6 atext-c center">
-                    <table style="width:100%">
-                        <tr>
-                            <td  class="m-2 atext-c text-left">18:00</td>
-                            <td  class="m-2  atext-c align-middle">Служба Божа за померлих</td>
-                        </tr>
-                    </table>
-                </div>
-
-                <div class="col-sm-4 atext-c center "></div>
-            </div>
-        </li>
-    </ul>
-    {% else %}
-    <ul class="list-group list-group-flush">
-        <li class="list-group-item">
-            <div class="row atext-c center">
-                <span class=" col-sm-2"></span>
-                <div class = "col-sm-8">Gottesdienste in der Josaphatskapelle an anderen Tagen neben der St. Barbara Kirche (Eingang in der Postgasse 8A, 1010 Wien)</div>
-                <span class=" col-sm-2"></span>
-            </div>
-        </li>
-        <li class="list-group-item">
-            <div class="row cent">
-                <div class="col-sm-2 atext-c center">
-                    Sonntag
-                </div>
-                <div class="col-sm-6 atext-c center">
-                    <table style="width:100%">
-                        <tr>
-                            <td  class="m-2 atext-c text-left">18:00</td>
-                            <td  class="m-2  atext-c align-middle">Hl. Liturgie auf Deutsch</td>
-                        </tr>
-                    </table>
-                </div>
-
-                <div class="col-sm-4 atext-c center "></div>
-            </div>
-        </li>
-    </ul>
-    {% endif %}
+    <div class="card w-100">
+        {% include indextimetable_josaphatskapelle.html %}
     </div>
 </div>

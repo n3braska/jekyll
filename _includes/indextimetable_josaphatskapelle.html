@@ -7,16 +7,16 @@
             {% endcomment %}
 
             {% assign day_date_now = 'now' | date: '%d' | slice: 0,2 | plus: 0 %}
-            {% if site.data.[page.lang].calendar.month[month_date_now].day.last.d < day_date_now %}
+            {% if site.data.[page.lang].calendar_josaphatskapelle.month[month_date_now].day.last.d < day_date_now %}
             {% assign month_date_now = 'now' | date: '%m' | slice: 0,2 | plus: 0 %}
             {% endif %}
 
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item">
-                    {% if site.data.[page.lang].calendar.month[month_date_now].announcement %}
+                    <li class="list-group-item" id="link">
+                    {% if site.data.[page.lang].calendar_josaphatskapelle.month[month_date_now].announcement %}
                         <div class="row atext-c center">
                             <span class=" col-sm-2"></span>
-                            <div class = "col-sm-8">{{ site.data.[page.lang].calendar.month[month_date_now].announcement }}</div>
+                            <div class = "col-sm-8">{{ site.data.[page.lang].calendar_josaphatskapelle.month[month_date_now].announcement }}</div>
                             <span class=" col-sm-2"></span>
                         </div>
                     {% endif %}
@@ -24,8 +24,8 @@
                 </ul>
 
                 <ul class="list-group list-group-flush">
-                    {% for entry in site.data.[page.lang].calendar.month[month_date_now].day %}
-                    <li class="list-group-item" id="{{ entry.d }}">
+                    {% for entry in site.data.[page.lang].calendar_josaphatskapelle.month[month_date_now].day %}
+                    <li class="list-group-item" id="jos-{{ entry.d }}">
                         <div class="row cent">
                             <div class="col-sm-2 atext-c center">
                                 {{ entry.d }}
@@ -47,34 +47,5 @@
                         </div>
                     </li>
                     {% endfor %}
-
-                    <li class="list-group-item py-4" id="link">
-                        <div class="row cent">
-                            <div class="col-sm-4 atext-c center">  </div>
-
-                            <div class="col-sm-4 atext-c center">
-                                {% if page.lang == 'ua' %}
-                                    <a href="ua/timetable.html">>> Відкрити повний розклад</a>
-                                {% else %}
-                                    <a href="timetable.html">>> Gottesdienste erweitert</a>
-                                {% endif %}
-                            </div>
-                            <div class="col-sm-4 atext-c center "></div>
-                        </div>
-                    </li>
                 </ul>
 
-<script>
-        const currentDate = new Date();
-        let today = currentDate.getDate();
-        const timetableItems = document.getElementsByClassName("list-group-item");
-        if(currentDate.getMonth() != {{ month_date_now }} ) {
-            today = 1;
-        }
-        for(let index = 1; index < timetableItems.length; ++index) {
-            const itemID = timetableItems[index].id;
-            if(itemID !== "link" && (itemID < today || itemID > today + 7 )) {
-                timetableItems[index].style = "display: none;";
-            }
-        }
-</script>

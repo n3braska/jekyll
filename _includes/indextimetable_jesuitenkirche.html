@@ -1,0 +1,51 @@
+
+            {% assign month_date_now = 'now' | date: '%m' | slice: 0,2 | plus: -1 %}
+
+            {% comment %}
+            This feature allows to jump to the next month timetable
+            Condition: no more occasions this month
+            {% endcomment %}
+
+            {% assign day_date_now = 'now' | date: '%d' | slice: 0,2 | plus: 0 %}
+            {% if site.data.[page.lang].calendar_jesuitenkirche.month[month_date_now].day.last.d < day_date_now %}
+            {% assign month_date_now = 'now' | date: '%m' | slice: 0,2 | plus: 0 %}
+            {% endif %}
+
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                    {% if site.data.[page.lang].calendar_jesuitenkirche.month[month_date_now].announcement %}
+                        <div class="row atext-c center">
+                            <span class=" col-sm-2"></span>
+                            <div class = "col-sm-8">{{ site.data.[page.lang].calendar_jesuitenkirche.month[month_date_now].announcement }}</div>
+                            <span class=" col-sm-2"></span>
+                        </div>
+                    {% endif %}
+                    </li>
+                </ul>
+
+                <ul class="list-group list-group-flush">
+                    {% for entry in site.data.[page.lang].calendar_jesuitenkirche.month[month_date_now].day %}
+                    <li class="list-group-item" id="jes-{{ entry.d }}">
+                        <div class="row cent">
+                            <div class="col-sm-2 atext-c center">
+                                {{ entry.d }}
+                                {% assign month_number = month_date_now | slice: 0,2 | plus: 0 %}
+                                {{site.data.[page.lang].months.dictionary[month_number].genetiv}}
+                            </div>
+                            <div class="col-sm-6 atext-c center">
+                                <table style="width:100%">
+                                    {% for event in entry.event  %}
+                                    <tr>
+                                        <td  class="m-2 atext-c text-left">{{ event.time }}</td>
+                                        <td  class="m-2  atext-c align-middle">{{ event.title}}</td>
+                                    </tr>
+                                    {% endfor %}
+                                </table>
+                            </div>
+
+                            <div class="col-sm-4 atext-c center ">{{entry.occasion}}</div>
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+

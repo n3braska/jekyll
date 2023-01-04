@@ -90,7 +90,7 @@ collections:
               - { label: Verlinkung, name: link, widget: string }
       - label: Календар
         name: calendar_ua
-        file: _data/ua/calendar.yml
+        file: _data/ua/calendar_jesuitenkirche.yml
         fields:
           - label: Місяць
             name: month
@@ -140,7 +140,7 @@ collections:
                     required: false
       - label: Kalendar
         name: calendar_de
-        file: _data/de/calendar.yml
+        file: _data/de/calendar_jesuitenkirche.yml
         fields:
           - label: Місяць
             name: month
