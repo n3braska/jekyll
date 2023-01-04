@@ -11,8 +11,8 @@
             {% assign month_date_now = 'now' | date: '%m' | slice: 0,2 | plus: 0 %}
             {% endif %}
 
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">
+                <ul class="">
+                    <li class="">
                     {% if site.data.[page.lang].calendar_jesuitenkirche.month[month_date_now].announcement %}
                         <div class="row atext-c center">
                             <span class=" col-sm-2"></span>
@@ -23,7 +23,7 @@
                     </li>
                 </ul>
 
-                <ul class="list-group list-group-flush">
+                <ul class="list-group">
                     {% for entry in site.data.[page.lang].calendar_jesuitenkirche.month[month_date_now].day %}
                     <li class="list-group-item" id="jes-{{ entry.d }}">
                         <div class="row cent">

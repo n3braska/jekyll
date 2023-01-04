@@ -31,28 +31,22 @@
 <div class="container mt-2 mb-5 ">
     <h3 class="my-3 text-center title pt-3">{% if page.lang=="ua" %} Богослужіння {% else %} Messe {% endif %}</h3>
 
-    <div class="card w-100 my-4  h-img1 ">
+    <div>
         {% include indextimetable_jesuitenkirche.html %}
     </div>
-
-    <div class="card w-100 my-4  h-img1 ">
+    <br>
+    <div>
         {% include indextimetable_josaphatskapelle.html %}
     </div>
+    <br>
+    <center>
+        {% if page.lang == 'ua' %}
+        <a class="btn-link" href="ua/timetable.html">→ Відкрити повний розклад</a>
+        {% else %}
+        <a href="timetable.html">→ Gottesdienste erweitert</a>
+        {% endif %}
+    </center>
 
-    <li class="list-group-item py-4" id="link">
-        <div class="row cent">
-            <div class="col-sm-4 atext-c center">  </div>
-
-            <div class="col-sm-4 atext-c center">
-                {% if page.lang == 'ua' %}
-                <a href="ua/timetable.html">>> Відкрити повний розклад</a>
-                {% else %}
-                <a href="timetable.html">>> Gottesdienste erweitert</a>
-                {% endif %}
-            </div>
-            <div class="col-sm-4 atext-c center "></div>
-        </div>
-    </li>
 
     <script>
         const currentDate = new Date();
