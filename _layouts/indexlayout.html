@@ -55,10 +55,9 @@
         if(currentDate.getMonth() !== new Date().getMonth()) {
             today = 1;
         }
-        for(let index = 1; index < timetableItems.length; ++index) {
+        for(let index = 0; index < timetableItems.length; ++index) {
             const itemID = timetableItems[index].id;
             const itemDay = itemID.replace('jes-', '').replace('jos-', '');
-
             if(itemDay !== "link" && (itemDay < today || itemDay > today + 7 )) {
                 timetableItems[index].style = "display: none;";
             }
