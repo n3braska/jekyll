@@ -57,7 +57,9 @@
         }
         for(let index = 0; index < timetableItems.length; ++index) {
             const itemID = timetableItems[index].id;
-            const itemDay = itemID.replace('jes-', '').replace('jos-', '');
+            const itemIdNoPrefixJes = itemID.replace('jes-', '');
+            const itemIdNoPrefixJosJes = itemIdNoPrefixJes.replace('jos-', '');
+            const itemDay = itemIdNoPrefixJosJes;
             if(itemDay !== "link" && (itemDay < today || itemDay > today + 7 )) {
                 timetableItems[index].style = "display: none;";
             }

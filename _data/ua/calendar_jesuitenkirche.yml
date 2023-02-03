@@ -55,14 +55,34 @@ month:
         occasion: null
     is_published: true
     month_date: 01-2022
-  - announcement: "February"
+  - announcement: "у Церкві отців Єзуїтів - Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
-      - d: 1
+      - d: 5
+        event:
+          - time: " 12:15"
+            title: Служба Божа
+        occasion: Про митаря і фарисея
+      - d: 12
+        event:
+          - time: " 12:15"
+            title: Служба Божа
+        occasion: Про блудного сина
+      - d: 14
         event:
           - time: " 18:00"
-            title: Hl. Liturgie (Aller Heiligen)
-        occasion: Jesuitenkirche
-    is_published: false
+            title: Служба Божа та освячення свічок до свята Стрітення Господнього
+        occasion: null
+      - d: 19
+        event:
+          - time: " 12:15"
+            title: Служба Божа
+        occasion: Про страшний суд (м’ясопусна)
+      - d: 26
+        event:
+          - time: " 12:15"
+            title: Служба Божа
+        occasion: Прощення (сиропусна)
+    is_published: true
     month_date: 02-2022
   - announcement: "March"
     day:

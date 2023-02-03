@@ -50,14 +50,68 @@ month:
         occasion: null
     is_published: true
     month_date: 01-2022
-  - announcement: "February"
-    day:
-      - d: 1
+  - announcement: "in Josaphatskapelle: Postgasse 8A"
+      - d: 2
         event:
           - time: " 18:00"
-            title: Hl. Liturgie (Aller Heiligen)
-        occasion: Jesuitenkirche
-    is_published: false
+            title: Hl. Liturgie für Verstorbene
+        occasion: null
+      - d: 3
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie für Verstorbene
+        occasion: null
+      - d: 6
+        event:
+          - time: " 19:00"
+            title: Andacht der „Mütter im Gebet“
+        occasion: null
+      - d: 9
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 10
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie für Verstorbene
+        occasion: null
+      - d: 13
+        event:
+          - time: " 19:00"
+            title: Andacht der „Mütter im Gebet“
+        occasion: null
+      - d: 16
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 17
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie für Verstorbene
+        occasion: null
+      - d: 20
+        event:
+          - time: " 19:00"
+            title: Andacht der „Mütter im Gebet“
+        occasion: null
+      - d: 23
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 24
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie für Verstorbene
+        occasion: Jahrestag des Krieges in der Ukraine. Die Kirche bleibt von 12:00 bis 20:00 Uhr zum Gebete und stilles Andenken offen.
+      - d: 27
+        event:
+          - time: " 19:00"
+            title: Andacht der „Mütter im Gebet“
+        occasion: BEGINN DER FASTENZEIT
+    is_published: true
     month_date: 02-2022
   - announcement: "March"
     day:

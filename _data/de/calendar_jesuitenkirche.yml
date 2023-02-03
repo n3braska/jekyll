@@ -50,14 +50,39 @@ month:
         occasion: null
     is_published: true
     month_date: 01-2022
-  - announcement: "February"
+  - announcement: "in Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
-      - d: 1
+      - d: 5
+        event:
+          - time: " 12:15"
+            title: Hl. Liturgie
+        occasion: Des Zöllners und des Pharisäers
+      - d: 12
+        event:
+          - time: " 12:15"
+            title: Hl. Liturgie
+        occasion: Vom Verlorenen Sohn
+      - d: 14
         event:
           - time: " 18:00"
-            title: Hl. Liturgie (Aller Heiligen)
-        occasion: Jesuitenkirche
-    is_published: false
+            title: Hl. Liturgie und Kerzenweihe zum Fest der Darstellung des Herrn
+        occasion: null
+      - d: 15
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: Darstellung des Herrn
+      - d: 19
+        event:
+          - time: " 12:15"
+            title: Hl. Liturgie
+        occasion: Der Fleischentsagung (über das Jüngste Gericht)
+      - d: 26
+        event:
+          - time: " 12:15"
+            title: Hl. Liturgie
+        occasion: Der Butterentsagung (über die Vergebung)
+    is_published: true
     month_date: 02-2022
   - announcement: "March"
     day:
