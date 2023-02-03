@@ -51,6 +51,7 @@ month:
     is_published: true
     month_date: 01-2022
   - announcement: "in Josaphatskapelle: Postgasse 8A"
+    day:
       - d: 2
         event:
           - time: " 18:00"
