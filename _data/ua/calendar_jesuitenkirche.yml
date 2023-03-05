@@ -84,14 +84,37 @@ month:
         occasion: Прощення (сиропусна)
     is_published: true
     month_date: 02-2022
-  - announcement: "March"
+  - announcement: "у Церкві отців Єзуїтів - Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
-      - d: 1
+      - d: 5
         event:
-          - time: " 18:00"
-            title: Hl. Liturgie (Aller Heiligen)
-        occasion: Jesuitenkirche
-    is_published: false
+          - time: " 9:30"
+            title: Служба Божа
+          - time: " 12:15"
+            title: Служба Божа
+        occasion: Неділя 1-ша Великого посту, Православія
+      - d: 12
+        event:
+          - time: " 9:30"
+            title: Служба Божа
+          - time: " 12:15"
+            title: Служба Божа
+        occasion: Неділя 2-га Великого посту, Святителя Григорія Палами
+      - d: 19
+        event:
+          - time: " 9:30"
+            title: Служба Божа
+          - time: " 12:15"
+            title: Служба Божа
+        occasion: Неділя 3-тя Великого посту, Хрестопоклонна
+      - d: 26
+        event:
+          - time: " 9:30"
+            title: Служба Божа
+          - time: " 12:15"
+            title: Служба Божа
+        occasion: Неділя 4-та Великого посту
+    is_published: true
     month_date: 03-2022
   - announcement: 31.03-03.04.2022   ВЕЛИКОПОСТНІ НАУКИ ТА СПОВІДЬ проводить владика
       ІРИНЕЙ БІЛИК

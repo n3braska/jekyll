@@ -84,17 +84,39 @@ month:
         occasion: Der Butterentsagung (über die Vergebung)
     is_published: true
     month_date: 02-2022
-  - announcement: "March"
+  - announcement: "in Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
-      - d: 1
+      - d: 5
         event:
-          - time: " 18:00"
-            title: Hl. Liturgie (Aller Heiligen)
-        occasion: Jesuitenkirche
-    is_published: false
+          - time: " 9:30"
+            title: Hl. Liturgie
+          - time: " 12:15"
+            title: Hl. Liturgie
+        occasion: 1. Sonntag der Großen Fasten, Fest der Orthodoxie
+      - d: 12
+        event:
+          - time: " 9:30"
+            title: Hl. Liturgie
+          - time: " 12:15"
+            title: Hl. Liturgie
+        occasion: 2. Sonntag der Großen Fasten
+      - d: 19
+        event:
+          - time: " 9:30"
+            title: Hl. Liturgie
+          - time: " 12:15"
+            title: Hl. Liturgie
+        occasion: 3. Sonntag der Großen Fasten, KREUZVEREHRUNG
+      - d: 26
+        event:
+          - time: " 9:30"
+            title: Hl. Liturgie
+          - time: " 12:15"
+            title: Hl. Liturgie
+        occasion: 4. Sonntag der Großen Fasten
+    is_published: true
     month_date: 03-2022
-  - announcement: 31.03-03.04.2022   Osterexerzitien und Osterbeichte mit Biuschof
-      Iriney Bilyk
+  - announcement: "in Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
       - d: 6
         event:

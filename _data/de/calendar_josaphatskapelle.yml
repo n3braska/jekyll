@@ -48,9 +48,9 @@ month:
           - time: " 18:00"
             title: Hl. Liturgie für Verstorbene
         occasion: null
-    is_published: true
+    is_published: false
     month_date: 01-2022
-  - announcement: "in Josaphatskapelle: Postgasse 8A"
+  - announcement: "in der Kirche St. Barbara: Postgasse 8A"
     day:
       - d: 2
         event:
@@ -112,16 +112,134 @@ month:
           - time: " 19:00"
             title: Andacht der „Mütter im Gebet“
         occasion: BEGINN DER FASTENZEIT
-    is_published: true
+    is_published: false
     month_date: 02-2022
-  - announcement: "March"
+  - announcement: "Gottesdienste am Sonntag um 12:15 finden in der Jesuitenkirche statt, alle andere Gottesdienste in der Kirche St. Barbara"
     day:
       - d: 1
         event:
+          - time: " 18:30"
+            title: Großer Kanon des Hl. Andreas von Kreta
+        occasion: null
+      - d: 2
+        event:
           - time: " 18:00"
-            title: Hl. Liturgie (Aller Heiligen)
-        occasion: Jesuitenkirche
-    is_published: false
+            title: Großer Kanon des Hl. Andreas von Kreta
+        occasion: null
+      - d: 3
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie der Vorgeweihten Gaben
+        occasion: Großes Totengedenken
+      - d: 6
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie der Vorgeweihten Gaben
+        occasion: Großes Totengedenken
+      - d: 7
+        event:
+          - time: " 18:00"
+            title: Kreuzweg
+          - time: " 19:00"
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: null
+      - d: 8
+        event:
+          - time: " 18:30"
+            title: Hl. Liturgie der Vorgeweihten Gaben
+        occasion: null
+      - d: 9
+        event:
+          - time: " 18:00"
+            title: Großer Kanon des Hl. Andreas von Kreta
+        occasion: null
+      - d: 10
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie der Vorgeweihten Gaben
+        occasion: Großes Totengedenken
+      - d: 13
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie der Vorgeweihten Gaben
+        occasion: Großes Totengedenken
+      - d: 14
+        event:
+          - time: " 18:00"
+            title: Kreuzweg
+          - time: " 19:00"
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: null
+      - d: 15
+        event:
+          - time: " 18:30"
+            title: Hl. Liturgie der Vorgeweihten Gaben
+        occasion: null
+      - d: 16
+        event:
+          - time: " 18:00"
+            title: Großer Kanon des Hl. Andreas von Kreta
+        occasion: null
+      - d: 17
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie der Vorgeweihten Gaben
+        occasion: Großes Totengedenken
+      - d: 20
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie der Vorgeweihten Gaben
+        occasion: Großes Totengedenken
+      - d: 21
+        event:
+          - time: " 18:00"
+            title: Kreuzweg
+          - time: " 19:00"
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: null
+      - d: 22
+        event:
+          - time: " 18:30"
+            title: Hl. Liturgie der Vorgeweihten Gaben
+        occasion: null
+      - d: 23
+        event:
+          - time: " 18:00"
+            title: Großer Kanon des Hl. Andreas von Kreta
+        occasion: null
+      - d: 24
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie der Vorgeweihten Gaben
+        occasion: Großes Totengedenken
+      - d: 27
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie der Vorgeweihten Gaben
+        occasion: Großes Totengedenken
+      - d: 28
+        event:
+          - time: " 18:00"
+            title: Kreuzweg
+          - time: " 19:00"
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: null
+      - d: 29
+        event:
+          - time: " 18:30"
+            title: Hl. Liturgie der Vorgeweihten Gaben
+        occasion: null
+      - d: 30
+        event:
+          - time: " 18:00"
+            title: Großer Kanon des Hl. Andreas von Kreta
+        occasion: null
+      - d: 31
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie der Vorgeweihten Gaben
+        occasion: Großes Totengedenken
+    is_published: true
     month_date: 03-2022
   - announcement: 31.03-03.04.2022   Osterexerzitien und Osterbeichte mit Biuschof
       Iriney Bilyk
