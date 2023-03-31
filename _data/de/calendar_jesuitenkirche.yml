@@ -114,137 +114,47 @@ month:
           - time: " 12:15"
             title: Hl. Liturgie
         occasion: 4. Sonntag der Großen Fasten
-    is_published: true
+    is_published: false
     month_date: 03-2022
-  - announcement: "in Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
+  - announcement: "Julianisches Kalender"
     day:
+      - d: 2
+        event:
+          - time: " 09:30"
+            title: Hl. Liturgie
+          - time: " 12:15"
+            title: Hl. Liturgie in der Jesuitenkirche
+        occasion: Неділя 5-та Великого посту. Преподобної Марії Єгиптянки
+      - d: 3
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie der Vorgeweihten Gaben
+        occasion: Großes Totengedenken
+      - d: 4
+        event:
+          - time: " 18:00"
+            title: Kreuzweg
+          - time: " 19:00"
+            title: Treffen „Mütter im Gebet“
+        occasion: null
+      - d: 5
+        event:
+          - time: " 19:00"
+            title: Passion
+        occasion: null
       - d: 6
         event:
-          - time: " 18:30"
-            title: Liturgie der Vorgeweihten Gaben
-        occasion: Auf Deutsch
+          - time: " 18:00"
+            title: Kreuzweg
+        occasion: null
       - d: 7
         event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: Verkündigung des Herrn
-      - d: 8
-        event:
-          - time: " 18:00"
-            title: Liturgie der Vorgeweihten Gaben
-        occasion: Gedächtnis der Verstorbenen
-      - d: 9
-        event:
-          - time: " 18:00"
-            title: Vesper
-        occasion: null
-      - d: 10
-        event:
           - time: " 9:30"
             title: Hl. Liturgie
-          - time: " 12:00"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 11
-        event:
-          - time: " 18:00"
-            title: Liturgie der Vorgeweihten Gaben
-        occasion: Gedächtnis der Verstorbenen
-      - d: 12
-        event:
-          - time: " 18:00"
-            title: Kreuzweg
-          - time: " 19:00"
-            title: Gebetskreis „Mütter im Gebet“
-        occasion: null
-      - d: 13
-        event:
-          - time: " 18:30"
-            title: Liturgie der Vorgeweihten Gaben
-        occasion: Auf Deutsch
-      - d: 14
-        event:
-          - time: " 18:00"
-            title: Großer Kanon des Andreas von Kryta
-        occasion: null
-      - d: 15
-        event:
-          - time: " 12:00"
-            title: Vesper und Grablegung, Gregoreanisch
-          - time: " 18:00"
-            title: Liturgie der Vorgeweihten Gaben
-        occasion: Gedächtnis der Verstorbenen
-      - d: 16
-        event:
-          - time: " 18:00"
-            title: Grabgebet, Gregoreanisch
-          - time: " 18:30"
-            title: Auferstehungsmatutin
-          - time: " 20:00"
-            title: Osterspeisensegnung
-        occasion: null
-      - d: 17
-        event:
-          - time: " 9:30"
-            title: Hl. Liturgie und Osterspeisensegnung
-          - time: " 12:00"
-            title: Hl. Liturgie und Palmenweihe (Julianisch)
-        occasion: null
-      - d: 18
-        event:
-          - time: " 9:30"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 19
-        event:
-          - time: " 18:00"
-            title: Kreuzweg
-          - time: " 19:00"
-            title: Gebetskreis „Mütter im Gebet“
-        occasion: null
-      - d: 21
-        event:
-          - time: " 9:30"
-            title: Vesper з Св. Літургією
-          - time: " 18:00"
-            title: Passionsmatutin
-        occasion: null
-      - d: 22
-        event:
-          - time: " 9:30"
-            title: Vesper und Grablegung, Greg. Kal.
-          - time: " 18:00"
-            title: Jerusalemer Matutin
-        occasion: null
-      - d: 23
-        event:
-          - time: " 9:30"
-            title: Hl. Liturgie Воскресна
-          - time: " 20:30"
-            title: Hl. Liturgie Воскресна
-          - time: " 21:00"
-            title: Hl. Liturgie Воскресна
-          - time: " 22:30"
-            title: Hl. Liturgie Воскресна
-        occasion: 13:00/14:00/15:00/16:00/17:00/18:00/19:00/20:00 Osterspeisensegnung
-      - d: 24
-        event:
-          - time: " 9:30"
-            title: Osterliturgie
-          - time: " 11:00"
-            title: Osterspeisensegnung
-        occasion: Oster-Sonntag
-      - d: 25
-        event:
           - time: " 18:00"
             title: Hl. Liturgie
-        occasion: Oster-Montag
-      - d: 26
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: Oster-Dienstag
-    is_published: false
+        occasion: Mariä Verkündigung (Jul. Kal.)
+    is_published: true
     month_date: 04-2022
   - announcement: null
     day:

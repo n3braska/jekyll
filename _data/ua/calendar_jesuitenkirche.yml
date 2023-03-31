@@ -114,138 +114,47 @@ month:
           - time: " 12:15"
             title: Служба Божа
         occasion: Неділя 4-та Великого посту
-    is_published: true
+    is_published: false
     month_date: 03-2022
-  - announcement: 31.03-03.04.2022   ВЕЛИКОПОСТНІ НАУКИ ТА СПОВІДЬ проводить владика
-      ІРИНЕЙ БІЛИК
+  - announcement: ""
     day:
+      - d: 2
+        event:
+          - time: " 09:30"
+            title: Служба Божа
+          - time: " 12:15"
+            title: Служба Божа у церкві Єзуїтів
+        occasion: Неділя 5-та Великого посту. Преподобної Марії Єгиптянки
+      - d: 3
+        event:
+          - time: " 18:00"
+            title: Літургія напередосвячених дарів
+        occasion: Сорокоуст за померлих
+      - d: 4
+        event:
+          - time: " 18:00"
+            title: Хресна дорога
+          - time: " 19:00"
+            title: Зустріч «Матері в молитві»
+        occasion: null
+      - d: 5
+        event:
+          - time: " 19:00"
+            title: Страсті
+        occasion: null
       - d: 6
         event:
-          - time: " 18:30"
-            title: Літургія Передосвячених Дарів
-        occasion: По-німецьки
+          - time: " 18:00"
+            title: Хресна дорога
+        occasion: Квітна неділя за новим стилем
       - d: 7
         event:
-          - time: " 18:00"
-            title: Служба Божа
-        occasion: БЛАГОВІЩЕННЯ ПРЕСВЯТОЇ БОГОРОДИЦІ
-      - d: 8
-        event:
-          - time: " 18:00"
-            title: Літургія Передосвячених Дарів
-        occasion: Поминання померлих
-      - d: 9
-        event:
-          - time: " 18:00"
-            title: Вечірня
-        occasion: null
-      - d: 10
-        event:
           - time: " 9:30"
             title: Служба Божа
-          - time: " 12:00"
-            title: Служба Божа
-        occasion: Квітна неділя за новим стилем
-      - d: 11
-        event:
-          - time: " 18:00"
-            title: Літургія Передосвячених Дарів
-        occasion: Поминання померлих
-      - d: 12
-        event:
-          - time: " 18:00"
-            title: Хресна дорога
-          - time: " 19:00"
-            title: Зустріч «Матері в молитві»
-        occasion: null
-      - d: 13
-        event:
-          - time: " 18:30"
-            title: Літургія Передосвячених Дарів
-        occasion: По-німецьки
-      - d: 14
-        event:
-          - time: " 18:00"
-            title: Великий покаянний Канон Андрея Критського
-        occasion: null
-      - d: 15
-        event:
-          - time: " 12:00"
-            title: Покладення Плащаниці за новим стилем
-          - time: " 18:00"
-            title: Літургія Передосвячених Дарів
-        occasion: Поминання померлих
-      - d: 16
-        event:
-          - time: " 18:00"
-            title: Надгробна молитва за новим стилем
-          - time: " 18:30"
-            title: Воскресна Утреня
-          - time: " 20:00"
-            title: Посвячення пасок
-        occasion: null
-      - d: 17
-        event:
-          - time: " 9:30"
-            title: Служба Божа Воскресна за новим стилем
-          - time: " 12:00"
-            title: Служба Божа Квітної неділі
-        occasion: Після обидвох Літургій посвячення пасок та лози
-      - d: 18
-        event:
-          - time: " 9:30"
-            title: Служба Божа
-        occasion: за новим стилем
-      - d: 19
-        event:
-          - time: " 18:00"
-            title: Хресна дорога
-          - time: " 19:00"
-            title: Зустріч «Матері в молитві»
-        occasion: null
-      - d: 21
-        event:
-          - time: " 9:30"
-            title: Вечірня з Св. Літургією
-          - time: " 18:00"
-            title: Утреня Страстей Христових
-        occasion: null
-      - d: 22
-        event:
-          - time: " 9:30"
-            title: Винесення плащаниці
-          - time: " 18:00"
-            title: Єрусалимська Утреня
-        occasion: null
-      - d: 23
-        event:
-          - time: " 9:30"
-            title: Служба Божа Воскресна
-          - time: " 20:30"
-            title: Служба Божа Воскресна
-          - time: " 21:00"
-            title: Служба Божа Воскресна
-          - time: " 22:30"
-            title: Служба Божа Воскресна
-        occasion: 13:00/14:00/15:00/16:00/17:00/18:00/19:00/20:00 Посвячення пасок
-      - d: 24
-        event:
-          - time: " 9:30"
-            title: Служба Божа Воскресна
-          - time: " 11:00"
-            title: Освячення пасок перед церквою
-        occasion: Неділя Воскресна
-      - d: 25
-        event:
           - time: " 18:00"
             title: Служба Божа
-        occasion: Св. Понеділок
-      - d: 26
-        event:
-          - time: " 18:00"
-            title: Служба Божа
-        occasion: Св. Вівторок
-    is_published: false
+        occasion: БЛАГОВІЩЕННЯ ПРЕСВЯТОЇ ВЛАДИЧИЦІ НАШОЇ БОГОРОДИЦІ
+    is_published: true
     month_date: 04-2022
   - announcement: null
     day:
