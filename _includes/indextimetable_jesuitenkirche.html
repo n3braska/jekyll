@@ -11,7 +11,7 @@
             {% assign month_date_now = 'now' | date: '%m' | slice: 0,2 | plus: 0 %}
             {% endif %}
 
-            <span id="#month" style="display: none;">{{ month_date_now | plus: 1 }}</span>
+            <span id="#month" style="display: none;">{{ month_date_now | plus: 0 }}</span>
                 <ul class="">
                     <li class="">
                     {% if site.data.[page.lang].calendar_jesuitenkirche.month[month_date_now].announcement %}

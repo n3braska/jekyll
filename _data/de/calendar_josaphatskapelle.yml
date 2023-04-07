@@ -241,9 +241,135 @@ month:
         occasion: Großes Totengedenken
     is_published: false
     month_date: 03-2022
-  - announcement: ""
+  - announcement: null
     day:
-    is_published: false
+      - d: 7
+        event:
+          - time: " 11:00"
+            title: Vesper und Grablegung
+        occasion: Karfreitag
+      - d: 8
+        event:
+          - time: " 12:00"
+            title: Basiliusliturgie mit Vesper
+          - time: " 21:00"
+            title: Auferstehungsmatutin und Hl. Liturgie auf Deutsch und Ukrainisch
+          - time: " 22:00"
+            title: Osterspeisensegnung
+        occasion: Karsamstag, AUFERSTEHUNG CHRISTI
+      - d: 9
+        event:
+          - time: " 9:30"
+            title: Hl. Liturgie und Palmenweihe
+          - time: " 12:00"
+            title: Hl. Liturgie und Palmenweihe in der Jesuitenkirche
+        occasion: Sonntag des Einzugs in Jerusalem, PALMSONNTAG
+      - d: 11
+        event:
+          - time: " 18:00"
+            title: Kreuzweg
+          - time: " 19:00"
+            title: Treffen „Mütter im Gebet
+        occasion:
+      - d: 13
+        event:
+          - time: " 09:30"
+            title: Basiliusliturgie mit Vesper
+          - time: " 18:00"
+            title: Passionsmatutin
+        occasion:
+      - d: 14
+        event:
+          - time: " 09:30"
+            title: Vesper und Grablegung
+          - time: " 18:00"
+            title: Jerusalemermatutin
+        occasion: Karfreitag (Die Kirche bleibt den ganzen Tag offen)
+      - d: 15
+        event:
+          - time: " 09:30"
+            title: Basiliusliturgie mit Vesper
+          - time: " 20:30"
+            title: Grabgebet
+          - time: " 21:00"
+            title: Auferstehungsmatutin
+          - time: " 22:00"
+            title: Osterspeisensegnung
+        occasion: Karsamstag, AUFERSTEHUNG CHRISTI (Die Kirche bleibt den ganzen Tag offen)
+      - d: 16
+        event:
+          - time: " 09:30"
+            title: Hl. Liturgie danach Osterspeisensegnung vor der Kirche
+        occasion: SONNTAG der AUFERSTEHUNG
+      - d: 17
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+          - time: " 19:00"
+            title: Treffen „Mütter im Gebet
+        occasion: Ostermontag
+      - d: 18
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: Osterdienstag
+      - d: 19
+        event:
+          - time: " 9:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 20
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 21
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie für Verstorbenen
+        occasion: null
+      - d: 23
+        event:
+          - time: " 9:30"
+            title: Hl. Liturgie
+          - time: " 12:15"
+            title: Hl. Liturgie in der Jesuitenkirche
+        occasion: THOMASSONNTAG
+      - d: 24
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie für Verstorbenen
+          - time: " 19:00"
+            title: Treffen „Mütter im Gebet
+        occasion: null
+      - d: 25
+        event:
+          - time: " 18:00"
+            title: Hymnos-Akathistos an die Gottesgebärerin
+        occasion: null
+      - d: 26
+        event:
+          - time: " 09:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 27
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 28
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie für Verstorbenen
+        occasion: null
+      - d: 30
+        event:
+          - time: " 9:30"
+            title: Hl. Liturgie
+          - time: " 12:15"
+            title: Hl. Liturgie in der Jesuitenkirche
+        occasion: SONNTAG der Myronträgerinnen
+    is_published: true
     month_date: 04-2022
   - announcement: null
     day:
