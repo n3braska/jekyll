@@ -156,173 +156,29 @@ month:
         occasion: Mariä Verkündigung (Jul. Kal.)
     is_published: true
     month_date: 04-2022
-  - announcement: null
+  - announcement: "in Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
-      - d: 1
-        event:
-          - time: " 09:30"
-            title: Hl. Liturgie
-          - time: " 12:00"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 2
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: Gedächtnis der Verstorbenen
-      - d: 3
-        event:
-          - time: " 18:00"
-            title: Andacht zu Mutter Gottes
-        occasion: null
-      - d: 4
-        event:
-          - time: " 09:00"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 5
-        event:
-          - time: " 18:00"
-            title: Liturgie der Vorgeweihten Gaben
-        occasion: null
-      - d: 6
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: Gedächtnis der Verstorbenen
       - d: 7
         event:
-          - time: " 18:00"
-            title: Vesper
-        occasion: null
-      - d: 8
-        event:
-          - time: " 09:30"
+          - time: " 12:15"
             title: Hl. Liturgie
-          - time: " 12:00"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 9
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: Gedächtnis der Verstorbenen
-      - d: 10
-        event:
-          - time: " 18:00"
-            title: Andacht zu Mutter Gottes
-        occasion: null
-      - d: 11
-        event:
-          - time: " 09:00"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 12
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 13
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: Gedächtnis der Verstorbenen
+        occasion: "SONNTAG DES GELÄHMTEN"
       - d: 14
         event:
-          - time: " 18:00"
-            title: Vesper
-        occasion: null
-      - d: 15
-        event:
-          - time: " 09:30"
+          - time: " 12:15"
             title: Hl. Liturgie
-          - time: " 12:00"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 16
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: Gedächtnis der Verstorbenen
-      - d: 17
-        event:
-          - time: " 18:00"
-            title: Andacht zu Mutter Gottes
-        occasion: null
-      - d: 18
-        event:
-          - time: " 09:00"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 19
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 20
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: Gedächtnis der Verstorbenen
+        occasion: "SONNTAG DER SAMARITERIN"
       - d: 21
         event:
-          - time: " 18:00"
-            title: Vesper
-        occasion: null
-      - d: 22
-        event:
-          - time: " 09:30"
+          - time: " 12:15"
             title: Hl. Liturgie
-          - time: " 12:00"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 23
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: Gedächtnis der Verstorbenen
-      - d: 24
-        event:
-          - time: " 18:00"
-            title: Andacht zu Mutter Gottes
-        occasion: null
-      - d: 25
-        event:
-          - time: " 09:00"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 26
-        event:
-          - time: " 18:00"
-            title: Liturgie der Vorgeweihten Gaben
-        occasion: Christi Himmelfahrt (Gregorianisch)
-      - d: 27
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: Gedächtnis der Verstorbenen
+        occasion: "SONNTAG DES BLINDGEBORENEN"
       - d: 28
         event:
-          - time: " 18:00"
-            title: Vesper
-        occasion: null
-      - d: 29
-        event:
-          - time: " 09:30"
-            title: Hl. Liturgie
-          - time: " 12:00"
+          - time: " 12:15"
             title: Hl. Liturgie
         occasion: null
-      - d: 3ß
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: Gedächtnis der Verstorbenen
-      - d: 31
-        event:
-          - time: " 18:00"
-            title: Andacht zu Mutter Gottes
-    is_published: false
+    is_published: true
     month_date: 05-2022
   - announcement: null
     day:
