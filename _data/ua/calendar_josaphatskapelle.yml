@@ -375,9 +375,9 @@ month:
           - time: " 12:15"
             title: Служба Божа у церкві Єзуїтів
         occasion: НЕДІЛЯ МИРОНОСИЦЬ
-    is_published: true
+    is_published: false
     month_date: 04-2022
-  - announcement: "у церкві св. Варвари - Josaphatskapelle: Postgasse 8A"
+  - announcement: "У церкві св. Варвари: Postgasse 8A"
     day:
       - d: 1
         event:

@@ -154,9 +154,9 @@ month:
           - time: " 18:00"
             title: Hl. Liturgie
         occasion: Mariä Verkündigung (Jul. Kal.)
-    is_published: true
+    is_published: false
     month_date: 04-2022
-  - announcement: "in Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
+  - announcement: "In Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
       - d: 7
         event:

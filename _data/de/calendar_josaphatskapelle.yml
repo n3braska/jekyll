@@ -369,9 +369,9 @@ month:
           - time: " 12:15"
             title: Hl. Liturgie in der Jesuitenkirche
         occasion: SONNTAG der Myronträgerinnen
-    is_published: true
+    is_published: false
     month_date: 04-2022
-  - announcement: "Gottesdienste am Sonntag um 12:15 finden in der Jesuitenkirche statt, alle andere Gottesdienste in der Kirche St. Barbara"
+  - announcement: "In der Kirche St. Barbara: Postgasse 8A"
     day:
       - d: 1
         event:

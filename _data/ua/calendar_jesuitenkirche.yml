@@ -154,9 +154,9 @@ month:
           - time: " 18:00"
             title: Служба Божа
         occasion: БЛАГОВІЩЕННЯ ПРЕСВЯТОЇ ВЛАДИЧИЦІ НАШОЇ БОГОРОДИЦІ
-    is_published: true
+    is_published: false
     month_date: 04-2022
-  - announcement: "у Церкві отців Єзуїтів - Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
+  - announcement: "У церкві отців Єзуїтів - Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
       - d: 7
         event:
