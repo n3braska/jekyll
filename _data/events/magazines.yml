@@ -2,6 +2,38 @@
 mags:
   -
     intro:
+    link: /assets/pdf/Edition20.pdf
+    img: /assets/magazine/Edition20.jpg
+    name:
+      de: Ostern 2023
+      ua: Пасха 2023
+    month:
+      de: April 2023
+      ua: Квітень 2023
+    text:
+      de:
+        - "- EIN JAHR DES KRIEGES — ZEICHEN FÜR VERBUNDENHEIT UND HOFFNUNG"
+        - "- UKRAINE-HILFE: ZWISCHENBILANZ"
+      ua:
+        - "- РІК ВІЙНИ — ЗНАКИ ЄДНОСТІ ТА НАДІЇ"
+        - "- Допомога Україні: Актуальні підсумки"
+  -
+    intro:
+    link: /assets/pdf/Edition19.pdf
+    img: /assets/magazine/Edition19.jpg
+    name:
+      de: Dezember 2022
+      ua: Грудень 2022
+    month:
+      de: Dezember 2022
+      ua: Грудень 2022
+    text:
+      de:
+        - "Die Pfarre in der Zeit des Krieges"
+      ua:
+        - "Парафія у часи війни"
+  -
+    intro:
     link: /assets/pdf/17-2021-Ostern.pdf
     img: /assets/magazine/17-2021-Ostern-1.jpg
     name:
