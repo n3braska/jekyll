@@ -48,7 +48,6 @@ month:
           - time: " 12:15"
             title: Hl. Liturgie
         occasion: null
-    is_published: true
     month_date: 01-2022
   - announcement: "in Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
@@ -82,7 +81,6 @@ month:
           - time: " 12:15"
             title: Hl. Liturgie
         occasion: Der Butterentsagung (über die Vergebung)
-    is_published: true
     month_date: 02-2022
   - announcement: "in Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
@@ -114,7 +112,6 @@ month:
           - time: " 12:15"
             title: Hl. Liturgie
         occasion: 4. Sonntag der Großen Fasten
-    is_published: false
     month_date: 03-2022
   - announcement: "Julianisches Kalender"
     day:
@@ -154,7 +151,6 @@ month:
           - time: " 18:00"
             title: Hl. Liturgie
         occasion: Mariä Verkündigung (Jul. Kal.)
-    is_published: false
     month_date: 04-2022
   - announcement: "In Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
@@ -178,7 +174,6 @@ month:
           - time: " 12:15"
             title: Hl. Liturgie
         occasion: null
-    is_published: false
     month_date: 05-2022
   - announcement: "In Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
@@ -202,7 +197,6 @@ month:
           - time: " 12:15"
             title: Hl. Liturgie
         occasion: null
-    is_published: true
     month_date: 06-2022
   - announcement: null
     day:
@@ -318,7 +312,6 @@ month:
           - time: " 18:00"
             title: Hl. Liturgie (Auf Deutsch)
         occasion: null
-    is_published: false
     month_date: 07-2022
   - announcement: "In August, während der Renovierung unserer Kirche St. Barbara, werden die Sonntagsgottesdienste auf Ukrainisch in der Jesuitenkirche um 12:00 Uhr gefeiert. Alle anderen Gottesdienste (auch die Sonntagsliturgie auf Deutsch) werden in der Josaphatskapelle gefeiert. (Zugang über den Zufahrt Postgasse 8)"
     day:
@@ -400,7 +393,6 @@ month:
           - time: " 19:00"
             title: Gebetskreis „Mütter im Gebet“
         occasion: null
-    is_published: false
     month_date: 08-2022
   - announcement: "In September, während der Renovierung unserer Kirche St. Barbara, werden die Sonntagsgottesdienste auf Ukrainisch in der Jesuitenkirche um 12:00 Uhr gefeiert. Alle anderen Gottesdienste (auch die Sonntagsliturgie auf Deutsch) werden in der Josaphatskapelle gefeiert. (Zugang über den Zufahrt Postgasse 8)"
     day:
@@ -512,7 +504,6 @@ month:
           - time: " 18:00"
             title: Hl. Liturgie (Gedächtnis der Verstorbenen)
         occasion: null
-    is_published: false
     month_date: 09-2022
   - announcement: "In Oktober, während der Renovierung unserer Kirche St. Barbara, werden die Sonntagsgottesdienste auf Ukrainisch in der Jesuitenkirche um 12:00 Uhr gefeiert. Alle anderen Gottesdienste (auch die Sonntagsliturgie auf Deutsch) werden in der Josaphatskapelle gefeiert. (Zugang über den Zufahrt Postgasse 8)"
     day:
@@ -615,7 +606,6 @@ month:
           - time: " 18:00"
             title: Hl. Liturgie (Auf Deutsch in der Josaphatskapelle)
         occasion: null
-    is_published: false
     month_date: 10-2022
   - announcement: "In November, während der Renovierung unserer Kirche St. Barbara, werden die Sonntagsgottesdienste auf Ukrainisch in der Jesuitenkirche um 12:00 Uhr gefeiert. Alle anderen Gottesdienste (auch die Sonntagsliturgie auf Deutsch) werden in der Josaphatskapelle gefeiert. (Zugang über den Zufahrt Postgasse 8)"
     day:
@@ -714,7 +704,6 @@ month:
           - time: " 19:00"
             title: Gebetskreis „Mütter im Gebet“
         occasion: null
-    is_published: false
     month_date: 11-2022
   - announcement: "Kirche St. Barbara wegen der Renovierung geschlossen. Gottesdienste in Jesuitenkirche (Doktor-Ignaz-Seipel-Platz 1, 1010 Wien):"
     day:
@@ -763,5 +752,4 @@ month:
           - time: " 18:00"
             title: Hl. Stephanus
         occasion: Josaphatskapelle
-    is_published: true
     month_date: 12-2022
