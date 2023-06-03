@@ -178,185 +178,31 @@ month:
           - time: " 12:15"
             title: Hl. Liturgie
         occasion: null
-    is_published: true
+    is_published: false
     month_date: 05-2022
-  - announcement: null
+  - announcement: "In Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
-      - d: 1
-        event:
-          - time: " 9:00"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 2
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie - Himmelfahrt Christi (Jul. Kal.)
-        occasion: Bibelkreis im Pfarrsaal
-      - d: 3
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: Gedächtnis der Verstorbenen
       - d: 4
         event:
-          - time: " 18:00"
-            title: Vesper
-        occasion: null
-      - d: 5
-        event:
-          - time: " 09:30"
-            title: Hl. Liturgie - PFINGSTSONNTAG
-          - time: " 12:00"
-            title: Hl. Liturgie - Sontag der Hll. Väter (Jul. Kal.)
-        occasion: null
-      - d: 6
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie - Gedächtnis der Verstorbenen
-        occasion: PFINGSTMONTAG
-      - d: 7
-        event:
-          - time: " 18:00"
-            title: Andacht
-          - time: " 18:30"
-            title: Gebetskreis „Mütter im Gebet“
-        occasion: null
-      - d: 8
-        event:
-          - time: " 9:00"
+          - time: " 12:15"
             title: Hl. Liturgie
-        occasion: null
-      - d: 9
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: Gebetskreis im Pfarrsaal
-      - d: 10
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-          - time: " 19:00"
-            title: Taize Gebet
-          - time: " 20:00"
-            title: Hymnos Akthystos
-        occasion: LANGE NACHT DER KIRCHEN
+        occasion: PFINGSTSONNTAG
       - d: 11
         event:
-          - time: " 16:00"
-            title: null
-          - time: " 18:00"
+          - time: " 12:15"
             title: Hl. Liturgie
-        occasion: Kinderfest vor der Kirche
-      - d: 12
-        event:
-          - time: " 09:30"
-            title: Hl. Liturgie
-          - time: " 12:00"
-            title: Hl. Liturgie
-        occasion: PGR-WAHL!!! PFINGSTSONNTAG (Jul. Kal.)
-      - d: 13
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-          - time: " 19:00"
-            title: Gebetskreis „Mütter im Gebet“
-        occasion: PFINGSTMONTAG (Jul. Kal.)
-      - d: 14
-        event:
-          - time: " 18:00"
-            title: Andacht
-          - time: 18:30
-            title: Gebetskreis „Mütter im Gebet“
-        occasion: null
-      - d: 15
-        event:
-          - time: " 9:00"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 16
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: Fronleichnam
-      - d: 17
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: Gedächtnis der Verstorbenen
+        occasion: Sonntag Aller Heiligen
       - d: 18
         event:
-          - time: " 18:00"
-            title: Vesper
-        occasion: null
-      - d: 19
-        event:
-          - time: " 09:30"
-            title: Hl. Liturgie
-          - time: " 12:00"
+          - time: " 12:15"
             title: Hl. Liturgie
         occasion: null
-      - d: 20
-        event:
-          - time: " 18:00"
-            title: Gedächtnis der Verstorbenen
-        occasion: Beginn der Fastenzeit
-      - d: 21
-        event:
-          - time: " 18:00"
-            title: Andacht
-          - time: 18:30
-            title: Gebetskreis „Mütter im Gebet“
-        occasion: null
-      - d: 22
-        event:
-          - time: " 9:00"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 23
-        event:
-          - time: " 18:00"
-            title: Fronleichnam (Jul. Kal.)
-        occasion: Gebetskreis im Pfarrsaal
-      - d: 24
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: Gedächtnis der Verstorbenen
       - d: 25
         event:
-          - time: " 18:00"
-            title: Vesper
-        occasion: null
-      - d: 26
-        event:
-          - time: " 09:30"
-            title: Hl. Liturgie
-          - time: " 12:00"
+          - time: " 12:15"
             title: Hl. Liturgie
         occasion: null
-      - d: 27
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: Gedächtnis der Verstorbenen
-      - d: 28
-        event:
-          - time: " 18:00"
-            title: Andacht
-          - time: 18:30
-            title: Gebetskreis „Mütter im Gebet“
-        occasion: null
-      - d: 29
-        event:
-          - time: " 9:00"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 30
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: null
-    is_published: false
+    is_published: true
     month_date: 06-2022
   - announcement: null
     day:

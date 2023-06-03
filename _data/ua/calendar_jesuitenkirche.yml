@@ -178,183 +178,31 @@ month:
           - time: " 12:15"
             title: Служба Божа
         occasion: null
-    is_published: true
+    is_published: false
     month_date: 05-2022
-  - announcement: null
+  - announcement: "У церкві отців Єзуїтів - Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
-      - d: 1
-        event:
-          - time: " 9:00"
-            title: Служба Божа
-        occasion: null
-      - d: 2
-        event:
-          - time: " 18:00"
-            title: Служба Божа - ВОЗНЕСЕННЯ ГОСПОДНЄ
-        occasion: Біблійні читання в парафіяльному залі
-      - d: 3
-        event:
-          - time: " 18:00"
-            title: Служба Божа - Свв. рівноап. Константина й Олени
-        occasion: Поминання померлих
       - d: 4
         event:
-          - time: " 18:00"
-            title: Вечірня
-        occasion: null
-      - d: 5
-        event:
-          - time: " 09:30"
-            title: Служба Божа - ЗІСЛАННЯ СВЯТОГО ДУХА (Нов. Стиль)
-          - time: " 12:00"
-            title: Служба Божа - Неділя свв. Отців (Старий Стиль)
-        occasion: null
-      - d: 6
-        event:
-          - time: " 18:00"
+          - time: " 12:15"
             title: Служба Божа
-        occasion: СВЯТОГО ДУХА (Нов. Стиль)
-      - d: 7
-        event:
-          - time: " 18:00"
-            title: Молебень - До Серця Христового
-          - time: " 18:30"
-            title: Зустріч «Матері в молитві»
-        occasion: null
-      - d: 8
-        event:
-          - time: " 9:00"
-            title: Служба Божа
-        occasion: null
-      - d: 9
-        event:
-          - time: " 18:00"
-            title: Служба Божа
-        occasion: Молитовна зустріч в парафіяльному залі
-      - d: 10
-        event:
-          - time: " 18:00"
-            title: Служба Божа
-          - time: " 19:00"
-            title: Молитва прослави
-          - time: " 20:00"
-            title: Акафист
-        occasion: Довга ніч церков – окрема програма
+        occasion: ЗІСЛАННЯ СВЯТОГО ДУХА. П’ЯТДЕСЯТНИЦЯ
       - d: 11
         event:
-          - time: " 16:00"
-            title: null
-          - time: " 18:00"
+          - time: " 12:15"
             title: Служба Божа
-        occasion: Казково-ігрове дійство для дітей перед церквою
-      - d: 12
-        event:
-          - time: " 09:30"
-            title: Служба Божа - ЗІСЛАННЯ СВЯТОГО ДУХА
-          - time: " 12:00"
-            title: Служба Божа - П’ЯТДЕСЯТНИЦЯ
-        occasion: null
-      - d: 13
-        event:
-          - time: " 18:00"
-            title: Служба Божа - СВЯТОГО ДУХА
-        occasion:  null
-      - d: 14
-        event:
-          - time: " 18:00"
-            title: Молебень - До Серця Христового
-          - time: "18:30"
-            title: Зустріч «Матері в молитві»
-        occasion: null
-      - d: 15
-        event:
-          - time: " 9:00"
-            title: Служба Божа
-        occasion: null
-      - d: 16
-        event:
-          - time: " 18:00"
-            title: Служба Божа
-        occasion: Торжественне поклоніння пречистим Тайнам Тіла і Крови Господа нашого Ісуса Христа.
-      - d: 17
-        event:
-          - time: " 18:00"
-            title: Служба Божа
-        occasion: Поминання померлих
+        occasion: Неділя Всіх святих
       - d: 18
         event:
-          - time: " 18:00"
-            title: Вечірня
-        occasion: null
-      - d: 19
-        event:
-          - time: " 09:30"
-            title: Служба Божа - Всіх святих
-          - time: " 12:00"
+          - time: " 12:15"
             title: Служба Божа
         occasion: null
-      - d: 20
-        event:
-          - time: " 18:00"
-            title: Поминання померлих
-        occasion: Початок Петрового посту
-      - d: 21
-        event:
-          - time: " 18:00"
-            title: Молебень - До Серця Христового
-          - time: "18:30"
-            title: Зустріч «Матері в молитві»
-        occasion: null
-      - d: 22
-        event:
-          - time: " 9:00"
-            title: Служба Божа
-        occasion: null
-      - d: 23
-        event:
-          - time: " 18:00"
-            title: Торжественне поклоніння пречистим Тайнам Тіла і Крови Господа нашого Ісуса Христа.
-        occasion: Молитовна зустріч в парафіяльному залі
-      - d: 24
-        event:
-          - time: " 18:00"
-            title: Служба Божа
-        occasion: Поминання померлих
       - d: 25
         event:
-          - time: " 18:00"
-            title: Вечірня
-        occasion: null
-      - d: 26
-        event:
-          - time: " 09:30"
-            title: Служба Божа
-          - time: " 12:00"
+          - time: " 12:15"
             title: Служба Божа
         occasion: null
-      - d: 27
-        event:
-          - time: " 18:00"
-            title: Служба Божа
-        occasion: Поминання померлих
-      - d: 28
-        event:
-          - time: " 18:00"
-            title: Молебень - До Серця Христового
-          - time: "18:30"
-            title: Зустріч «Матері в молитві»
-        occasion: null
-      - d: 29
-        event:
-          - time: " 9:00"
-            title: Служба Божа
-        occasion: null
-      - d: 30
-        event:
-          - time: " 18:00"
-            title: Служба Божа
-        occasion: null
-    is_published: false
+    is_published: true
     month_date: 06-2022
   - announcement: null
     day:
