@@ -50,19 +50,36 @@
 
     <script>
         const currentDate = new Date();
-        const dataMonth = document.getElementById("#month").innerText;
         let today = currentDate.getDate();
+        let currentMonth = currentDate.getMonth();
         const timetableItems = document.getElementsByClassName("list-group-item");
-        if(currentDate.getMonth().toString() !== dataMonth) {
-            today = 1;
-        }
+        let daysLeftThisMonth = 0;
+
         for(let index = 0; index < timetableItems.length; ++index) {
             const itemID = timetableItems[index].id;
             const itemIdNoPrefixJes = itemID.replace('jes-', '');
             const itemIdNoPrefixJosJes = itemIdNoPrefixJes.replace('jos-', '');
-            const itemDay = itemIdNoPrefixJosJes;
-            if(itemDay !== "link" && (itemDay < today || itemDay > today + 7 )) {
-                timetableItems[index].style = "display: none;";
+            const month = itemIdNoPrefixJosJes.substr(0, itemIdNoPrefixJosJes.indexOf("-"));
+            const day = itemIdNoPrefixJosJes.substr(itemIdNoPrefixJosJes.indexOf("-")+1, itemIdNoPrefixJosJes.length);
+
+            let hideEntry = true;
+
+            if(day !== "link") {
+                if(month === currentMonth.toString()) {
+                    if(day >= today.toString() || day <= (today + 7).toString() ) {
+                        console.log(day, today);
+                        hideEntry = false;
+                        daysLeftThisMonth++;
+                    }
+                } else {
+                    if(day < (7 - daysLeftThisMonth).toString()) {
+                        hideEntry = false;
+                    }
+                }
+
+                if(hideEntry) {
+                    timetableItems[index].style = "display: none;";
+                }
             }
         }
     </script>
