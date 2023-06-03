@@ -1,0 +1,25 @@
+month:
+  - number: 00
+    isPublished: false
+  - number: 01
+    isPublished: false
+  - number: 02
+    isPublished: false
+  - number: 03
+    isPublished: false
+  - number: 04
+    isPublished: false
+  - number: 05
+    isPublished: true
+  - number: 06
+    isPublished: false
+  - number: 07
+    isPublished: false
+  - number: 08
+    isPublished: false
+  - number: 09
+    isPublished: false
+  - number: 10
+    isPublished: false
+  - number: 11
+    isPublished: false
