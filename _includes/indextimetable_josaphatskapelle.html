@@ -1,56 +1,43 @@
-
             {% assign month_date_now = 'now' | date: '%m' | slice: 0,2 | plus: -1 %}
-
-            {% comment %}
-            This feature allows to jump to the next month timetable
-            Condition: no more occasions this month
-            {% endcomment %}
-
             {% assign day_date_now = 'now' | date: '%d' | slice: 0,2 | plus: 0 %}
-            {% if site.data.[page.lang].calendar_josaphatskapelle.month[month_date_now].day.last.d < day_date_now %}
-            {% assign month_date_now = 'now' | date: '%m' | slice: 0,2 | plus: 0 %}
-            {% endif %}
 
-            {% comment %}
-            Force state of a specific month
-            {% endcomment %}
-            {% assign month_date_now = 04 | slice: 0,2 | plus: 0 %}
-
-                <ul class="">
-                    <li class="" id="link">
+            <ul class="">
+                <li class="">
                     {% if site.data.[page.lang].calendar_josaphatskapelle.month[month_date_now].announcement %}
-                        <div class="row atext-c center">
-                            <span class=" col-sm-2"></span>
-                            <div class = "col-sm-8">{{ site.data.[page.lang].calendar_josaphatskapelle.month[month_date_now].announcement }}</div>
-                            <span class=" col-sm-2"></span>
-                        </div>
+                    <div class="row atext-c center">
+                        <span class=" col-sm-2"></span>
+                        <div class = "col-sm-8">{{ site.data.[page.lang].calendar_josaphatskapelle.month[month_date_now].announcement }}</div>
+                        <span class=" col-sm-2"></span>
+                    </div>
                     {% endif %}
-                    </li>
-                </ul>
+                </li>
+            </ul>
 
-                <ul class="list-group">
-                    {% for entry in site.data.[page.lang].calendar_josaphatskapelle.month[month_date_now].day %}
-                    <li class="list-group-item" id="jos-{{ entry.d }}">
-                        <div class="row cent">
-                            <div class="col-sm-2 atext-c center">
-                                {{ entry.d }}
-                                {% assign month_number = month_date_now | slice: 0,2 | plus: 0 %}
-                                {{site.data.[page.lang].months.dictionary[month_number].genetiv}}
-                            </div>
-                            <div class="col-sm-6 atext-c center">
-                                <table style="width:100%">
-                                    {% for event in entry.event  %}
-                                    <tr>
-                                        <td  class="m-2 atext-c text-left">{{ event.time }}</td>
-                                        <td  class="m-2  atext-c align-middle">{{ event.title}}</td>
-                                    </tr>
-                                    {% endfor %}
-                                </table>
-                            </div>
-
-                            <div class="col-sm-4 atext-c center ">{{entry.occasion}}</div>
+            <ul class="list-group">
+                {% for month in site.data.publishedMonths.month %}
+                {% if month.isPublished %}
+                {% for entry in site.data.[page.lang].calendar_josaphatskapelle.month[month.number].day %}
+                <li class="list-group-item" id="jes-{{ month.number }}-{{ entry.d }}">
+                    <div class="row cent">
+                        <div class="col-sm-2 atext-c center">
+                            {{ entry.d }}
+                            {{site.data.[page.lang].months.dictionary[month.number].genetiv}}
                         </div>
-                    </li>
-                    {% endfor %}
-                </ul>
+                        <div class="col-sm-6 atext-c center">
+                            <table style="width:100%">
+                                {% for event in entry.event  %}
+                                <tr>
+                                    <td  class="m-2 atext-c text-left">{{ event.time }}</td>
+                                    <td  class="m-2  atext-c align-middle">{{ event.title}}</td>
+                                </tr>
+                                {% endfor %}
+                            </table>
+                        </div>
 
+                        <div class="col-sm-4 atext-c center ">{{entry.occasion}}</div>
+                    </div>
+                </li>
+                {% endfor %}
+                {% endif %}
+                {% endfor %}
+            </ul>
