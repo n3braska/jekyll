@@ -53,32 +53,35 @@
         let today = currentDate.getDate();
         let currentMonth = currentDate.getMonth();
         const timetableItems = document.getElementsByClassName("list-group-item");
+
         let daysLeftThisMonth = 0;
+        let displayNextMonth = true;
 
         for(let index = 0; index < timetableItems.length; ++index) {
-            const itemID = timetableItems[index].id;
-            const itemIdNoPrefixJes = itemID.replace('jes-', '');
-            const itemIdNoPrefixJosJes = itemIdNoPrefixJes.replace('jos-', '');
-            const month = itemIdNoPrefixJosJes.substr(0, itemIdNoPrefixJosJes.indexOf("-"));
-            const day = itemIdNoPrefixJosJes.substr(itemIdNoPrefixJosJes.indexOf("-")+1, itemIdNoPrefixJosJes.length);
 
-            let hideEntry = true;
+            const day = parseInt(timetableItems[index].dataset.day);
+            const month = parseInt(timetableItems[index].dataset.month);
 
-            if(day !== "link") {
-                if(month === currentMonth.toString()) {
-                    if(day >= today.toString() || day <= (today + 7).toString() ) {
-                        hideEntry = false;
-                        daysLeftThisMonth++;
-                    }
-                } else {
-                    if(day < (7 - daysLeftThisMonth).toString()) {
-                        hideEntry = false;
-                    }
+            let hideDay = true;
+
+            const dayLaterToday = day >= today;
+            const dayEarlierWeekFromToday = day <= today + 7;
+
+            if(month === currentMonth) {
+                if(dayLaterToday && dayEarlierWeekFromToday) {
+                    hideDay = false;
+                    daysLeftThisMonth++;
+                    displayNextMonth = day !== today + 7;
                 }
-
-                if(hideEntry) {
-                    timetableItems[index].style = "display: none;";
+            } else {
+                const isNextMonth = month > currentMonth;
+                if(isNextMonth && displayNextMonth && day <= ( 7 - daysLeftThisMonth)) {
+                    hideDay = false;
                 }
+            }
+
+            if(hideDay) {
+                timetableItems[index].style = "display: none;";
             }
         }
     </script>
