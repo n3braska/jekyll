@@ -17,7 +17,7 @@
                 {% for month in site.data.publishedMonths.month %}
                 {% if month.isPublished %}
                 {% for entry in site.data.[page.lang].calendar_josaphatskapelle.month[month.number].day %}
-                <li class="list-group-item" id="jes-{{ month.number }}-{{ entry.d }}">
+                <li class="list-group-item" data-month="{{ month.number }}" data-day="{{ entry.d }}">
                     <div class="row cent">
                         <div class="col-sm-2 atext-c center">
                             {{ entry.d }}
