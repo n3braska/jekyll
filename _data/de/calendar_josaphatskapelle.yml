@@ -650,116 +650,59 @@ month:
     day:
       - d: 3
         event:
-          - time: " 09:30"
-            title: Hl. Liturgie
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 4
-        event:
           - time: " 19:00"
-            title: Gebetskreis „Mütter im Gebet“
-        occasion: null
-      - d: 7
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: Hl. Johannes der Täufer
-      - d: 8
+            title: Andacht
+        occasion: Gebetskreis „Mütter im Gebet“
+      - d: 6
         event:
           - time: " 9:00"
             title: Hl. Liturgie (Gedächtnis der Verstorbenen)
         occasion: null
       - d: 10
         event:
-          - time: " 09:30"
-            title: Hl. Liturgie (Aller Heiligen des ukrainischen Volkes)
-          - time: " 12:00"
-            title: Hl. Liturgie
-          - time: " 14:00"
-            title: Hl. Liturgie (Auf Slowakisch)
-          - time: " 18:00"
-            title: Hl. Liturgie (Auf Deutsch)
-        occasion: null
-      - d: 11
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie (Gebetskreis „Mütter im Gebet“)
           - time: " 19:00"
-            title: null
-        occasion: null
-      - d: 12
+            title: Andacht
+        occasion: Gebetskreis „Mütter im Gebet“
+      - d: 13
         event:
           - time: " 18:00"
             title: Hl. Liturgie
-        occasion: Hll. Aposteln Petrus und Paulus
+        occasion: null
       - d: 14
         event:
           - time: " 18:00"
             title: Hl. Liturgie
-        occasion: null
-      - d: 15
-        event:
-          - time: " 9:00"
-            title: Hl. Liturgie (Gedächtnis der Verstorbenen)
-        occasion: null
+        occasion: Gedächtnis der Verstorbenen
       - d: 17
         event:
-          - time: " 09:30"
-            title: Hl. Liturgie
-          - time: " 12:00"
-            title: Hl. Liturgie
-          - time: " 18:00"
-            title: Hl. Liturgie (Auf Deutsch)
-        occasion: null
-      - d: 18
-        event:
           - time: " 19:00"
-            title: null
+            title: Andacht
         occasion: Gebetskreis „Mütter im Gebet“
-      - d: 21
+      - d: 20
         event:
           - time: " 18:00"
             title: Hl. Liturgie
         occasion: null
-      - d: 22
+      - d: 21
         event:
           - time: " 18:00"
             title: Hl. Liturgie
         occasion: Gedächtnis der Verstorbenen
       - d: 24
         event:
-          - time: " 09:30"
-            title: Hl. Liturgie (Hl. Olha)
-          - time: " 12:00"
-            title: Hl. Liturgie
-          - time: " 18:00"
-            title: Hl. Liturgie (Auf Deutsch)
-        occasion: null
-      - d: 25
-        event:
           - time: " 19:00"
-            title: null
+            title: Andacht
         occasion: Gebetskreis „Mütter im Gebet“
-      - d: 28
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: Hl. Volodymyr
-      - d: 29
+      - d: 27
         event:
           - time: " 18:00"
             title: Hl. Liturgie
         occasion: Gedächtnis der Verstorbenen
-      - d: 30
+      - d: 31
         event:
-          - time: " 09:30"
-            title: Hl. Liturgie
-          - time: " 12:00"
-            title: Hl. Liturgie
-          - time: " 18:00"
-            title: Hl. Liturgie (Auf Deutsch)
-        occasion: null
+          - time: " 19:00"
+            title: Andacht
+        occasion: Gebetskreis „Mütter im Gebet“
     month_date: 07-2022
   - announcement: "In August, während der Renovierung unserer Kirche St. Barbara, werden die Sonntagsgottesdienste auf Ukrainisch in der Jesuitenkirche um 12:00 Uhr gefeiert. Alle anderen Gottesdienste (auch die Sonntagsliturgie auf Deutsch) werden in der Josaphatskapelle gefeiert. (Zugang über den Zufahrt Postgasse 8)"
     day:

@@ -204,126 +204,56 @@ month:
         occasion: null
     is_published: true
     month_date: 06-2022
-  - announcement: null
+  - announcement: "У церкві отців Єзуїтів - Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
-      - d: 1
-        event:
-          - time: " 9:00"
-            title: Служба Божа (Поминання померлих)
-        occasion: Ісуса Христа – Чоловіколюбця
-      - d: 3
-        event:
-          - time: " 09:30"
-            title: Служба Божа
-          - time: " 18:00"
-            title: Служба Божа
-        occasion: Матері Божої Неустанної Помочі
-      - d: 4
-        event:
-          - time: " 19:00"
-            title: Зустріч «Матері в молитві»
-        occasion: null
       - d: 7
         event:
+          - time: " 09:00"
+            title: Служба Божа
           - time: " 18:00"
             title: Служба Божа
-        occasion: Різдво Івана Хрестителя
-      - d: 8
-        event:
-          - time: " 9:00"
-            title: Служба Божа (Поминання померлих)
-        occasion: null
-      - d: 10
+        occasion: Різдво пророка, Предтечі і Хрестителя Господнього Йоана
+      - d: 9
         event:
           - time: " 09:30"
-            title: Служба Божа (Всіх святих українського народу)
-          - time: " 12:00"
             title: Служба Божа
-          - time: " 14:00"
-            title: Служба Божа (словацькою)
-          - time: " 18:00"
-            title: Служба Божа (німецькою)
-        occasion: null
-      - d: 11
-        event:
-          - time: " 18:00"
-            title: Служба Божа (Зустріч «Матері в молитві»)
-          - time: " 19:00"
-            title: null
+          - time: " 12:15"
+            title: Служба Божа
         occasion: null
       - d: 12
         event:
+          - time: " 09:00"
+            title: Служба Божа
           - time: " 18:00"
             title: Служба Божа
-        occasion: Свв. апп. Петра і Павла
-      - d: 14
-        event:
-          - time: " 18:00"
-            title: Служба Божа
-        occasion: null
-      - d: 15
-        event:
-          - time: " 9:00"
-            title: Служба Божа (Поминання померлих)
-        occasion: null
-      - d: 17
+        occasion: Свв. славних і всехвальних,  первоверховних апп. Петра й Павла.
+      - d: 16
         event:
           - time: " 09:30"
             title: Служба Божа
-          - time: " 12:00"
-            title: Служба Божа
-          - time: " 18:00"
-            title: Служба Божа (німецькою)
-        occasion: null
-      - d: 18
-        event:
-          - time: " 19:00"
-            title: null
-        occasion: Зустріч «Матері в молитві»
-      - d: 21
-        event:
-          - time: " 18:00"
+          - time: " 12:15"
             title: Служба Божа
         occasion: null
-      - d: 22
-        event:
-          - time: " 18:00"
-            title: Служба Божа
-        occasion: Поминання померлих
-      - d: 24
+      - d: 23
         event:
           - time: " 09:30"
-            title: Служба Божа (Ольги, княгині Київської, у хрещенні названої Оленою)
-          - time: " 12:00"
             title: Служба Божа
-          - time: " 18:00"
-            title: Служба Божа (німецькою)
+          - time: " 12:15"
+            title: Служба Божа
         occasion: null
-      - d: 25
-        event:
-          - time: " 19:00"
-            title: null
-        occasion: Зустріч «Матері в молитві»
       - d: 28
         event:
           - time: " 18:00"
-            title: Молебень - До Серця Христового
-        occasion: князя Володимира, у хрещенні названого Василієм.
-      - d: 29
-        event:
-          - time: " 18:00"
             title: Служба Божа
-        occasion: Поминання померлих
+        occasion: Св. рівноап., вел. князя Володимира.
       - d: 30
         event:
           - time: " 09:30"
             title: Служба Божа
-          - time: " 12:00"
+          - time: " 12:15"
             title: Служба Божа
-          - time: " 18:00"
-            title: Служба Божа (німецькою)
         occasion: null
-    is_published: false
+    is_published: true
     month_date: 07-2022
   - announcement: "В місяці серпні, під час ремонту церкви св. Варвари, буде служитися одна недільна літургії українською мовою о 12:00 у церкві отців Єзуїтів (3 хвилини пішки від церкви св. Варвари). Всі інші Богослужіння у каплиці св. Йосафата, вхід біля парафіяльного залу, поруч з церквою св. Варвари (Postgasse 8)"
     day:
