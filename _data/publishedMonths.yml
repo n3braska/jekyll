@@ -10,11 +10,11 @@ month:
   - number: 04
     isPublished: false
   - number: 05
-    isPublished: true
-  - number: 06
     isPublished: false
-  - number: 07
+  - number: 06
     isPublished: true
+  - number: 07
+    isPublished: false
   - number: 08
     isPublished: false
   - number: 09
