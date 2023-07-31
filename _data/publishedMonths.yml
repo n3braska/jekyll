@@ -14,7 +14,7 @@ month:
   - number: 06
     isPublished: true
   - number: 07
-    isPublished: false
+    isPublished: true
   - number: 08
     isPublished: false
   - number: 09
