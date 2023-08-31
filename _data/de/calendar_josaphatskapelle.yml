@@ -646,7 +646,7 @@ month:
             title: Hl. Liturgie
         occasion: Gedächtnis der Verstorbenen
     month_date: 06-2022
-  - announcement: null
+  - announcement: "In der Kirche St. Barbara: Postgasse 8A. Beichtgelegenheit vor und nach den Gottesdiensten nach Vereinbarung mit dem Priester."
     day:
       - d: 3
         event:
@@ -809,110 +809,87 @@ month:
         event:
           - time: " 18:00"
             title: Hl. Liturgie
-        occasion: null
-      - d: 2
+        occasion: Gedächtnis der Verstorbenen
+      - d: 3
         event:
-          - time: " 18:00"
-            title: Hl. Liturgie (Gedächtnis der Verstorbenen)
+          - time: " 09:30"
+            title: Hl. Liturgie
         occasion: null
       - d: 4
         event:
-          - time: " 12:00"
-            title: Hl. Liturgie (Jesuitenkirche)
-          - time: " 18:00"
-            title: Hl. Liturgie (Auf Deutsch in der Josaphatskapelle)
-        occasion: null
-      - d: 5
-        event:
           - time: " 19:00"
-            title: Gebetskreis „Mütter im Gebet“
-        occasion: null
+            title: Andacht
+        occasion: Gebetskreis „Mütter im Gebet“
+      - d: 7
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: Gedächtnis der Verstorbenen
       - d: 8
         event:
           - time: " 18:00"
             title: Hl. Liturgie
-        occasion: null
-      - d: 9
+        occasion: Mariä Geburt
+      - d: 10
         event:
-          - time: " 18:00"
-            title: Hl. Liturgie (Gedächtnis der Verstorbenen)
+          - time: " 09:30"
+            title: Hl. Liturgie
         occasion: null
       - d: 11
         event:
-          - time: " 12:00"
-            title: Hl. Liturgie (Jesuitenkirche)
-          - time: " 18:00"
-            title: Hl. Liturgie (Auf Deutsch in der Josaphatskapelle)
-        occasion: null
-      - d: 12
-        event:
           - time: " 19:00"
-            title: Gebetskreis „Mütter im Gebet“
-        occasion: null
+            title: Andacht
+        occasion: Gebetskreis „Mütter im Gebet“
+      - d: 14
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: Kreuzerhöhung
       - d: 15
         event:
           - time: " 18:00"
             title: Hl. Liturgie
-        occasion: null
-      - d: 16
+        occasion: Gedächtnis der Verstorbenen
+      - d: 17
         event:
-          - time: " 18:00"
-            title: Hl. Liturgie (Gedächtnis der Verstorbenen)
+          - time: " 09:30"
+            title: Hl. Liturgie
         occasion: null
       - d: 18
         event:
-          - time: " 12:00"
-            title: Hl. Liturgie (Jesuitenkirche)
-          - time: " 18:00"
-            title: Hl. Liturgie (Auf Deutsch in der Josaphatskapelle)
-        occasion: null
-      - d: 19
-        event:
           - time: " 19:00"
-            title: Gebetskreis „Mütter im Gebet“
-        occasion: null
+            title: Andacht
+        occasion: Gebetskreis „Mütter im Gebet“
       - d: 21
         event:
-          - time: " 10:00"
+          - time: " 18:00"
             title: Hl. Liturgie
-        occasion: Mariä Geburt (Jul. Kal.) (Jesuitenkirche)
+        occasion: null
       - d: 22
         event:
           - time: " 18:00"
             title: Hl. Liturgie
-        occasion: null
-      - d: 23
+        occasion: Gedächtnis der Verstorbenen
+      - d: 24
         event:
-          - time: " 18:00"
-            title: Hl. Liturgie (Gedächtnis der Verstorbenen)
+          - time: " 09:30"
+            title: Hl. Liturgie
         occasion: null
       - d: 25
         event:
-          - time: " 12:00"
-            title: Hl. Liturgie (Jesuitenkirche)
-          - time: " 18:00"
-            title: Hl. Liturgie (Auf Deutsch in der Josaphatskapelle)
-        occasion: null
-      - d: 26
-        event:
           - time: " 19:00"
-            title: Gebetskreis „Mütter im Gebet“
-        occasion: null
-      - d: 27
+            title: Andacht
+        occasion: Gebetskreis „Mütter im Gebet“
+      - d: 28
         event:
-          - time: " 10:00"
-            title: Erhöhung des Heiligen Kreuzes (Jul. Kal.) (Jesuitenkirche)
+          - time: " 18:00"
+            title: Hl. Liturgie
         occasion: null
       - d: 29
         event:
           - time: " 18:00"
             title: Hl. Liturgie
-        occasion: null
-      - d: 30
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie (Gedächtnis der Verstorbenen)
-        occasion: null
+        occasion: Gedächtnis der Verstorbenen
     month_date: 09-2022
   - announcement: "In Oktober, während der Renovierung unserer Kirche St. Barbara, werden die Sonntagsgottesdienste auf Ukrainisch in der Jesuitenkirche um 12:00 Uhr gefeiert. Alle anderen Gottesdienste (auch die Sonntagsliturgie auf Deutsch) werden in der Josaphatskapelle gefeiert. (Zugang über den Zufahrt Postgasse 8)"
     day:
