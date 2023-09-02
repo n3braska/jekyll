@@ -48,7 +48,7 @@ month:
           - time: " 12:15"
             title: Hl. Liturgie
         occasion: null
-    month_date: 01-2022
+    month_date: 01-2023
   - announcement: "in Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
       - d: 5
@@ -81,7 +81,7 @@ month:
           - time: " 12:15"
             title: Hl. Liturgie
         occasion: Der Butterentsagung (über die Vergebung)
-    month_date: 02-2022
+    month_date: 02-2023
   - announcement: "in Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
       - d: 5
@@ -112,7 +112,7 @@ month:
           - time: " 12:15"
             title: Hl. Liturgie
         occasion: 4. Sonntag der Großen Fasten
-    month_date: 03-2022
+    month_date: 03-2023
   - announcement: "Julianisches Kalender"
     day:
       - d: 2
@@ -151,7 +151,7 @@ month:
           - time: " 18:00"
             title: Hl. Liturgie
         occasion: Mariä Verkündigung (Jul. Kal.)
-    month_date: 04-2022
+    month_date: 04-2023
   - announcement: "In Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
       - d: 7
@@ -174,7 +174,7 @@ month:
           - time: " 12:15"
             title: Hl. Liturgie
         occasion: null
-    month_date: 05-2022
+    month_date: 05-2023
   - announcement: "In Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
       - d: 4
@@ -197,7 +197,7 @@ month:
           - time: " 12:15"
             title: Hl. Liturgie
         occasion: null
-    month_date: 06-2022
+    month_date: 06-2023
   - announcement: "In Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
       - d: 7
@@ -247,7 +247,7 @@ month:
           - time: " 12:15"
             title: Hl. Liturgie
         occasion: null
-    month_date: 07-2022
+    month_date: 07-2023
   - announcement: "In Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
       - d: 6
@@ -270,7 +270,7 @@ month:
           - time: " 12:15"
             title: Hl. Liturgie
         occasion: In der Jesuitenkirche
-    month_date: 08-2022
+    month_date: 08-2023
   - announcement: "In Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
       - d: 3
@@ -293,7 +293,7 @@ month:
           - time: " 12:15"
             title: Hl. Liturgie
         occasion: null
-    month_date: 09-2022
+    month_date: 09-2023
   - announcement: "In Oktober, während der Renovierung unserer Kirche St. Barbara, werden die Sonntagsgottesdienste auf Ukrainisch in der Jesuitenkirche um 12:00 Uhr gefeiert. Alle anderen Gottesdienste (auch die Sonntagsliturgie auf Deutsch) werden in der Josaphatskapelle gefeiert. (Zugang über den Zufahrt Postgasse 8)"
     day:
       - d: 2
@@ -395,7 +395,7 @@ month:
           - time: " 18:00"
             title: Hl. Liturgie (Auf Deutsch in der Josaphatskapelle)
         occasion: null
-    month_date: 10-2022
+    month_date: 10-2023
   - announcement: "In November, während der Renovierung unserer Kirche St. Barbara, werden die Sonntagsgottesdienste auf Ukrainisch in der Jesuitenkirche um 12:00 Uhr gefeiert. Alle anderen Gottesdienste (auch die Sonntagsliturgie auf Deutsch) werden in der Josaphatskapelle gefeiert. (Zugang über den Zufahrt Postgasse 8)"
     day:
       - d: 1
@@ -493,7 +493,7 @@ month:
           - time: " 19:00"
             title: Gebetskreis „Mütter im Gebet“
         occasion: null
-    month_date: 11-2022
+    month_date: 11-2023
   - announcement: "Kirche St. Barbara wegen der Renovierung geschlossen. Gottesdienste in Jesuitenkirche (Doktor-Ignaz-Seipel-Platz 1, 1010 Wien):"
     day:
       - d: 11
@@ -541,4 +541,4 @@ month:
           - time: " 18:00"
             title: Hl. Stephanus
         occasion: Josaphatskapelle
-    month_date: 12-2022
+    month_date: 12-2023

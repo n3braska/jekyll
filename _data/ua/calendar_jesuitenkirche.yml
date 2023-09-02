@@ -53,7 +53,7 @@ month:
           - time: " 12:15"
             title: Служба Божа
         occasion: null
-    month_date: 01-2022
+    month_date: 01-2023
   - announcement: "у Церкві отців Єзуїтів - Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
       - d: 5
@@ -81,7 +81,7 @@ month:
           - time: " 12:15"
             title: Служба Божа
         occasion: Прощення (сиропусна)
-    month_date: 02-2022
+    month_date: 02-2023
   - announcement: "у Церкві отців Єзуїтів - Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
       - d: 5
@@ -112,7 +112,7 @@ month:
           - time: " 12:15"
             title: Служба Божа
         occasion: Неділя 4-та Великого посту
-    month_date: 03-2022
+    month_date: 03-2023
   - announcement: ""
     day:
       - d: 2
@@ -151,7 +151,7 @@ month:
           - time: " 18:00"
             title: Служба Божа
         occasion: БЛАГОВІЩЕННЯ ПРЕСВЯТОЇ ВЛАДИЧИЦІ НАШОЇ БОГОРОДИЦІ
-    month_date: 04-2022
+    month_date: 04-2023
   - announcement: "У церкві отців Єзуїтів - Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
       - d: 7
@@ -174,7 +174,7 @@ month:
           - time: " 12:15"
             title: Служба Божа
         occasion: null
-    month_date: 05-2022
+    month_date: 05-2023
   - announcement: "У церкві отців Єзуїтів - Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
       - d: 4
@@ -197,7 +197,7 @@ month:
           - time: " 12:15"
             title: Служба Божа
         occasion: null
-    month_date: 06-2022
+    month_date: 06-2023
   - announcement: "У церкві отців Єзуїтів - Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
       - d: 7
@@ -247,7 +247,7 @@ month:
           - time: " 12:15"
             title: Служба Божа
         occasion: null
-    month_date: 07-2022
+    month_date: 07-2023
   - announcement: "У церкві отців Єзуїтів - Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
       - d: 6
@@ -270,30 +270,30 @@ month:
           - time: " 12:15"
             title: Служба Божа
         occasion: у церкві отців Єзуїтів
-    month_date: 08-2022
+    month_date: 08-2023
   - announcement: "У церкві отців Єзуїтів - Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
       - d: 3
         event:
           - time: " 12:15"
             title: Служба Божа
-        occasion: у церкві отців Єзуїтів
+        occasion: null
       - d: 10
         event:
           - time: " 12:15"
             title: Служба Божа
-        occasion: у церкві отців Єзуїтів
+        occasion: null
       - d: 17
         event:
           - time: " 12:15"
             title: Служба Божа
-        occasion: у церкві отців Єзуїтів
+        occasion: null
       - d: 24
         event:
           - time: " 12:15"
             title: Служба Божа
-        occasion: у церкві отців Єзуїтів
-    month_date: 09-2022
+        occasion: null
+    month_date: 09-2023
   - announcement: "В місяці жовтні, під час ремонту церкви св. Варвари, буде служитися одна недільна літургії українською мовою о 12:00 у церкві отців Єзуїтів (3 хвилини пішки від церкви св. Варвари). Всі інші Богослужіння у каплиці св. Йосафата, вхід біля парафіяльного залу, поруч з церквою св. Варвари (Postgasse 8)"
     day:
       - d: 2
@@ -395,7 +395,7 @@ month:
           - time: " 18:00"
             title: Служба Божа (Німецькою у каплиці св. Йосафата)
         occasion: null
-    month_date: 10-2022
+    month_date: 10-2023
   - announcement: "В місяці листопаді, під час ремонту церкви св. Варвари, буде служитися одна недільна літургії українською мовою о 12:00 у церкві отців Єзуїтів (3 хвилини пішки від церкви св. Варвари). Всі інші Богослужіння у каплиці св. Йосафата, вхід біля парафіяльного залу, поруч з церквою св. Варвари (Postgasse 8)"
     day:
       - d: 1
@@ -493,7 +493,7 @@ month:
           - time: " 19:00"
             title: Зустріч «Матері в молитві»
         occasion: null
-    month_date: 11-2022
+    month_date: 11-2023
   - announcement: "Церква Святої Варвари перебуває на ремонті. Розклад Богослужінь на грудень у церкві отців Єзуїтів (Doktor-Ignaz-Seipel-Platz 1, 1010 Wien)"
     day:
       - d: 11
@@ -546,4 +546,4 @@ month:
           - time: " 18:00"
             title: Святого Степана Першомученика
         occasion: В каплиці св. Йосафата
-    month_date: 12-2022
+    month_date: 12-2023
