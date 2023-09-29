@@ -294,106 +294,42 @@ month:
             title: Hl. Liturgie
         occasion: null
     month_date: 09-2023
-  - announcement: "In Oktober, während der Renovierung unserer Kirche St. Barbara, werden die Sonntagsgottesdienste auf Ukrainisch in der Jesuitenkirche um 12:00 Uhr gefeiert. Alle anderen Gottesdienste (auch die Sonntagsliturgie auf Deutsch) werden in der Josaphatskapelle gefeiert. (Zugang über den Zufahrt Postgasse 8)"
+  - announcement: "In Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
-      - d: 2
+      - d: 1
         event:
-          - time: " 12:00"
-            title: Hl. Liturgie (Jesuitenkirche)
-          - time: " 18:00"
-            title: Hl. Liturgie (Auf Deutsch in der Josaphatskapelle)
-        occasion: null
-      - d: 3
-        event:
-          - time: " 19:00"
-            title: Gebetskreis „Mütter im Gebet“
-        occasion: null
-      - d: 6
-        event:
-          - time: " 18:00"
+          - time: " 09:30"
             title: Hl. Liturgie
-        occasion: Зачаття Йохана Хрестителя
-      - d: 7
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie (Gedächtnis der Verstorbenen)
-        occasion: null
-      - d: 9
-        event:
-          - time: " 12:00"
-            title: Hl. Liturgie (Jesuitenkirche)
-          - time: " 14:00"
-            title: Hl. Liturgie (Auf Slowakisch in der Josaphatskapelle)
-          - time: " 18:00"
-            title: Hl. Liturgie (Auf Deutsch in der Josaphatskapelle)
-        occasion: null
-      - d: 10
-        event:
-          - time: " 19:00"
-            title: Gebetskreis „Mütter im Gebet“
-        occasion: null
-      - d: 13
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie (Gedächtnis der Verstorbenen)
-        occasion: null
-      - d: 14
-        event:
-          - time: " 18:00"
+          - time: " 12:15"
             title: Hl. Liturgie
-        occasion: FEST MARIA SCHUTZ Festgottesdienst im Stephansdom
-      - d: 16
+        occasion: Fest Mariä Schutz
+      - d: 8
         event:
-          - time: " 12:00"
-            title: Hl. Liturgie (Jesuitenkirche)
-          - time: " 18:00"
-            title: Hl. Liturgie (Auf Deutsch in der Josaphatskapelle)
-        occasion: null
-      - d: 17
-        event:
-          - time: " 19:00"
-            title: Gebetskreis „Mütter im Gebet“
-        occasion: null
-      - d: 20
-        event:
-          - time: " 18:00"
+          - time: " 09:30"
+            title: Hl. Liturgie
+          - time: " 12:15"
             title: Hl. Liturgie
         occasion: null
-      - d: 21
+      - d: 15
         event:
-          - time: " 18:00"
-            title: Hl. Liturgie (Gedächtnis der Verstorbenen)
-        occasion: null
-      - d: 23
-        event:
-          - time: " 12:00"
-            title: Hl. Liturgie (Jesuitenkirche)
-          - time: " 14:00"
-            title: Hl. Liturgie (Auf Slowakisch in der Josaphatskapelle)
-          - time: " 18:00"
-            title: Hl. Liturgie (Auf Deutsch in der Josaphatskapelle)
-        occasion: null
-      - d: 24
-        event:
-          - time: " 19:00"
-            title: Gebetskreis „Mütter im Gebet“
-        occasion: null
-      - d: 27
-        event:
-          - time: " 18:00"
+          - time: " 09:30"
+            title: Hl. Liturgie
+          - time: " 12:15"
             title: Hl. Liturgie
         occasion: null
-      - d: 28
+      - d: 22
         event:
-          - time: " 18:00"
-            title: Hl. Liturgie (Gedächtnis der Verstorbenen)
+          - time: " 09:30"
+            title: Hl. Liturgie
+          - time: " 12:15"
+            title: Hl. Liturgie
         occasion: null
-      - d: 30
+      - d: 29
         event:
-          - time: " 12:00"
-            title: Hl. Liturgie (Jesuitenkirche)
-          - time: " 18:00"
-            title: Hl. Liturgie (Auf Deutsch in der Josaphatskapelle)
+          - time: " 09:30"
+            title: Hl. Liturgie
+          - time: " 12:15"
+            title: Hl. Liturgie
         occasion: null
     month_date: 10-2023
   - announcement: "In November, während der Renovierung unserer Kirche St. Barbara, werden die Sonntagsgottesdienste auf Ukrainisch in der Jesuitenkirche um 12:00 Uhr gefeiert. Alle anderen Gottesdienste (auch die Sonntagsliturgie auf Deutsch) werden in der Josaphatskapelle gefeiert. (Zugang über den Zufahrt Postgasse 8)"
