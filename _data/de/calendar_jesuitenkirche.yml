@@ -355,51 +355,31 @@ month:
             title: Hl. Liturgie Ukrainisch
         occasion: null
     month_date: 11-2023
-  - announcement: "Kirche St. Barbara wegen der Renovierung geschlossen. Gottesdienste in Jesuitenkirche (Doktor-Ignaz-Seipel-Platz 1, 1010 Wien):"
+  - announcement: "In Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
-      - d: 11
+      - d: 10
+        event:
+          - time: " 12:15"
+            title: Hl. Liturgie
+        occasion: (Licht von Betlehem)
+      - d: 17
         event:
           - time: " 12:15"
             title: Hl. Liturgie
         occasion: null
-      - d: 13
-        event:
-          - time: " 18:00"
-            title: Hl. Andreas
-        occasion: Josaphatskapelle
-      - d: 18
-        event:
-          - time: " 12:15"
-            title: Hl. Barbara
-        occasion: Patrozinium
-      - d: 19
-        event:
-          - time: " 18:00"
-            title: Hl. Nikolaus
-        occasion: null
-      - d: 22
-        event:
-          - time: " 18:00"
-            title: Mariä Empfängnis
-        occasion: (Jul. Kal.)
       - d: 24
         event:
-          - time: " 16:00"
-            title: Große Weihnachtsandacht
-        occasion: (Heiliger Abend)
+          - time:  " 12:15"
+            title: Hl. Liturgie
+        occasion: null
       - d: 25
         event:
           - time: " 12:15"
-            title: GEBURT DES HERRN
-        occasion: null
-      - d: 26
+            title: Hl. Liturgie
+        occasion: FEST DER GEBURT DES HERRN
+      - d: 31
         event:
           - time: " 12:15"
-            title: Fest der Gottesmutter
+            title: Hl. Liturgie
         occasion: null
-      - d: 27
-        event:
-          - time: " 18:00"
-            title: Hl. Stephanus
-        occasion: Josaphatskapelle
     month_date: 12-2023
