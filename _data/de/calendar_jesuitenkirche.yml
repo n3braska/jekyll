@@ -4,46 +4,24 @@ month:
       - d: 6
         event:
           - time: " 12:15"
-            title: Hl. Liturgie und Wasserweihe
-          - time: " 18:00"
-            title: Große Nachvesper (Heiliger Abend) (Jul. Kal.)
-        occasion: ERSCHEINUNG DES HERRN (Gr. Kal.)
+            title: Hl. Liturgie
+        occasion: Erscheinung des Herrn / Taufe Jesu
       - d: 7
         event:
           - time: " 12:15"
             title: Hl. Liturgie
-        occasion: FEST DER GEBURT DES HERRN (Jul. Kal.)
-      - d: 8
-        event:
-          - time: " 12:15"
-            title: Hl. Liturgie
-        occasion: Muttergottesfest (Jul. Kal.)
+        occasion: null
       - d: 14
         event:
           - time: " 12:15"
             title: Hl. Liturgie
-        occasion: Neujahr, Hl. Basilius der Große (Jul. Kal.)
-      - d: 15
+        occasion: null
+      - d: 21
         event:
           - time: " 12:15"
             title: Hl. Liturgie
         occasion: null
-      - d: 18
-        event:
-          - time: " 12:15"
-            title: Vesper mit Liturgie und Wasserweihe
-        occasion: null
-      - d: 19
-        event:
-          - time: " 12:15"
-            title: Hl. Liturgie und Wasserweihe
-        occasion: ERSCHEINUNG DES HERRN (Jul. Kal.)
-      - d: 22
-        event:
-          - time: " 12:15"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 29
+      - d: 28
         event:
           - time: " 12:15"
             title: Hl. Liturgie

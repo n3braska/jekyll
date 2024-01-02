@@ -1,55 +1,174 @@
 month:
-  - announcement: "у Каплиці св. Йосафата - Josaphatskapelle: Postgasse 8A"
+  - announcement: "У церкві св. Варвари: Postgasse 8A. Сповідь до або після богослужінь по домовленості зі священиком."
     day:
-      - d: 5
+      - d: 3
         event:
-          - time: " 18:00"
-            title: Служба Божа за померлих
+          - time: " 09:00"
+            title: Служба Божа
         occasion: null
-      - d: 9
+      - d: 04
         event:
           - time: " 18:00"
             title: Служба Божа
+        occasion: Поминання померлих
+      - d: 05
+        event:
+          - time: " 09:30"
+            title: Вечірня з Літургією Василія Вел. та Велике Водосвяття
+          - time: " 16:00"
+            title: Велике повечіря та Велике Водосвяття
+        occasion: Навечіря Богоявлення (Щедрий вечір). Церква залишається відчиненою від 09:30 до 20:00 для можливості набрати воду
+      - d: 06
+        event:
+          - time: " 09:30"
+            title: Служба Божа та Велике Водосвяття
+          - time: " 12:15"
+            title: Служба Божа у церкві Єзуїтів
+        occasion: null
+      - d: 07
+        event:
+          - time: " 09:30"
+            title: Служба Божа
+          - time: " 12:15"
+            title: Служба Божа у церкві Єзуїтів
+          - time: " 15:00"
+            title: Служба Божа угорською
+          - time: " 18:00"
+            title: Служба Божа німецькою
+        occasion: null
+      - d: 08
+        event:
+          - time: " 18:00"
+            title: Служба Божа (Поминання померлих)
           - time: " 19:00"
             title: Зустріч «Матері в молитві»
-        occasion: Св. первомуч. Стефана
+        occasion: null
+      - d: 09
+        event:
+          - time: " 18:00"
+            title: Служба Божа
+        occasion: null
+      - d: 10
+        event:
+          - time: " 09:00"
+            title: Служба Божа
+        occasion: null
+      - d: 11
+        event:
+          - time: " 18:00"
+            title: Служба Божа
+        occasion: null
       - d: 12
         event:
           - time: " 18:00"
-            title: Служба Божа за здоров'я
-        occasion: null
-      - d: 13
+            title: Служба Божа
+        occasion: Поминання померлих
+      - d: 14
+        event:
+          - time: " 09:30"
+            title: Служба Божа
+          - time: " 12:15"
+            title: Служба Божа у церкві Єзуїтів
+          - time: " 14:00"
+            title: Служба Божа словацькою
+          - time: " 18:00"
+            title: Служба Божа німецькою
+        occasion: Неділя про Закхея
+      - d: 15
         event:
           - time: " 18:00"
-            title: Служба Божа за померлих
+            title: Служба Божа (Поминання померлих)
+          - time: " 19:00"
+            title: Зустріч «Матері в молитві»
         occasion: null
       - d: 16
         event:
-          - time: " 19:00"
-            title: Зустріч «Матері в молитві»
+          - time: " 18:00"
+            title: Служба Божа
         occasion: null
-      - d: 20
+      - d: 17
+        event:
+          - time: " 09:00"
+            title: Служба Божа
+        occasion: null
+      - d: 18
         event:
           - time: " 18:00"
-            title: Служба Божа за померлих
+            title: Служба Божа
+        occasion: null
+      - d: 19
+        event:
+          - time: " 18:00"
+            title: Служба Божа
+        occasion: Поминання померлих
+      - d: 21
+        event:
+          - time: " 09:30"
+            title: Служба Божа
+          - time: " 12:15"
+            title: Служба Божа у церкві Єзуїтів
+          - time: " 15:00"
+            title: Служба Божа угорською
+          - time: " 18:00"
+            title: Служба Божа німецькою
+        occasion: Неділя митаря і фарисея
+      - d: 22
+        event:
+          - time: " 18:00"
+            title: Служба Божа (Поминання померлих)
+          - time: " 19:00"
+            title: Зустріч «Матері в молитві»
         occasion: null
       - d: 23
         event:
-          - time: " 19:00"
-            title: Зустріч «Матері в молитві»
+          - time: " 18:00"
+            title: Служба Божа
         occasion: null
       - d: 24
         event:
-          - time: " 18:00"
-            title: Служба Божа за здоров'я
+          - time: " 09:00"
+            title: Служба Божа
         occasion: null
-      - d: 27
+      - d: 25
         event:
           - time: " 18:00"
-            title: Служба Божа за померлих
+            title: Служба Божа
+        occasion: null
+      - d: 26
+        event:
+          - time: " 18:00"
+            title: Служба Божа
+        occasion: Поминання померлих
+      - d: 28
+        event:
+          - time: " 09:30"
+            title: Служба Божа
+          - time: " 12:15"
+            title: Служба Божа у церкві Єзуїтів
+          - time: " 14:00"
+            title: Служба Божа словацькою
+          - time: " 18:00"
+            title: Служба Божа німецькою
+        occasion: Неділя про блудного сина
+      - d: 29
+        event:
+          - time: " 18:00"
+            title: Служба Божа (Поминання померлих)
+          - time: " 19:00"
+            title: Зустріч «Матері в молитві»
+        occasion: null
+      - d: 30
+        event:
+          - time: " 18:00"
+            title: Служба Божа
+        occasion: null
+      - d: 31
+        event:
+          - time: " 09:00"
+            title: Служба Божа
         occasion: null
     month_date: 01-2023
-  - announcement: "у Каплиці св. Йосафата - Josaphatskapelle: Postgasse 8A"
+  - announcement: "У церкві св. Варвари: Postgasse 8A. Сповідь до або після богослужінь по домовленості зі священиком"
     day:
       - d: 2
         event:
