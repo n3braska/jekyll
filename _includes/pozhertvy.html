@@ -8,16 +8,36 @@
 </style>
 <div class="row justify-content-center"  style="min-height: calc(100vh - 330px);">
     <div class="container">
+        {% if page.lang == 'ua' %}
+        <p style="text-align: center;">Церква Святої Варвари спільно з українською громадою організувала центр допомоги постраждалим від російсько-української війни. Зібрані кошти підуть на медикаменти, аптечки та інші терміново необхідні речі.</p>
+        <p style="text-align: center; margin-bottom: 50px;">Ви можете швидко перерахувати свою пожертву за допомогою платіжної системи Stripe.</p>
+        <div class="row">
+            <div class="col-6">
+                <h3 style="text-align: center;">Одноразова пожертва</h3>
+                <div class="row" style="margin-bottom: 15px;"><a type="button" class="btn payment-button" href="https://buy.stripe.com/4gwg1l2A5f9M6kg7st">Пожертвувати 5 EUR</a></div>
+                <div class="row" style="margin-bottom: 15px;"><a type="button" class="btn payment-button" href="https://buy.stripe.com/5kA02n0rXbXA4c83ce">Пожертвувати 10 EUR</a></div>
+                <div class="row" style="margin-bottom: 15px;"><a type="button" class="btn payment-button" href="https://buy.stripe.com/28o2ava2x5zcaAw4gj">Пожертвувати 20 EUR</a></div>
+                <div class="row" style="margin-bottom: 15px;"><a type="button" class="btn payment-button" href="https://buy.stripe.com/00geXheiN4v8aAw7sw">Пожертвувати 50 EUR</a></div>
+                <div class="row" style="margin-bottom: 15px;"><a type="button" class="btn payment-button" href="https://buy.stripe.com/aEUg1lgqVe5I24028d">Пожертвувати 100 EUR</a></div>
+
+            </div>
+            <div class="col-6">
+                <h3 style="text-align: center;">Чи хотіли б ви пожертвувати більше?</h3>
+                <p>Якщо ви хочете пожертвувати понад 100 євро, ви можете змінити суму пожертви на сторінці оформлення</p>
+                <div class="row"><a type="button" class="btn payment-button" href="https://buy.stripe.com/aEU9CX8Yt2n0cIEeV0">Надіслати пожертву</a></div>
+            </div>
+        </div>
+        {% else %}
         <p style="text-align: center;">Die St. Barbara Kirche organisierte zusammen mit der ukrainischen Gemeinde ein Zentrum, um den Opfern des Krieges zwischen Russland und der Ukraine zu helfen. Das gespendete Geld wird für Medikamente, Erste-Hilfe-Ausrüstung und andere Güter, die dringend benötigt werden, verwendet werden.</p>
         <p style="text-align: center; margin-bottom: 50px;">Sie können Ihre Spende schnell über das Stripe-Zahlungssystem überweisen.</p>
         <div class="row">
             <div class="col-6">
-                        <h3 style="text-align: center;">Einmalige Spende</h3>
-                        <div class="row" style="margin-bottom: 15px;"><a type="button" class="btn payment-button" href="https://buy.stripe.com/4gwg1l2A5f9M6kg7st">5 EUR spenden</a></div>
-                        <div class="row" style="margin-bottom: 15px;"><a type="button" class="btn payment-button" href="https://buy.stripe.com/5kA02n0rXbXA4c83ce">10 EUR spenden</a></div>
-                        <div class="row" style="margin-bottom: 15px;"><a type="button" class="btn payment-button" href="https://buy.stripe.com/28o2ava2x5zcaAw4gj">20 EUR spenden</a></div>
-                        <div class="row" style="margin-bottom: 15px;"><a type="button" class="btn payment-button" href="https://buy.stripe.com/00geXheiN4v8aAw7sw">50 EUR spenden</a></div>
-                        <div class="row" style="margin-bottom: 15px;"><a type="button" class="btn payment-button" href="https://buy.stripe.com/aEUg1lgqVe5I24028d">100 EUR spenden</a></div>
+                <h3 style="text-align: center;">Einmalige Spende</h3>
+                <div class="row" style="margin-bottom: 15px;"><a type="button" class="btn payment-button" href="https://buy.stripe.com/4gwg1l2A5f9M6kg7st">5 EUR spenden</a></div>
+                <div class="row" style="margin-bottom: 15px;"><a type="button" class="btn payment-button" href="https://buy.stripe.com/5kA02n0rXbXA4c83ce">10 EUR spenden</a></div>
+                <div class="row" style="margin-bottom: 15px;"><a type="button" class="btn payment-button" href="https://buy.stripe.com/28o2ava2x5zcaAw4gj">20 EUR spenden</a></div>
+                <div class="row" style="margin-bottom: 15px;"><a type="button" class="btn payment-button" href="https://buy.stripe.com/00geXheiN4v8aAw7sw">50 EUR spenden</a></div>
+                <div class="row" style="margin-bottom: 15px;"><a type="button" class="btn payment-button" href="https://buy.stripe.com/aEUg1lgqVe5I24028d">100 EUR spenden</a></div>
 
             </div>
             <div class="col-6">
@@ -26,6 +46,8 @@
                 <div class="row"><a type="button" class="btn payment-button" href="https://buy.stripe.com/aEU9CX8Yt2n0cIEeV0">Jetzt spenden</a></div>
             </div>
         </div>
+        {% endif %}
+
     </div>
 </div>
 
