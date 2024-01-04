@@ -1,74 +1,31 @@
 <link rel='stylesheet' href='/assets/css/donations.css'>
-<div class="row justify-content-center">
+<style>
+    .payment-button {
+        background-color: #67878E;
+        color: white;
+        font-size: larger;
+    }
+</style>
+<div class="row justify-content-center"  style="min-height: calc(100vh - 330px);">
+    <div class="container">
+        <p style="text-align: center;">Die St. Barbara Kirche organisierte zusammen mit der ukrainischen Gemeinde ein Zentrum, um den Opfern des Krieges zwischen Russland und der Ukraine zu helfen. Das gespendete Geld wird für Medikamente, Erste-Hilfe-Ausrüstung und andere Güter, die dringend benötigt werden, verwendet werden.</p>
+        <p style="text-align: center; margin-bottom: 50px;">Sie können Ihre Spende schnell über das Stripe-Zahlungssystem überweisen.</p>
+        <div class="row">
+            <div class="col-6">
+                        <h3 style="text-align: center;">Einmalige Spende</h3>
+                        <div class="row" style="margin-bottom: 15px;"><a type="button" class="btn payment-button" href="https://buy.stripe.com/4gwg1l2A5f9M6kg7st">5 EUR spenden</a></div>
+                        <div class="row" style="margin-bottom: 15px;"><a type="button" class="btn payment-button" href="https://buy.stripe.com/5kA02n0rXbXA4c83ce">10 EUR spenden</a></div>
+                        <div class="row" style="margin-bottom: 15px;"><a type="button" class="btn payment-button" href="https://buy.stripe.com/28o2ava2x5zcaAw4gj">20 EUR spenden</a></div>
+                        <div class="row" style="margin-bottom: 15px;"><a type="button" class="btn payment-button" href="https://buy.stripe.com/00geXheiN4v8aAw7sw">50 EUR spenden</a></div>
+                        <div class="row" style="margin-bottom: 15px;"><a type="button" class="btn payment-button" href="https://buy.stripe.com/aEUg1lgqVe5I24028d">100 EUR spenden</a></div>
 
-
-    {% for item in site.data.[page.lang].pozhertvy.pozhertva %}
-    <div class="col-12 my-5">
-        <div class="card bbgg h-img1">
-            <div class="row no-gutters">
-                <div class="col-md-6">
-                    <img class="w-100" src="{{item.image}}" alt="">
-                </div>
-                <div class="col-md-6 pl-md-2">
-                    <div class="card-body">
-
-                        <h1 class="title textal text-center">{{item.subject}}</h1>
-
-                        <p class="marked text-center">
-                            {% if item.needed %}{{page.sumNeeded}}: {{item.needed}} EUR {% endif %}
-                            {% if item.collected %}  <br>{{page.collected}}: {{item.collected}} EUR</p> {% endif %}
-
-                        <p>{{item.text}}</p>
-
-                        <button data-toggle="collapse" data-target="#post{{forloop.index}}" class="btn mb-0 btn-dark btn-sm">{{page.read_donations_info}}</button>
-                        <div id="post{{forloop.index}}" class="card-text collapse" class="mt-5 ml-2">
-                            {% for elem in item.donations %}
-                            <p class="text-center">
-                                {% if elem.date %} <i>{{elem.date}}:</i>{% endif %}
-                                {% if elem.from %} <i>{{elem.from}};</i>{% endif %}
-                                {% if elem.amount %} {{elem.amount}} EUR{% endif %}
-                                {% if elem.for %} ({{elem.for}}){% endif %}
-                            </p>
-                            {% endfor %}
-                        </div>
-                    </div>
-                </div>
+            </div>
+            <div class="col-6">
+                <h3 style="text-align: center;">Möchten Sie mehr spenden?</h3>
+                <p>Wenn Sie mehr als 100 EUR spenden möchten, können Sie Ihre Spende auf der Checkout-Seite anpassen</p>
+                <div class="row"><a type="button" class="btn payment-button" href="https://buy.stripe.com/aEU9CX8Yt2n0cIEeV0">Jetzt spenden</a></div>
             </div>
         </div>
     </div>
-    {% endfor %}
-
-
-    <!--       {% for item in site.data.[page.lang].pozhertvy.pozhertva %}
-           <div class="row justify-content-center">
-               <p class="h3">{{item.subject}}</p>
-           </div>
-           <div class="row">
-               {% assign sum = 0 %}
-               {% for elem in item.donations %}
-               {% assign sum = sum | plus: elem.amount %}
-               {% endfor %}
-               {% assign persentage = sum | times: 100.0 | divided_by: item.needed %}
-               <div class="col-lg-6 col-xs-12">
-                   <div id="image">
-                       <div class="grayscale" style="height:{{ 100 | minus: persentage }}%"></div>
-                       <hr class="horizontal_limiter">
-                       <b>{{sum}} EUR</b>
-                   </div>
-               </div>
-               <div class="col-lg-4 col-xs-12 mt-3 text-center">
-                   <p class="h5">{{page.sumNeeded}}</p>
-                   <p>{{item.needed}} EUR</p>
-                   <p class="h5">{{page.collected}}</p>
-                   {% for elem in item.donations %}
-                   <p>{% if elem.from %} <i>{{elem.from}}:</i> {% endif %} {{elem.amount}} EUR</p>
-                   {% endfor %}
-                   <hr class="horizontal_limiter">
-                   <p>В сумі: {{sum}} EUR</p>
-               </div>
-           </div>
-
-
-           {% endfor %} -->
 </div>
 
