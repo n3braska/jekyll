@@ -170,66 +170,160 @@ month:
     month_date: 01-2023
   - announcement: "In der Kirche St. Barbara: Postgasse 8A. Beichtgelegenheit vor und nach den Gottesdiensten nach Vereinbarung mit dem Priester."
     day:
+      - d: 1
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie (Ukrainisch)
+        occasion: Gedächtnis der Verstorbenen
       - d: 2
         event:
           - time: " 18:00"
-            title: Hl. Liturgie für Verstorbene
-        occasion: null
-      - d: 3
+            title: Hl. Liturgie (Ukrainisch) und Kerzensegnung
+        occasion: Darstellung des Herrn
+      - d: 4
+        event:
+          - time: " 09:30"
+            title: Hl. Liturgie (Ukrainisch)
+          - time: " 15:00"
+            title: Hl. Liturgie (Ungarisch)
+          - time: " 18:00"
+            title: Hl. Liturgie (Deutsch)
+        occasion: Sonntag der Fleischentsagung
+      - d: 5
         event:
           - time: " 18:00"
-            title: Hl. Liturgie für Verstorbene
+            title: Hl. Liturgie (Ukrainisch) (Gedächtnis der Verstorbenen)
+          - time: " 19:00"
+            title: Gebetskreis „Mütter im Gebet“
         occasion: null
       - d: 6
         event:
-          - time: " 19:00"
-            title: Andacht der „Mütter im Gebet“
+          - time: " 18:00"
+            title: Hl. Liturgie (Ukrainisch)
+        occasion: null
+      - d: 7
+        event:
+          - time: " 09:00"
+            title: Hl. Liturgie (Ukrainisch)
+        occasion: null
+      - d: 8
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie (Ukrainisch)
         occasion: null
       - d: 9
         event:
           - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 10
+            title: Hl. Liturgie (Ukrainisch)
+        occasion: Gedächtnis der Verstorbenen
+      - d: 11
+        event:
+          - time: " 09:30"
+            title: Hl. Liturgie (Ukrainisch)
+          - time: " 14:00"
+            title: Hl. Liturgie (Slowakisch)
+          - time: " 16:00"
+            title: Ritus der Vergebung
+          - time: " 18:00"
+            title: Hl. Liturgie (Deutsch)
+        occasion: Sonntag der Vergebung
+      - d: 12
         event:
           - time: " 18:00"
-            title: Hl. Liturgie für Verstorbene
-        occasion: null
+            title: Großer Kanon des Andreas von Kreta
+        occasion: BEGINN DER FASTENZEIT
       - d: 13
         event:
-          - time: " 19:00"
-            title: Andacht der „Mütter im Gebet“
+          - time: " 18:00"
+            title: Großer Kanon des Andreas von Kreta
+        occasion: null
+      - d: 14
+        event:
+          - time: " 18:00"
+            title: Großer Kanon des Andreas von Kreta
+        occasion: null
+      - d: 15
+        event:
+          - time: " 18:00"
+            title: Großer Kanon des Andreas von Kreta
         occasion: null
       - d: 16
         event:
           - time: " 18:00"
-            title: Hl. Liturgie
+            title: Liturgie der Vorgeweihten Gaben
+        occasion: Gedächtnis der Verstorbenen
+      - d: 18
+        event:
+          - time: " 09:30"
+            title: Hl. Liturgie (Ukrainisch)
+          - time: " 15:00"
+            title: Hl. Liturgie (Ungarisch)
+          - time: " 18:00"
+            title: Hl. Liturgie (Deutsch)
         occasion: null
-      - d: 17
+      - d: 19
         event:
           - time: " 18:00"
-            title: Hl. Liturgie für Verstorbene
-        occasion: null
+            title: Liturgie der Vorgeweihten Gaben
+        occasion: Gedächtnis der Verstorbenen
       - d: 20
         event:
+          - time: " 18:00"
+            title: Kreuzweg
           - time: " 19:00"
-            title: Andacht der „Mütter im Gebet“
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: null
+      - d: 21
+        event:
+          - time: " 18:00"
+            title: Gebet der Gemeinschaft der Gottesliebe
+        occasion: null
+      - d: 22
+        event:
+          - time: " 18:00"
+            title: Kreuzweg
         occasion: null
       - d: 23
         event:
           - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: null
+            title: Liturgie der Vorgeweihten Gaben
+        occasion: Gedächtnis der Verstorbenen
       - d: 24
         event:
+          - time: " 17:00"
+            title: 2 Jahrestag des Krieges in der Ukraine
+        occasion: ÖKUMENISCHES GEBET IM STEPHANSDOM
+      - d: 25
+        event:
+          - time: " 09:30"
+            title: Hl. Liturgie (Ukrainisch)
+          - time: " 14:00"
+            title: Hl. Liturgie (Slowakisch)
           - time: " 18:00"
-            title: Hl. Liturgie für Verstorbene
-        occasion: Jahrestag des Krieges in der Ukraine. Die Kirche bleibt von 12:00 bis 20:00 Uhr zum Gebete und stilles Andenken offen.
+            title: Hl. Liturgie (Deutsch)
+        occasion: null
+      - d: 26
+        event:
+          - time: " 18:00"
+            title: Liturgie der Vorgeweihten Gaben
+        occasion: Gedächtnis der Verstorbenen
       - d: 27
         event:
+          - time: " 18:00"
+            title: Kreuzweg
           - time: " 19:00"
-            title: Andacht der „Mütter im Gebet“
-        occasion: BEGINN DER FASTENZEIT
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: null
+      - d: 28
+        event:
+          - time: " 18:00"
+            title: Gebet der Gemeinschaft der Gottesliebe
+        occasion: null
+      - d: 29
+        event:
+          - time: " 18:00"
+            title: Kreuzweg
+        occasion: null
     month_date: 02-2023
   - announcement: "In der Kirche St. Barbara: Postgasse 8A. Beichtgelegenheit vor und nach den Gottesdiensten nach Vereinbarung mit dem Priester."
     day:

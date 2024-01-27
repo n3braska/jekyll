@@ -29,36 +29,26 @@ month:
     month_date: 01-2023
   - announcement: "in Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
-      - d: 5
+      - d: 4
         event:
           - time: " 12:15"
             title: Hl. Liturgie
-        occasion: Des Zöllners und des Pharisäers
-      - d: 12
+        occasion: Sonntag der Fleischentsagung
+      - d: 11
         event:
           - time: " 12:15"
             title: Hl. Liturgie
-        occasion: Vom Verlorenen Sohn
-      - d: 14
+        occasion: Sonntag der Vergebung
+      - d: 18
         event:
-          - time: " 18:00"
-            title: Hl. Liturgie und Kerzenweihe zum Fest der Darstellung des Herrn
+          - time: " 12:15"
+            title: Hl. Liturgie
         occasion: null
-      - d: 15
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: Darstellung des Herrn
-      - d: 19
+      - d: 25
         event:
           - time: " 12:15"
             title: Hl. Liturgie
-        occasion: Der Fleischentsagung (über das Jüngste Gericht)
-      - d: 26
-        event:
-          - time: " 12:15"
-            title: Hl. Liturgie
-        occasion: Der Butterentsagung (über die Vergebung)
+        occasion: null
     month_date: 02-2023
   - announcement: "in Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
@@ -304,8 +294,6 @@ month:
         occasion: null
       - d: 29
         event:
-          - time: " 09:30"
-            title: Hl. Liturgie
           - time: " 12:15"
             title: Hl. Liturgie
         occasion: null
