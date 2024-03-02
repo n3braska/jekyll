@@ -52,34 +52,26 @@ month:
     month_date: 02-2023
   - announcement: "in Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
-      - d: 5
+      - d: 3
         event:
-          - time: " 9:30"
-            title: Hl. Liturgie
           - time: " 12:15"
             title: Hl. Liturgie
-        occasion: 1. Sonntag der Großen Fasten, Fest der Orthodoxie
-      - d: 12
+        occasion: KREUZERHÖHUNG
+      - d: 10
         event:
-          - time: " 9:30"
-            title: Hl. Liturgie
           - time: " 12:15"
             title: Hl. Liturgie
-        occasion: 2. Sonntag der Großen Fasten
-      - d: 19
+        occasion: null
+      - d: 17
         event:
-          - time: " 9:30"
-            title: Hl. Liturgie
           - time: " 12:15"
             title: Hl. Liturgie
-        occasion: 3. Sonntag der Großen Fasten, KREUZVEREHRUNG
-      - d: 26
+        occasion: null
+      - d: 24
         event:
-          - time: " 9:30"
-            title: Hl. Liturgie
           - time: " 12:15"
             title: Hl. Liturgie
-        occasion: 4. Sonntag der Großen Fasten
+        occasion: PALMSONNTAG
     month_date: 03-2023
   - announcement: "Julianisches Kalender"
     day:
