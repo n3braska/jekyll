@@ -325,7 +325,7 @@ month:
             title: Хресна дорога
         occasion: null
     month_date: 02-2023
-  - announcement: "У церкві св. Варвари: Postgasse 8A. Сповідь до або після богослужінь по домовленості зі священиком."
+  - announcement: "У церкві св. Варвари: Postgasse 8A."
     day:
       - d: 3
         event:
