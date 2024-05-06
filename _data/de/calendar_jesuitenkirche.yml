@@ -114,22 +114,24 @@ month:
     month_date: 04-2023
   - announcement: "In Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
-      - d: 7
+      - d: 5
         event:
           - time: " 12:15"
             title: Hl. Liturgie
-        occasion: "SONNTAG DES GELÄHMTEN"
-      - d: 14
+        occasion: null
+      - d: 12
         event:
           - time: " 12:15"
             title: Hl. Liturgie
-        occasion: "SONNTAG DER SAMARITERIN"
-      - d: 21
+          - time: " 13:30"
+            title: Ostersingen im Hof der Jesuitenkirche
+        occasion: null
+      - d: 19
         event:
           - time: " 12:15"
             title: Hl. Liturgie
-        occasion: "SONNTAG DES BLINDGEBORENEN"
-      - d: 28
+        occasion: null
+      - d: 26
         event:
           - time: " 12:15"
             title: Hl. Liturgie
