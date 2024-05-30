@@ -139,26 +139,30 @@ month:
     month_date: 05-2023
   - announcement: "In Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
-      - d: 4
-        event:
-          - time: " 12:15"
-            title: Hl. Liturgie
-        occasion: PFINGSTSONNTAG
-      - d: 11
-        event:
-          - time: " 12:15"
-            title: Hl. Liturgie
-        occasion: Sonntag Aller Heiligen
-      - d: 18
+      - d: 2
         event:
           - time: " 12:15"
             title: Hl. Liturgie
         occasion: null
-      - d: 25
+      - d: 9
         event:
           - time: " 12:15"
             title: Hl. Liturgie
         occasion: null
+      - d: 16
+        event:
+          - time: " 12:15"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 23
+        event:
+          - time: " 12:15"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 30
+        event:
+          - time: " 12:15"
+            title: Hl. Liturgie
     month_date: 06-2023
   - announcement: "In Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:

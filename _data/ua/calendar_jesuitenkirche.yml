@@ -139,22 +139,27 @@ month:
     month_date: 05-2023
   - announcement: "У церкві отців Єзуїтів - Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
-      - d: 4
-        event:
-          - time: " 12:15"
-            title: Служба Божа
-        occasion: ЗІСЛАННЯ СВЯТОГО ДУХА. П’ЯТДЕСЯТНИЦЯ
-      - d: 11
-        event:
-          - time: " 12:15"
-            title: Служба Божа
-        occasion: Неділя Всіх святих
-      - d: 18
+      - d: 2
         event:
           - time: " 12:15"
             title: Служба Божа
         occasion: null
-      - d: 25
+      - d: 9
+        event:
+          - time: " 12:15"
+            title: Служба Божа
+        occasion: null
+      - d: 16
+        event:
+          - time: " 12:15"
+            title: Служба Божа
+        occasion: відбудеться Перше урочисте Причастя дітей нашої парафії!
+      - d: 23
+        event:
+          - time: " 12:15"
+            title: Служба Божа
+        occasion: null
+      - d: 30
         event:
           - time: " 12:15"
             title: Служба Божа

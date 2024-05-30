@@ -697,7 +697,7 @@ month:
           - time: " 18:00"
             title: Hl. Liturgie (Gedächtnis der Verstorbenen)
           - time: " 19:00"
-            title: Молебень (Gebetskreis „Mütter im Gebet“)
+            title: Andacht (Gebetskreis „Mütter im Gebet“)
         occasion: null
       - d: 14
         event:
@@ -805,136 +805,156 @@ month:
             title: Hl. Liturgie
         occasion: Gedächtnis der Verstorbenen
     month_date: 05-2023
-  - announcement: "In der Kirche St. Barbara: Postgasse 8A. Beichtgelegenheit vor und nach den Gottesdiensten nach Vereinbarung mit dem Priester."
+  - announcement: "In der Kirche St. Barbara: Postgasse 8A. Beichtgelegenheit vor und nach den Gottesdiensten nach Vereinbarung mit dem Priester. Von Montag, dem 03. Juni, bis Donnerstag, dem 6. Juni, werden die Priester der Pfarre an einem europaweiten Priestertreffen teilnehmen. Aus diesem Grund wird die nächste Liturgie erst am Freitag, den 07. Juni gefeiert."
     day:
-      - d: 4
+      - d: 1
+        event:
+          - time: " 14:00"
+            title: Hl. Liturgie
+        occasion: Hl. Liturgie im Stephansdom  Priesterweihe von Siluan T. Gall  durch den Bischof Stepan Sus
+      - d: 2
         event:
           - time: " 09:30"
-            title: Hl. Liturgie
-        occasion: "PFINGSTSONNTAG"
-      - d: 5
-        event:
+            title: Hl. Liturgie (Ukrainisch)
+          - time: " 15:00"
+            title: Hl. Liturgie (Ungarisch)
           - time: " 18:00"
-            title: Hl. Liturgie (Großes Totengedenken)
-          - time: " 19:00"
-            title: Andacht  (Gebetskreis „Mütter im Gebet“)
-        occasion: PFINGSTMONTAG
-      - d: 6
-        event:
-          - time: " 18:00"
-            title: Andacht  zum Herz Jesu Christi
+            title: Hl. Liturgie (Deutsch)
         occasion: null
+      - d: 3
+        event:
+          - time: " 19:00"
+            title: Andacht
+        occasion: Gebetskreis „Mütter im Gebet“
       - d: 7
         event:
-          - time: " 9:00"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 8
-        event:
           - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: null
+            title: Hl. Liturgie (Gedächtnis der Verstorbenen)
+          - time: " 19:30"
+            title: Konzert. Singt Chor „Barbareum“
+          - time: " 20:30"
+            title: Hymnos Akathistos zu Jesus Christus. Singt Chor der St. Barbara Kirche
+        occasion: Lange Nacht der Kirchen / Herz-Jesu-Fest
       - d: 9
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: Gedächtnis der Verstorbenen
-      - d: 11
         event:
           - time: " 09:30"
             title: Hl. Liturgie
-        occasion: "Sonntag Aller Heiligen"
-      - d: 12
+          - time: " 14:00"
+            title: Hl. Liturgie Slowakisch)
+          - time: " 18:00"
+            title: Hl. Liturgie (Deutsch)
+        occasion: null
+      - d: 10
         event:
           - time: " 18:00"
             title: Hl. Liturgie (Gedächtnis der Verstorbenen)
           - time: " 19:00"
-            title: Andacht  (Gebetskreis „Mütter im Gebet“)
-        occasion: Beginn der Fastenzeit vom Fest der Hll. Petrus und Paulus
+            title: Andacht (Gebetskreis „Mütter im Gebet“)
+        occasion: null
+      - d: 11
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie und Andacht zum Herz Jesu Christi
+        occasion: null
+      - d: 12
+        event:
+          - time: " 09:00"
+            title: Hl. Liturgie
+        occasion: null
       - d: 13
         event:
           - time: " 18:00"
-            title: Andacht zum Herz Jesu Christi
+            title: Hl. Liturgie und Andacht zum Herz Jesu Christi
         occasion: null
       - d: 14
-        event:
-          - time: " 9:00"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 15
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: "Fronleichnam"
-      - d: 16
         event:
           - time: " 18:00"
             title: Hl. Liturgie
         occasion: Gedächtnis der Verstorbenen
-      - d: 18
+      - d: 16
         event:
           - time: " 09:30"
             title: Hl. Liturgie
+          - time: " 15:00"
+            title: Hl. Liturgie (Ungarisch)
+          - time: " 18:00"
+            title: Hl. Liturgie (Deutsch)
         occasion: null
-      - d: 19
+      - d: 17
         event:
           - time: " 18:00"
             title: Hl. Liturgie (Gedächtnis der Verstorbenen)
           - time: " 19:00"
-            title: Andacht  (Gebetskreis „Mütter im Gebet“)
+            title: Andacht (Gebetskreis „Mütter im Gebet“)
+        occasion: null
+      - d: 18
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie und Andacht zum Herz Jesu Christi
+        occasion: null
+      - d: 19
+        event:
+          - time: " 09:00"
+            title: Hl. Liturgie
         occasion: null
       - d: 20
         event:
           - time: " 18:00"
-            title: Andacht  zum Herz Jesu Christi
+            title: Hl. Liturgie und Andacht zum Herz Jesu Christi
         occasion: null
       - d: 21
-        event:
-          - time: " 9:00"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 22
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 23
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: Hochfest Heiligstes Herz Jesu
-      - d: 25
-        event:
-          - time: " 09:30"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 26
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie (Gedächtnis der Verstorbenen)
-          - time: " 19:00"
-            title: Andacht  (Gebetskreis „Mütter im Gebet“)
-        occasion: null
-      - d: 27
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: Hl. Omelian Powtsch
-      - d: 28
-        event:
-          - time: " 9:00"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 29
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 30
         event:
           - time: " 18:00"
             title: Hl. Liturgie
         occasion: Gedächtnis der Verstorbenen
+      - d: 23
+        event:
+          - time: " 09:30"
+            title: Hl. Liturgie
+          - time: " 15:00"
+            title: Hl. Liturgie (Slowakisch)
+          - time: " 18:00"
+            title: Hl. Liturgie (Deutsch)
+        occasion: null
+      - d: 24
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+          - time: " 19:00"
+            title: Andacht (Gebetskreis „Mütter im Gebet“)
+        occasion: Hl. Johannes der Täufer
+      - d: 25
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie und Andacht zum Herz Jesu Christi
+        occasion: null
+      - d: 16
+        event:
+          - time: " 09:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 27
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie und Andacht zum Herz Jesu Christi
+        occasion: null
+      - d: 28
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: Gedächtnis der Verstorbenen
+      - d: 29
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: Hll. Petrus und Paulus
+      - d: 30
+        event:
+          - time: " 09:30"
+            title: Hl. Liturgie
+          - time: " 18:00"
+            title: Hl. Liturgie (Deutsch)
+        occasion: null
     month_date: 06-2023
   - announcement: "In der Kirche St. Barbara: Postgasse 8A. Beichtgelegenheit vor und nach den Gottesdiensten nach Vereinbarung mit dem Priester."
     day:
