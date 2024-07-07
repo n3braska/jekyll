@@ -166,50 +166,18 @@ month:
     month_date: 06-2023
   - announcement: "In Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
-      - d: 7
+      - d: 14
         event:
-          - time: " 09:00"
-            title: Hl. Liturgie
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: Hl. Johannes der Täufer
-      - d: 9
-        event:
-          - time: " 09:30"
-            title: Hl. Liturgie
           - time: " 12:15"
             title: Hl. Liturgie
         occasion: null
-      - d: 12
+      - d: 21
         event:
-          - time: " 09:00"
-            title: Hl. Liturgie
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: Hll. Apostel Petrus und Paulus
-      - d: 16
-        event:
-          - time: " 09:30"
-            title: Hl. Liturgie
-          - time: " 12:15"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 23
-        event:
-          - time: " 09:30"
-            title: Hl. Liturgie
           - time: " 12:15"
             title: Hl. Liturgie
         occasion: null
       - d: 28
         event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: Fest des hl. Wolodymyr
-      - d: 30
-        event:
-          - time: " 09:30"
-            title: Hl. Liturgie
           - time: " 12:15"
             title: Hl. Liturgie
         occasion: null
