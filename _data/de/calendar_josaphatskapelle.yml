@@ -1039,103 +1039,125 @@ month:
     month_date: 07-2023
   - announcement: "In der Kirche St. Barbara: Postgasse 8A. Beichtgelegenheit vor und nach den Gottesdiensten nach Vereinbarung mit dem Priester."
     day:
-      - d: 3
+      - d: 1
         event:
           - time: " 18:00"
             title: Hl. Liturgie
         occasion: null
-      - d: 4
+      - d: 2
         event:
           - time: " 18:00"
             title: Hl. Liturgie
         occasion: Gedächtnis der Verstorbenen
-      - d: 6
+      - d: 4
         event:
           - time: " 09:30"
             title: Hl. Liturgie
+          - time: " 15:00"
+            title: Hl. Liturgie (Ungarisch)
+          - time: " 18:00"
+            title: Hl. Liturgie (Deutsch)
         occasion: null
+      - d: 5
+        event:
+          - time: " 19:00"
+            title: Andacht
+        occasion: Gebetskreis „Mütter im Gebet“
+      - d: 6
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: Verklärung des Herrn. Segen der Früchte
       - d: 7
         event:
           - time: " 19:00"
             title: Andacht
-        occasion: Gebetskreis „Mütter im Gebet“
-      - d: 10
+        occasion: Treffen der „Gemeinschaft der Gottes Liebe“
+      - d: 8
         event:
           - time: " 18:00"
             title: Hl. Liturgie
         occasion: null
-      - d: 11
+      - d: 9
         event:
           - time: " 18:00"
             title: Hl. Liturgie
         occasion: Gedächtnis der Verstorbenen
-      - d: 13
+      - d: 11
         event:
           - time: " 09:30"
             title: Hl. Liturgie
+          - time: " 18:00"
+            title: Hl. Liturgie (Deutsch)
         occasion: null
+      - d: 12
+        event:
+          - time: " 19:00"
+            title: Andacht
+        occasion: Gebetskreis „Mütter im Gebet“
       - d: 14
         event:
           - time: " 19:00"
             title: Andacht
-        occasion: Gebetskreis „Mütter im Gebet“
+        occasion: Treffen der „Gemeinschaft der Gottes Liebe“
       - d: 15
         event:
-          - time: " 18:00"
+          - time: " 09:30"
             title: Hl. Liturgie
-        occasion: Himmelfahrt Mariä (Gregor. Kal.)
-      - d: 17
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 18
+        occasion: Verklärung des Herrn. Segen der Früchte
+      - d: 16
         event:
           - time: " 18:00"
             title: Hl. Liturgie
         occasion: Gedächtnis der Verstorbenen
-      - d: 19
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: Verklärung des Herrn
-      - d: 20
+      - d: 18
         event:
           - time: " 09:30"
             title: Hl. Liturgie
+          - time: " 15:00"
+            title: Hl. Liturgie (Ungarisch)
+          - time: " 18:00"
+            title: Hl. Liturgie (Deutsch)
         occasion: null
-      - d: 21
+      - d: 19
         event:
           - time: " 19:00"
             title: Andacht
         occasion: Gebetskreis „Mütter im Gebet“
-      - d: 24
+      - d: 22
         event:
-          - time: " 09:30"
-            title: Liturgie
-        occasion: im Stephansdom zum Nationalfeiertag der Ukraine
-      - d: 25
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 23
         event:
           - time: " 18:00"
             title: Hl. Liturgie
         occasion: Gedächtnis der Verstorbenen
-      - d: 27
+      - d: 25
         event:
           - time: " 09:30"
             title: Hl. Liturgie
-        occasion: null
-      - d: 28
-        event:
+          - time: " 14:00"
+            title: Hl. Liturgie (Slowakisch)
           - time: " 18:00"
-            title: Hl. Liturgie. Himmelfahrt Mariä (Jul. Kal.)
-          - time: " 19:00"
-            title: Andacht. Gebetskreis „Mütter im Gebet“
+            title: Hl. Liturgie (Deutsch)
         occasion: null
-      - d: 31
+      - d: 26
+        event:
+          - time: " 19:00"
+            title: Andacht
+        occasion: Gebetskreis „Mütter im Gebet“
+      - d: 29
         event:
           - time: " 18:00"
             title: Hl. Liturgie
         occasion: null
+      - d: 30
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: Gedächtnis der Verstorbenen
     month_date: 08-2023
   - announcement: "In der Kirche St. Barbara: Postgasse 8A. Beichtgelegenheit vor und nach den Gottesdiensten nach Vereinbarung mit dem Priester."
     day:

@@ -185,45 +185,45 @@ month:
     month_date: 07-2023
   - announcement: "У церкві отців Єзуїтів - Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
-      - d: 6
+      - d: 4
         event:
           - time: " 12:15"
             title: Служба Божа
-        occasion: у церкві отців Єзуїтів
-      - d: 13
+        occasion: null
+      - d: 11
         event:
           - time: " 12:15"
             title: Служба Божа
-        occasion: у церкві отців Єзуїтів
-      - d: 20
+        occasion: null
+      - d: 18
         event:
           - time: " 12:15"
             title: Служба Божа
-        occasion: у церкві отців Єзуїтів
-      - d: 27
+        occasion: null
+      - d: 25
         event:
           - time: " 12:15"
             title: Служба Божа
-        occasion: у церкві отців Єзуїтів
+        occasion: null
     month_date: 08-2023
   - announcement: "У церкві отців Єзуїтів - Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
-      - d: 3
+      - d: 4
         event:
           - time: " 12:15"
             title: Служба Божа
         occasion: null
-      - d: 10
+      - d: 11
         event:
           - time: " 12:15"
             title: Служба Божа
         occasion: null
-      - d: 17
+      - d: 18
         event:
           - time: " 12:15"
             title: Служба Божа
         occasion: null
-      - d: 24
+      - d: 25
         event:
           - time: " 12:15"
             title: Служба Божа
