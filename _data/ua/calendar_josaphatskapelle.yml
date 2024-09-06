@@ -1167,91 +1167,110 @@ month:
     month_date: 08-2023
   - announcement: "У церкві св. Варвари: Postgasse 8A."
     day:
-      - d: 1
-        event:
-          - time: " 18:00"
-            title: Служба Божа
-        occasion: Поминання померлих (Початок нового церковного року)
-      - d: 3
+      - d: 8
         event:
           - time: " 09:30"
             title: Служба Божа
-        occasion: null
-      - d: 4
+          - time: " 14:00"
+            title: Служба Божа словацькою
+          - time: " 18:00"
+            title: Служба Божа німецькою
+        occasion: Різдво Пресвятої Богородиці
+      - d: 9
         event:
           - time: " 19:00"
             title: Молебень
         occasion: Зустріч «Матері в молитві»
-      - d: 7
-        event:
-          - time: " 18:00"
-            title: Служба Божа
-        occasion: Поминання померлих
-      - d: 8
-        event:
-          - time: " 18:00"
-            title: Служба Божа
-        occasion: РІЗДВО ПРЕСВЯТОЇ БОГОРОДИЦІ І ПРИСНОДІВИ МАРІЇ.
-      - d: 10
-        event:
-          - time: " 09:30"
-            title: Служба Божа
-        occasion: null
       - d: 11
         event:
           - time: " 19:00"
             title: Молебень
-        occasion: Зустріч «Матері в молитві»
+        occasion: Зустріч спільноти «Територія Божої любові»
+      - d: 12
+        event:
+          - time: " 18:00"
+            title: Служба Божа
+        occasion: null
+      - d: 13
+        event:
+          - time: " 18:00"
+            title: Служба Божа
+        occasion: null
       - d: 14
         event:
           - time: " 18:00"
             title: Служба Божа
-        occasion: ВОЗДВИЖЕННЯ ЧЕСНОГО І ЖИВОТВОРЯЩОГО ХРЕСТА ГОСПОДНЬОГО
+        occasion: Воздвиження Чесного і животворчого Хреста
       - d: 15
-        event:
-          - time: " 18:00"
-            title: Служба Божа
-        occasion: Поминання померлих
-      - d: 17
         event:
           - time: " 09:30"
             title: Служба Божа
+          - time: " 14:00"
+            title: Служба Божа угорською
+          - time: " 18:00"
+            title: Служба Божа німецькою
         occasion: null
+      - d: 16
+        event:
+          - time: " 19:00"
+            title: Молебень
+        occasion: Зустріч «Матері в молитві»
       - d: 18
         event:
           - time: " 19:00"
             title: Молебень
-        occasion: Зустріч «Матері в молитві»
-      - d: 21
+        occasion: Зустріч спільноти «Територія Божої любові»
+      - d: 19
         event:
           - time: " 18:00"
             title: Служба Божа
         occasion: null
-      - d: 22
+      - d: 20
         event:
           - time: " 18:00"
             title: Служба Божа
         occasion: Поминання померлих
-      - d: 24
+      - d: 22
         event:
           - time: " 09:30"
             title: Служба Божа
-        occasion: null
-      - d: 25
+          - time: " 14:00"
+            title: Служба Божа словацькою
+          - time: " 18:00"
+            title: Служба Божа німецькою
+        occasion: Різдво Пресвятої Богородиці
+      - d: 23
         event:
           - time: " 19:00"
             title: Молебень
         occasion: Зустріч «Матері в молитві»
-      - d: 28
+      - d: 25
+        event:
+          - time: " 19:00"
+            title: Молебень
+        occasion: Зустріч спільноти «Територія Божої любові»
+      - d: 26
         event:
           - time: " 18:00"
             title: Служба Божа
-        occasion: Біблійна зустріч / в парафіяльному залі
+        occasion: Переставлення св. ап. і єв. Івана Богослова.
+      - d: 27
+        event:
+          - time: " 18:00"
+            title: Служба Божа
+        occasion: null
       - d: 29
         event:
-          - time: " 18:00"
+          - time: " 09:30"
             title: Служба Божа
-        occasion: Поминання померлих
+          - time: " 18:00"
+            title: Служба Божа німецькою
+        occasion: null
+      - d: 30
+        event:
+          - time: " 19:00"
+            title: Молебень
+        occasion: Зустріч «Матері в молитві»
     month_date: 09-2023
   - announcement: "У церкві св. Варвари: Postgasse 8A. Сповідь до або після богослужінь по домовленості зі священиком."
     day:
