@@ -230,37 +230,19 @@ month:
     month_date: 09-2023
   - announcement: "In Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
-      - d: 1
+      - d: 13
         event:
-          - time: " 09:30"
-            title: Hl. Liturgie
-          - time: " 12:15"
-            title: Hl. Liturgie
-        occasion: Fest Mariä Schutz
-      - d: 8
-        event:
-          - time: " 09:30"
-            title: Hl. Liturgie
-          - time: " 12:15"
+          - time: " 12:30"
             title: Hl. Liturgie
         occasion: null
-      - d: 15
+      - d: 20
         event:
-          - time: " 09:30"
-            title: Hl. Liturgie
-          - time: " 12:15"
+          - time: " 12:30"
             title: Hl. Liturgie
         occasion: null
-      - d: 22
+      - d: 27
         event:
-          - time: " 09:30"
-            title: Hl. Liturgie
-          - time: " 12:15"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 29
-        event:
-          - time: " 12:15"
+          - time: " 12:30"
             title: Hl. Liturgie
         occasion: null
     month_date: 10-2023

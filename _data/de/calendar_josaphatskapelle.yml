@@ -34,7 +34,7 @@ month:
           - time: " 15:00"
             title: Hl. Liturgie Ungarisch
           - time: " 18:00"
-            title: Hl. Liturgie Deutsch
+            title: Hl. Liturgie (Deutsch)
         occasion: null
       - d: 08
         event:
@@ -1268,40 +1268,23 @@ month:
     month_date: 09-2023
   - announcement: "In der Kirche St. Barbara: Postgasse 8A. Beichtgelegenheit vor und nach den Gottesdiensten nach Vereinbarung mit dem Priester."
     day:
-      - d: 2
+      - d: 7
         event:
           - time: " 18:00"
             title: Hl. Liturgie (Gedächtnis der Verstorbenen)
           - time: " 19:00"
-            title: Andacht (Gebetskreis „Mütter im Gebet“)
+            title: Andacht (Gebetskreis «Mütter im Gebet»)
         occasion: null
-      - d: 3
+      - d: 8
         event:
           - time: " 18:00"
             title: Hl. Liturgie
-        occasion: null
-      - d: 4
-        event:
-          - time: " 09:00"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 5
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 6
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie (Gedächtnis der Verstorbenen)
         occasion: null
       - d: 9
         event:
-          - time: " 18:00"
-            title: Hl. Liturgie (Gedächtnis der Verstorbenen)
           - time: " 19:00"
-            title: Andacht (Gebetskreis „Mütter im Gebet“)
-        occasion: null
+            title: Hl. Liturgie
+        occasion: Treffen der „Gemeinschaft der Gottes Liebe“
       - d: 10
         event:
           - time: " 18:00"
@@ -1309,31 +1292,35 @@ month:
         occasion: null
       - d: 11
         event:
-          - time: " 09:00"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 12
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 13
-        event:
           - time: " 18:00"
             title: Hl. Liturgie (Gedächtnis der Verstorbenen)
         occasion: null
-      - d: 14
+      - d: 13
         event:
-          - time: " 15:00"
-            title: Liturgie in der Basilika
-        occasion: Wallfahrt der Ukrainer nach Maria Zell
-      - d: 16
+          - time: " 09:30"
+            title: Hl. Liturgie
+          - time: " 14:00"
+            title: Hl. Liturgie (Slowakisch)
+          - time: " 18:00"
+            title: Hl. Liturgie (Deutsch)
+        occasion: null
+      - d: 14
         event:
           - time: " 18:00"
             title: Hl. Liturgie (Gedächtnis der Verstorbenen)
           - time: " 19:00"
-            title: Andacht (Gebetskreis „Mütter im Gebet“)
+            title: Andacht (Gebetskreis «Mütter im Gebet»)
         occasion: null
+      - d: 15
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 16
+        event:
+          - time: " 19:00"
+            title: Hl. Liturgie
+        occasion: Treffen der „Gemeinschaft der Gottes Liebe“
       - d: 17
         event:
           - time: " 18:00"
@@ -1341,26 +1328,35 @@ month:
         occasion: null
       - d: 18
         event:
-          - time: " 09:00"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 19
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 20
-        event:
           - time: " 18:00"
             title: Hl. Liturgie (Gedächtnis der Verstorbenen)
         occasion: null
-      - d: 23
+      - d: 20
+        event:
+          - time: " 09:30"
+            title: Hl. Liturgie
+          - time: " 15:00"
+            title: Hl. Liturgie (Ungarisch)
+          - time: " 18:00"
+            title: Hl. Liturgie (Deutsch)
+        occasion: null
+      - d: 21
         event:
           - time: " 18:00"
             title: Hl. Liturgie (Gedächtnis der Verstorbenen)
           - time: " 19:00"
-            title: Andacht (Gebetskreis „Mütter im Gebet“)
+            title: Andacht (Gebetskreis «Mütter im Gebet»)
         occasion: null
+      - d: 22
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 23
+        event:
+          - time: " 19:00"
+            title: Hl. Liturgie
+        occasion: Treffen der „Gemeinschaft der Gottes Liebe“
       - d: 24
         event:
           - time: " 18:00"
@@ -1368,26 +1364,35 @@ month:
         occasion: null
       - d: 25
         event:
-          - time: " 09:00"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 26
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 27
-        event:
           - time: " 18:00"
             title: Hl. Liturgie (Gedächtnis der Verstorbenen)
         occasion: null
-      - d: 30
+      - d: 27
+        event:
+          - time: " 09:30"
+            title: Hl. Liturgie
+          - time: " 14:00"
+            title: Hl. Liturgie (Slowakisch)
+          - time: " 18:00"
+            title: Hl. Liturgie (Deutsch)
+        occasion: null
+      - d: 28
         event:
           - time: " 18:00"
             title: Hl. Liturgie (Gedächtnis der Verstorbenen)
           - time: " 19:00"
-            title: Andacht (Gebetskreis „Mütter im Gebet“)
+            title: Andacht (Gebetskreis «Mütter im Gebet»)
         occasion: null
+      - d: 29
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 30
+        event:
+          - time: " 19:00"
+            title: Hl. Liturgie
+        occasion: Treffen der „Gemeinschaft der Gottes Liebe“
       - d: 31
         event:
           - time: " 18:00"
@@ -1403,7 +1408,7 @@ month:
           - time: " 15:00"
             title: Hl. Liturgie Ungarisch
           - time: " 18:00"
-            title: Hl. Liturgie Deutsch
+            title: Hl. Liturgie (Deutsch)
         occasion: null
       - d: 6
         event:
@@ -1475,7 +1480,7 @@ month:
           - time: " 15:00"
             title: Hl. Liturgie Ungarisch
           - time: " 18:00"
-            title: Hl. Liturgie Deutsch
+            title: Hl. Liturgie (Deutsch)
         occasion: null
       - d: 20
         event:
@@ -1511,7 +1516,7 @@ month:
           - time: " 15:00"
             title: Hl. Liturgie Slowakisch
           - time: " 18:00"
-            title: Hl. Liturgie Deutsch
+            title: Hl. Liturgie (Deutsch)
         occasion: null
       - d: 27
         event:

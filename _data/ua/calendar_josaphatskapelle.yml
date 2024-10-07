@@ -1274,40 +1274,23 @@ month:
     month_date: 09-2023
   - announcement: "У церкві св. Варвари: Postgasse 8A. Сповідь до або після богослужінь по домовленості зі священиком."
     day:
-      - d: 2
+      - d: 7
         event:
           - time: " 18:00"
             title: Служба Божа (Поминання померлих)
           - time: " 19:00"
             title: Молебень (Зустріч «Матері в молитві»)
         occasion: null
-      - d: 3
+      - d: 8
         event:
           - time: " 18:00"
             title: Служба Божа
-        occasion: null
-      - d: 4
-        event:
-          - time: " 09:00"
-            title: Служба Божа
-        occasion: null
-      - d: 5
-        event:
-          - time: " 18:00"
-            title: Служба Божа
-        occasion: null
-      - d: 6
-        event:
-          - time: " 18:00"
-            title: Служба Божа (Поминання померлих)
         occasion: null
       - d: 9
         event:
-          - time: " 18:00"
-            title: Служба Божа (Поминання померлих)
           - time: " 19:00"
-            title: Молебень (Зустріч «Матері в молитві»)
-        occasion: null
+            title: Служба Божа
+        occasion: Зустріч спільноти «Територія Божої любові»
       - d: 10
         event:
           - time: " 18:00"
@@ -1315,31 +1298,35 @@ month:
         occasion: null
       - d: 11
         event:
-          - time: " 09:00"
-            title: Служба Божа
-        occasion: null
-      - d: 12
-        event:
-          - time: " 18:00"
-            title: Служба Божа
-        occasion: null
-      - d: 13
-        event:
           - time: " 18:00"
             title: Служба Божа (Поминання померлих)
         occasion: null
-      - d: 14
+      - d: 13
         event:
-          - time: " 15:00"
-            title: Літургія у базилиці
-        occasion: Проща українців Австрії до Марія Цель
-      - d: 16
+          - time: " 09:30"
+            title: Служба Божа
+          - time: " 14:00"
+            title: Служба Божа словацькою
+          - time: " 18:00"
+            title: Служба Божа німецькою
+        occasion: null
+      - d: 14
         event:
           - time: " 18:00"
             title: Служба Божа (Поминання померлих)
           - time: " 19:00"
             title: Молебень (Зустріч «Матері в молитві»)
         occasion: null
+      - d: 15
+        event:
+          - time: " 18:00"
+            title: Служба Божа
+        occasion: null
+      - d: 16
+        event:
+          - time: " 19:00"
+            title: Служба Божа
+        occasion: Зустріч спільноти «Територія Божої любові»
       - d: 17
         event:
           - time: " 18:00"
@@ -1347,26 +1334,35 @@ month:
         occasion: null
       - d: 18
         event:
-          - time: " 09:00"
-            title: Служба Божа
-        occasion: null
-      - d: 19
-        event:
-          - time: " 18:00"
-            title: Служба Божа
-        occasion: null
-      - d: 20
-        event:
           - time: " 18:00"
             title: Служба Божа (Поминання померлих)
         occasion: null
-      - d: 23
+      - d: 20
+        event:
+          - time: " 09:30"
+            title: Служба Божа
+          - time: " 15:00"
+            title: Служба Божа угорською
+          - time: " 18:00"
+            title: Служба Божа німецькою
+        occasion: null
+      - d: 21
         event:
           - time: " 18:00"
             title: Служба Божа (Поминання померлих)
           - time: " 19:00"
             title: Молебень (Зустріч «Матері в молитві»)
         occasion: null
+      - d: 22
+        event:
+          - time: " 18:00"
+            title: Служба Божа
+        occasion: null
+      - d: 23
+        event:
+          - time: " 19:00"
+            title: Служба Божа
+        occasion: Зустріч спільноти «Територія Божої любові»
       - d: 24
         event:
           - time: " 18:00"
@@ -1374,26 +1370,35 @@ month:
         occasion: null
       - d: 25
         event:
-          - time: " 09:00"
-            title: Служба Божа
-        occasion: null
-      - d: 26
-        event:
-          - time: " 18:00"
-            title: Служба Божа
-        occasion: null
-      - d: 27
-        event:
           - time: " 18:00"
             title: Служба Божа (Поминання померлих)
         occasion: null
-      - d: 30
+      - d: 27
+        event:
+          - time: " 09:30"
+            title: Служба Божа
+          - time: " 14:00"
+            title: Служба Божа словацькою
+          - time: " 18:00"
+            title: Служба Божа німецькою
+        occasion: null
+      - d: 28
         event:
           - time: " 18:00"
             title: Служба Божа (Поминання померлих)
           - time: " 19:00"
             title: Молебень (Зустріч «Матері в молитві»)
         occasion: null
+      - d: 29
+        event:
+          - time: " 18:00"
+            title: Служба Божа
+        occasion: null
+      - d: 30
+        event:
+          - time: " 19:00"
+            title: Служба Божа
+        occasion: Зустріч спільноти «Територія Божої любові»
       - d: 31
         event:
           - time: " 18:00"
