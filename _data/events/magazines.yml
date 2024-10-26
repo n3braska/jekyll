@@ -2,6 +2,40 @@
 mags:
   -
     intro:
+    link: /assets/pdf/222024Ostern.pdf
+    img: /assets/magazine/222024Ostern.png
+    name:
+      de: Ostern 2024
+      ua: Пасха 2024
+    month:
+      de: April 2024
+      ua: Квітень 2024
+    text:
+      de:
+        - "- OSTERN 2024"
+        - "- OSTEREIER AUF UKRAINISCH"
+      ua:
+        - "- ПАСХА 2024"
+        - "- ВЕЛИКОДНЯ ПИСАНКА З РОДИНOЮ ДОПІЛКО"
+  -
+    intro:
+    link: /assets/pdf/212023Weihnachten.pdf
+    img: /assets/magazine/212023Weihnachten.png
+    name:
+      de: Dezember 2023
+      ua: Грудень 2022
+    month:
+      de: Dezember 2023
+      ua: Грудень 2023
+    text:
+      de:
+        - "- DER HEILIGE JOSAPHAT UND UNSERE KIRCHE"
+        - "- ART SPACE BARBAREUM"
+      ua:
+        - "- СВЯТИЙ ЙОСАФТ І НАША ЦЕРКВА"
+        - "- АРТ ПРОСТІР БАРБАРЕУМ"
+  -
+    intro:
     link: /assets/pdf/Edition20.pdf
     img: /assets/magazine/Edition20.jpg
     name:
