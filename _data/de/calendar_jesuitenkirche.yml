@@ -248,24 +248,24 @@ month:
     month_date: 10-2023
   - announcement: "In Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
-      - d: 5
+      - d: 3
         event:
-          - time: " 12:15"
+          - time: " 12:30"
             title: Hl. Liturgie Ukrainisch
         occasion: null
-      - d: 12
+      - d: 10
         event:
-          - time: " 12:15"
-            title: Hl. Liturgie Ukrainisch
-        occasion: Hl. Josaphat, Kleines Patrozinium
-      - d: 19
-        event:
-          - time: " 12:15"
+          - time: " 12:30"
             title: Hl. Liturgie Ukrainisch
         occasion: null
-      - d: 26
+      - d: 17
         event:
-          - time: " 12:15"
+          - time: " 12:30"
+            title: Hl. Liturgie Ukrainisch
+        occasion: null
+      - d: 24
+        event:
+          - time: " 12:30"
             title: Hl. Liturgie Ukrainisch
         occasion: null
     month_date: 11-2023

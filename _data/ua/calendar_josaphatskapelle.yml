@@ -1407,7 +1407,12 @@ month:
     month_date: 10-2023
   - announcement: "У церкві св. Варвари: Postgasse 8A. Сповідь до або після богослужінь по домовленості зі священиком."
     day:
-      - d: 5
+      - d: 1
+        event:
+          - time: " 18:00"
+            title: Служба Божа
+        occasion: Свято Всіх Святих Вселенське Поминання померлих
+      - d: 3
         event:
           - time: " 09:30"
             title: Служба Божа
@@ -1416,13 +1421,23 @@ month:
           - time: " 18:00"
             title: Служба Божа німецькою
         occasion: null
-      - d: 6
+      - d: 4
         event:
           - time: " 18:00"
             title: Служба Божа (Поминання померлих)
           - time: " 19:00"
             title: Молебень (Зустріч «Матері в молитві»)
         occasion: null
+      - d: 5
+        event:
+          - time: " 18:00"
+            title: Служба Божа
+        occasion: null
+      - d: 6
+        event:
+          - time: " 19:00"
+            title: Служба Божа
+        occasion: Зустріч спільноти «Територія Божої любові»
       - d: 7
         event:
           - time: " 18:00"
@@ -1430,35 +1445,35 @@ month:
         occasion: null
       - d: 8
         event:
-          - time: " 09:00"
-            title: Служба Божа
-        occasion: Собор святого архистратига Михаїла
-      - d: 9
-        event:
-          - time: " 18:00"
-            title: Служба Божа
-        occasion: null
-      - d: 10
-        event:
           - time: " 18:00"
             title: Служба Божа (Поминання померлих)
         occasion: null
-      - d: 12
+      - d: 10
         event:
           - time: " 09:30"
             title: Служба Божа
-          - time: " 15:00"
-            title: Служба Божа угорською
+          - time: " 14:00"
+            title: Служба Божа словацькою
           - time: " 18:00"
             title: Служба Божа німецькою
-        occasion: Св. свщмч. Йосафата, архиєп. Полоцького, мале парафіяльне свято
-      - d: 13
+        occasion: null
+      - d: 11
         event:
           - time: " 18:00"
             title: Служба Божа (Поминання померлих)
           - time: " 19:00"
             title: Молебень (Зустріч «Матері в молитві»)
         occasion: null
+      - d: 12
+        event:
+          - time: " 18:00"
+            title: Служба Божа
+        occasion: Мале храмове свято Св. свщмч. Йосафата, архиєп. Полоцького
+      - d: 13
+        event:
+          - time: " 19:00"
+            title: Служба Божа
+        occasion: Зустріч спільноти «Територія Божої любові»
       - d: 14
         event:
           - time: " 18:00"
@@ -1466,71 +1481,71 @@ month:
         occasion: null
       - d: 15
         event:
-          - time: " 09:00"
-            title: Служба Божа
-        occasion: null
-      - d: 16
-        event:
-          - time: " 18:00"
-            title: Служба Божа
-        occasion: null
-      - d: 17
-        event:
           - time: " 18:00"
             title: Служба Божа (Поминання померлих)
         occasion: null
-      - d: 19
+      - d: 17
         event:
           - time: " 09:30"
             title: Служба Божа
-          - time: " 15:00"
+          - time: " 14:00"
             title: Служба Божа угорською
           - time: " 18:00"
             title: Служба Божа німецькою
         occasion: null
-      - d: 20
+      - d: 18
         event:
           - time: " 18:00"
             title: Служба Божа (Поминання померлих)
           - time: " 19:00"
             title: Молебень (Зустріч «Матері в молитві»)
         occasion: null
+      - d: 19
+        event:
+          - time: " 18:00"
+            title: Служба Божа
+        occasion: null
+      - d: 20
+        event:
+          - time: " 19:00"
+            title: Служба Божа
+        occasion: Зустріч спільноти «Територія Божої любові»
       - d: 21
         event:
           - time: " 18:00"
             title: Служба Божа
-        occasion: ВХІД У ХРАМ ПРЕСВЯТОЇ БОГОРОДИЦІ
+        occasion: Введення у храм Пресвятої Владичиці нашої Богородиці і Приснодіви Марії
       - d: 22
-        event:
-          - time: " 09:00"
-            title: Служба Божа
-        occasion: null
-      - d: 23
-        event:
-          - time: " 18:00"
-            title: Служба Божа
-        occasion: null
-      - d: 24
         event:
           - time: " 18:00"
             title: Служба Божа (Поминання померлих)
         occasion: null
-      - d: 26
+      - d: 24
         event:
           - time: " 09:30"
             title: Служба Божа
-          - time: " 15:00"
+          - time: " 14:00"
             title: Служба Божа словацькою
           - time: " 18:00"
             title: Служба Божа німецькою
         occasion: null
-      - d: 27
+      - d: 25
         event:
           - time: " 18:00"
             title: Служба Божа (Поминання померлих)
           - time: " 19:00"
             title: Молебень (Зустріч «Матері в молитві»)
         occasion: null
+      - d: 26
+        event:
+          - time: " 18:00"
+            title: Служба Божа
+        occasion: null
+      - d: 27
+        event:
+          - time: " 19:00"
+            title: Служба Божа
+        occasion: Зустріч спільноти «Територія Божої любові»
       - d: 28
         event:
           - time: " 18:00"
@@ -1538,14 +1553,9 @@ month:
         occasion: null
       - d: 29
         event:
-          - time: " 09:00"
-            title: Служба Божа
-        occasion: null
-      - d: 30
-        event:
           - time: " 18:00"
-            title: Служба Божа
-        occasion: Св. всехвального ап. Андрея Первозванного
+            title: Служба Божа (Поминання померлих)
+        occasion: null
     month_date: 11-2023
   - announcement: "У церкві св. Варвари: Postgasse 8A. Сповідь до або після богослужінь по домовленості зі священиком."
     day:

@@ -20,6 +20,6 @@ month:
   - number: 9
     isPublished: true
   - number: 10
-    isPublished: false
+    isPublished: true
   - number: 11
     isPublished: false
