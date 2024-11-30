@@ -271,27 +271,27 @@ month:
     month_date: 11-2023
   - announcement: "In Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
-      - d: 10
-        event:
-          - time: " 12:15"
-            title: Hl. Liturgie
-        occasion: (Licht von Betlehem)
-      - d: 17
+      - d: 1
         event:
           - time: " 12:15"
             title: Hl. Liturgie
         occasion: null
-      - d: 24
+      - d: 8
+        event:
+          - time: " 12:15"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 15
         event:
           - time:  " 12:15"
             title: Hl. Liturgie
-        occasion: null
-      - d: 25
+        occasion: Nach zwei Gottesdiensten Sammlung für die Renovierung der Kirche St. Barbara
+      - d: 22
         event:
           - time: " 12:15"
             title: Hl. Liturgie
-        occasion: FEST DER GEBURT DES HERRN
-      - d: 31
+        occasion: Exerzitien und Beichte
+      - d: 29
         event:
           - time: " 12:15"
             title: Hl. Liturgie
