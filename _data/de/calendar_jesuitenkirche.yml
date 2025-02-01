@@ -29,26 +29,26 @@ month:
     month_date: 01-2023
   - announcement: "in Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
-      - d: 4
+      - d: 2
         event:
-          - time: " 12:15"
+          - time: " 12:30"
             title: Hl. Liturgie
-        occasion: Sonntag der Fleischentsagung
-      - d: 11
+        occasion: Sonntag Darstellung des Herrn
+      - d: 9
         event:
-          - time: " 12:15"
+          - time: " 12:30"
             title: Hl. Liturgie
-        occasion: Sonntag der Vergebung
-      - d: 18
+        occasion: Sonntag des Zöllners und Pharisäers
+      - d: 16
         event:
-          - time: " 12:15"
+          - time: " 12:30"
             title: Hl. Liturgie
-        occasion: null
-      - d: 25
+        occasion: Sonntag des verlorenen Sohnes
+      - d: 23
         event:
-          - time: " 12:15"
+          - time: " 12:30"
             title: Hl. Liturgie
-        occasion: null
+        occasion: Sonntag des Jüngsten Gerichts
     month_date: 02-2023
   - announcement: "in Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:

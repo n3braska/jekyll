@@ -29,26 +29,26 @@ month:
     month_date: 01-2023
   - announcement: "у Церкві отців Єзуїтів - Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
-      - d: 4
+      - d: 2
         event:
-          - time: " 12:15"
+          - time: " 12:30"
             title: Служба Божа
-        occasion: Неділя про страшний суд (м’ясопусна)
-      - d: 11
+        occasion: Неділя - Стрітення Господнє
+      - d: 9
         event:
-          - time: " 12:15"
+          - time: " 12:30"
             title: Служба Божа
-        occasion: Неділя сиропусна (Прощення)
-      - d: 18
+        occasion: Неділя про Митаря і Фарисея
+      - d: 16
         event:
-          - time: " 12:15"
+          - time: " 12:30"
             title: Служба Божа
-        occasion: null
-      - d: 25
+        occasion: Неділя про Блудного сина
+      - d: 23
         event:
-          - time: " 12:15"
+          - time: " 12:30"
             title: Служба Божа
-        occasion: null
+        occasion: Неділя м'ясопусна, про Страшний Суд
     month_date: 02-2023
   - announcement: "у Церкві отців Єзуїтів - Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
