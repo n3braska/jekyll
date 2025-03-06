@@ -2,9 +2,9 @@ month:
   - number: 0
     isPublished: false
   - number: 1
-    isPublished: true
-  - number: 2
     isPublished: false
+  - number: 2
+    isPublished: true
   - number: 3
     isPublished: false
   - number: 4

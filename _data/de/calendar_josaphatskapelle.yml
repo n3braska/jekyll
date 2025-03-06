@@ -317,167 +317,158 @@ month:
     month_date: 02-2023
   - announcement: "In der Kirche St. Barbara: Postgasse 8A. Beichtgelegenheit vor und nach den Gottesdiensten nach Vereinbarung mit dem Priester."
     day:
-      - d: 3
+      - d: 02
         event:
-          - time: " 09:30"
-            title: Hl. Liturgie
-          - time: " 15:00"
+          - time: "09:30"
+            title: Hl. Liturgie (Ukrainisch)
+          - time: "15:00"
             title: Hl. Liturgie (Ungarisch)
-          - time: " 18:00"
+          - time: "18:00"
             title: Hl. Liturgie (Deutsch)
-        occasion: KREUZERHÖHUNG
-      - d: 4
+        occasion: Sonntag der Vergebung
+      - d: 03
         event:
-          - time: " 18:00"
+          - time: "18:00"
+            title: Großer Kanon des Andreas von Kreta
+        occasion: BEGINN DER FASTENZEIT
+      - d: 04
+        event:
+          - time: "18:00"
+            title: Großer Kanon des Andreas von Kreta
+        occasion: null
+      - d: 05
+        event:
+          - time: "18:00"
+            title: Großer Kanon des Andreas von Kreta
+        occasion: null
+      - d: 06
+        event:
+          - time: "18:00"
+            title: Großer Kanon des Andreas von Kreta
+        occasion: null
+      - d: 07
+        event:
+          - time: "18:00"
             title: Liturgie der Vorgeweihten Gaben
         occasion: Gedächtnis der Verstorbenen
-      - d: 5
+      - d: 09
         event:
-          - time: " 18:00"
-            title: Kreuzweg
-          - time: " 19:00"
-            title: Gebetskreis „Mütter im Gebet“
-        occasion: null
-      - d: 6
-        event:
-          - time: " 18:00"
-            title: Kreuzweg der Gottesliebe
-        occasion: null
-      - d: 7
-        event:
-          - time: " 18:00"
-            title: Kreuzweg der Ukraine
-        occasion: null
-      - d: 8
-        event:
-          - time: " 18:00"
-            title: Liturgie der Vorgeweihten Gaben
-        occasion: Gedächtnis der Verstorbenen
+          - time: "09:30"
+            title: Hl. Liturgie (Ukrainisch)
+          - time: "14:00"
+            title: Hl. Liturgie (Slowakisch)
+          - time: "18:00"
+            title: Hl. Liturgie (Deutsch)
+        occasion: 1 Sonntag der Fastenzeit
       - d: 10
         event:
-          - time: " 09:30"
-            title: Hl. Liturgie
-          - time: " 15:00"
-            title: Hl. Liturgie (Slowakisch)
-          - time: " 18:00"
-            title: Hl. Liturgie (Deutsch)
-        occasion: null
-      - d: 11
-        event:
-          - time: " 18:00"
+          - time: "18:00"
             title: Liturgie der Vorgeweihten Gaben
         occasion: Gedächtnis der Verstorbenen
+      - d: 11
+        event:
+          - time: "18:30"
+            title: Liturgie der Vorgeweihten Gaben
+        occasion: Auf Deutsch
       - d: 12
         event:
-          - time: " 18:00"
+          - time: "19:00"
             title: Kreuzweg
-          - time: " 19:00"
-            title: Gebetskreis „Mütter im Gebet“
-        occasion: null
+        occasion: Treffen der „Gemeinschaft der Gottes Liebe“
       - d: 13
         event:
-          - time: " 18:00"
-            title: Kreuzweg der Gottesliebe
+          - time: "18:00"
+            title: Kreuzweg
         occasion: null
       - d: 14
         event:
-          - time: " 18:00"
-            title: Kreuzweg der Ukraine
-        occasion: null
-      - d: 15
-        event:
-          - time: " 18:00"
+          - time: "18:00"
             title: Liturgie der Vorgeweihten Gaben
         occasion: Gedächtnis der Verstorbenen
+      - d: 16
+        event:
+          - time: "09:30"
+            title: Hl. Liturgie (Ukrainisch)
+          - time: "15:00"
+            title: Hl. Liturgie (Ungarisch)
+          - time: "18:00"
+            title: Hl. Liturgie (Deutsch)
+        occasion: 2 Sonntag der Fastenzeit
       - d: 17
         event:
-          - time: " 09:30"
-            title: Hl. Liturgie
-          - time: " 15:00"
-            title: Hl. Liturgie (Ungarisch)
-          - time: " 18:00"
-            title: Hl. Liturgie (Deutsch)
-        occasion: null
-      - d: 18
-        event:
-          - time: " 18:00"
+          - time: "18:00"
             title: Liturgie der Vorgeweihten Gaben
         occasion: Gedächtnis der Verstorbenen
+      - d: 18
+        event:
+          - time: "18:00"
+            title: Kreuzweg
+          - time: "19:00"
+            title: Andacht
+        occasion: Gebetskreis „Mütter im Gebet“
       - d: 19
         event:
-          - time: " 18:00"
+          - time: "19:00"
             title: Kreuzweg
-          - time: " 19:00"
-            title: Gebetskreis „Mütter im Gebet“
-        occasion: null
+        occasion: Treffen der „Gemeinschaft der Gottes Liebe“
       - d: 20
         event:
-          - time: " 18:00"
-            title: Kreuzweg der Gottesliebe
+          - time: "18:00"
+            title: Kreuzweg
         occasion: null
       - d: 21
         event:
-          - time: " 18:00"
-            title: Kreuzweg der Ukraine
-        occasion: null
-      - d: 22
-        event:
-          - time: " 18:00"
+          - time: "18:00"
             title: Liturgie der Vorgeweihten Gaben
         occasion: Gedächtnis der Verstorbenen
+      - d: 23
+        event:
+          - time: "09:30"
+            title: Hl. Liturgie (Ukrainisch)
+          - time: "14:00"
+            title: Hl. Liturgie (Slowakisch)
+          - time: "18:00"
+            title: Hl. Liturgie (Deutsch)
+        occasion: 3 Sonntag der Fastenzeit
       - d: 24
         event:
-          - time: " 09:30"
-            title: Hl. Liturgie
-          - time: " 15:00"
-            title: Hl. Liturgie (Slowakisch)
-          - time: " 18:00"
-            title: Hl. Liturgie (Deutsch)
-        occasion: PALMSONNTAG
+          - time: "18:00"
+            title: Hl. Liturgie, Beichtgelegenheit
+        occasion: null
       - d: 25
         event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: VERKÜNDIGUNG DES HERRN
+          - time: "09:30"
+            title: Hl. Liturgie, Beichtgelegenheit
+          - time: "18:00"
+            title: Hl. Liturgie, Beichtgelegenheit
+        occasion: Fest Mariä Verkündigung
       - d: 26
         event:
-          - time: " 18:00"
-            title: Kreuzweg
-          - time: " 19:00"
-            title: Gebetskreis „Mütter im Gebet“
+          - time: "19:00"
+            title: Hl. Liturgie, Beichtgelegenheit
+        occasion: null
+      - d: 27
+        event:
+          - time: "18:00"
+            title: Hl. Liturgie, Beichtgelegenheit
         occasion: null
       - d: 28
         event:
-          - time: " 09:30"
-            title: Basilius Liturgie mit Vesper
-          - time: " 18:00"
-            title: Passionsmatutin
-        occasion: null
-      - d: 29
-        event:
-          - time: " 09:30"
-            title: Vesper und Grablegung
-          - time: " 18:00"
-            title: Jerusalemer Matutin
-        occasion: Kirche bleibt den ganzen Tag offen!!!
+          - time: "18:00"
+            title: Liturgie der Vorgeweihten Gaben
+        occasion: Gedächtnis der Verstorbenen
       - d: 30
         event:
-          - time: " 09:30"
-            title: Basilius Liturgie mit Vesper
-          - time: " 18:00"
-            title: Grabgebet
-          - time: " 18:30"
-            title: Auferstehungsmatutin
-          - time: " 20:00"
-            title: Osterspeisensegnung
-        occasion: Kirche bleibt den ganzen Tag offen!!!
+          - time: "09:30"
+            title: Hl. Liturgie (Ukrainisch)
+          - time: "18:00"
+            title: Hl. Liturgie (Deutsch)
+        occasion: 4 Sonntag der Fastenzeit
       - d: 31
         event:
-          - time: " 09:30"
-            title: Osterliturgie, danach  Osterspeisensegnung vor der Kirche
-          - time: " 14:00"
-            title: Hl. Liturgie (Slowakisch)
-        occasion: AUFERSTEHUNG CHRISTI
+          - time: "18:00"
+            title: Liturgie der Vorgeweihten Gaben
+        occasion: Gedächtnis der Verstorbenen
     month_date: 03-2023
   - announcement: null
     day:
