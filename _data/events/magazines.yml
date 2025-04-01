@@ -5,6 +5,23 @@ mags:
     link: /assets/pdf/222024Ostern.pdf
     img: /assets/magazine/222024Ostern.png
     name:
+      de: Ostern 2025
+      ua: Пасха 2025
+    month:
+      de: April 2025
+      ua: Квітень 2025
+    text:
+      de:
+        - "- OSTERN 2025"
+        - "- Unsere Feierlichkeiten zu Ostern 2025, einschließlich der Gottesdienste und der traditionellen Speisensegnung, sowie Änderungen im Veranstaltungsort aufgrund von Bauarbeiten auf dem Platz vor der Kirche."
+      ua:
+        - "- ПАСХА 2025"
+        - "- Святкування Великодня у 2025 році, включно з богослужіннями та традиційним освяченням кошиків, а також зміни у місці проведення заходів через будівельні роботи на площі перед церквою."
+  -
+    intro:
+    link: /assets/pdf/222024Ostern.pdf
+    img: /assets/magazine/222024Ostern.png
+    name:
       de: Ostern 2024
       ua: Пасха 2024
     month:
