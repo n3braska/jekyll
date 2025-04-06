@@ -80,42 +80,26 @@ month:
     month_date: 03-2023
   - announcement: ""
     day:
-      - d: 2
-        event:
-          - time: " 09:30"
-            title: Служба Божа
-          - time: " 12:15"
-            title: Служба Божа у церкві Єзуїтів
-        occasion: Неділя 5-та Великого посту. Преподобної Марії Єгиптянки
-      - d: 3
-        event:
-          - time: " 18:00"
-            title: Літургія напередосвячених дарів
-        occasion: Сорокоуст за померлих
-      - d: 4
-        event:
-          - time: " 18:00"
-            title: Хресна дорога
-          - time: " 19:00"
-            title: Зустріч «Матері в молитві»
-        occasion: null
-      - d: 5
-        event:
-          - time: " 19:00"
-            title: Страсті
-        occasion: null
       - d: 6
         event:
-          - time: " 18:00"
-            title: Хресна дорога
-        occasion: Квітна неділя за новим стилем
-      - d: 7
+          - time: "12:30"
+            title: Служба Божа, проповідує реколектант о. Михайло
+        occasion: Неділя 5-та Великого посту
+      - d: 13
         event:
-          - time: " 9:30"
+          - time: "12:30"
             title: Служба Божа
-          - time: " 18:00"
-            title: Служба Божа
-        occasion: БЛАГОВІЩЕННЯ ПРЕСВЯТОЇ ВЛАДИЧИЦІ НАШОЇ БОГОРОДИЦІ
+        occasion: Квітна Неділя. Вхід Господній в Єрусалим
+      - d: 20
+        event:
+          - time: "12:30"
+            title: Служба Божа Воскресна
+        occasion: Воскресіння Христове. Великдень
+      - d: 27
+        event:
+          - time: "12:30"
+            title: Служба Божа, мирування
+        occasion: Провідна Неділя
     month_date: 04-2023
   - announcement: "У церкві отців Єзуїтів - Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:

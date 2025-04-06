@@ -4,9 +4,9 @@ month:
   - number: 1
     isPublished: false
   - number: 2
-    isPublished: true
-  - number: 3
     isPublished: false
+  - number: 3
+    isPublished: true
   - number: 4
     isPublished: false
   - number: 5

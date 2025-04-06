@@ -472,132 +472,162 @@ month:
     month_date: 03-2023
   - announcement: null
     day:
-      - d: 7
+      - d: 03
         event:
-          - time: " 11:00"
-            title: Vesper und Grablegung
-        occasion: Karfreitag
-      - d: 8
+          - time: "18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 04
         event:
-          - time: " 12:00"
-            title: Basiliusliturgie mit Vesper
-          - time: " 21:00"
-            title: Auferstehungsmatutin und Hl. Liturgie auf Deutsch und Ukrainisch
-          - time: " 22:00"
-            title: Osterspeisensegnung
-        occasion: Karsamstag, AUFERSTEHUNG CHRISTI
-      - d: 9
+          - time: "18:00"
+            title: Liturgie der Vorgeweihten Gaben
+        occasion: Gedächtnis der Verstorbenen
+      - d: 05
         event:
-          - time: " 9:30"
-            title: Hl. Liturgie und Palmenweihe
-          - time: " 12:00"
-            title: Hl. Liturgie und Palmenweihe in der Jesuitenkirche
-        occasion: Sonntag des Einzugs in Jerusalem, PALMSONNTAG
+          - time: "18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 06
+        event:
+          - time: "09:30"
+            title: Hl. Liturgie (Ukrainisch)
+          - time: "15:00"
+            title: Hl. Liturgie (Ungarisch)
+          - time: "18:00"
+            title: Hl. Liturgie (Deutsch)
+        occasion: 5 Sonntag der Fastenzeit
+      - d: 07
+        event:
+          - time: "18:00"
+            title: Liturgie der Vorgeweihten Gaben
+          - time: "19:00"
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: Gedächtnis der Verstorbenen
+      - d: 08
+        event:
+          - time: "18:00"
+            title: Kreuzweg
+        occasion: null
+      - d: 09
+        event:
+          - time: "19:00"
+            title: Kreuzweg
+        occasion: Treffen der „Gemeinschaft der Gottes Liebe“
+      - d: 10
+        event:
+          - time: "18:00"
+            title: Großer Kanon des Andreas von Kryta
+        occasion: null
       - d: 11
         event:
-          - time: " 18:00"
-            title: Kreuzweg
-          - time: " 19:00"
-            title: Treffen „Mütter im Gebet
-        occasion:
+          - time: "18:00"
+            title: Liturgie der Vorgeweihten Gaben
+        occasion: Gedächtnis der Verstorbenen
       - d: 13
         event:
-          - time: " 09:30"
-            title: Basiliusliturgie mit Vesper
-          - time: " 18:00"
-            title: Passionsmatutin
-        occasion:
+          - time: "09:30"
+            title: Hl. Liturgie (Ukrainisch)
+          - time: "14:00"
+            title: Hl. Liturgie (Slowakisch)
+          - time: "18:00"
+            title: Hl. Liturgie (Deutsch)
+        occasion: Palm-Sonntag
       - d: 14
         event:
-          - time: " 09:30"
-            title: Vesper und Grablegung
-          - time: " 18:00"
-            title: Jerusalemermatutin
-        occasion: Karfreitag (Die Kirche bleibt den ganzen Tag offen)
+          - time: "18:00"
+            title: Liturgie der Vorgeweihten Gaben
+          - time: "19:00"
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: Gedächtnis der Verstorbenen
       - d: 15
         event:
-          - time: " 09:30"
-            title: Basiliusliturgie mit Vesper
-          - time: " 20:30"
-            title: Grabgebet
-          - time: " 21:00"
-            title: Auferstehungsmatutin
-          - time: " 22:00"
-            title: Osterspeisensegnung
-        occasion: Karsamstag, AUFERSTEHUNG CHRISTI (Die Kirche bleibt den ganzen Tag offen)
+          - time: "18:30"
+            title: Liturgie der Vorgeweihten Gaben
+        occasion: Auf Deutsch
       - d: 16
         event:
-          - time: " 09:30"
-            title: Hl. Liturgie danach Osterspeisensegnung vor der Kirche
-        occasion: SONNTAG der AUFERSTEHUNG
+          - time: "19:00"
+            title: Kreuzweg
+        occasion: Treffen der „Gemeinschaft der Gottes Liebe“
       - d: 17
         event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-          - time: " 19:00"
-            title: Treffen „Mütter im Gebet
-        occasion: Ostermontag
+          - time: "09:30"
+            title: Basiliusliturgie mit Vesper
+          - time: "18:00"
+            title: Passionsmatutin
+        occasion: null
       - d: 18
         event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: Osterdienstag
+          - time: "12:00"
+            title: Vesper und Grablegung
+          - time: "18:00"
+            title: Jerusalemer Matutin
+        occasion: null
       - d: 19
         event:
-          - time: " 9:00"
-            title: Hl. Liturgie
-        occasion: null
+          - time: "15:00"
+            title: Basiliusliturgie mit Vesper
+          - time: "18:00"
+            title: Auferstehungsmatutin in der Jesuitenkirche
+        occasion: 16:30/17:30/19:30 Osterspeisensegnung im Hof der Jesuitenkirche
       - d: 20
         event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: null
+          - time: "18:00"
+            title: Hl. Liturgie auf Deutsch
+        occasion: Oster-Sonntag
       - d: 21
         event:
-          - time: " 18:00"
-            title: Hl. Liturgie für Verstorbenen
-        occasion: null
+          - time: "18:00"
+            title: Hl. Liturgie
+          - time: "19:00"
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: Oster-Montag
+      - d: 22
+        event:
+          - time: "18:00"
+            title: Hl. Liturgie
+        occasion: Oster-Dienstag
       - d: 23
         event:
-          - time: " 9:30"
+          - time: "19:00"
             title: Hl. Liturgie
-          - time: " 12:15"
-            title: Hl. Liturgie in der Jesuitenkirche
-        occasion: THOMASSONNTAG
+        occasion: Treffen der „Gemeinschaft der Gottes Liebe“
       - d: 24
         event:
-          - time: " 18:00"
-            title: Hl. Liturgie für Verstorbenen
-          - time: " 19:00"
-            title: Treffen „Mütter im Gebet
-        occasion: null
+          - time: "18:00"
+            title: Hl. Liturgie
+        occasion: Oster-Donnerstag
       - d: 25
         event:
-          - time: " 18:00"
-            title: Hymnos-Akathistos an die Gottesgebärerin
-        occasion: null
-      - d: 26
-        event:
-          - time: " 09:00"
+          - time: "18:00"
             title: Hl. Liturgie
-        occasion: null
+        occasion: Oster-Freitag
       - d: 27
         event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: null
+          - time: "09:30"
+            title: Hl. Liturgie (Ukrainisch)
+          - time: "14:00"
+            title: Hl. Liturgie (Slowakisch)
+          - time: "18:00"
+            title: Hl. Liturgie (Deutsch)
+        occasion: Sonntag
       - d: 28
         event:
-          - time: " 18:00"
-            title: Hl. Liturgie für Verstorbenen
+          - time: "18:00"
+            title: Hl. Liturgie
+          - time: "19:00"
+            title: Gebetskreis „Mütter im Gebet“
+        occasion: null
+      - d: 29
+        event:
+          - time: "18:00"
+            title: Hl. Liturgie
         occasion: null
       - d: 30
         event:
-          - time: " 9:30"
+          - time: "18:00"
             title: Hl. Liturgie
-          - time: " 12:15"
-            title: Hl. Liturgie in der Jesuitenkirche
-        occasion: SONNTAG der Myronträgerinnen
+        occasion: null
     month_date: 04-2023
   - announcement: "In der Kirche St. Barbara: Postgasse 8A"
     day:

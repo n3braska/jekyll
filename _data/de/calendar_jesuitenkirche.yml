@@ -80,42 +80,26 @@ month:
     month_date: 03-2023
   - announcement: "Julianisches Kalender"
     day:
-      - d: 2
-        event:
-          - time: " 09:30"
-            title: Hl. Liturgie
-          - time: " 12:15"
-            title: Hl. Liturgie in der Jesuitenkirche
-        occasion: Неділя 5-та Великого посту. Преподобної Марії Єгиптянки
-      - d: 3
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie der Vorgeweihten Gaben
-        occasion: Großes Totengedenken
-      - d: 4
-        event:
-          - time: " 18:00"
-            title: Kreuzweg
-          - time: " 19:00"
-            title: Treffen „Mütter im Gebet“
-        occasion: null
-      - d: 5
-        event:
-          - time: " 19:00"
-            title: Passion
-        occasion: null
       - d: 6
         event:
-          - time: " 18:00"
-            title: Kreuzweg
-        occasion: null
-      - d: 7
+          - time: "12:30"
+            title: Hl. Liturgie (Ukrainisch)
+        occasion: 5 Sonntag der Fastenzeit
+      - d: 13
         event:
-          - time: " 9:30"
+          - time: "12:30"
+            title: Hl. Liturgie (Ukrainisch)
+        occasion: Palm-Sonntag
+      - d: 20
+        event:
+          - time: "12:30"
             title: Hl. Liturgie
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: Mariä Verkündigung (Jul. Kal.)
+        occasion: Oster-Sonntag
+      - d: 27
+        event:
+          - time: "12:30"
+            title: Hl. Liturgie (Ukrainisch)
+        occasion: Sonntag
     month_date: 04-2023
   - announcement: "In Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
