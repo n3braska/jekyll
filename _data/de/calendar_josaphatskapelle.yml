@@ -655,7 +655,7 @@ month:
           - time: " 18:00"
             title: Hl. Liturgie (Gedächtnis der Verstorbenen)
           - time: " 19:00"
-            title: Молебень (Gebetskreis „Mütter im Gebet“)
+            title: Andacht (Gebetskreis „Mütter im Gebet“)
         occasion: null
       - d: 6
         event:
@@ -726,7 +726,7 @@ month:
           - time: " 18:00"
             title: Hl. Liturgie (Gedächtnis der Verstorbenen)
           - time: " 19:00"
-            title: Молебень (Gebetskreis „Mütter im Gebet“)
+            title: Andacht (Gebetskreis „Mütter im Gebet“)
         occasion: null
       - d: 20
         event:
@@ -938,27 +938,27 @@ month:
     month_date: 06-2023
   - announcement: "In der Kirche St. Barbara: Postgasse 8A. Beichtgelegenheit vor und nach den Gottesdiensten nach Vereinbarung mit dem Priester."
     day:
-      - d: 8
+      - d: 7
         event:
           - time: " 19:00"
             title: Andacht
-        occasion: Gebetskreis „Mütter im Gebet“
+        occasion: (Gebetskreis „Mütter im Gebet“)
+      - d: 9
+        event:
+          - time: " 19:00"
+            title: Andacht
+        occasion: (Gebetskreis „Mütter im Gebet“)
       - d: 10
-        event:
-          - time: " 19:00"
-            title: Andacht
-        occasion: Treffen der „Gemeinschaft der Gottes Liebe“
-      - d: 11
-        event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: св. княгині Ольги
-      - d: 12
         event:
           - time: " 18:00"
             title: Hl. Liturgie
         occasion: Gedächtnis der Verstorbenen
-      - d: 14
+      - d: 11
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: Gedächtnis der Verstorbenen (Hl. Olha)
+      - d: 13
         event:
           - time: " 09:30"
             title: Hl. Liturgie
@@ -967,27 +967,32 @@ month:
           - time: " 18:00"
             title: Hl. Liturgie (Deutsch)
         occasion: null
+      - d: 14
+        event:
+          - time: " 19:00"
+            title: Andacht
+        occasion: (Gebetskreis „Mütter im Gebet“)
       - d: 15
         event:
           - time: " 19:00"
-            title: Andacht
-        occasion: Gebetskreis „Mütter im Gebet“
-      - d: 17
-        event:
-          - time: " 19:00"
-            title: Andacht
-        occasion: Treffen der „Gemeinschaft der Gottes Liebe“
-      - d: 18
+            title: Hl. Liturgie
+        occasion: Hl. Volodymyr von Kyiv
+      - d: 16
         event:
           - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 19
+            title: Andacht
+        occasion: Andacht (Gebetskreis „Mütter im Gebet“)
+      - d: 17
         event:
           - time: " 18:00"
             title: Hl. Liturgie
         occasion: Gedächtnis der Verstorbenen
-      - d: 21
+      - d: 18
+        event:
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: Gedächtnis der Verstorbenen
+      - d: 20
         event:
           - time: " 09:30"
             title: Hl. Liturgie
@@ -996,26 +1001,50 @@ month:
           - time: " 18:00"
             title: Hl. Liturgie (Deutsch)
         occasion: null
-      - d: 22
+      - d: 21
         event:
           - time: " 19:00"
             title: Andacht
-        occasion: Gebetskreis „Mütter im Gebet“
+        occasion: (Gebetskreis „Mütter im Gebet“)
+      - d: 23
+        event:
+          - time: " 19:00"
+            title: Andacht
+        occasion: Andacht (Gebetskreis „Mütter im Gebet“)
       - d: 24
         event:
-          - time: " 19:00"
-            title: Andacht
-        occasion: Treffen der „Gemeinschaft der Gottes Liebe“
+          - time: " 18:00"
+            title: Hl. Liturgie
+        occasion: Gedächtnis der Verstorbenen (Hl. Borys und Hlib)
       - d: 25
         event:
           - time: " 18:00"
             title: Hl. Liturgie
+        occasion: Gedächtnis der Verstorbenen (Hl. Anna)
+      - d: 27
+        event:
+          - time: " 09:30"
+            title: Hl. Liturgie
+          - time: " 14:00"
+            title: Hl. Liturgie (Slowakisch)
+          - time: " 18:00"
+            title: Hl. Liturgie (Deutsch)
         occasion: null
-      - d: 26
+      - d: 28
+        event:
+          - time: " 19:00"
+            title: Andacht
+        occasion: (Gebetskreis „Mütter im Gebet“)
+      - d: 30
+        event:
+          - time: " 19:00"
+            title: Andacht
+        occasion: Andacht (Gebetskreis „Mütter im Gebet“)
+      - d: 31
         event:
           - time: " 18:00"
             title: Hl. Liturgie
-        occasion: Gedächtnis der Verstorbenen
+        occasion:
     month_date: 07-2023
   - announcement: "In der Kirche St. Barbara: Postgasse 8A. Beichtgelegenheit vor und nach den Gottesdiensten nach Vereinbarung mit dem Priester."
     day:
