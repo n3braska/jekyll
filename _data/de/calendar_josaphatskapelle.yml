@@ -1050,124 +1050,130 @@ month:
     day:
       - d: 1
         event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 2
-        event:
-          - time: " 18:00"
+          - time: "18:00"
             title: Hl. Liturgie
         occasion: Gedächtnis der Verstorbenen
-      - d: 4
+      - d: 3
         event:
-          - time: " 09:30"
-            title: Hl. Liturgie
-          - time: " 15:00"
+          - time: "09:30"
+            title: Hl. Liturgie (Ukrainisch)
+          - time: "15:00"
             title: Hl. Liturgie (Ungarisch)
-          - time: " 18:00"
+          - time: "18:00"
             title: Hl. Liturgie (Deutsch)
-        occasion: null
+        occasion: In der Jesuitenkirche
       - d: 5
         event:
-          - time: " 19:00"
+          - time: "19:00"
             title: Andacht
         occasion: Gebetskreis „Mütter im Gebet“
       - d: 6
         event:
-          - time: " 18:00"
+          - time: "18:00"
             title: Hl. Liturgie
-        occasion: Verklärung des Herrn. Segen der Früchte
+        occasion: "Verklärung des Herrn; Segen der Früchte; Treffen der „Gemeinschaft der Gottes Liebe“"
       - d: 7
         event:
-          - time: " 19:00"
-            title: Andacht
-        occasion: Treffen der „Gemeinschaft der Gottes Liebe“
+          - time: "18:00"
+            title: Hl. Liturgie
+        occasion: null
       - d: 8
         event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 9
-        event:
-          - time: " 18:00"
+          - time: "18:00"
             title: Hl. Liturgie
         occasion: Gedächtnis der Verstorbenen
+      - d: 10
+        event:
+          - time: "09:30"
+            title: Hl. Liturgie (Ukrainisch)
+          - time: "14:00"
+            title: Hl. Liturgie (Slowakisch)
+          - time: "18:00"
+            title: Hl. Liturgie (Deutsch)
+        occasion: In der Jesuitenkirche
       - d: 11
         event:
-          - time: " 09:30"
-            title: Hl. Liturgie
-          - time: " 18:00"
-            title: Hl. Liturgie (Deutsch)
-        occasion: null
-      - d: 12
-        event:
-          - time: " 19:00"
+          - time: "19:00"
             title: Andacht
         occasion: Gebetskreis „Mütter im Gebet“
+      - d: 13
+        event:
+          - time: "19:00"
+            title: Hl. Liturgie
+        occasion: Treffen der „Gemeinschaft der Gottes Liebe“
       - d: 14
         event:
-          - time: " 19:00"
-            title: Andacht
-        occasion: Treffen der „Gemeinschaft der Gottes Liebe“
+          - time: "18:00"
+            title: Hl. Liturgie
+        occasion: Gedächtnis der Verstorbenen
       - d: 15
         event:
-          - time: " 09:30"
+          - time: "09:30"
             title: Hl. Liturgie
-        occasion: Verklärung des Herrn. Segen der Früchte
-      - d: 16
+          - time: "18:00"
+            title: Hl. Liturgie
+        occasion: "Himmelfahrt Mariä; Segen der Blumen und Kräuter"
+      - d: 17
         event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: Gedächtnis der Verstorbenen
+          - time: "09:30"
+            title: Hl. Liturgie (Ukrainisch)
+          - time: "15:00"
+            title: Hl. Liturgie (Ungarisch)
+          - time: "18:00"
+            title: Hl. Liturgie (Deutsch)
+        occasion: In der Jesuitenkirche
       - d: 18
         event:
-          - time: " 09:30"
-            title: Hl. Liturgie
-          - time: " 15:00"
-            title: Hl. Liturgie (Ungarisch)
-          - time: " 18:00"
-            title: Hl. Liturgie (Deutsch)
-        occasion: null
-      - d: 19
-        event:
-          - time: " 19:00"
+          - time: "19:00"
             title: Andacht
         occasion: Gebetskreis „Mütter im Gebet“
+      - d: 20
+        event:
+          - time: "19:00"
+            title: Hl. Liturgie
+        occasion: Treffen der „Gemeinschaft der Gottes Liebe“
+      - d: 21
+        event:
+          - time: "18:00"
+            title: Hl. Liturgie
+        occasion: null
       - d: 22
         event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 23
-        event:
-          - time: " 18:00"
+          - time: "18:00"
             title: Hl. Liturgie
         occasion: Gedächtnis der Verstorbenen
-      - d: 25
+      - d: 24
         event:
-          - time: " 09:30"
-            title: Hl. Liturgie
-          - time: " 14:00"
+          - time: "09:30"
+            title: Hl. Liturgie (Ukrainisch)
+          - time: "14:00"
             title: Hl. Liturgie (Slowakisch)
-          - time: " 18:00"
+          - time: "18:00"
             title: Hl. Liturgie (Deutsch)
-        occasion: null
+        occasion: In der Jesuitenkirche
       - d: 26
         event:
-          - time: " 19:00"
+          - time: "19:00"
             title: Andacht
         occasion: Gebetskreis „Mütter im Gebet“
+      - d: 27
+        event:
+          - time: "19:00"
+            title: Hl. Liturgie
+        occasion: Treffen der „Gemeinschaft der Gottes Liebe“
       - d: 29
         event:
-          - time: " 18:00"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 30
-        event:
-          - time: " 18:00"
+          - time: "18:00"
             title: Hl. Liturgie
         occasion: Gedächtnis der Verstorbenen
-    month_date: 08-2023
+      - d: 31
+        event:
+          - time: "09:30"
+            title: Hl. Liturgie (Ukrainisch)
+          - time: "18:00"
+            title: Hl. Liturgie (Deutsch)
+        occasion: In der Jesuitenkirche
+    month_date: 08-2024
   - announcement: "In der Kirche St. Barbara: Postgasse 8A. Beichtgelegenheit vor und nach den Gottesdiensten nach Vereinbarung mit dem Priester."
     day:
       - d: 8
