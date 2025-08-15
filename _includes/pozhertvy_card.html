@@ -6,11 +6,20 @@
 
             <h4 class="card-title">{% if page.lang=="ua" %} Бажаєте допомогти Україні? {% else %} Möchten Sie die Ukraine unterstützen? {% endif %}</h4>
             <div class="card-text">
-                {% if page.lang=="ua" %} Церква Св. Варвари разом з українською громадою організувала центр допомоги постраждалим від війни між Росією та Україною. Як Ви можете долучитися? Пожертвувані кошти підуть на медикаменти, аптечки, засоби захисту та інші терміново необхідні речі. {% else %} Die St. Barbara Kirche organisierte zusammen mit der ukrainischen Gemeinde ein Zentrum, um den Opfern des Krieges zwischen Russland und der Ukraine zu helfen. {% endif %}
+                {% if page.lang=="ua" %}
+                    Церква Св. Варвари разом з українською громадою організувала центр допомоги постраждалим від війни між Росією та Україною. Як Ви можете долучитися? Пожертвувані кошти підуть на медикаменти, аптечки, засоби захисту та інші терміново необхідні речі.
+                {% else %}
+                    Die St. Barbara Kirche organisierte zusammen mit der ukrainischen Gemeinde ein Zentrum, um den Opfern des Krieges zwischen Russland und der Ukraine zu helfen.
+                {% endif %}
             </div>
 
-            <a href="https://www.spende.st-barbara-austria.org" class="btn mb-2 mt-4 btn-dark">{% if page.lang=="ua" %} Дізнатись більше{% else %} Mehr erfahren{% endif %}</a>
-
+            <a href="https://st-barbara-austria.org/{{page.lang}}/pozhertvy" class="btn mb-2 mt-4 btn-dark">
+                {% if page.lang=="ua" %}
+                    Надіслати пожертву
+                {% else %}
+                    Jetzt spenden
+                {% endif %}
+            </a>
     </div>
 </div>
 
