@@ -1,13 +1,11 @@
 navbar:
-  - link: /ua/pozhertvy.html
-    name: Допомога Україні
-  - link: /index.html
-    name: Актуальне
   - link: /ua/timetable.html
     name: Розклад
   - link: /ua/hazeta.html
     name: Газета
   - link: /ua/tayinstva.html
     name: Таїнства
+  - link: /ua/pozhertvy.html
+    name: Допомога Україні
   - link: /ua/history.html
     name: Історія
