@@ -14,11 +14,11 @@ month:
   - number: 6
     isPublished: false
   - number: 7
-    isPublished: true
+    isPublished: false
   - number: 8
     isPublished: true
   - number: 9
-    isPublished: false
+    isPublished: true
   - number: 10
     isPublished: false
   - number: 11

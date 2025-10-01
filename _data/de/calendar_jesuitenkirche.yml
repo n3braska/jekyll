@@ -222,17 +222,22 @@ month:
     month_date: 09-2023
   - announcement: "In Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
-      - d: 13
+      - d: 04
         event:
           - time: " 12:30"
             title: Hl. Liturgie
         occasion: null
-      - d: 20
+      - d: 12
         event:
           - time: " 12:30"
             title: Hl. Liturgie
         occasion: null
-      - d: 27
+      - d: 19
+        event:
+          - time: " 12:30"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 26
         event:
           - time: " 12:30"
             title: Hl. Liturgie
