@@ -1,16 +1,14 @@
 footer:
-  - title: KIRCHE IST TÄGLICH GEÖFFNET
+  - title: Allgemeine Anschrift
     point:
       - text: Postgasse 8-12, 1010 Wien
 
-  - title: FEEDBACK
+  - title: Feedback
     point:
         - text: Kontakte
           link: /de/contacts.html
-  - title: ORGANISATIONAL
+  - title: Organisatorisch
     point:
-        - text: Byzantinisches Ordinariat in Österreich
-          link: /de/ordinariat.html
         - text: Heiliger Josaphat
           link: /de/iosafat.html
 

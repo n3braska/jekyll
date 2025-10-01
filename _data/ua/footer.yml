@@ -1,16 +1,14 @@
 footer:
-  - title: ХРАМ ВІДКРИТО ЩОДЕННО
+  - title: Наша адреса
     point:
       - text: Postgasse 8-12, 1010 Wien
 
-  - title: ЗВОРОТНІЙ ЗВ’ЯЗОК
+  - title: Зворотній зв’язок
     point:
         - text: Контакти
           link: /ua/contacts.html
-  - title: ОРГАНІЗАЦІЙНЕ
+  - title: Організаційне
     point:
-        - text: Візантійський ординаріат в Австрії
-          link: /ua/ordinariat.html
         - text: Святий Йосафат
           link: /ua/iosafat.html
 
