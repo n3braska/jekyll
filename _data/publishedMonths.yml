@@ -16,10 +16,10 @@ month:
   - number: 7
     isPublished: false
   - number: 8
-    isPublished: true
+    isPublished: false
   - number: 9
     isPublished: true
   - number: 10
-    isPublished: false
+    isPublished: true
   - number: 11
     isPublished: false
