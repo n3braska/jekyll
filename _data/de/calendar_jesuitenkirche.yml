@@ -273,29 +273,14 @@ month:
     month_date: 11-2023
   - announcement: "In Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
-      - d: 1
+      - d: 21
         event:
-          - time: " 12:15"
+          - time: " 12:30"
             title: Hl. Liturgie
         occasion: null
-      - d: 8
+      - d: 28
         event:
-          - time: " 12:15"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 15
-        event:
-          - time:  " 12:15"
-            title: Hl. Liturgie
-        occasion: Nach zwei Gottesdiensten Sammlung für die Renovierung der Kirche St. Barbara
-      - d: 22
-        event:
-          - time: " 12:15"
-            title: Hl. Liturgie
-        occasion: Exerzitien und Beichte
-      - d: 29
-        event:
-          - time: " 12:15"
+          - time: " 12:30"
             title: Hl. Liturgie
         occasion: null
     month_date: 12-2023
