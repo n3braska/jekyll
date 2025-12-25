@@ -278,6 +278,16 @@ month:
           - time: " 12:30"
             title: Hl. Liturgie
         occasion: null
+      - d: 25
+        event:
+          - time: " 12:30"
+            title: Hl. Liturgie
+        occasion: GEBURT DES HERRN
+      - d: 26
+        event:
+          - time: " 12:30"
+            title: Hl. Liturgie
+        occasion: null
       - d: 28
         event:
           - time: " 12:30"

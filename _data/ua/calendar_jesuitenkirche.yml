@@ -279,6 +279,16 @@ month:
           - time: " 12:30"
             title: Служба Божа
         occasion: null
+      - d: 25
+        event:
+          - time: " 12:30"
+            title: Служба Божа
+        occasion: РІЗДВО ГОСПОДА БОГА І СПАСА НАШОГО ІСУСА ХРИСТА
+      - d: 26
+        event:
+          - time: " 12:30"
+            title: Служба Божа
+        occasion: null
       - d: 28
         event:
           - time: " 12:30"
