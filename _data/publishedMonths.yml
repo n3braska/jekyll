@@ -1,6 +1,6 @@
 month:
   - number: 0
-    isPublished: false
+    isPublished: true
   - number: 1
     isPublished: false
   - number: 2
@@ -22,4 +22,4 @@ month:
   - number: 10
     isPublished: false
   - number: 11
-    isPublished: true
+    isPublished: false
