@@ -1,29 +1,24 @@
 month:
   - announcement: "in Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
-      - d: 6
+      - d: 4
         event:
-          - time: " 12:15"
-            title: Hl. Liturgie
-        occasion: Erscheinung des Herrn / Taufe Jesu
-      - d: 7
-        event:
-          - time: " 12:15"
+          - time: " 12:30"
             title: Hl. Liturgie
         occasion: null
-      - d: 14
+      - d: 11
         event:
-          - time: " 12:15"
+          - time: " 12:30"
             title: Hl. Liturgie
         occasion: null
-      - d: 21
+      - d: 18
         event:
-          - time: " 12:15"
+          - time: " 12:30"
             title: Hl. Liturgie
         occasion: null
-      - d: 28
+      - d: 25
         event:
-          - time: " 12:15"
+          - time: " 12:30"
             title: Hl. Liturgie
         occasion: null
     month_date: 01-2023
