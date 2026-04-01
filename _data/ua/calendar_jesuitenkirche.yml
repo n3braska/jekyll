@@ -75,26 +75,11 @@ month:
     month_date: 03-2023
   - announcement: "У церкві отців Єзуїтів - Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
-      - d: 6
-        event:
-          - time: "12:30"
-            title: Служба Божа, проповідує реколектант о. Михайло
-        occasion: Неділя 5-та Великого посту
-      - d: 13
+      - d: 12
         event:
           - time: "12:30"
             title: Служба Божа
-        occasion: Квітна Неділя. Вхід Господній в Єрусалим
-      - d: 20
-        event:
-          - time: "12:30"
-            title: Служба Божа Воскресна
-        occasion: Воскресіння Христове. Великдень
-      - d: 27
-        event:
-          - time: "12:30"
-            title: Служба Божа, мирування
-        occasion: Провідна Неділя
+        occasion: Воскресіння Христове. Великдень. Освячення пасок у дворику церкви о. Єзуїтів
     month_date: 04-2023
   - announcement: "У церкві отців Єзуїтів - Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:

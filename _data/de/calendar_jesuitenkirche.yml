@@ -75,26 +75,6 @@ month:
     month_date: 03-2023
   - announcement: "in Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
-      - d: 6
-        event:
-          - time: "12:30"
-            title: Hl. Liturgie (Ukrainisch)
-        occasion: 5 Sonntag der Fastenzeit
-      - d: 13
-        event:
-          - time: "12:30"
-            title: Hl. Liturgie (Ukrainisch)
-        occasion: Palm-Sonntag
-      - d: 20
-        event:
-          - time: "12:30"
-            title: Hl. Liturgie
-        occasion: Oster-Sonntag
-      - d: 27
-        event:
-          - time: "12:30"
-            title: Hl. Liturgie (Ukrainisch)
-        occasion: Sonntag
     month_date: 04-2023
   - announcement: "In Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
