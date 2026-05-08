@@ -558,7 +558,7 @@ month:
           - time: '18:00'
             title: Hl. Liturgie
           - time: '19:00'
-            title: Andacht
+            title: Andacht (Gebetskreis „Mütter im Gebet“)
         occasion: Gebetskreis „Mütter im Gebet“
       - d: 5
         event:
@@ -598,7 +598,7 @@ month:
           - time: '18:00'
             title: Hl. Liturgie
           - time: '19:00'
-            title: Andacht
+            title: Andacht (Gebetskreis „Mütter im Gebet“)
         occasion: Gedächtnis der Verstorbenen
       - d: 12
         event:
@@ -638,7 +638,7 @@ month:
           - time: '18:00'
             title: Hl. Liturgie
           - time: '19:00'
-            title: Andacht
+            title: Andacht (Gebetskreis „Mütter im Gebet“)
         occasion: Gedächtnis der Verstorbenen
       - d: 19
         event:
@@ -678,7 +678,7 @@ month:
           - time: '18:00'
             title: Hl. Liturgie
           - time: '19:00'
-            title: Andacht
+            title: Andacht (Gebetskreis „Mütter im Gebet“)
         occasion: Pfingst-Montag
       - d: 26
         event:
