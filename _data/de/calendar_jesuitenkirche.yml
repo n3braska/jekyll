@@ -147,27 +147,22 @@ month:
     month_date: 07-2023
   - announcement: "In Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
-      - d: 3
+      - d: 5
         event:
           - time: " 12:30"
             title: Hl. Liturgie
         occasion: null
-      - d: 10
+      - d: 12
         event:
           - time: " 12:30"
             title: Hl. Liturgie
         occasion: null
-      - d: 17
+      - d: 19
         event:
           - time: " 12:30"
             title: Hl. Liturgie
         occasion: null
-      - d: 24
-        event:
-          - time: " 12:30"
-            title: Hl. Liturgie
-        occasion: null
-      - d: 31
+      - d: 26
         event:
           - time: " 12:30"
             title: Hl. Liturgie
@@ -175,22 +170,27 @@ month:
     month_date: 08-2023
   - announcement: "In Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
     day:
-      - d: 7
+      - d: 2
         event:
           - time: " 15:00"
             title: Hl. Liturgie
         occasion: null
-      - d: 14
+      - d: 9
         event:
           - time: " 12:30"
             title: Hl. Liturgie
         occasion: null
-      - d: 21
+      - d: 16
         event:
           - time: " 12:30"
             title: Hl. Liturgie
         occasion: null
-      - d: 28
+      - d: 23
+        event:
+          - time: " 12:30"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 30
         event:
           - time: " 12:30"
             title: Hl. Liturgie
