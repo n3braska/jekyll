@@ -1118,127 +1118,135 @@ month:
     day:
       - d: 2
         event:
-          - time: "09:30"
-            title: "Hl. Liturgie"
-          - time: "15:00"
-            title: "Hl. Liturgie (Ungarisch)"
-          - time: "18:00"
-            title: "Hl. Liturgie (Deutsch)"
-        occasion: null
+          - time: "19:00"
+            title: Hl. Liturgie
+        occasion: "Der Beginn eines neuen Kirchenjahres, Treffen der „Gemeinschaft der Gottes Liebe“"
       - d: 3
         event:
-          - time: "19:00"
-            title: "Andacht"
-        occasion: "Gebetskreis „Mütter im Gebet“"
+          - time: "18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 4
+        event:
+          - time: "18:00"
+            title: Hl. Liturgie
+        occasion: "Gedächtnis der Verstorbenen"
       - d: 6
         event:
-          - time: "09:30"
-            title: "Hl. Liturgie"
+          - time: "12:30"
+            title: Hl. Liturgie auf Ungarisch
+          - time: "15:00"
+            title: Hl. Liturgie auf Deutsch
           - time: "18:00"
-            title: "Hl. Liturgie (Deutsch)"
-        occasion: "Verklärung des Herrn, Segnung der Früchte"
+            title: Hl. Liturgie
+        occasion: null
       - d: 7
         event:
-          - time: "18:00"
-            title: "Hl. Liturgie"
-        occasion: "Gedächtnis der Verstorbenen"
-      - d: 9
+          - time: "19:00"
+            title: Andacht
+        occasion: "Treffen der „Mütter im Gebet“"
+      - d: 8
         event:
           - time: "09:30"
-            title: "Hl. Liturgie"
-          - time: "14:00"
-            title: "Hl. Liturgie (Slowakisch)"
+            title: Hl. Liturgie
           - time: "18:00"
-            title: "Hl. Liturgie (Deutsch)"
-        occasion: null
-      - d: 10
+            title: Hl. Liturgie
+        occasion: "Mariä Geburt"
+      - d: 9
         event:
           - time: "19:00"
-            title: "Andacht"
-        occasion: "Gebetskreis „Mütter im Gebet“"
-      - d: 13
+            title: Hl. Liturgie
+        occasion: "Treffen der „Gemeinschaft der Gottes Liebe“"
+      - d: 10
         event:
           - time: "18:00"
-            title: "Hl. Liturgie"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 11
+        event:
+          - time: "18:00"
+            title: Hl. Liturgie
+        occasion: "Gedächtnis der Verstorbenen"
+      - d: 13
+        event:
+          - time: "12:30"
+            title: Hl. Liturgie auf Slowakisch
+          - time: "14:00"
+            title: Hl. Liturgie auf Deutsch
+          - time: "18:00"
+            title: Hl. Liturgie
         occasion: null
       - d: 14
         event:
-          - time: "18:00"
-            title: "Hl. Liturgie"
-        occasion: "Gedächtnis der Verstorbenen"
-      - d: 15
-        event:
           - time: "09:30"
-            title: "Hl. Liturgie"
+            title: "Hl. Liturgie, Erhöhung des Heiligen und lebenspendenden Kreuzes"
           - time: "18:00"
-            title: "Hl. Liturgie (Deutsch)"
-        occasion: "Mariä Himmelfahrt, Segnung der Blumen und Kräuter"
+            title: "IM STEPHANSDOM (Domkirche St. Stephan): Hl. Liturgie im östlichen Ritus auf Deutsch"
+        occasion: "ACHTUNG: Der Gottesdienst um 18:00 findet im Stephansdom (Domkirche St. Stephan) statt."
       - d: 16
         event:
-          - time: "09:30"
-            title: "Hl. Liturgie"
-          - time: "15:00"
-            title: "Hl. Liturgie (Ungarisch)"
-          - time: "18:00"
-            title: "Hl. Liturgie (Deutsch)"
-        occasion: null
+          - time: "19:00"
+            title: Hl. Liturgie
+        occasion: "Treffen der „Gemeinschaft der Gottes Liebe“"
       - d: 17
         event:
-          - time: "19:00"
-            title: "Andacht"
-        occasion: "Gebetskreis „Mütter im Gebet“"
-      - d: 19
-        event:
-          - time: "19:00"
-            title: "Hl. Liturgie"
-        occasion: "Treffen der „Gemeinschaft der Gottes Liebe“"
-      - d: 20
+          - time: "18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 18
         event:
           - time: "18:00"
-            title: "Hl. Liturgie"
+            title: Hl. Liturgie
+        occasion: "Gedächtnis der Verstorbenen"
+      - d: 20
+        event:
+          - time: "12:30"
+            title: Hl. Liturgie auf Ungarisch
+          - time: "15:00"
+            title: Hl. Liturgie auf Deutsch
+          - time: "18:00"
+            title: Hl. Liturgie
         occasion: null
       - d: 21
         event:
-          - time: "18:00"
-            title: "Hl. Liturgie"
-        occasion: "Gedächtnis der Verstorbenen"
+          - time: "19:00"
+            title: Andacht
+        occasion: "Treffen der „Mütter im Gebet“"
       - d: 23
         event:
-          - time: "09:30"
-            title: "Hl. Liturgie"
-          - time: "14:00"
-            title: "Hl. Liturgie (Slowakisch)"
-          - time: "18:00"
-            title: "Hl. Liturgie (Deutsch)"
-        occasion: null
+          - time: "19:00"
+            title: Hl. Liturgie
+        occasion: "Treffen der „Gemeinschaft der Gottes Liebe“"
       - d: 24
         event:
-          - time: "19:00"
-            title: "Andacht"
-        occasion: "Gebetskreis „Mütter im Gebet“"
-      - d: 26
-        event:
-          - time: "19:00"
-            title: "Hl. Liturgie"
-        occasion: "Treffen der „Gemeinschaft der Gottes Liebe“"
-      - d: 27
+          - time: "18:00"
+            title: Hl. Liturgie
+        occasion: null
+      - d: 25
         event:
           - time: "18:00"
-            title: "Hl. Liturgie"
+            title: Hl. Liturgie
+        occasion: "Gedächtnis der Verstorbenen"
+      - d: 27
+        event:
+          - time: "12:30"
+            title: Hl. Liturgie auf Slowakisch
+          - time: "14:00"
+            title: Hl. Liturgie auf Deutsch
+          - time: "18:00"
+            title: Hl. Liturgie
         occasion: null
       - d: 28
         event:
-          - time: "18:00"
-            title: "Hl. Liturgie"
-        occasion: "Gedächtnis der Verstorbenen"
+          - time: "19:00"
+            title: Andacht
+        occasion: "Treffen der „Mütter im Gebet“"
       - d: 30
         event:
-          - time: "09:30"
-            title: "Hl. Liturgie"
-          - time: "18:00"
-            title: "Hl. Liturgie (Deutsch)"
-        occasion: null
-    month_date: 09-2023
+          - time: "19:00"
+            title: Hl. Liturgie
+        occasion: "Treffen der „Gemeinschaft der Gottes Liebe“"
+    month_date: 09-2026
   - announcement: "In der Kirche St. Barbara: Postgasse 8A. Beichtgelegenheit vor und nach den Gottesdiensten nach Vereinbarung mit dem Priester."
     day:
       - d: 1
