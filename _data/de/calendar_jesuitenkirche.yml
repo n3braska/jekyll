@@ -172,22 +172,22 @@ month:
     day:
       - d: 6
         event:
-          - time: " 09:30"
+          - time: " 12:30"
             title: Hl. Liturgie
         occasion: null
       - d: 13
         event:
-          - time: " 09:30"
+          - time: " 12:30"
             title: Hl. Liturgie
         occasion: null
       - d: 20
         event:
-          - time: " 09:30"
+          - time: " 12:30"
             title: Hl. Liturgie
         occasion: null
       - d: 27
         event:
-          - time: " 09:30"
+          - time: " 12:30"
             title: Hl. Liturgie
         occasion: null
     month_date: 09-2026

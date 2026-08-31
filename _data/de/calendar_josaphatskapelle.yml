@@ -1133,12 +1133,12 @@ month:
         occasion: "Gedächtnis der Verstorbenen"
       - d: 6
         event:
-          - time: "12:30"
-            title: Hl. Liturgie auf Ungarisch
-          - time: "15:00"
-            title: Hl. Liturgie auf Deutsch
-          - time: "18:00"
+          - time: "09:30"
             title: Hl. Liturgie
+          - time: "15:00"
+            title: Hl. Liturgie auf Ungarisch
+          - time: "18:00"
+            title: Hl. Liturgie auf Deutsch
         occasion: null
       - d: 7
         event:
@@ -1169,12 +1169,12 @@ month:
         occasion: "Gedächtnis der Verstorbenen"
       - d: 13
         event:
-          - time: "12:30"
-            title: Hl. Liturgie auf Slowakisch
-          - time: "14:00"
-            title: Hl. Liturgie auf Deutsch
-          - time: "18:00"
+          - time: "09:30"
             title: Hl. Liturgie
+          - time: "14:00"
+            title: Hl. Liturgie auf Slowakisch
+          - time: "18:00"
+            title: Hl. Liturgie auf Deutsch
         occasion: null
       - d: 14
         event:
@@ -1200,12 +1200,12 @@ month:
         occasion: "Gedächtnis der Verstorbenen"
       - d: 20
         event:
-          - time: "12:30"
-            title: Hl. Liturgie auf Ungarisch
-          - time: "15:00"
-            title: Hl. Liturgie auf Deutsch
-          - time: "18:00"
+          - time: "09:30"
             title: Hl. Liturgie
+          - time: "15:00"
+            title: Hl. Liturgie auf Ungarisch
+          - time: "18:00"
+            title: Hl. Liturgie auf Deutsch
         occasion: null
       - d: 21
         event:
@@ -1229,12 +1229,12 @@ month:
         occasion: "Gedächtnis der Verstorbenen"
       - d: 27
         event:
-          - time: "12:30"
-            title: Hl. Liturgie auf Slowakisch
-          - time: "14:00"
-            title: Hl. Liturgie auf Deutsch
-          - time: "18:00"
+          - time: "09:30"
             title: Hl. Liturgie
+          - time: "14:00"
+            title: Hl. Liturgie auf Slowakisch
+          - time: "18:00"
+            title: Hl. Liturgie auf Deutsch
         occasion: null
       - d: 28
         event:
