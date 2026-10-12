@@ -260,10 +260,34 @@ table {
     border-collapse: collapse;
 }
 
+/* Every table cell is centered horizontally and vertically */
 td {
     width: 100px;
-    text-align:center;
-    padding:5px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+/* Timetable: _includes/timetable_church.html and admin/timetable/preview.js */
+.timetable-day {
+    align-items: center; /* date column centered against the services */
+}
+
+.timetable-services {
+    width: 100%;
+}
+
+.timetable-services .timetable-time {
+    width: 15%;
+    text-align: left;
+}
+
+.timetable-services .timetable-title {
+    width: 45%;
+}
+
+.timetable-services .timetable-notes {
+    width: 40%;
 }
 
 

@@ -19,10 +19,10 @@
             {% for m in shown_months %}
             {% if want_jesuit %}{% assign announcement = m[page.lang].announcement_jesuit %}{% else %}{% assign announcement = m[page.lang].announcement %}{% endif %}
             {% if announcement and announcement != "" %}
-            <div class="row atext-c center timetable-announcement" data-month="{{ m.month_date }}">
-                <span class=" col-sm-2"></span>
+            <div class="row center timetable-announcement" data-month="{{ m.month_date }}">
+                <span class="col-sm-2"></span>
                 <div class="col-sm-8">{{ announcement }}</div>
-                <span class=" col-sm-2"></span>
+                <span class="col-sm-2"></span>
             </div>
             {% endif %}
             {% endfor %}
@@ -48,22 +48,22 @@
               {% assign time = hours | append: ":" | append: minutes %}
             {% endunless %}
             <tr>
-                <td class="m-2 atext-c text-left" style="width:15%">{{ time }}</td>
-                <td class="m-2 atext-c align-middle" style="width:45%">{{ event.title }}</td>
-                <td class="m-2 atext-c align-middle" style="width:40%">{% for note in event.occasion %}<div>{{ note }}</div>{% endfor %}</td>
+                <td class="timetable-time">{{ time }}</td>
+                <td class="timetable-title">{{ event.title }}</td>
+                <td class="timetable-notes">{% for note in event.occasion %}<div>{{ note }}</div>{% endfor %}</td>
             </tr>
             {% endif %}
             {% endfor %}
         {% endcapture %}
         {% if rows contains "<tr>" %}
         <li class="list-group-item" data-month="{{ m.month_date }}" data-day="{{ entry.d }}">
-            <div class="row cent">
-                <div class="col-sm-2 atext-c center align-self-center">
+            <div class="row cent timetable-day">
+                <div class="col-sm-2 center">
                     {{ entry.d }}
                     {{ site.data[page.lang].months.dictionary[month_index].genetiv }}
                 </div>
-                <div class="col-sm-10 atext-c center">
-                    <table style="width:100%">{{ rows }}</table>
+                <div class="col-sm-10">
+                    <table class="timetable-services">{{ rows }}</table>
                 </div>
             </div>
         </li>
