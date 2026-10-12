@@ -1,0 +1,482 @@
+published: false
+month:
+  month_date: "2026-01"
+  source_docx: "/assets/timetables/2026-01.docx"
+  ua:
+    announcement: "У церкві св. Варвари: Postgasse 8A. Сповідь до або після богослужінь по домовленості зі священиком."
+    announcement_jesuit: "у Церкві отців Єзуїтів - Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
+    day:
+      - d: 1
+        event:
+          - time: "18:00"
+            title: "Служба Божа"
+            occasion:
+              - "Новий рік, св. Василія Великого"
+            isJesuitenKirche: false
+      - d: 2
+        event:
+          - time: "18:00"
+            title: "Служба Божа"
+            occasion:
+              - "Поминання померлих"
+            isJesuitenKirche: false
+      - d: 4
+        event:
+          - time: "09:30"
+            title: "Служба Божа"
+            occasion: []
+            isJesuitenKirche: false
+          - time: "12:30"
+            title: "Служба Божа"
+            occasion: []
+            isJesuitenKirche: true
+          - time: "15:00"
+            title: "Служба Божа угорською"
+            occasion: []
+            isJesuitenKirche: false
+          - time: "18:00"
+            title: "Служба Божа німецькою"
+            occasion: []
+            isJesuitenKirche: false
+      - d: 5
+        event:
+          - time: "09:30"
+            title: "Служба Божа та Велике Водосвяття"
+            occasion:
+              - "Навечіря Богоявлення (Щедрий вечір)"
+            isJesuitenKirche: false
+          - time: "16:00"
+            title: "Велике Повечіря"
+            occasion:
+              - "Церква залишається відчиненою до 20:00 для можливості набрати воду"
+            isJesuitenKirche: false
+      - d: 6
+        event:
+          - time: "09:30"
+            title: "Служба Божа та Велике Водосвяття"
+            occasion:
+              - "Богоявлення / Хрещення Господнє"
+            isJesuitenKirche: false
+      - d: 7
+        event:
+          - time: "19:00"
+            title: "Служба Божа"
+            occasion:
+              - "Зустріч спільноти «Територія Божої любові»"
+            isJesuitenKirche: false
+      - d: 8
+        event:
+          - time: "18:00"
+            title: "Служба Божа"
+            occasion: []
+            isJesuitenKirche: false
+      - d: 9
+        event:
+          - time: "18:00"
+            title: "Служба Божа"
+            occasion:
+              - "Поминання померлих"
+            isJesuitenKirche: false
+      - d: 11
+        event:
+          - time: "09:30"
+            title: "Служба Божа"
+            occasion: []
+            isJesuitenKirche: false
+          - time: "12:30"
+            title: "Служба Божа"
+            occasion: []
+            isJesuitenKirche: true
+          - time: "14:00"
+            title: "Служба Божа словацькою"
+            occasion: []
+            isJesuitenKirche: false
+          - time: "18:00"
+            title: "Служба Божа німецькою"
+            occasion: []
+            isJesuitenKirche: false
+      - d: 12
+        event:
+          - time: "18:00"
+            title: "Служба Божа"
+            occasion:
+              - "Поминання померлих"
+            isJesuitenKirche: false
+          - time: "19:00"
+            title: "Зустріч «Матері в молитві»"
+            occasion: []
+            isJesuitenKirche: false
+      - d: 13
+        event:
+          - time: "18:00"
+            title: "Служба Божа"
+            occasion: []
+            isJesuitenKirche: false
+      - d: 14
+        event:
+          - time: "19:00"
+            title: "Служба Божа"
+            occasion:
+              - "Зустріч спільноти «Територія Божої любові»"
+            isJesuitenKirche: false
+      - d: 15
+        event:
+          - time: "18:00"
+            title: "Служба Божа"
+            occasion: []
+            isJesuitenKirche: false
+      - d: 16
+        event:
+          - time: "18:00"
+            title: "Служба Божа"
+            occasion:
+              - "Поминання померлих"
+            isJesuitenKirche: false
+      - d: 18
+        event:
+          - time: "09:30"
+            title: "Служба Божа"
+            occasion: []
+            isJesuitenKirche: false
+          - time: "12:30"
+            title: "Служба Божа"
+            occasion: []
+            isJesuitenKirche: true
+          - time: "15:00"
+            title: "Служба Божа угорською"
+            occasion: []
+            isJesuitenKirche: false
+          - time: "18:00"
+            title: "Служба Божа німецькою"
+            occasion: []
+            isJesuitenKirche: false
+      - d: 19
+        event:
+          - time: "18:00"
+            title: "Служба Божа"
+            occasion:
+              - "Поминання померлих"
+            isJesuitenKirche: false
+          - time: "19:00"
+            title: "Зустріч «Матері в молитві»"
+            occasion: []
+            isJesuitenKirche: false
+      - d: 20
+        event:
+          - time: "18:00"
+            title: "Служба Божа"
+            occasion: []
+            isJesuitenKirche: false
+      - d: 21
+        event:
+          - time: "19:00"
+            title: "Служба Божа"
+            occasion:
+              - "Зустріч спільноти «Територія Божої любові»"
+            isJesuitenKirche: false
+      - d: 22
+        event:
+          - time: "18:00"
+            title: "Служба Божа"
+            occasion: []
+            isJesuitenKirche: false
+      - d: 23
+        event:
+          - time: "18:00"
+            title: "Служба Божа"
+            occasion:
+              - "Поминання померлих"
+            isJesuitenKirche: false
+      - d: 25
+        event:
+          - time: "09:30"
+            title: "Служба Божа"
+            occasion:
+              - "Неділя про блудного сина"
+            isJesuitenKirche: false
+          - time: "12:30"
+            title: "Служба Божа"
+            occasion: []
+            isJesuitenKirche: true
+          - time: "14:00"
+            title: "Служба Божа словацькою"
+            occasion: []
+            isJesuitenKirche: false
+          - time: "18:00"
+            title: "Служба Божа німецькою"
+            occasion: []
+            isJesuitenKirche: false
+      - d: 26
+        event:
+          - time: "18:00"
+            title: "Служба Божа"
+            occasion:
+              - "Поминання померлих"
+            isJesuitenKirche: false
+          - time: "19:00"
+            title: "Зустріч «Матері в молитві»"
+            occasion: []
+            isJesuitenKirche: false
+      - d: 27
+        event:
+          - time: "18:00"
+            title: "Служба Божа"
+            occasion: []
+            isJesuitenKirche: false
+      - d: 28
+        event:
+          - time: "19:00"
+            title: "Служба Божа"
+            occasion:
+              - "Зустріч спільноти «Територія Божої любові»"
+            isJesuitenKirche: false
+      - d: 29
+        event:
+          - time: "18:00"
+            title: "Служба Божа"
+            occasion: []
+            isJesuitenKirche: false
+      - d: 30
+        event:
+          - time: "18:00"
+            title: "Служба Божа"
+            occasion:
+              - "Святих трьох святителів: Василія Великого, Григорія Богослова, та Івана Золотоустого"
+            isJesuitenKirche: false
+  de:
+    announcement: "In der Kirche St. Barbara: Postgasse 8A. Beichtgelegenheit vor und nach den Gottesdiensten nach Vereinbarung mit dem Priester."
+    announcement_jesuit: "in Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
+    day:
+      - d: 1
+        event:
+          - time: "18:00"
+            title: "Hl. Liturgie"
+            occasion:
+              - "Hl. Basilius der Große"
+            isJesuitenKirche: false
+      - d: 2
+        event:
+          - time: "18:00"
+            title: "Hl. Liturgie"
+            occasion:
+              - "Gedächtnis der Verstorbenen"
+            isJesuitenKirche: false
+      - d: 4
+        event:
+          - time: "09:30"
+            title: "Hl. Liturgie"
+            occasion: []
+            isJesuitenKirche: false
+          - time: "12:30"
+            title: "Hl. Liturgie"
+            occasion: []
+            isJesuitenKirche: true
+          - time: "15:00"
+            title: "Hl. Liturgie (Ungarisch)"
+            occasion: []
+            isJesuitenKirche: false
+          - time: "18:00"
+            title: "Hl. Liturgie (Deutsch)"
+            occasion: []
+            isJesuitenKirche: false
+      - d: 5
+        event:
+          - time: "09:30"
+            title: "Hl. Liturgie und große Wasserweihe"
+            occasion: []
+            isJesuitenKirche: false
+          - time: "16:00"
+            title: "Nachgebet und große Wasserweihe"
+            occasion: []
+            isJesuitenKirche: false
+      - d: 6
+        event:
+          - time: "09:30"
+            title: "Hl. Liturgie und große Wasserweihe"
+            occasion:
+              - "Erscheinung des Herrn / Taufe Jesu"
+            isJesuitenKirche: false
+      - d: 7
+        event:
+          - time: "19:00"
+            title: "Hl. Liturgie"
+            occasion:
+              - "Treffen der „Gemeinschaft der Gottes Liebe“"
+            isJesuitenKirche: false
+      - d: 8
+        event:
+          - time: "18:00"
+            title: "Hl. Liturgie"
+            occasion: []
+            isJesuitenKirche: false
+      - d: 9
+        event:
+          - time: "18:00"
+            title: "Hl. Liturgie"
+            occasion:
+              - "Gedächtnis der Verstorbenen"
+            isJesuitenKirche: false
+      - d: 11
+        event:
+          - time: "09:30"
+            title: "Hl. Liturgie"
+            occasion: []
+            isJesuitenKirche: false
+          - time: "12:30"
+            title: "Hl. Liturgie"
+            occasion: []
+            isJesuitenKirche: true
+          - time: "14:00"
+            title: "Hl. Liturgie (Slowakisch)"
+            occasion: []
+            isJesuitenKirche: false
+          - time: "18:00"
+            title: "Hl. Liturgie (Deutsch)"
+            occasion: []
+            isJesuitenKirche: false
+      - d: 12
+        event:
+          - time: "18:00"
+            title: "Hl. Liturgie"
+            occasion:
+              - "Gedächtnis der Verstorbenen"
+            isJesuitenKirche: false
+          - time: "19:00"
+            title: "Gebetskreis „Mütter im Gebet“"
+            occasion: []
+            isJesuitenKirche: false
+      - d: 13
+        event:
+          - time: "18:00"
+            title: "Hl. Liturgie"
+            occasion: []
+            isJesuitenKirche: false
+      - d: 14
+        event:
+          - time: "19:00"
+            title: "Hl. Liturgie"
+            occasion:
+              - "Treffen der „Gemeinschaft der Gottes Liebe“"
+            isJesuitenKirche: false
+      - d: 15
+        event:
+          - time: "18:00"
+            title: "Hl. Liturgie"
+            occasion: []
+            isJesuitenKirche: false
+      - d: 16
+        event:
+          - time: "18:00"
+            title: "Hl. Liturgie"
+            occasion:
+              - "Gedächtnis der Verstorbenen"
+            isJesuitenKirche: false
+      - d: 18
+        event:
+          - time: "09:30"
+            title: "Hl. Liturgie"
+            occasion: []
+            isJesuitenKirche: false
+          - time: "12:30"
+            title: "Hl. Liturgie"
+            occasion: []
+            isJesuitenKirche: true
+          - time: "15:00"
+            title: "Hl. Liturgie (Ungarisch)"
+            occasion: []
+            isJesuitenKirche: false
+          - time: "18:00"
+            title: "Hl. Liturgie (Deutsch)"
+            occasion: []
+            isJesuitenKirche: false
+      - d: 19
+        event:
+          - time: "18:00"
+            title: "Hl. Liturgie"
+            occasion:
+              - "Gedächtnis der Verstorbenen"
+            isJesuitenKirche: false
+          - time: "19:00"
+            title: "Gebetskreis „Mütter im Gebet“"
+            occasion: []
+            isJesuitenKirche: false
+      - d: 20
+        event:
+          - time: "18:00"
+            title: "Hl. Liturgie"
+            occasion: []
+            isJesuitenKirche: false
+      - d: 21
+        event:
+          - time: "19:00"
+            title: "Hl. Liturgie"
+            occasion:
+              - "Treffen der „Gemeinschaft der Gottes Liebe“"
+            isJesuitenKirche: false
+      - d: 22
+        event:
+          - time: "18:00"
+            title: "Hl. Liturgie"
+            occasion: []
+            isJesuitenKirche: false
+      - d: 23
+        event:
+          - time: "18:00"
+            title: "Hl. Liturgie"
+            occasion:
+              - "Gedächtnis der Verstorbenen"
+            isJesuitenKirche: false
+      - d: 25
+        event:
+          - time: "09:30"
+            title: "Hl. Liturgie"
+            occasion: []
+            isJesuitenKirche: false
+          - time: "12:30"
+            title: "Hl. Liturgie"
+            occasion: []
+            isJesuitenKirche: true
+          - time: "14:00"
+            title: "Hl. Liturgie (Slowakisch)"
+            occasion: []
+            isJesuitenKirche: false
+          - time: "18:00"
+            title: "Hl. Liturgie (Deutsch)"
+            occasion: []
+            isJesuitenKirche: false
+      - d: 26
+        event:
+          - time: "18:00"
+            title: "Hl. Liturgie"
+            occasion:
+              - "Gedächtnis der Verstorbenen"
+            isJesuitenKirche: false
+          - time: "19:00"
+            title: "Gebetskreis „Mütter im Gebet“"
+            occasion: []
+            isJesuitenKirche: false
+      - d: 27
+        event:
+          - time: "18:00"
+            title: "Hl. Liturgie"
+            occasion: []
+            isJesuitenKirche: false
+      - d: 28
+        event:
+          - time: "19:00"
+            title: "Hl. Liturgie"
+            occasion:
+              - "Treffen der „Gemeinschaft der Gottes Liebe“"
+            isJesuitenKirche: false
+      - d: 29
+        event:
+          - time: "18:00"
+            title: "Hl. Liturgie"
+            occasion: []
+            isJesuitenKirche: false
+      - d: 30
+        event:
+          - time: "18:00"
+            title: "Hl. Liturgie"
+            occasion: []
+            isJesuitenKirche: false

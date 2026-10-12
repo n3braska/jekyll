@@ -1,0 +1,44 @@
+<script>
+    // Shows at most the current and the next month of each .timetable, based on the visitor's
+    // date, so the site doesn't need a rebuild when a month starts (specs/J-1 §5.7).
+    (function () {
+        function monthKey(date) {
+            return date.getFullYear() + '-' + ('0' + (date.getMonth() + 1)).slice(-2);
+        }
+
+        var now = new Date();
+        var today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+        var current = monthKey(today);
+        var next = monthKey(new Date(today.getFullYear(), today.getMonth() + 1, 1));
+
+        var boxes = document.querySelectorAll('.timetable');
+        for (var b = 0; b < boxes.length; b++) {
+            var box = boxes[b];
+            var windowDays = parseInt(box.getAttribute('data-window') || '0', 10);
+            var lastDay = new Date(today.getFullYear(), today.getMonth(), today.getDate() + windowDays);
+
+            var items = box.querySelectorAll('.list-group-item');
+            for (var i = 0; i < items.length; i++) {
+                var month = items[i].getAttribute('data-month');
+                var show = month === current || month === next;
+                if (show && windowDays) {
+                    var date = new Date(parseInt(month.slice(0, 4), 10), parseInt(month.slice(5, 7), 10) - 1,
+                        parseInt(items[i].getAttribute('data-day'), 10));
+                    show = date >= today && date <= lastDay;
+                }
+                items[i].style.display = show ? '' : 'none';
+            }
+
+            var announcements = box.querySelectorAll('.timetable-announcement');
+            var pick = null;
+            [current, next].forEach(function (key) {
+                for (var a = 0; a < announcements.length && !pick; a++) {
+                    if (announcements[a].getAttribute('data-month') === key) pick = announcements[a];
+                }
+            });
+            for (var a = 0; a < announcements.length; a++) {
+                announcements[a].style.display = announcements[a] === pick ? '' : 'none';
+            }
+        }
+    })();
+</script>

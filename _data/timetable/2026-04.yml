@@ -1,0 +1,142 @@
+published: false
+month:
+  month_date: "2026-04"
+  ua:
+    announcement: "У церкві св. Варвари: Postgasse 8A. Сповідь до або після богослужінь по домовленості зі священиком"
+    announcement_jesuit: "У церкві отців Єзуїтів - Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
+    day:
+      - d: 2
+        event:
+          - time: "09:30"
+            title: "Вечірня з Св. Літургією"
+            occasion: []
+            isJesuitenKirche: false
+          - time: "18:00"
+            title: "Утреня Страстей Христових Читання 12 євангелій"
+            occasion: []
+            isJesuitenKirche: false
+      - d: 3
+        event:
+          - time: "12:00"
+            title: "Винесення плащаниці"
+            occasion:
+              - "Освячення пасок 16:00/17:00/18:00/19:00/21:30 на площі перед церквою св. Варвари"
+            isJesuitenKirche: false
+          - time: "18:00"
+            title: "Єрусалимська Утреня"
+            occasion: []
+            isJesuitenKirche: false
+      - d: 4
+        event:
+          - time: "14:00"
+            title: "Вечірня з Св. Літургією"
+            occasion:
+              - "Освячення пасок 16:00/17:00/18:00/19:00/21:30 на площі перед церквою св. Варвари"
+            isJesuitenKirche: false
+          - time: "19:30"
+            title: "Надгробна молитва"
+            occasion: []
+            isJesuitenKirche: false
+          - time: "20:00"
+            title: "Воскресна утрення"
+            occasion: []
+            isJesuitenKirche: false
+      - d: 5
+        event:
+          - time: "09:30"
+            title: "Служба Божа українською"
+            occasion:
+              - "Після Служби освячення Пасок на площі перед церквою св. Варвари"
+            isJesuitenKirche: false
+          - time: "13:00"
+            title: "Служба Божа словацькою"
+            occasion: []
+            isJesuitenKirche: false
+          - time: "15:00"
+            title: "Служба Божа білоруською"
+            occasion: []
+            isJesuitenKirche: false
+          - time: "18:00"
+            title: "Служба Божа німецькою"
+            occasion: []
+            isJesuitenKirche: false
+      - d: 6
+        event:
+          - time: "09:30"
+            title: "Служба Божа"
+            occasion: []
+            isJesuitenKirche: false
+      - d: 7
+        event:
+          - time: "18:00"
+            title: "Служба Божа"
+            occasion: []
+            isJesuitenKirche: false
+      - d: 12
+        event:
+          - time: "12:30"
+            title: "Служба Божа"
+            occasion:
+              - "Воскресіння Христове. Великдень. Освячення пасок у дворику церкви о. Єзуїтів"
+            isJesuitenKirche: true
+  de:
+    announcement: "In der Kirche St. Barbara: Postgasse 8A"
+    announcement_jesuit: "in Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1"
+    day:
+      - d: 2
+        event:
+          - time: "09:30"
+            title: "Basiliusliturgie mit Vesper"
+            occasion: []
+            isJesuitenKirche: false
+          - time: "18:00"
+            title: "Passionsmatutin"
+            occasion: []
+            isJesuitenKirche: false
+      - d: 3
+        event:
+          - time: "12:00"
+            title: "Vesper und Grablegung"
+            occasion:
+              - "Osterspeisensegnung 16:00/17:00/18:00/19:00/21:30 vor der Kirche"
+            isJesuitenKirche: false
+          - time: "18:00"
+            title: "Jerusalemer Matutin"
+            occasion: []
+            isJesuitenKirche: false
+      - d: 4
+        event:
+          - time: "14:00"
+            title: "Vesper mit der Liturgie"
+            occasion:
+              - "Osterspeisensegnung 16:00/17:00/18:00/19:00/21:30 vor der Kirche"
+            isJesuitenKirche: false
+          - time: "19:30"
+            title: "Grabgebet"
+            occasion: []
+            isJesuitenKirche: false
+          - time: "20:00"
+            title: "Auferstehungsmatutin und Osterspeisensegnung"
+            occasion: []
+            isJesuitenKirche: false
+      - d: 5
+        event:
+          - time: "09:30"
+            title: "Hl. Liturgie"
+            occasion:
+              - "Nach der Liturgie Osterspeisesegnung vor der Kirche"
+              - "Ukrainisch"
+            isJesuitenKirche: false
+          - time: "13:00"
+            title: "Hl. Liturgie (Slowakisch)"
+            occasion: []
+            isJesuitenKirche: false
+          - time: "15:00"
+            title: "Hl. Liturgie"
+            occasion:
+              - "Weißrussisch"
+            isJesuitenKirche: false
+          - time: "18:00"
+            title: "Hl. Liturgie (Deutsch)"
+            occasion: []
+            isJesuitenKirche: false

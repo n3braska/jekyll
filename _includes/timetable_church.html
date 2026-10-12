@@ -1,0 +1,74 @@
+{% comment %}
+  Timetable of one church, from _data/timetable/YYYY-MM.yml (specs/J-1).
+  Params: church = "barbara" | "jesuit" (services with isJesuitenKirche: true go to "jesuit");
+  window = number of days from today to show (omit for whole months).
+  Renders the latest 3 published months; timetable_script.html then shows at most the
+  current and the next month, based on the visitor's date.
+{% endcomment %}
+{% if include.church == "jesuit" %}{% assign want_jesuit = true %}{% else %}{% assign want_jesuit = false %}{% endif %}
+{% assign sorted_months = site.data.timetable | sort %}
+{% assign published_months = "" | split: "" %}
+{% for pair in sorted_months %}
+  {% if pair[1].published %}{% assign published_months = published_months | push: pair[1].month %}{% endif %}
+{% endfor %}
+{% assign shown_months = published_months | reverse | slice: 0, 3 | reverse %}
+
+<div class="timetable" data-church="{{ include.church }}"{% if include.window %} data-window="{{ include.window }}"{% endif %}>
+    <ul class="">
+        <li class="">
+            {% for m in shown_months %}
+            {% if want_jesuit %}{% assign announcement = m[page.lang].announcement_jesuit %}{% else %}{% assign announcement = m[page.lang].announcement %}{% endif %}
+            {% if announcement and announcement != "" %}
+            <div class="row atext-c center timetable-announcement" data-month="{{ m.month_date }}">
+                <span class=" col-sm-2"></span>
+                <div class="col-sm-8">{{ announcement }}</div>
+                <span class=" col-sm-2"></span>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </li>
+    </ul>
+
+    <ul class="list-group">
+        {% for m in shown_months %}
+        {% assign month_index = m.month_date | slice: 5, 2 | plus: 0 | minus: 1 %}
+        {% for entry in m[page.lang].day %}
+        {% capture rows %}
+            {% for event in entry.event %}
+            {% if event.isJesuitenKirche %}{% assign is_jesuit = true %}{% else %}{% assign is_jesuit = false %}{% endif %}
+            {% if is_jesuit == want_jesuit %}
+            {% comment %}
+              The CMS saves times unquoted (time: 18:00), which Jekyll's YAML 1.1 parser
+              reads as seconds (64800). Turn such numbers back into HH:MM.
+            {% endcomment %}
+            {% assign time = event.time | append: "" %}
+            {% unless time contains ":" or time == "" %}
+              {% assign hours = event.time | divided_by: 3600 | prepend: "0" | slice: -2, 2 %}
+              {% assign minutes = event.time | modulo: 3600 | divided_by: 60 | prepend: "0" | slice: -2, 2 %}
+              {% assign time = hours | append: ":" | append: minutes %}
+            {% endunless %}
+            <tr>
+                <td class="m-2 atext-c text-left" style="width:15%">{{ time }}</td>
+                <td class="m-2 atext-c align-middle" style="width:45%">{{ event.title }}</td>
+                <td class="m-2 atext-c align-middle" style="width:40%">{% for note in event.occasion %}<div>{{ note }}</div>{% endfor %}</td>
+            </tr>
+            {% endif %}
+            {% endfor %}
+        {% endcapture %}
+        {% if rows contains "<tr>" %}
+        <li class="list-group-item" data-month="{{ m.month_date }}" data-day="{{ entry.d }}">
+            <div class="row cent">
+                <div class="col-sm-2 atext-c center">
+                    {{ entry.d }}
+                    {{ site.data[page.lang].months.dictionary[month_index].genetiv }}
+                </div>
+                <div class="col-sm-10 atext-c center">
+                    <table style="width:100%">{{ rows }}</table>
+                </div>
+            </div>
+        </li>
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+    </ul>
+</div>
