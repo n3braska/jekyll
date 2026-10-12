@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>J-1 CMS sandbox</title>
+    <!-- The real admin config, but with Decap's in-memory test backend: nothing is saved anywhere. -->
+    <script>
+        // Always load the current config (bypasses the browser cache)
+        document.write('<link href="/admin/config.yml?t=' + Date.now() + '" type="text/yaml" rel="cms-config-url">');
+    </script>
+</head>
+<body>
+<script>window.CMS_MANUAL_INIT = true;</script>
+<script src="https://unpkg.com/decap-cms@3.16.3/dist/decap-cms.js"></script>
+<script src="/admin/timetable/parser.js"></script>
+<script src="/admin/timetable/widget.js"></script>
+<script src="/admin/timetable/preview.js"></script>
+<script>
+    CMS.init({ config: { backend: { name: 'test-repo' } } });
+</script>
+</body>
+</html>

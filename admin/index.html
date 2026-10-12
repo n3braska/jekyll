@@ -9,7 +9,11 @@
     <title>Content Manager</title>
 </head>
 <body>
-<!-- Include the script that builds the page and powers Netlify CMS -->
-<script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+<!-- Decap CMS (successor of Netlify CMS), pinned version -->
+<script src="https://unpkg.com/decap-cms@3.16.3/dist/decap-cms.js"></script>
+<!-- Word timetable import, see specs/J-1 -->
+<script src="/admin/timetable/parser.js"></script>
+<script src="/admin/timetable/widget.js"></script>
+<script src="/admin/timetable/preview.js"></script>
 </body>
 </html>
