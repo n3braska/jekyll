@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="{% if page.lang == 'de' %}de{% else %}uk{% endif %}">
 <head>
     {%include head.html%}
 
