@@ -2,10 +2,9 @@
 
 source "https://rubygems.org"
 
-git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+# Versions are locked in Gemfile.lock; update deliberately with `bundle update`.
+gem "jekyll", "~> 4.4"
+gem "jekyll-image-size", "~> 1.2"
+gem "kramdown-parser-gfm", "~> 1.1"
 
-gem "jekyll"
-gem "jekyll-image-size"
-gem "kramdown-parser-gfm"
-
-gem "webrick", "~> 1.7"
+gem "webrick", "~> 1.9"
