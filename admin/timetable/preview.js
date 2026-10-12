@@ -28,7 +28,7 @@
       if (!events.length) return null;
       return h('li', { key: entry.d, className: 'list-group-item' },
         h('div', { className: 'row cent' },
-          h('div', { className: 'col-sm-2 atext-c center' }, entry.d + ' ' + (MONTHS[lang][monthIndex] || '')),
+          h('div', { className: 'col-sm-2 atext-c center align-self-center' }, entry.d + ' ' + (MONTHS[lang][monthIndex] || '')),
           h('div', { className: 'col-sm-10 atext-c center' },
             h('table', { style: { width: '100%' } }, h('tbody', null, events.map(function (e, i) {
               return h('tr', { key: i },
