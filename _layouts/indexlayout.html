@@ -32,11 +32,11 @@
     <h3 class="my-3 text-center title pt-3">{% if page.lang=="ua" %} Розклад Богослужінь {% else %} Gottesdienstordnung {% endif %}</h3>
 
     <div>
-        {% include indextimetable_jesuitenkirche.html %}
+        {% include timetable_church.html church="jesuit" window=7 %}
     </div>
     <br>
     <div>
-        {% include indextimetable_josaphatskapelle.html %}
+        {% include timetable_church.html church="barbara" window=7 %}
     </div>
     <div class="container mt-4 mb-4 center">
         <div class="row">
@@ -85,43 +85,7 @@
     </center>
 
 
-    <script>
-        const currentDate = new Date();
-        let today = currentDate.getDate();
-        let currentMonth = currentDate.getMonth();
-        const timetableItems = document.getElementsByClassName("list-group-item");
-
-        let daysLeftThisMonth = 0;
-        let displayNextMonth = true;
-
-        for(let index = 0; index < timetableItems.length; ++index) {
-
-            const day = parseInt(timetableItems[index].dataset.day);
-            const month = parseInt(timetableItems[index].dataset.month);
-
-            let hideDay = true;
-
-            const dayLaterToday = day >= today;
-            const dayEarlierWeekFromToday = day <= today + 7;
-
-            if(month === currentMonth) {
-                if(dayLaterToday && dayEarlierWeekFromToday) {
-                    hideDay = false;
-                    daysLeftThisMonth++;
-                    displayNextMonth = day !== today + 7;
-                }
-            } else {
-                const isNextMonth = month > currentMonth;
-                if(isNextMonth && displayNextMonth && day <= ( 7 - daysLeftThisMonth)) {
-                    hideDay = false;
-                }
-            }
-
-            if(hideDay) {
-                timetableItems[index].style = "display: none;";
-            }
-        }
-    </script>
+    {% include timetable_script.html %}
 
 </div>
 <div class="container-fluid container justify-content-center">

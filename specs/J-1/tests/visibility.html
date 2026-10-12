@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>J-1 visibility tests</title>
+<style>
+  body { font: 14px/1.4 system-ui, sans-serif; margin: 16px; background: #fff; color: #222; }
+  .pass { color: #176f2c; } .fail { color: #b00020; font-weight: bold; }
+</style>
+</head>
+<body>
+<h1>J-1 timetable visibility tests</h1>
+<p>Runs <code>_includes/timetable_script.html</code> against synthetic months with a fixed "today".</p>
+<div id="out">Running…</div>
+<script>
+(async function () {
+  var html = await (await fetch('/_includes/timetable_script.html')).text();
+  var code = html.replace(/^[\s\S]*?<script>/, '').replace(/<\/script>[\s\S]*$/, '');
+  var RealDate = Date;
+  var results = [];
+
+  // months: { 'YYYY-MM': [days] }
+  function build(months, windowDays) {
+    var box = document.createElement('div');
+    box.className = 'timetable';
+    if (windowDays) box.setAttribute('data-window', windowDays);
+    var list = '';
+    Object.keys(months).forEach(function (m) {
+      box.innerHTML += '<div class="timetable-announcement" data-month="' + m + '">' + m + '</div>';
+      months[m].forEach(function (d) {
+        list += '<li class="list-group-item" data-month="' + m + '" data-day="' + d + '">' + m + '/' + d + '</li>';
+      });
+    });
+    box.innerHTML += '<ul>' + list + '</ul>';
+    return box;
+  }
+
+  function run(today, months, windowDays) {
+    var sandbox = document.createElement('div');
+    sandbox.appendChild(build(months, windowDays));
+    document.body.appendChild(sandbox);
+    window.Date = function (a, b, c) {
+      if (arguments.length === 0) return new RealDate(today[0], today[1] - 1, today[2], 10, 0, 0);
+      return new RealDate(a, b, c);
+    };
+    try { new Function(code)(); } finally { window.Date = RealDate; }
+    var visible = [].slice.call(sandbox.querySelectorAll('.list-group-item'))
+      .filter(function (li) { return li.style.display !== 'none'; })
+      .map(function (li) { return li.textContent; });
+    var ann = [].slice.call(sandbox.querySelectorAll('.timetable-announcement'))
+      .filter(function (a) { return a.style.display !== 'none'; })
+      .map(function (a) { return a.textContent; });
+    sandbox.remove();
+    return { visible: visible, announcement: ann };
+  }
+
+  function check(name, actual, expected) {
+    var ok = JSON.stringify(actual) === JSON.stringify(expected);
+    results.push({ name: name, ok: ok, actual: actual, expected: expected });
+  }
+
+  var r;
+  r = run([2026, 10, 12], { '2026-09': [28, 30], '2026-10': [1, 12, 15, 19, 20, 25], '2026-11': [1] }, 7);
+  check('7-day window inside the month', r.visible, ['2026-10/12', '2026-10/15', '2026-10/19']);
+  check('announcement of the current month', r.announcement, ['2026-10']);
+
+  r = run([2026, 10, 28], { '2026-10': [25, 28, 31], '2026-11': [1, 4, 5, 8] }, 7);
+  check('7-day window spills into next month', r.visible, ['2026-10/28', '2026-10/31', '2026-11/1', '2026-11/4']);
+
+  r = run([2026, 12, 28], { '2026-11': [30], '2026-12': [28, 31], '2027-01': [1, 4, 6] }, 7);
+  check('December → January works (year change)', r.visible, ['2026-12/28', '2026-12/31', '2027-01/1', '2027-01/4']);
+
+  r = run([2026, 10, 12], { '2026-10': [1, 31], '2026-11': [1, 30], '2026-12': [1] }, 0);
+  check('whole months: current + next only (max 2)', r.visible, ['2026-10/1', '2026-10/31', '2026-11/1', '2026-11/30']);
+
+  r = run([2026, 10, 12], { '2026-11': [1, 2] }, 0);
+  check('current month missing → next month and its announcement', [r.visible, r.announcement], [['2026-11/1', '2026-11/2'], ['2026-11']]);
+
+  r = run([2026, 10, 12], { '2026-07': [1], '2026-09': [1] }, 7);
+  check('only past months → nothing shown', [r.visible, r.announcement], [[], []]);
+
+  var failed = results.filter(function (x) { return !x.ok; });
+  document.getElementById('out').innerHTML = '<p class="' + (failed.length ? 'fail' : 'pass') + '">' +
+    (results.length - failed.length) + ' / ' + results.length + ' checks passed</p><ul>' + results.map(function (x) {
+      return '<li class="' + (x.ok ? 'pass' : 'fail') + '">' + (x.ok ? 'PASS ' : 'FAIL ') + x.name +
+        (x.ok ? '' : ' — got ' + JSON.stringify(x.actual) + ', expected ' + JSON.stringify(x.expected)) + '</li>';
+    }).join('') + '</ul>';
+  window.testResults = { passed: results.length - failed.length, failed: failed };
+})().catch(function (e) {
+  document.getElementById('out').textContent = 'Error: ' + e.message;
+  window.testResults = { error: e.message };
+});
+</script>
+</body>
+</html>

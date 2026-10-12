@@ -3,21 +3,102 @@ backend:
   branch: master
   name: git-gateway
 
+publish_mode: editorial_workflow
+
 media_folder: assets/images/uploads
 
 collections:
+  - label: "Розклад / Gottesdienstordnung"
+    label_singular: "Місяць / Monat"
+    name: timetable
+    description: "Один запис = один місяць. Додайте Word-файл і натисніть «Заповнити». / Ein Eintrag = ein Monat. Word-Datei anhängen und „Ausfüllen“ klicken."
+    folder: _data/timetable
+    extension: yml
+    format: yaml
+    create: true
+    identifier_field: month.month_date
+    summary: "{{month.month_date}}"
+    fields:
+      - label: "Опублікувати / Veröffentlichen"
+        name: published
+        widget: boolean
+        default: true
+        hint: "На сайті показуються щонайбільше 2 місяці: поточний і наступний. / Auf der Website werden höchstens 2 Monate angezeigt: der aktuelle und der nächste."
+      - label: "Місяць / Monat"
+        name: month
+        widget: timetable
+        fields:
+          - label: "Місяць (РРРР-ММ) / Monat (JJJJ-MM)"
+            name: month_date
+            widget: string
+            pattern: ['^\d{4}-(0[1-9]|1[0-2])$', "РРРР-ММ / JJJJ-MM, напр. 2026-11"]
+          - label: "Word-файл / Word-Datei"
+            name: source_docx
+            widget: file
+            required: false
+            media_folder: /assets/timetables
+            public_folder: /assets/timetables
+          - label: "Українською"
+            name: ua
+            widget: object
+            collapsed: true
+            fields: &language_fields
+              - label: "Оголошення St. Barbara / Ankündigung St. Barbara"
+                name: announcement
+                widget: text
+                required: false
+              - label: "Оголошення Jesuitenkirche / Ankündigung Jesuitenkirche"
+                name: announcement_jesuit
+                widget: text
+                required: false
+              - label: "Дні / Tage"
+                name: day
+                widget: list
+                required: false
+                collapsed: true
+                summary: "{{fields.d}}"
+                fields:
+                  - label: "Число / Tag"
+                    name: d
+                    widget: number
+                    value_type: int
+                    min: 1
+                    max: 31
+                  - label: "Богослужіння / Gottesdienste"
+                    name: event
+                    widget: list
+                    required: false
+                    summary: "{{fields.time}} {{fields.title}}"
+                    fields:
+                      - label: "Час / Zeit"
+                        name: time
+                        widget: string
+                        required: false
+                        pattern: ['^(\d{2}:\d{2})?$', "ГГ:ХХ / HH:MM"]
+                      - label: "Назва / Titel"
+                        name: title
+                        widget: string
+                      - label: "Церква отців Єзуїтів / Jesuitenkirche"
+                        name: isJesuitenKirche
+                        widget: boolean
+                        default: false
+                        hint: "Увімкнено: розклад Jesuitenkirche, інакше St. Barbara. / An: Jesuitenkirche, sonst St. Barbara."
+                      - label: "Примітки / Anmerkungen"
+                        name: occasion
+                        widget: list
+                        required: false
+                        field:
+                          label: "Примітка / Anmerkung"
+                          name: note
+                          widget: string
+          - label: "Deutsch"
+            name: de
+            widget: object
+            collapsed: true
+            fields: *language_fields
   - label: Новини UA/DE
     name: news_ua_de
     files:
-      - name: "blog"
-        label: "Blog Posts"
-        folder: "content/posts"
-        create: true
-        slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Featured Image", name: "featured_image", widget: "image" }
-          - { label: "Body", name: "body", widget: "markdown" }
       - label: Barbareum UA
         name: barbareum_ua
         file: _data/ua/barbareum.yml
@@ -97,106 +178,6 @@ collections:
             fields:
               - { label: Titel, name: name, widget: string }
               - { label: Verlinkung, name: link, widget: string }
-      - label: Календар
-        name: calendar_ua
-        file: _data/ua/calendar_jesuitenkirche.yml
-        fields:
-          - label: Місяць
-            name: month
-            widget: list
-            fields:
-              - label: Дата початку місяця
-                name: month_date
-                widget: date
-                format: 'MM-YYYY'
-              - label: Публікувати
-                name: is_published
-                widget: boolean
-                default: false
-              - label: Оголошення
-                name: announcement
-                widget: string
-                required: false
-              - label: День
-                name: day
-                required: false
-                widget: list
-                fields:
-                  - label: Число
-                    name: d
-                    widget: number
-                    min: 1
-                    max: 31
-                    hint: День місяця
-                  - label: Подія
-                    name: event
-                    required: false
-                    widget: list
-                    fields:
-                      - label: Час
-                        name: time
-                        widget: datetime
-                        format: 'H:mm'
-                        dateFormat: false
-                        default: ""
-                      - label: Назва
-                        name: title
-                        required: false
-                        widget: string
-                  - label: Додатковий захід
-                    name: occasion
-                    widget: string
-                    required: false
-      - label: Kalendar
-        name: calendar_de
-        file: _data/de/calendar_jesuitenkirche.yml
-        fields:
-          - label: Місяць
-            name: month
-            widget: list
-            fields:
-              - label: Дата початку місяця
-                name: month_date
-                widget: date
-                format: 'MM-YYYY'
-              - label: Публікувати
-                name: is_published
-                widget: boolean
-                default: false
-              - label: Оголошення
-                name: announcement
-                widget: string
-                required: false
-              - label: День
-                name: day
-                required: false
-                widget: list
-                fields:
-                  - label: Число
-                    name: d
-                    widget: number
-                    min: 1
-                    max: 31
-                    hint: День місяця
-                  - label: Подія
-                    name: event
-                    required: false
-                    widget: list
-                    fields:
-                      - label: Час
-                        name: time
-                        widget: datetime
-                        format: 'H:mm'
-                        dateFormat: false
-                        default: ""
-                      - label: Назва
-                        name: title
-                        required: false
-                        widget: string
-                  - label: Додатковий захід
-                    name: occasion
-                    widget: string
-                    required: false
       - label: Галерея
         name: gallerie
         file: _data/events/gallerie.yaml
