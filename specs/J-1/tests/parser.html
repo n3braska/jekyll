@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>J-1 parser tests</title>
+<style>
+  body { font: 14px/1.4 system-ui, sans-serif; margin: 16px; background: #fff; color: #222; }
+  .pass { color: #176f2c; } .fail { color: #b00020; font-weight: bold; }
+  details { margin: 8px 0; } pre { background: #f5f5f5; padding: 8px; overflow: auto; font-size: 12px; }
+  td, th { padding: 2px 8px; text-align: left; vertical-align: top; border-bottom: 1px solid #eee; }
+</style>
+</head>
+<body>
+<h1>J-1 timetable parser tests</h1>
+<p>Run <code>python3 specs/J-1/tests/serve.py</code> in the repository root and open
+<code>/specs/J-1/tests/parser.html</code>. Fixtures: <code>specs/J-1/fixtures/</code>.</p>
+<div id="summary">Running…</div>
+<div id="out"></div>
+<script src="../../../admin/timetable/parser.js"></script>
+<script>
+(async function () {
+  if (location.protocol === 'file:') {
+    throw new Error('Open this page through the test server, not as a file: run `python3 specs/J-1/tests/serve.py` ' +
+      'in the repository root and go to http://127.0.0.1:8765/specs/J-1/tests/parser.html');
+  }
+  var TODAY = new Date(2026, 9, 12);
+  var FIXTURES = {
+    '12.docx': '2025-12',
+    'Розклад на січень 2026.docx': '2026-01',
+    '02.docx': '2026-02',
+    'Розклад на березень 2026 1.docx': '2026-03',
+    '05.docx': '2026-05',
+    '06.docx': '2026-06',
+    '07.docx': '2026-07',
+    '08.docx': '2026-08',
+    '10.docx': '2026-10'
+  };
+  var results = [];
+  var parsed = {};
+
+  function check(name, ok, detail) {
+    results.push({ name: name, ok: !!ok, detail: detail });
+  }
+  // View of one church on one day: its services (time/title) and their notes, like the old per-church files
+  function day(r, lang, church, d) {
+    var entry = r.data[lang].day.filter(function (x) { return x.d === d; })[0];
+    if (!entry) return undefined;
+    var events = entry.event.filter(function (e) { return e.isJesuitenKirche === (church === 'jesuit'); });
+    if (!events.length) return undefined;
+    return {
+      d: d,
+      event: events.map(function (e) { return { time: e.time, title: e.title }; }),
+      occasion: events.reduce(function (all, e) { return all.concat(e.occasion); }, [])
+    };
+  }
+  function times(dayEntry) { return dayEntry ? dayEntry.event.map(function (e) { return e.time; }) : null; }
+  function titles(dayEntry) { return dayEntry ? dayEntry.event.map(function (e) { return e.title; }) : null; }
+  function eq(a, b) { return JSON.stringify(a) === JSON.stringify(b); }
+  function hasWarning(r, pred) { return r.warnings.some(pred); }
+
+  for (var file in FIXTURES) {
+    var buf = await (await fetch('../fixtures/' + encodeURIComponent(file))).arrayBuffer();
+    var r = await TimetableParser.parseDocx(buf, { fileName: file, today: TODAY });
+    parsed[file] = r;
+    check(file + ': month_date', r.data.month_date === FIXTURES[file], r.data.month_date);
+    check(file + ': two tables', r.meta.tables === 2, r.meta.tables);
+
+    var badTime = [], emptyTitle = [];
+    ['ua', 'de'].forEach(function (lang) {
+      r.data[lang].day.forEach(function (d) {
+        d.event.forEach(function (e) {
+          var church = e.isJesuitenKirche ? 'jesuit' : 'barbara';
+          if (!/^\d\d:\d\d$/.test(e.time)) badTime.push(lang + ' ' + church + ' ' + d.d + ' "' + e.time + '"');
+          if (!e.title) emptyTitle.push(lang + ' ' + church + ' ' + d.d);
+          if (!Array.isArray(e.occasion)) badTime.push(lang + ' ' + church + ' ' + d.d + ' occasion not a list');
+          if (typeof e.isJesuitenKirche !== 'boolean') badTime.push(lang + ' ' + church + ' ' + d.d + ' flag missing');
+        });
+      });
+    });
+    var problemDays = badTime.concat(emptyTitle);
+    // Every irregular time/title must have been reported as a warning (no silent data loss)
+    check(file + ': irregular times/titles are reported', problemDays.every(function (p) {
+      var d = parseInt(p.split(' ')[2], 10);
+      return hasWarning(r, function (w) { return w.d === d && w.level === 'warn'; });
+    }), problemDays.join('; '));
+    check(file + ': no time has surrounding spaces', !JSON.stringify(r.data).match(/"time":"\s|\s","title"/));
+  }
+
+  // Specific cases from the spec's acceptance criteria
+  var jun = parsed['06.docx'];
+  check('06: June 4 UA 09:30', eq(times(day(jun, 'ua', 'barbara', 4)), ['09:30']), times(day(jun, 'ua', 'barbara', 4)));
+  check('06: June 4 DE 18:00 (kept as in DE table)', eq(times(day(jun, 'de', 'barbara', 4)), ['18:00']), times(day(jun, 'de', 'barbara', 4)));
+  check('06: June 4 cross-language warning', hasWarning(jun, function (w) { return w.lang === 'ua/de' && w.d === 4; }));
+  check('06: June 1 UA occasion list has 2 items',
+    eq(day(jun, 'ua', 'barbara', 1).occasion, ['Поминання померлих', 'Зустріч «Матері в молитві»']), day(jun, 'ua', 'barbara', 1).occasion);
+  check('06: June 7 UA Jesuitenkirche',
+    eq(day(jun, 'ua', 'jesuit', 7), { d: 7, event: [{ time: '12:30', title: 'Служба Божа' }], occasion: ['Всіх святих українського народу'] }),
+    JSON.stringify(day(jun, 'ua', 'jesuit', 7)));
+  check('06: June 7 UA St. Barbara without 12:30',
+    eq(titles(day(jun, 'ua', 'barbara', 7)), ['Служба Божа', 'Служба Божа угорською', 'Служба Божа німецькою']) &&
+    eq(times(day(jun, 'ua', 'barbara', 7)), ['09:30', '15:00', '18:00']), JSON.stringify(day(jun, 'ua', 'barbara', 7)));
+  check('06: June 21 UA note next to the Jesuitenkirche marker kept', eq(day(jun, 'ua', 'jesuit', 21).occasion, ['ПЕРШЕ ПРИЧАСТЯ']),
+    JSON.stringify(day(jun, 'ua', 'jesuit', 21)));
+  check('06: June 21 DE without marker → stays at St. Barbara + warning', times(day(jun, 'de', 'barbara', 21)).indexOf('12:30') >= 0 &&
+    hasWarning(jun, function (w) { return w.d === 21 && w.church === 'jesuit'; }));
+  check('06: June 1 notes belong to their service', eq(jun.data.ua.day[0].event.map(function (e) { return e.occasion; }),
+    [['Поминання померлих'], ['Зустріч «Матері в молитві»']]), JSON.stringify(jun.data.ua.day[0]));
+  check('06: June 7 Sunday name on the Jesuitenkirche service only', eq(jun.data.ua.day.filter(function (d) { return d.d === 7; })[0].event
+    .map(function (e) { return [e.time, e.isJesuitenKirche, e.occasion]; }),
+    [['09:30', false, []], ['12:30', true, ['Всіх святих українського народу']], ['15:00', false, []], ['18:00', false, []]]),
+    JSON.stringify(jun.data.ua.day.filter(function (d) { return d.d === 7; })[0]));
+  check('06: June 7 DE St. Barbara titles',
+    eq(titles(day(jun, 'de', 'barbara', 7)), ['Hl. Liturgie', 'Hl. Liturgie (Ungarisch)', 'Hl. Liturgie (Deutsch)']), titles(day(jun, 'de', 'barbara', 7)));
+
+  var feb = parsed['02.docx'];
+  check('02: Feb 1 merged rows (Q1) → feast + wide note',
+    day(feb, 'ua', 'jesuit', 1) && eq(day(feb, 'ua', 'jesuit', 1).occasion, ['Неділя про блудного сина']) &&
+    day(feb, 'ua', 'barbara', 1).occasion[0].indexOf('Передсвяття Стрітення') === 0,
+    JSON.stringify([day(feb, 'ua', 'jesuit', 1), day(feb, 'ua', 'barbara', 1)]));
+  check('02: Feb 1 language suffix with "мовою"', eq(titles(day(feb, 'ua', 'barbara', 1)), ['Служба Божа', 'Служба Божа угорською', 'Служба Божа німецькою']),
+    titles(day(feb, 'ua', 'barbara', 1)));
+  check('02: Feb 2 UA two services, feast + notes', eq(times(day(feb, 'ua', 'barbara', 2)), ['09:30', '18:00']) &&
+    day(feb, 'ua', 'barbara', 2).occasion.indexOf('Стрітення Господнє') >= 0, JSON.stringify(day(feb, 'ua', 'barbara', 2)));
+  check('02: Feb 2 DE times with filler lines (Q6)', eq(times(day(feb, 'de', 'barbara', 2)), ['09:30', '18:00']), JSON.stringify(day(feb, 'de', 'barbara', 2)));
+  check('02: UA/DE differences are logged', hasWarning(feb, function (w) { return w.lang === 'ua/de'; }));
+
+  var aug = parsed['08.docx'];
+  check('08: Aug 2 DE merged title line split (Q4)',
+    eq(titles(day(aug, 'de', 'barbara', 2)), ['Hl. Liturgie', 'Hl. Liturgie (Ungarisch)', 'Hl. Liturgie (Deutsch)']), titles(day(aug, 'de', 'barbara', 2)));
+  check('08: typo fixed (угорськоью)', eq(titles(day(aug, 'ua', 'barbara', 2)), ['Служба Божа', 'Служба Божа угорською', 'Служба Божа німецькою']),
+    titles(day(aug, 'ua', 'barbara', 2)));
+  check('08: announcement from note line', aug.data.ua.announcement ===
+    'У церкві св. Варвари: Postgasse 8A. Сповідь до або після богослужінь по домовленості з священиком.', aug.data.ua.announcement);
+  check('08: Jesuitenkirche announcement', aug.data.de.announcement_jesuit === 'In Jesuitenkirche: Doktor-Ignaz-Seipel-Platz 1');
+
+  var dec = parsed['12.docx'];
+  check('12: DE "18:00 19:00" in one line (Q5)', eq(times(day(dec, 'de', 'barbara', 1)), ['18:00', '19:00']), times(day(dec, 'de', 'barbara', 1)));
+  check('12: full-width row goes to announcement (Q10)', /реколекції/.test(dec.data.ua.announcement), dec.data.ua.announcement);
+
+  var oct = parsed['10.docx'];
+  check('10: Oct 1 DE 2 times, 1 title → warning (Q4)', hasWarning(oct, function (w) { return w.lang === 'de' && w.d === 1; }));
+
+  check('10: Oct 4 UA notes one line too high → 12:30 to Jesuitenkirche',
+    eq(times(day(oct, 'ua', 'jesuit', 4)), ['12:30']) &&
+    eq(titles(day(oct, 'ua', 'barbara', 4)), ['Служба Божа', 'Служба Божа угорською', 'Служба Божа німецькою']),
+    JSON.stringify([day(oct, 'ua', 'jesuit', 4), day(oct, 'ua', 'barbara', 4)]));
+  check('10: every Sunday 12:30 is in the Jesuitenkirche', ['ua', 'de'].every(function (lang) {
+    return oct.data[lang].day.every(function (d) {
+      return d.event.every(function (e) { return e.time !== '12:30' || e.isJesuitenKirche; });
+    });
+  }));
+  check('12: Dec 25 UA 12:30 to Jesuitenkirche', eq(times(day(dec, 'ua', 'jesuit', 25)), ['12:30']) &&
+    eq(times(day(dec, 'de', 'jesuit', 25)), ['12:30']), JSON.stringify([day(dec, 'ua', 'jesuit', 25), day(dec, 'de', 'jesuit', 25)]));
+  check('12: Dec 12 concert in the Jesuitenkirche at 18:00', eq(times(day(dec, 'ua', 'jesuit', 12)), ['18:00']) &&
+    !day(dec, 'ua', 'barbara', 12), JSON.stringify(day(dec, 'ua', 'jesuit', 12)));
+  check('08: Aug 30 Jesuitenkirche at 12:15', eq(times(day(aug, 'ua', 'jesuit', 30)), ['12:15']) &&
+    eq(times(day(aug, 'de', 'jesuit', 30)), ['12:15']));
+
+  var jan = parsed['Розклад на січень 2026.docx'];
+  check('01: Jan 5 wrapped title joined', eq(titles(day(jan, 'ua', 'barbara', 5)), ['Служба Божа та Велике Водосвяття', 'Велике Повечіря та Велике Водосвяття']) &&
+    eq(times(day(jan, 'ua', 'barbara', 5)), ['09:30', '16:00']), JSON.stringify(day(jan, 'ua', 'barbara', 5)));
+  check('01: Jan 6 wrapped title + Jesuitenkirche', eq(times(day(jan, 'ua', 'barbara', 6)), ['09:30']) &&
+    eq(times(day(jan, 'ua', 'jesuit', 6)), ['12:30']), JSON.stringify([day(jan, 'ua', 'barbara', 6), day(jan, 'ua', 'jesuit', 6)]));
+  var may = parsed['05.docx'];
+  check('05: May 29 heading line → occasion, services paired', eq(times(day(may, 'ua', 'barbara', 29)), ['18:00', '19:30', '20:30']) &&
+    day(may, 'ua', 'barbara', 29).occasion[0] === 'Довга ніч церков' &&
+    titles(day(may, 'ua', 'barbara', 29))[2] === 'Акафист до Ісуса Христа', JSON.stringify(day(may, 'ua', 'barbara', 29)));
+  check('12: Dec 5 one title for two times', eq(titles(day(dec, 'ua', 'barbara', 5)), ['Вистава до св. Миколая', 'Вистава до св. Миколая']),
+    JSON.stringify(day(dec, 'ua', 'barbara', 5)));
+
+  var mar = parsed['Розклад на березень 2026 1.docx'];
+  check('03: Mar 7 one time for several titles', titles(day(mar, 'ua', 'barbara', 7)).length === 4 &&
+    times(day(mar, 'ua', 'barbara', 7)).every(function (t) { return t === '15:00'; }), JSON.stringify(day(mar, 'ua', 'barbara', 7)));
+  check('03: DE heading with Cyrillic М detected', !hasWarning(mar, function (w) { return /heading/.test(w.message); }));
+
+  // Render
+  var failed = results.filter(function (x) { return !x.ok; });
+  document.getElementById('summary').innerHTML = '<p class="' + (failed.length ? 'fail' : 'pass') + '">' +
+    (results.length - failed.length) + ' / ' + results.length + ' checks passed</p>';
+  var html = '<table>' + results.map(function (x) {
+    return '<tr><td class="' + (x.ok ? 'pass' : 'fail') + '">' + (x.ok ? 'PASS' : 'FAIL') + '</td><td>' + x.name +
+      '</td><td>' + (x.ok ? '' : String(x.detail === undefined ? '' : x.detail).replace(/</g, '&lt;')) + '</td></tr>';
+  }).join('') + '</table>';
+  for (var f in parsed) {
+    html += '<details><summary>' + f + ' — ' + parsed[f].data.month_date + ', ' + parsed[f].warnings.length +
+      ' warning(s)</summary><pre>' + JSON.stringify(parsed[f], null, 2).replace(/</g, '&lt;') + '</pre></details>';
+  }
+  document.getElementById('out').innerHTML = html;
+  window.testResults = { passed: results.length - failed.length, failed: failed, parsed: parsed };
+})().catch(function (e) {
+  document.getElementById('summary').innerHTML = '<p class="fail">Error: ' + e.message + '</p>';
+  window.testResults = { error: e.message + '\n' + e.stack };
+});
+</script>
+</body>
+</html>

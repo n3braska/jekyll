@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Timetable import preview</title>
+<style>
+  :root { --bg: #fff; --fg: #1f2328; --muted: #656d76; --line: #e3e6ea; --warn: #8a4b00; --warn-bg: #fff6e5; --head: #f6f8fa; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #16181c; --fg: #e6e8eb; --muted: #9aa2ad; --line: #2d3138; --warn: #f0b45c; --warn-bg: #2b2414; --head: #1e2126; }
+  }
+  * { box-sizing: border-box; }
+  body { font: 14px/1.45 system-ui, sans-serif; margin: 0; padding: 16px; background: var(--bg); color: var(--fg); }
+  h1 { font-size: 20px; margin: 0 0 4px; }
+  .muted { color: var(--muted); }
+  .bar { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin: 8px 0 16px; }
+  select, input { font: inherit; }
+  .warnings { background: var(--warn-bg); border: 1px solid var(--line); border-radius: 6px; padding: 10px 14px; margin-bottom: 16px; }
+  .warnings ul { margin: 6px 0 0; padding-left: 20px; }
+  .w-warn { color: var(--warn); } .w-info { color: var(--muted); }
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 900px) { .cols { grid-template-columns: 1fr; } }
+  h2 { font-size: 16px; margin: 0 0 8px; }
+  h3 { font-size: 14px; margin: 16px 0 4px; }
+  .ann { font-style: italic; color: var(--muted); margin-bottom: 6px; }
+  table { width: 100%; border-collapse: collapse; }
+  td { border-top: 1px solid var(--line); padding: 4px 6px; vertical-align: top; }
+  td.d { width: 3.5em; font-weight: 600; white-space: nowrap; }
+  td.t { width: 3.5em; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  tr.flag td { background: var(--warn-bg); }
+  .occ div { color: var(--muted); }
+</style>
+</head>
+<body>
+<h1>Timetable import preview</h1>
+<p class="muted">Runs <code>admin/timetable/parser.js</code> on a Word file and shows the result as it would be filled into the admin panel. Rows with a warning are highlighted.</p>
+<div class="bar">
+  <label>Sample file <select id="sample"></select></label>
+  <label>or your own <input type="file" id="file" accept=".docx"></label>
+</div>
+<div id="out"></div>
+<script src="../../../admin/timetable/parser.js"></script>
+<script>
+  var SAMPLES = ['10.docx', '12.docx', 'Розклад на січень 2026.docx', '02.docx', 'Розклад на березень 2026 1.docx',
+    '05.docx', '06.docx', '07.docx', '08.docx'];
+  var CHURCH = { barbara: 'St. Barbara (Postgasse)', jesuit: 'Jesuitenkirche' };
+  var LANG = { ua: 'Українською', de: 'Deutsch' };
+
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+
+  function render(r, name) {
+    var flagged = {};
+    r.warnings.forEach(function (w) {
+      if (!w.d) return;
+      (w.lang === 'ua/de' ? ['ua', 'de'] : [w.lang]).forEach(function (l) { flagged[l + w.d] = true; });
+    });
+    var html = '<p><strong>' + esc(name) + '</strong> → <strong>' + esc(r.data.month_date || 'month not detected') + '</strong></p>';
+    var warns = r.warnings.filter(function (w) { return w.level === 'warn'; }).length;
+    html += '<div class="warnings"><strong>' + warns + ' warning(s), ' + (r.warnings.length - warns) + ' automatic fix(es)</strong><ul>' +
+      r.warnings.map(function (w) {
+        var where = [w.lang && w.lang.toUpperCase(), w.church && CHURCH[w.church], w.d && 'day ' + w.d].filter(Boolean).join(' · ');
+        return '<li class="w-' + w.level + '">' + (w.level === 'warn' ? '⚠ ' : 'ℹ ') + esc((where ? where + ': ' : '') + w.message) + '</li>';
+      }).join('') + '</ul></div><div class="cols">';
+    ['ua', 'de'].forEach(function (lang) {
+      html += '<section><h2>' + LANG[lang] + '</h2>';
+      var l = r.data[lang];
+      ['jesuit', 'barbara'].forEach(function (church) {
+        var wantJesuit = church === 'jesuit';
+        html += '<h3>' + CHURCH[church] + '</h3><div class="ann">' +
+          esc(wantJesuit ? l.announcement_jesuit : l.announcement) + '</div><table>';
+        l.day.forEach(function (d) {
+          var events = d.event.filter(function (e) { return e.isJesuitenKirche === wantJesuit; });
+          events.forEach(function (e, i) {
+            html += '<tr' + (flagged[lang + d.d] ? ' class="flag"' : '') + '>' +
+              (i === 0 ? '<td class="d" rowspan="' + events.length + '">' + d.d + '</td>' : '') +
+              '<td class="t">' + esc(e.time) + '</td><td>' + esc(e.title) + '</td>' +
+              '<td class="occ">' + e.occasion.map(function (o) { return '<div>' + esc(o) + '</div>'; }).join('') + '</td></tr>';
+          });
+        });
+        html += '</table>';
+      });
+      html += '</section>';
+    });
+    document.getElementById('out').innerHTML = html + '</div>';
+  }
+
+  function run(bufferPromise, name) {
+    document.getElementById('out').textContent = 'Reading ' + name + '…';
+    bufferPromise
+      .then(function (buf) { return TimetableParser.parseDocx(buf, { fileName: name }); })
+      .then(function (r) { render(r, name); })
+      .catch(function (e) { document.getElementById('out').textContent = 'Error: ' + e.message; });
+  }
+
+  var select = document.getElementById('sample');
+  select.innerHTML = SAMPLES.map(function (s) { return '<option>' + esc(s) + '</option>'; }).join('');
+  var wanted = new URLSearchParams(location.search).get('file');
+  if (wanted && SAMPLES.indexOf(wanted) >= 0) select.value = wanted;
+  function loadSample() {
+    run(fetch('../fixtures/' + encodeURIComponent(select.value)).then(function (r) { return r.arrayBuffer(); }), select.value);
+  }
+  select.addEventListener('change', loadSample);
+  document.getElementById('file').addEventListener('change', function (e) {
+    var f = e.target.files[0];
+    if (f) run(f.arrayBuffer(), f.name);
+  });
+  loadSample();
+</script>
+</body>
+</html>
