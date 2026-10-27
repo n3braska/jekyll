@@ -38,13 +38,14 @@
             {% if event.isJesuitenKirche %}{% assign is_jesuit = true %}{% else %}{% assign is_jesuit = false %}{% endif %}
             {% if is_jesuit == want_jesuit %}
             {% comment %}
-              The CMS saves times unquoted (time: 18:00), which Jekyll's YAML 1.1 parser
-              reads as seconds (64800). Turn such numbers back into HH:MM.
+              The CMS saves times unquoted (time: 09:30), which Jekyll's SafeYAML reads as a
+              base-60 float: 9 * 60 + 30 = 570.0. Turn such numbers back into HH:MM.
             {% endcomment %}
             {% assign time = event.time | append: "" %}
             {% unless time contains ":" or time == "" %}
-              {% assign hours = event.time | divided_by: 3600 | prepend: "0" | slice: -2, 2 %}
-              {% assign minutes = event.time | modulo: 3600 | divided_by: 60 | prepend: "0" | slice: -2, 2 %}
+              {% assign total = event.time | round %}
+              {% assign hours = total | divided_by: 60 | prepend: "0" | slice: -2, 2 %}
+              {% assign minutes = total | modulo: 60 | prepend: "0" | slice: -2, 2 %}
               {% assign time = hours | append: ":" | append: minutes %}
             {% endunless %}
             <tr>
